@@ -11,3 +11,9 @@ vendor/
 .idea/
 .vscode/
 *.swp
+
+# 调试临时文件
+actions_jobs.json
+build_logs.zip
+run.html
+*_backup_*.zip
