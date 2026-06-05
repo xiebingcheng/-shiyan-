@@ -1,0 +1,668 @@
+# ============================================================
+# 岐黄小筑 · UI 国际化词库
+# 7 语言：zh-CN（默认）、en、ru、fr、es、id、ar
+# 用法：site.data.i18n.<lang>.<key>
+# ============================================================
+
+# 语言元信息
+langs:
+  - code: zh-CN
+    name: 简体中文
+    native: 简体中文
+    flag: 🇨🇳
+    en_name: Simplified Chinese
+    rtl: false
+  - code: en
+    name: English
+    native: English
+    flag: 🇬🇧
+    en_name: English
+    rtl: false
+  - code: ru
+    name: Русский
+    native: Русский
+    flag: 🇷🇺
+    en_name: Russian
+    rtl: false
+  - code: fr
+    name: Français
+    native: Français
+    flag: 🇫🇷
+    en_name: French
+    rtl: false
+  - code: es
+    name: Español
+    native: Español
+    flag: 🇪🇸
+    en_name: Spanish
+    rtl: false
+  - code: id
+    name: Bahasa Indonesia
+    native: Bahasa Indonesia
+    flag: 🇮🇩
+    en_name: Indonesian
+    rtl: false
+  - code: ar
+    name: العربية
+    native: العربية
+    flag: 🇸🇦
+    en_name: Arabic
+    rtl: true
+
+# ---------- UI 字符串 ----------
+strings:
+  # ----- 简体中文（默认） -----
+  zh-CN:
+    nav:
+      home: 首页
+      archive: 归档
+      categories: 分类
+      tags: 标签
+      search: 搜索
+      about: 关于
+    hero:
+      eyebrow: 岐黄之道 · 养生之学
+      title: 岐黄小筑
+      subtitle: 中医养生 · 顺应四时 · 调和阴阳
+      tagline: 一卷《内经》，半盏清茶
+    section:
+      latest: 最新文章
+      latest_lead: 以《黄帝内经》为宗，汇养生、食疗、节气、经络之要。
+      categories: 览 · 分类
+      categories_lead: 六大类目，循序而进。
+    common:
+      read_more: 阅读全文
+      back_home: 回到首页
+      back_categories: 返回分类总览
+      back_tags: 返回标签总览
+      prev: 上一篇
+      next: 下一篇
+      prev_short: 上一页
+      next_short: 下一页
+      first_article: 已是最新一篇
+      last_article: 已是最末一篇
+      minutes: 分钟
+      articles: 篇
+      article: 篇文章
+      page_of: 第
+      of: 页
+      total: 共
+      search_placeholder: 输入关键词，如「枸杞」「节气」「足三里」…
+      search_hint: 提示：支持搜索标题、摘要、分类、标签与正文。
+      search_empty: 请输入关键词开始检索。
+      search_loading: 正在加载索引…
+      search_not_found: 未在所有文章中找到与
+      search_results: 找到
+      search_related: 篇相关
+      search_too_many: （前 50）
+      search_keyword: 关键词
+      page_404_title: 此页迷途
+      page_404_poem: 「岐伯曰：<em>上工治未病，不治已乱治未乱。</em>」<br>此页尚未发生，亦未乱也，请循径而归。
+      page_404_code: HTTP 404 · Page Not Found
+      btn_back_home: 返回首页
+      btn_browse_archive: 浏览归档
+      empty_tip: 此分类下尚无文章，敬请期待。
+      translate_this: 机器翻译此页
+      translate_lead: 本页内容为中文，可通过下方链接让浏览器自动翻译：
+    pagination:
+      prev: 上一页
+      next: 下一页
+    meta:
+      written: 撰文
+      updated: 更新于
+      reading_time: 约
+    footer:
+      poem: 「上古之人，其知道者，法于阴阳，和于术术，<br>食饮有节，起居有常，不妄作劳，故能形与神俱，而尽终其天年，度百岁乃去。」
+      cite: ——《黄帝内经·素问·上古天真论》
+      col_browse: 卷 · 览
+      col_know: 卷 · 知
+      col_friend: 卷 · 友
+      link_archive: 文章归档
+      link_categories: 分类总览
+      link_tags: 标签云
+      link_search: 全文搜索
+      link_about: 关于小筑
+      link_about_zy: 什么是中医
+      link_rss: RSS 订阅
+      link_sitemap: 站点地图
+      copyright: 本站内容仅供科普参考，不作为诊疗依据
+      powered: Powered by
+    lang:
+      switch_label: 语言
+      current: 当前语言
+    notif:
+      lang_changed: 语言已切换
+    a11y:
+      skip_to_content: 跳到正文
+      open_menu: 打开菜单
+      close_menu: 关闭菜单
+      toggle_theme: 切换主题
+      clear_search: 清空
+
+  # ----- English -----
+  en:
+    nav:
+      home: Home
+      archive: Archive
+      categories: Categories
+      tags: Tags
+      search: Search
+      about: About
+    hero:
+      eyebrow: The Way of Qíhuáng · The Art of Wellness
+      title: Qíhuáng Lodge
+      subtitle: Traditional Chinese Medicine · Following the Seasons · Harmonizing Yin and Yang
+      tagline: One scroll of the Yellow Emperor's Classic, a half-cup of clear tea
+    section:
+      latest: Latest Articles
+      latest_lead: Rooted in the Huángdì Nèijīng — wisdom of wellness, food therapy, solar terms, and meridians.
+      categories: Browse · Categories
+      categories_lead: Six categories to walk through, in order.
+    common:
+      read_more: Read more
+      back_home: Back to Home
+      back_categories: Back to categories
+      back_tags: Back to tags
+      prev: Previous
+      next: Next
+      prev_short: Prev
+      next_short: Next
+      first_article: You are at the latest article
+      last_article: You are at the oldest article
+      minutes: min
+      articles: articles
+      article: articles
+      page_of: p.
+      of: /
+      total: Total
+      search_placeholder: Type a keyword, e.g. "goji", "solar term", "Zúsānlǐ"…
+      search_hint: Tip: search matches titles, summaries, categories, tags and body text.
+      search_empty: Type a keyword to begin.
+      search_loading: Loading the index…
+      search_not_found: No matches for
+      search_results: Found
+      search_related: result(s)
+      search_too_many: (top 50)
+      search_keyword: Keyword
+      page_404_title: This page has wandered off
+      page_404_poem: "Qíbó says: <em>The superior physician prevents disease; the mediocre treats it after it has arisen.</em><br>As this page has not arisen, kindly return to the path."
+      page_404_code: HTTP 404 · Page Not Found
+      btn_back_home: Back to Home
+      btn_browse_archive: Browse Archive
+      empty_tip: No articles in this category yet — please check back later.
+      translate_this: Machine-translate this page
+      translate_lead: This page is in Chinese. The link below opens an automatic translation in your browser:
+    pagination:
+      prev: Prev
+      next: Next
+    meta:
+      written: By
+      updated: Updated
+      reading_time: About
+    footer:
+      poem: '"In ancient times those who knew the Way modeled themselves on Yin and Yang,<br>and lived in harmony with the arts of numerology.<br>They ate and drank in moderation, rose and slept with regularity,<br>and did not tax themselves with useless labor."'
+      cite: "— Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn (Chapter 1)"
+      col_browse: Browse
+      col_know: Learn
+      col_friend: Connect
+      link_archive: Article Archive
+      link_categories: All Categories
+      link_tags: Tag Cloud
+      link_search: Full-text Search
+      link_about: About the Lodge
+      link_about_zy: What is TCM?
+      link_rss: RSS Feed
+      link_sitemap: Sitemap
+      copyright: Content is for educational purposes only — not medical advice.
+      powered: Powered by
+    lang:
+      switch_label: Language
+      current: Current language
+    notif:
+      lang_changed: Language switched
+    a11y:
+      skip_to_content: Skip to content
+      open_menu: Open menu
+      close_menu: Close menu
+      toggle_theme: Toggle theme
+      clear_search: Clear
+
+  # ----- Русский (Russian) -----
+  ru:
+    nav:
+      home: Главная
+      archive: Архив
+      categories: Категории
+      tags: Теги
+      search: Поиск
+      about: О сайте
+    hero:
+      eyebrow: Путь Цихуан · Искусство здоровья
+      title: Цихуан Сяочжу
+      subtitle: Традиционная китайская медицина · Следуя сезонам · Гармония Инь и Ян
+      tagline: Один свиток «Хуанди Нэйцзин», полчашки чистого чая
+    section:
+      latest: Свежие статьи
+      latest_lead: Опираясь на «Хуанди Нэйцзин» — мудрость о здоровье, питании, сезонах и меридианах.
+      categories: Категории
+      categories_lead: Шесть разделов — следуйте по порядку.
+    common:
+      read_more: Читать далее
+      back_home: На главную
+      back_categories: Назад к категориям
+      back_tags: Назад к тегам
+      prev: Предыдущая
+      next: Следующая
+      prev_short: Назад
+      next_short: Вперёд
+      first_article: Вы у последней статьи
+      last_article: Вы у первой статьи
+      minutes: мин
+      articles: статей
+      article: статей
+      page_of: стр.
+      of: из
+      total: Всего
+      search_placeholder: Введите ключевое слово, например «годжи», «сезон», «Цзусаньли»…
+      search_hint: Подсказка: поиск по заголовкам, аннотациям, категориям, тегам и тексту.
+      search_empty: Введите ключевое слово для поиска.
+      search_loading: Загрузка индекса…
+      search_not_found: Не найдено результатов для
+      search_results: Найдено
+      search_related: результатов
+      search_too_many: (первые 50)
+      search_keyword: Ключевое слово
+      page_404_title: Эта страница заблудилась
+      page_404_poem: «Цибо говорит: <em>Высший врач лечит ещё не возникшую болезнь.</em><br>Раз эта страница ещё не возникла — вернитесь на путь.»
+      page_404_code: HTTP 404 · Страница не найдена
+      btn_back_home: На главную
+      btn_browse_archive: В архив
+      empty_tip: В этой категории пока нет статей.
+      translate_this: Машинный перевод страницы
+      translate_lead: Эта страница на китайском. По ссылке ниже браузер выполнит автоматический перевод:
+    pagination:
+      prev: Назад
+      next: Вперёд
+    meta:
+      written: Автор
+      updated: Обновлено
+      reading_time: Около
+    footer:
+      poem: «В древности те, кто знал Путь, следовали Инь и Ян,<br>питались и пили в меру, вставали и ложились вовремя,<br>и не утруждали себя бесполезным трудом.»
+      cite: «— Хуанди Нэйцзин · Сювэнь · Шангу Тяньчжэнь Лунь»
+      col_browse: Обзор
+      col_know: Знание
+      col_friend: Друзья
+      link_archive: Архив статей
+      link_categories: Все категории
+      link_tags: Облако тегов
+      link_search: Полнотекстовый поиск
+      link_about: О сайте
+      link_about_zy: Что такое ТКМ?
+      link_rss: RSS-лента
+      link_sitemap: Карта сайта
+      copyright: Материалы носят ознакомительный характер и не заменяют консультацию врача.
+      powered: Создано на
+    lang:
+      switch_label: Язык
+      current: Текущий язык
+    notif:
+      lang_changed: Язык переключён
+    a11y:
+      skip_to_content: К содержанию
+      open_menu: Открыть меню
+      close_menu: Закрыть меню
+      toggle_theme: Сменить тему
+      clear_search: Очистить
+
+  # ----- Français (French) -----
+  fr:
+    nav:
+      home: Accueil
+      archive: Archives
+      categories: Catégories
+      tags: Étiquettes
+      search: Recherche
+      about: À propos
+    hero:
+      eyebrow: La voie de Qíhuáng · L'art du bien-être
+      title: Le Pavillon Qíhuáng
+      subtitle: Médecine traditionnelle chinoise · Suivre les saisons · Harmoniser le Yin et le Yang
+      tagline: Un rouleau du Classique de l'Empereur Jaune, une demi-tasse de thé clair
+    section:
+      latest: Derniers articles
+      latest_lead: Ancré dans le Huángdì Nèijīng — sagesse du bien-être, alimentation, saisons et méridiens.
+      categories: Parcourir · Catégories
+      categories_lead: Six rubriques à suivre, dans l'ordre.
+    common:
+      read_more: Lire la suite
+      back_home: Retour à l'accueil
+      back_categories: Retour aux catégories
+      back_tags: Retour aux étiquettes
+      prev: Précédent
+      next: Suivant
+      prev_short: Préc.
+      next_short: Suiv.
+      first_article: Vous êtes au dernier article
+      last_article: Vous êtes au premier article
+      minutes: min
+      articles: articles
+      article: articles
+      page_of: p.
+      of: /
+      total: Total
+      search_placeholder: Tapez un mot-clé, ex. « goji », « saison », « Zúsānlǐ »…
+      search_hint: Astuce : cherche dans titres, résumés, catégories, étiquettes et corps du texte.
+      search_empty: Tapez un mot-clé pour commencer.
+      search_loading: Chargement de l'index…
+      search_not_found: Aucun résultat pour
+      search_results: Trouvé
+      search_related: résultat(s)
+      search_too_many: (50 premiers)
+      search_keyword: Mot-clé
+      page_404_title: Cette page s'est égarée
+      page_404_poem: « Qíbó dit : <em>Le médecin supérieur traite la maladie avant qu'elle ne naisse.</em><br>Cette page n'étant pas née, veuillez revenir au chemin. »
+      page_404_code: HTTP 404 · Page introuvable
+      btn_back_home: Retour à l'accueil
+      btn_browse_archive: Parcourir les archives
+      empty_tip: Aucun article dans cette catégorie pour le moment.
+      translate_this: Traduction automatique
+      translate_lead: Cette page est en chinois. Le lien ci-dessous ouvre une traduction automatique dans votre navigateur :
+    pagination:
+      prev: Précédent
+      next: Suivant
+    meta:
+      written: Par
+      updated: Mis à jour
+      reading_time: Environ
+    footer:
+      poem: « Dans l'Antiquité, ceux qui connaissaient la Voie observaient le Yin et le Yang,<br>mangeaient et buvaient avec mesure, se levaient et se couchaient à heures régulières,<br>et ne s'épuisaient pas en travaux inutiles. »
+      cite: « — Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn »
+      col_browse: Parcourir
+      col_know: Savoir
+      col_friend: Amis
+      link_archive: Archives d'articles
+      link_categories: Toutes les catégories
+      link_tags: Nuage d'étiquettes
+      link_search: Recherche plein texte
+      link_about: À propos du Pavillon
+      link_about_zy: Qu'est-ce que la MTC ?
+      link_rss: Flux RSS
+      link_sitemap: Plan du site
+      copyright: Contenu à but éducatif uniquement — ne remplace pas un avis médical.
+      powered: Propulsé par
+    lang:
+      switch_label: Langue
+      current: Langue actuelle
+    notif:
+      lang_changed: Langue modifiée
+    a11y:
+      skip_to_content: Aller au contenu
+      open_menu: Ouvrir le menu
+      close_menu: Fermer le menu
+      toggle_theme: Changer de thème
+      clear_search: Effacer
+
+  # ----- Español (Spanish) -----
+  es:
+    nav:
+      home: Inicio
+      archive: Archivo
+      categories: Categorías
+      tags: Etiquetas
+      search: Buscar
+      about: Acerca de
+    hero:
+      eyebrow: El camino de Qíhuáng · El arte del bienestar
+      title: La Cabaña Qíhuáng
+      subtitle: Medicina Tradicional China · Siguiendo las estaciones · Armonizando el Yin y el Yang
+      tagline: Un pergamino del Clásico del Emperador Amarillo, media taza de té claro
+    section:
+      latest: Últimos artículos
+      latest_lead: Con raíz en el Huángdì Nèijīng — sabiduría del bienestar, la alimentación, las estaciones y los meridianos.
+      categories: Explorar · Categorías
+      categories_lead: Seis secciones para recorrer, en orden.
+    common:
+      read_more: Leer más
+      back_home: Volver al inicio
+      back_categories: Volver a categorías
+      back_tags: Volver a etiquetas
+      prev: Anterior
+      next: Siguiente
+      prev_short: Ant.
+      next_short: Sig.
+      first_article: Estás en el artículo más reciente
+      last_article: Estás en el artículo más antiguo
+      minutes: min
+      articles: artículos
+      article: artículos
+      page_of: pág.
+      of: de
+      total: Total
+      search_placeholder: Escribe una palabra clave, p. ej. «goji», «estación», «Zúsānlǐ»…
+      search_hint: Sugerencia: busca en títulos, resúmenes, categorías, etiquetas y cuerpo.
+      search_empty: Escribe una palabra clave para comenzar.
+      search_loading: Cargando el índice…
+      search_not_found: No se encontraron resultados para
+      search_results: Se encontraron
+      search_related: resultado(s)
+      search_too_many: (primeros 50)
+      search_keyword: Palabra clave
+      page_404_title: Esta página se ha extraviado
+      page_404_poem: «Qíbó dice: <em>El médico superior previene la enfermedad antes de que aparezca.</em><br>Puesto que esta página aún no ha aparecido, vuelva al camino.»
+      page_404_code: HTTP 404 · Página no encontrada
+      btn_back_home: Volver al inicio
+      btn_browse_archive: Explorar el archivo
+      empty_tip: Aún no hay artículos en esta categoría.
+      translate_this: Traducción automática
+      translate_lead: Esta página está en chino. El siguiente enlace abre una traducción automática en tu navegador:
+    pagination:
+      prev: Anterior
+      next: Siguiente
+    meta:
+      written: Por
+      updated: Actualizado
+      reading_time: Aprox.
+    footer:
+      poem: «En la antigüedad, quienes conocían el Camino seguían el Yin y el Yang,<br>comían y bebían con moderación, se levantaban y dormían con regularidad,<br>y no se agotaban con faenas inútiles.»
+      cite: «— Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn»
+      col_browse: Explorar
+      col_know: Conocer
+      col_friend: Amigos
+      link_archive: Archivo de artículos
+      link_categories: Todas las categorías
+      link_tags: Nube de etiquetas
+      link_search: Búsqueda completa
+      link_about: Acerca de la Cabaña
+      link_about_zy: ¿Qué es la MTC?
+      link_rss: RSS
+      link_sitemap: Mapa del sitio
+      copyright: Contenido solo con fines educativos — no sustituye consejo médico.
+      powered: Desarrollado con
+    lang:
+      switch_label: Idioma
+      current: Idioma actual
+    notif:
+      lang_changed: Idioma cambiado
+    a11y:
+      skip_to_content: Saltar al contenido
+      open_menu: Abrir menú
+      close_menu: Cerrar menú
+      toggle_theme: Cambiar tema
+      clear_search: Borrar
+
+  # ----- Bahasa Indonesia -----
+  id:
+    nav:
+      home: Beranda
+      archive: Arsip
+      categories: Kategori
+      tags: Tag
+      search: Cari
+      about: Tentang
+    hero:
+      eyebrow: Jalan Qíhuáng · Seni kesehatan
+      title: Pondok Qíhuáng
+      subtitle: Pengobatan Tradisional Tiongkok · Mengikuti musim · Menyeimbangkan Yin dan Yang
+      tagline: Satu gulungan Klasik Kaisar Kuning, setengah cangkir teh bening
+    section:
+      latest: Artikel terbaru
+      latest_lead: Berakar dari Huángdì Nèijīng — kebijaksanaan tentang kesehatan, makanan, musim, dan meridian.
+      categories: Jelajahi · Kategori
+      categories_lead: Enam kategori untuk dijelajahi, berurutan.
+    common:
+      read_more: Baca selengkapnya
+      back_home: Kembali ke beranda
+      back_categories: Kembali ke kategori
+      back_tags: Kembali ke tag
+      prev: Sebelumnya
+      next: Berikutnya
+      prev_short: Prev
+      next_short: Next
+      first_article: Anda di artikel terbaru
+      last_article: Anda di artikel terlama
+      minutes: mnt
+      articles: artikel
+      article: artikel
+      page_of: hal.
+      of: /
+      total: Total
+      search_placeholder: Ketik kata kunci, mis. «goji», «musim», «Zúsānlǐ»…
+      search_hint: Tip: pencarian mencakup judul, ringkasan, kategori, tag, dan isi.
+      search_empty: Ketik kata kunci untuk mulai mencari.
+      search_loading: Memuat indeks…
+      search_not_found: Tidak ditemukan hasil untuk
+      search_results: Ditemukan
+      search_related: hasil
+      search_too_many: (50 teratas)
+      search_keyword: Kata kunci
+      page_404_title: Halaman ini tersesat
+      page_404_poem: «Qíbó berkata: <em>Tabib terbaik mencegah penyakit sebelum ia datang.</em><br>Karena halaman ini belum datang, silakan kembali ke jalan.»
+      page_404_code: HTTP 404 · Halaman tidak ditemukan
+      btn_back_home: Kembali ke beranda
+      btn_browse_archive: Jelajahi arsip
+      empty_tip: Belum ada artikel dalam kategori ini.
+      translate_this: Terjemahan mesin
+      translate_lead: Halaman ini dalam bahasa Tionghoa. Tautan di bawah membuka terjemahan otomatis di peramban Anda:
+    pagination:
+      prev: Sebelumnya
+      next: Berikutnya
+    meta:
+      written: Oleh
+      updated: Diperbarui
+      reading_time: Sekitar
+    footer:
+      poem: «Pada zaman dahulu, mereka yang mengenal Jalan mengikuti Yin dan Yang,<br>makan dan minum secukupnya, bangun dan tidur teratur,<br>dan tidak membebani diri dengan pekerjaan yang sia-sia.»
+      cite: «— Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn»
+      col_browse: Jelajahi
+      col_know: Pelajari
+      col_friend: Sahabat
+      link_archive: Arsip artikel
+      link_categories: Semua kategori
+      link_tags: Awan tag
+      link_search: Pencarian penuh
+      link_about: Tentang Pondok
+      link_about_zy: Apa itu TCM?
+      link_rss: Umpan RSS
+      link_sitemap: Peta situs
+      copyright: Konten hanya untuk tujuan edukasi — bukan pengganti nasihat medis.
+      powered: Dibuat dengan
+    lang:
+      switch_label: Bahasa
+      current: Bahasa saat ini
+    notif:
+      lang_changed: Bahasa diganti
+    a11y:
+      skip_to_content: Lewati ke konten
+      open_menu: Buka menu
+      close_menu: Tutup menu
+      toggle_theme: Ganti tema
+      clear_search: Hapus
+
+  # ----- العربية (Arabic) -----
+  ar:
+    nav:
+      home: الرئيسية
+      archive: الأرشيف
+      categories: التصنيفات
+      tags: الوسوم
+      search: بحث
+      about: نبذة
+    hero:
+      eyebrow: طريق تشيهوانغ · فن العافية
+      title: ضيافة تشيهوانغ
+      subtitle: الطب الصيني التقليدي · اتباع الفصول · موازنة الين واليانغ
+      tagline: مخطوطة من «كتاب الإمبراطور الأصفر»، نصف كوب من الشاي الصافي
+    section:
+      latest: أحدث المقالات
+      latest_lead: متجذّر في «هوانغدي نيجينغ» — حكمة العافية والطعام والفصول والخطوط الطولية.
+      categories: تصفّح · التصنيفات
+      categories_lead: ستة أبواب للسير فيها، بالترتيب.
+    common:
+      read_more: اقرأ المزيد
+      back_home: العودة إلى الرئيسية
+      back_categories: العودة إلى التصنيفات
+      back_tags: العودة إلى الوسوم
+      prev: السابق
+      next: التالي
+      prev_short: السابق
+      next_short: التالي
+      first_article: أنت في أحدث مقال
+      last_article: أنت في أقدم مقال
+      minutes: دقيقة
+      articles: مقالات
+      article: مقالات
+      page_of: ص.
+      of: من
+      total: المجموع
+      search_placeholder: اكتب كلمة مفتاحية، مثل «غوجي»، «موسم»، «تسوسانلي»…
+      search_hint: ملاحظة: البحث يشمل العناوين والملخصات والتصنيفات والوسوم والنص.
+      search_empty: اكتب كلمة مفتاحية للبدء.
+      search_loading: جارٍ تحميل الفهرس…
+      search_not_found: لا توجد نتائج لـ
+      search_results: تم العثور على
+      search_related: نتيجة
+      search_too_many: (أول 50)
+      search_keyword: الكلمة المفتاحية
+      page_404_title: لقد ضلّت هذه الصفحة طريقها
+      page_404_poem: «قال تشي بو: <em>الطبيب الفاضل يعالج المرض قبل أن يظهر.</em><br>بما أن هذه الصفحة لم تظهر بعد، عُد إلى الطريق.»
+      page_404_code: HTTP 404 · الصفحة غير موجودة
+      btn_back_home: العودة إلى الرئيسية
+      btn_browse_archive: تصفّح الأرشيف
+      empty_tip: لا توجد مقالات في هذا التصنيف بعد.
+      translate_this: ترجمة آلية لهذه الصفحة
+      translate_lead: هذه الصفحة بالصينية. يفتح الرابط أدناه ترجمة آلية في متصفحك:
+    pagination:
+      prev: السابق
+      next: التالي
+    meta:
+      written: بقلم
+      updated: حُدِّث
+      reading_time: نحو
+    footer:
+      poem: «في القدم، كان من عرفوا الطريق يتبعون الين واليانغ،<br>ويأكلون ويشربون باعتدال، ويقومون وينامون بانتظام،<br>ولا يُتعبون أنفسهم بأعمال لا فائدة فيها.»
+      cite: «— هوانغدي نيجينغ · سوون · شانغغو تيانتشن لُن»
+      col_browse: تصفّح
+      col_know: اعرف
+      col_friend: أصحاب
+      link_archive: أرشيف المقالات
+      link_categories: كل التصنيفات
+      link_tags: سحابة الوسوم
+      link_search: بحث كامل
+      link_about: عن الضيافة
+      link_about_zy: ما هو الطب الصيني؟
+      link_rss: تغذية RSS
+      link_sitemap: خريطة الموقع
+      copyright: المحتوى لأغراض تعليمية فقط — ليس بديلاً عن الاستشارة الطبية.
+      powered: مبني على
+    lang:
+      switch_label: اللغة
+      current: اللغة الحالية
+    notif:
+      lang_changed: تم تغيير اللغة
+    a11y:
+      skip_to_content: تجاوز إلى المحتوى
+      open_menu: فتح القائمة
+      close_menu: إغلاق القائمة
+      toggle_theme: تبديل السمة
+      clear_search: مسح

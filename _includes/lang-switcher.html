@@ -1,0 +1,31 @@
+{%- comment -%} 语言切换器：7 语言下拉 {%- endcomment -%}
+{%- assign langs = site.data.i18n_langs -%}
+{%- assign current = page.lang | default: site.default_lang | default: 'zh-CN' -%}
+{%- assign current_lang = langs | where: 'code', current | first -%}
+
+<div class="lang-switcher" data-lang-current="{{ current }}">
+  <button class="lang-switcher__btn" type="button"
+          aria-haspopup="listbox" aria-expanded="false"
+          aria-label="{{ current_lang.en_name | default: 'Language' }}">
+    <span class="lang-switcher__flag" aria-hidden="true">{{ current_lang.flag }}</span>
+    <span class="lang-switcher__code">{{ current | upcase }}</span>
+    <span class="lang-switcher__caret" aria-hidden="true">▾</span>
+  </button>
+
+  <ul class="lang-switcher__menu" role="listbox" hidden>
+    {%- for l in langs -%}
+      <li class="lang-switcher__item{% if l.code == current %} is-current{% endif %}"
+          role="option" data-lang="{{ l.code }}" data-rtl="{{ l.rtl }}">
+        <button class="lang-switcher__opt" type="button" data-lang="{{ l.code }}">
+          <span class="lang-switcher__flag" aria-hidden="true">{{ l.flag }}</span>
+          <span class="lang-switcher__native">{{ l.native }}</span>
+          {%- if l.code != current -%}
+            <span class="lang-switcher__en">{{ l.en_name }}</span>
+          {%- else -%}
+            <span class="lang-switcher__en lang-switcher__en--current" aria-label="current">✓</span>
+          {%- endif -%}
+        </button>
+      </li>
+    {%- endfor -%}
+  </ul>
+</div>
