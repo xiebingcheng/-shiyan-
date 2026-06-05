@@ -3,6 +3,7 @@ layout: page
 title: О сайте
 permalink: /ru/about/
 subtitle: Один свиток классики, полчашки чистого чая
+lang: ru
 ---
 
 ## Что такое «Цихуан» (岐黄)?

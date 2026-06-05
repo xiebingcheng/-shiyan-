@@ -3,6 +3,7 @@ layout: page
 title: What is Traditional Chinese Medicine?
 permalink: /en/about-zhongyi/
 subtitle: A holistic medicine whose goal is "the middle way" of harmony
+lang: en
 ---
 
 ## What is TCM?

@@ -3,6 +3,7 @@ layout: page
 title: Qu'est-ce que la Médecine Traditionnelle Chinoise ?
 permalink: /fr/about-zhongyi/
 subtitle: Une médecine holistique dont le but est « la voie du milieu » de l'harmonie
+lang: fr
 ---
 
 ## Qu'est-ce que la MTC ?

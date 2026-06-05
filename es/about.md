@@ -3,6 +3,7 @@ layout: page
 title: Acerca de la Cabaña
 permalink: /es/about/
 subtitle: Un pergamino del Clásico, media taza de té claro
+lang: es
 ---
 
 ## ¿Qué significa « Qíhuáng » (岐黄)?

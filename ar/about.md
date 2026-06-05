@@ -3,6 +3,7 @@ layout: page
 title: نبذة عن الضيافة
 permalink: /ar/about/
 subtitle: مخطوطة من «الكلاسيك»، نصف كوب من الشاي الصافي
+lang: ar
 ---
 
 ## ما معنى «تشيهوانغ» (岐黄)؟

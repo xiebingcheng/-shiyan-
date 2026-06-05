@@ -3,6 +3,7 @@ layout: page
 title: À propos du Pavillon
 permalink: /fr/about/
 subtitle: Un rouleau du Classique, une demi-tasse de thé clair
+lang: fr
 ---
 
 ## Que signifie « Qíhuáng » (岐黄) ?

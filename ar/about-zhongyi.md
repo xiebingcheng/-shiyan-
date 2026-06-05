@@ -3,6 +3,7 @@ layout: page
 title: ما هو الطب الصيني التقليدي؟
 permalink: /ar/about-zhongyi/
 subtitle: طب شامل هدفه «الطريق الأوسط» من الانسجام
+lang: ar
 ---
 
 ## ما هو الطب الصيني التقليدي؟

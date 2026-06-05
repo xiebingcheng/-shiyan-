@@ -3,6 +3,7 @@ layout: page
 title: Tentang Pondok
 permalink: /id/about/
 subtitle: Satu gulungan Klasik, setengah cangkir teh bening
+lang: id
 ---
 
 ## Apa arti "Qíhuáng" (岐黄)?

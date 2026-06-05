@@ -3,6 +3,7 @@ layout: page
 title: ¿Qué es la Medicina Tradicional China?
 permalink: /es/about-zhongyi/
 subtitle: Una medicina holística cuyo objetivo es "el camino del medio" de la armonía
+lang: es
 ---
 
 ## ¿Qué es la MTC?

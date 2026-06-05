@@ -3,6 +3,7 @@ layout: page
 title: About the Lodge
 permalink: /en/about/
 subtitle: One scroll of the Classic, a half-cup of clear tea
+lang: en
 ---
 
 ## What is "Qíhuáng" (岐黄)?

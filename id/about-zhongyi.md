@@ -3,6 +3,7 @@ layout: page
 title: Apa itu Pengobatan Tradisional Tionghoa?
 permalink: /id/about-zhongyi/
 subtitle: Pengobatan holistik yang bertujuan "jalan tengah" keharmonisan
+lang: id
 ---
 
 ## Apa itu TCM?
