@@ -24,10 +24,11 @@ layout: default
   <p class="section__lead">以《黄帝内经》为宗，汇养生、食疗、节气、经络之要。</p>
 
   {%- assign cur_lang = page.lang | default: site.default_lang -%}
-  {%- if paginator and paginator.total_pages -%}
-    {%- assign lang_posts = paginator.posts | where: 'lang', cur_lang -%}
+  {%- assign lang_posts = site.posts | where: 'lang', cur_lang -%}
+  {%- if cur_lang == site.default_lang -%}
+    {%- assign archive_url = '/archive/' -%}
   {%- else -%}
-    {%- assign lang_posts = site.posts | where: 'lang', cur_lang -%}
+    {%- assign archive_url = '/' | append: cur_lang | append: '/archive/' -%}
   {%- endif -%}
 
   <div class="post-grid">
@@ -36,8 +37,11 @@ layout: default
     {%- endfor -%}
   </div>
 
-  {%- if paginator and paginator.total_pages > 1 -%}
-    {%- include pagination.html -%}
+  {%- assign lang_total = lang_posts | size -%}
+  {%- if lang_total > 10 -%}
+    <p class="section__more">
+      共 {{ lang_total }} 篇 · <a href="{{ archive_url | relative_url }}">查看全部归档 →</a>
+    </p>
   {%- endif -%}
 </section>
 
@@ -47,12 +51,13 @@ layout: default
   <ul class="category-grid">
     {%- assign cats = site.data.categories -%}
     {%- for cat in cats -%}
+      {%- assign cat_count = lang_posts | where: 'category', cat.slug | size -%}
       <li class="category-card" style="--cat-color: {{ cat.color }}">
         <a href="{{ '/categories/' | append: cat.slug | append: '/' | relative_url }}" class="category-card__link">
           <span class="category-card__icon" aria-hidden="true">{{ cat.icon }}</span>
           <span class="category-card__name">{{ cat.name }}</span>
-          <span class="category-card__count">
-            {%- assign count = site.posts | where: 'category', cat.slug | size -%}
+          <span class="category-block__count">
+            {%- assign count = lang_posts | where: 'category', cat.slug | size -%}
             {{ count }} 篇
           </span>
           <span class="category-card__desc">{{ cat.desc }}</span>
