@@ -1,5 +1,5 @@
 {%- comment -%} 语言切换器：7 语言下拉 {%- endcomment -%}
-{%- assign langs = site.data.i18n_langs -%}
+{%- assign langs = site.data.i18n.langs -%}
 {%- assign current = page.lang | default: site.default_lang | default: 'zh-CN' -%}
 {%- assign current_lang = langs | where: 'code', current | first -%}
 

@@ -1,7 +1,7 @@
 <header class="site-header" role="banner">
   <div class="container site-header__inner">
 
-    <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="返回首页">
+    <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="{{ site.data.i18n_strings['zh-CN'].a11y.skip_to_content | default: 'Home' }}">
       <span class="site-brand__seal" aria-hidden="true">
         <svg viewBox="0 0 40 40" width="40" height="40">
           <rect x="2" y="2" width="36" height="36" rx="3" fill="none" stroke="currentColor" stroke-width="2"/>
@@ -15,23 +15,41 @@
       </span>
     </a>
 
-    <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="打开菜单">
+    <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="菜单">
       <span></span><span></span><span></span>
     </button>
 
+    {%- assign cur_lang = page.lang | default: 'zh-CN' -%}
     <nav id="site-nav" class="site-nav" role="navigation" aria-label="主导航">
       <ul class="site-nav__list">
-        {%- assign nav_items = site.data.nav -%}
-        {%- for item in nav_items -%}
+        {%- assign nav_i18n = site.data['nav-i18n'] -%}
+        {%- for item in nav_i18n -%}
+          {%- assign lang_title = item[cur_lang] | default: item['zh-CN'] -%}
+          {%- assign nav_url = item.url -%}
+          {%- comment -%} 多语言：URL 加上语言前缀（zh-CN 不加） {%- endcomment -%}
+          {%- if cur_lang != 'zh-CN' -%}
+            {%- assign url_stripped = nav_url | replace: '/', '' -%}
+            {%- if url_stripped == '' -%}
+              {%- assign nav_url_final = '/' | append: cur_lang | append: '/' -%}
+            {%- else -%}
+              {%- assign nav_url_final = '/' | append: cur_lang | append: nav_url -%}
+            {%- endif -%}
+          {%- else -%}
+            {%- assign nav_url_final = nav_url -%}
+          {%- endif -%}
           {%- assign is_active = false -%}
-          {%- if item.url == '/' and page.url == '/' -%}{%- assign is_active = true -%}
-          {%- elsif item.url != '/' and page.url contains item.url -%}{%- assign is_active = true -%}
+          {%- if item.url == '/' and page.url == '/' and cur_lang == 'zh-CN' -%}
+            {%- assign is_active = true -%}
+          {%- elsif item.url == '/' and page.url == '/' | append: cur_lang | append: '/' -%}
+            {%- assign is_active = true -%}
+          {%- elsif item.url != '/' and page.url contains item.url -%}
+            {%- assign is_active = true -%}
           {%- endif -%}
           <li class="site-nav__item">
             <a class="site-nav__link {% if is_active %}is-active{% endif %}"
-               href="{{ item.url | relative_url }}">
-              <span class="site-nav__icon" aria-hidden="true">{{ item.icon }}</span>
-              <span class="site-nav__label">{{ item.title }}</span>
+               href="{{ nav_url_final | relative_url }}">
+              <span class="site-nav__icon" aria-hidden="true">·</span>
+              <span class="site-nav__label">{{ lang_title }}</span>
             </a>
           </li>
         {%- endfor -%}
