@@ -1738,6 +1738,9 @@ th {
   flex: 1;
   font-family: var(--font-kai);
   letter-spacing: 0.03em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .lang-switcher__en {
   font-size: 0.82rem;
