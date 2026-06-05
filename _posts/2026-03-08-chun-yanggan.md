@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 layout: post
 title: 春三月：养肝疏泄的六个关键
 subtitle: 春气通肝，养肝即养生

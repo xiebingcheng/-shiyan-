@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 layout: post
 title: 雨水时节健脾祛湿四法
 subtitle: 雨从天降，湿由地生，脾为中土，最忌困顿

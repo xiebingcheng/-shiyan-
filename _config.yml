@@ -85,7 +85,6 @@ defaults:
     values:
       layout: post
       comments: false
-      lang: zh-CN
   - scope:
       path: ""
       type: pages

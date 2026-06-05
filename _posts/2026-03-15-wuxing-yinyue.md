@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 layout: post
 title: 五行音乐疏肝：角音一曲，春气自和
 subtitle: 「百病生于气，止于音」

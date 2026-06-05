@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 layout: post
 title: 谷雨：春末的祛湿黄金期
 subtitle: 「清明断雪，谷雨断霜」—— 抓住春天的尾巴

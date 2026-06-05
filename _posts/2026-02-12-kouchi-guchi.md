@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 layout: post
 title: 晨起十叩齿：固齿养肾的小功法
 subtitle: 「百物养生，莫如固齿」

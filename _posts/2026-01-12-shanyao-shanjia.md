@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 layout: post
 title: 山药：补脾益肾的「上品」家常菜
 subtitle: 怀山药、铁棍山药，一身皆是宝

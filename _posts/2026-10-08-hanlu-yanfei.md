@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 layout: post
 title: 寒露：秋深露重，润肺养阴
 subtitle: 「九月节，露气寒冷，将凝结也」

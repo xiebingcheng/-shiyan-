@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 layout: post
 title: 莲子：夏日养心第一品
 subtitle: 「荷包莲子，清心降火」

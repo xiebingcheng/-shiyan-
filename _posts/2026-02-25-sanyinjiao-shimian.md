@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 layout: post
 title: 失眠按揉三阴交：肝脾肾同调的安眠穴
 subtitle: 一穴通三经，治睡先治心

@@ -4,11 +4,7 @@ layout: default
 
 <section class="section container">
   {%- assign cur_lang = page.lang | default: site.default_lang -%}
-  {%- if cur_lang == site.default_lang -%}
-    {%- assign lang_posts = site.posts | where_exp: 'p', "p.lang == cur_lang or p.lang == empty" -%}
-  {%- else -%}
-    {%- assign lang_posts = site.posts | where: 'lang', cur_lang -%}
-  {%- endif -%}
+  {%- assign lang_posts = site.posts | where: 'lang', cur_lang -%}
   <header class="section__header">
     <h1 class="section__title"><span>卷</span>文章归档</h1>
     <p class="section__lead">共 {{ lang_posts | size }} 篇，依年月汇集。</p>

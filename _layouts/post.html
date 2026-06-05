@@ -39,11 +39,7 @@ layout: default
   {%- endif -%}
 
   {%- assign cur_lang = page.lang | default: site.default_lang -%}
-  {%- if cur_lang == site.default_lang -%}
-    {%- assign lang_posts = site.posts | where_exp: 'p', "p.lang == cur_lang or p.lang == empty" -%}
-  {%- else -%}
-    {%- assign lang_posts = site.posts | where: 'lang', cur_lang -%}
-  {%- endif -%}
+  {%- assign lang_posts = site.posts | where: 'lang', cur_lang -%}
   {%- assign lang_count = lang_posts | size -%}
   {%- assign prev_post = nil -%}
   {%- assign next_post = nil -%}

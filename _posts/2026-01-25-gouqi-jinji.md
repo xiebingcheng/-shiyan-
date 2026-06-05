@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 layout: post
 title: 枸杞食用三要三不要
 subtitle: 「却老子」并非人人都能日日嚼

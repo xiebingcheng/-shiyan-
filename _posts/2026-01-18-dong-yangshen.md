@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 layout: post
 title: 冬三月：养肾藏精的五个智慧
 subtitle: 冬主闭藏，养肾即养根

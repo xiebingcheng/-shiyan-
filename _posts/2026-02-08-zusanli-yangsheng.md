@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 layout: post
 title: 足三里：常按保安康的第一要穴
 subtitle: 「若要安，三里常不干」

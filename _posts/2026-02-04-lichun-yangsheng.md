@@ -1,4 +1,5 @@
 ---
+lang: zh-CN
 layout: post
 title: 立春养生：顺应阳气生发
 subtitle: 一年之计在于春，养生之计在于「生」

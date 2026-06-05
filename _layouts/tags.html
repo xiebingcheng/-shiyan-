@@ -12,11 +12,7 @@ layout: default
   {%- assign tag_pairs = site.tags | sort -%}
   <div class="tag-cloud">
     {%- for tag in tag_pairs -%}
-      {%- if cur_lang == site.default_lang -%}
-        {%- assign lang_tag_posts = tag[1] | where_exp: 'p', "p.lang == cur_lang or p.lang == empty" -%}
-      {%- else -%}
-        {%- assign lang_tag_posts = tag[1] | where: 'lang', cur_lang -%}
-      {%- endif -%}
+      {%- assign lang_tag_posts = tag[1] | where: 'lang', cur_lang -%}
       {%- if lang_tag_posts.size > 0 -%}
         <a class="tag-cloud__item" href="{{ '/tags/' | append: tag[0] | append: '/' | relative_url }}">
           <span class="tag-cloud__name">#{{ tag[0] }}</span>
