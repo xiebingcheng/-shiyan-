@@ -8,13 +8,17 @@ layout: default
     <p class="section__lead">{{ site.tags | size }} 个标签，按文章数量排序。</p>
   </header>
 
+  {%- assign cur_lang = page.lang | default: site.default_lang -%}
   {%- assign tag_pairs = site.tags | sort -%}
   <div class="tag-cloud">
     {%- for tag in tag_pairs -%}
-      <a class="tag-cloud__item" href="{{ '/tags/' | append: tag[0] | append: '/' | relative_url }}">
-        <span class="tag-cloud__name">#{{ tag[0] }}</span>
-        <span class="tag-cloud__count">{{ tag[1].size }}</span>
-      </a>
+      {%- assign lang_tag_posts = tag[1] | where: 'lang', cur_lang -%}
+      {%- if lang_tag_posts.size > 0 -%}
+        <a class="tag-cloud__item" href="{{ '/tags/' | append: tag[0] | append: '/' | relative_url }}">
+          <span class="tag-cloud__name">#{{ tag[0] }}</span>
+          <span class="tag-cloud__count">{{ lang_tag_posts.size }}</span>
+        </a>
+      {%- endif -%}
     {%- endfor -%}
   </div>
 </section>

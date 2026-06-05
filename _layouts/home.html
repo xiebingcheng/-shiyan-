@@ -23,16 +23,17 @@ layout: default
   <h2 class="section__title"><span>卷 · 一</span>最新文章</h2>
   <p class="section__lead">以《黄帝内经》为宗，汇养生、食疗、节气、经络之要。</p>
 
+  {%- assign cur_lang = page.lang | default: site.default_lang -%}
+  {%- if paginator and paginator.total_pages -%}
+    {%- assign lang_posts = paginator.posts | where: 'lang', cur_lang -%}
+  {%- else -%}
+    {%- assign lang_posts = site.posts | where: 'lang', cur_lang -%}
+  {%- endif -%}
+
   <div class="post-grid">
-    {%- if paginator and paginator.total_pages -%}
-      {%- for post in paginator.posts -%}
-        {%- include post-card.html -%}
-      {%- endfor -%}
-    {%- else -%}
-      {%- for post in site.posts limit: 10 -%}
-        {%- include post-card.html -%}
-      {%- endfor -%}
-    {%- endif -%}
+    {%- for post in lang_posts limit: 10 -%}
+      {%- include post-card.html -%}
+    {%- endfor -%}
   </div>
 
   {%- if paginator and paginator.total_pages > 1 -%}

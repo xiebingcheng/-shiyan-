@@ -8,9 +8,10 @@ layout: default
     <p class="section__lead">按主题分卷，循序而读。</p>
   </header>
 
+  {%- assign cur_lang = page.lang | default: site.default_lang -%}
   <ul class="category-list">
     {%- for cat in site.data.categories -%}
-      {%- assign cat_posts = site.posts | where: 'category', cat.slug -%}
+      {%- assign cat_posts = site.posts | where: 'lang', cur_lang | where: 'category', cat.slug -%}
       <li class="category-block" id="cat-{{ cat.slug }}" style="--cat-color: {{ cat.color }}">
         <h2 class="category-block__title">
           <span class="category-block__icon" aria-hidden="true">{{ cat.icon }}</span>

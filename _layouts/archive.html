@@ -3,12 +3,14 @@ layout: default
 ---
 
 <section class="section container">
+  {%- assign cur_lang = page.lang | default: site.default_lang -%}
+  {%- assign lang_posts = site.posts | where: 'lang', cur_lang -%}
   <header class="section__header">
     <h1 class="section__title"><span>卷</span>文章归档</h1>
-    <p class="section__lead">共 {{ site.posts | size }} 篇，依年月汇集。</p>
+    <p class="section__lead">共 {{ lang_posts | size }} 篇，依年月汇集。</p>
   </header>
 
-  {%- assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" -%}
+  {%- assign posts_by_year = lang_posts | group_by_exp: "post", "post.date | date: '%Y'" -%}
   {%- for year in posts_by_year -%}
     <section class="archive-year">
       <h2 class="archive-year__title">{{ year.name }} 年</h2>

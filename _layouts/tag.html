@@ -3,13 +3,15 @@ layout: default
 ---
 
 <section class="section container">
+  {%- assign cur_lang = page.lang | default: site.default_lang -%}
+  {%- assign lang_tag_posts = site.tags[page.tag] | where: 'lang', cur_lang -%}
   <header class="section__header">
     <h1 class="section__title"><span>卷</span>标签：#{{ page.tag }}</h1>
-    <p class="section__lead">共 {{ site.tags[page.tag].size }} 篇文章带有此标签。</p>
+    <p class="section__lead">共 {{ lang_tag_posts.size }} 篇文章带有此标签。</p>
   </header>
 
   <ul class="post-list post-list--rich">
-    {%- for post in site.tags[page.tag] -%}
+    {%- for post in lang_tag_posts -%}
       <li class="post-list__item post-list__item--rich">
         <time class="post-list__date" datetime="{{ post.date | date_to_xmlschema }}">
           {{ post.date | date: "%Y-%m-%d" }}

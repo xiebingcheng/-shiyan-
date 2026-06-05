@@ -38,23 +38,40 @@ layout: default
   </footer>
   {%- endif -%}
 
+  {%- assign cur_lang = page.lang | default: site.default_lang -%}
+  {%- assign lang_posts = site.posts | where: 'lang', cur_lang -%}
+  {%- assign lang_count = lang_posts | size -%}
+  {%- assign prev_post = nil -%}
+  {%- assign next_post = nil -%}
+  {%- for p in lang_posts -%}
+    {%- if p.url == page.url -%}
+      {%- assign cur_idx = forloop.index0 -%}
+      {%- if cur_idx > 0 -%}
+        {%- assign prev_post = lang_posts[cur_idx | minus: 1] -%}
+      {%- endif -%}
+      {%- if cur_idx < lang_count | minus: 1 -%}
+        {%- assign next_post = lang_posts[cur_idx | plus: 1] -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+
   <nav class="post__nav container" aria-label="文章导航">
-    {%- if page.previous -%}
-      <a class="post__nav-link post__nav-link--prev" href="{{ page.previous.url | relative_url }}" rel="prev">
+    {%- if prev_post -%}
+      <a class="post__nav-link post__nav-link--prev" href="{{ prev_post.url | relative_url }}" rel="prev">
         <span class="post__nav-arrow">←</span>
         <span class="post__nav-text">
           <span class="post__nav-hint">上一篇</span>
-          <span class="post__nav-title">{{ page.previous.title }}</span>
+          <span class="post__nav-title">{{ prev_post.title }}</span>
         </span>
       </a>
     {%- else -%}
       <span class="post__nav-link post__nav-link--disabled"><span class="post__nav-arrow">←</span><span class="post__nav-text">已是最新一篇</span></span>
     {%- endif -%}
-    {%- if page.next -%}
-      <a class="post__nav-link post__nav-link--next" href="{{ page.next.url | relative_url }}" rel="next">
+    {%- if next_post -%}
+      <a class="post__nav-link post__nav-link--next" href="{{ next_post.url | relative_url }}" rel="next">
         <span class="post__nav-text">
           <span class="post__nav-hint">下一篇</span>
-          <span class="post__nav-title">{{ page.next.title }}</span>
+          <span class="post__nav-title">{{ next_post.title }}</span>
         </span>
         <span class="post__nav-arrow">→</span>
       </a>
