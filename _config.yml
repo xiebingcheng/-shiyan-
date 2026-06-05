@@ -37,7 +37,7 @@ paginate_path: "/page:num/"
 
 # 是否将草稿一并构建
 show_drafts: false
-future: false
+future: true
 
 # 主题
 theme: minima  # 占位用；本仓库自带样式，无需远程主题

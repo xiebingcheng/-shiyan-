@@ -12,10 +12,23 @@
   var RTL = ['ar'];
   var DEFAULT = 'zh-CN';
 
+  function getBaseurl() {
+    return document.documentElement.getAttribute('data-baseurl') || '';
+  }
+
+  function stripBaseurl(path, baseurl) {
+    if (baseurl && baseurl !== '/' && path.indexOf(baseurl) === 0) {
+      var rest = path.substring(baseurl.length);
+      return rest || '/';
+    }
+    return path;
+  }
+
   // 当前语言
   function detectLang() {
     var path = window.location.pathname;
-    var m = path.match(/^\/(en|ru|fr|es|id|ar)(?:\/|$)/);
+    var rest = stripBaseurl(path, getBaseurl());
+    var m = rest.match(/^\/(en|ru|fr|es|id|ar)(?:\/|$)/);
     if (m) return m[1];
     // 查询参数优先
     try {
@@ -42,14 +55,16 @@
   // 给定目标语言与当前 URL，构造目标 URL
   function buildTargetUrl(targetLang) {
     var path = window.location.pathname;
+    var baseurl = getBaseurl();
+    var rest = stripBaseurl(path, baseurl);
     // 去掉已有的语言前缀
-    var stripped = path.replace(/^\/(en|ru|fr|es|id|ar)(?=\/|$)/, '');
+    var stripped = rest.replace(/^\/(en|ru|fr|es|id|ar)(?=\/|$)/, '');
     if (stripped === '') stripped = '/';
 
     if (targetLang === DEFAULT) {
-      return stripped;
+      return baseurl + stripped;
     }
-    return '/' + targetLang + (stripped === '/' ? '/' : stripped);
+    return baseurl + '/' + targetLang + (stripped === '/' ? '/' : stripped);
   }
 
   // 切换语言
