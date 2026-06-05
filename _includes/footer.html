@@ -1,5 +1,6 @@
 {%- assign cur_lang = page.lang | default: 'zh-CN' -%}
-{%- assign i18n = site.data.i18n_strings -%}
+{%- assign i18n_data = site.data.i18n -%}
+{%- assign i18n = i18n_data.strings -%}
 {%- assign s = i18n[cur_lang] -%}
 {%- if s == nil -%}{%- assign s = i18n['zh-CN'] -%}{%- endif -%}
 <footer class="site-footer" role="contentinfo">
