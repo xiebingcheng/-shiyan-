@@ -5,9 +5,10 @@ layout: default
 <article class="post" itemscope itemtype="https://schema.org/Article">
 
   <header class="post__header container">
-    {%- assign cat_data = site.data.categories | where: 'slug', post.category | first -%}
+    {%- assign cur_post = page -%}
+    {%- assign cat_data = site.data.categories | where: 'slug', cur_post.category | first -%}
     {%- if cat_data -%}
-      <a class="post__category" href="{{ '/categories/' | append: post.category | append: '/' | relative_url }}"
+      <a class="post__category" href="{{ '/categories/' | append: cur_post.category | append: '/' | relative_url }}"
          style="--cat-color: {{ cat_data.color }}">
         {{ cat_data.icon }} {{ cat_data.name }}
       </a>
