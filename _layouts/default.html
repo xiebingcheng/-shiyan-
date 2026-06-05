@@ -5,7 +5,11 @@
 {%- if site.rtl_langs and site.rtl_langs contains cur_lang -%}
   {%- assign is_rtl = true -%}
 {%- endif -%}
-<html lang="{{ cur_lang }}" dir="{{ 'rtl' if is_rtl else 'ltr' }}" data-rtl="{{ is_rtl }}" data-lang="{{ cur_lang }}" data-theme="light">
+{%- if is_rtl -%}
+<html lang="{{ cur_lang }}" dir="rtl" data-rtl="true" data-lang="{{ cur_lang }}" data-theme="light">
+{%- else -%}
+<html lang="{{ cur_lang }}" dir="ltr" data-rtl="false" data-lang="{{ cur_lang }}" data-theme="light">
+{%- endif -%}
 <head>
   {%- include head.html -%}
   {%- feed_meta -%}
