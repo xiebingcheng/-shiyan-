@@ -24,12 +24,20 @@ layout: default
   <p class="section__lead">以《黄帝内经》为宗，汇养生、食疗、节气、经络之要。</p>
 
   <div class="post-grid">
-    {%- for post in paginator.posts -%}
-      {%- include post-card.html -%}
-    {%- endfor -%}
+    {%- if paginator and paginator.total_pages -%}
+      {%- for post in paginator.posts -%}
+        {%- include post-card.html -%}
+      {%- endfor -%}
+    {%- else -%}
+      {%- for post in site.posts limit: 10 -%}
+        {%- include post-card.html -%}
+      {%- endfor -%}
+    {%- endif -%}
   </div>
 
-  {%- include pagination.html -%}
+  {%- if paginator and paginator.total_pages > 1 -%}
+    {%- include pagination.html -%}
+  {%- endif -%}
 </section>
 
 <section class="section section--muted container">

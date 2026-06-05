@@ -28,19 +28,19 @@
     name: 食疗本草
     desc: 药食同源，本草入馔，养生于日常
   en:
-    name: Food Therapy & Herbs
+    name: "Food Therapy & Herbs"
     desc: Food and medicine share the same root — nourish daily
   ru:
     name: Питание и травы
     desc: Еда и лекарство — единый корень; питайтесь ежедневно
   fr:
-    name: Alimentation & herbes
+    name: "Alimentation & herbes"
     desc: Nourriture et médecine partagent la même racine — nourrissez-vous chaque jour
   es:
     name: Alimentación y hierbas
     desc: Comida y medicina comparten la misma raíz — nutrirse cada día
   id:
-    name: Terapi Makanan & Herbal
+    name: "Terapi Makanan & Herbal"
     desc: Makanan dan obat berakar sama — menyehatkan setiap hari
   ar:
     name: العلاج بالأغذية والأعشاب
@@ -74,19 +74,19 @@
     name: 经络穴位
     desc: 经脉所通，穴道所达，保健常按
   en:
-    name: Meridians & Acupoints
+    name: "Meridians & Acupoints"
     desc: Where meridians flow and acupoints reach — press and press often
   ru:
     name: Меридианы и точки
     desc: Где текут меридианы и куда ведут точки — нажимайте чаще
   fr:
-    name: Méridiens & points
+    name: "Méridiens & points"
     desc: Là où coulent les méridiens et où mènent les points — appuyez souvent
   es:
     name: Meridianos y puntos
     desc: Donde fluyen los meridianos y llegan los puntos — presiona con frecuencia
   id:
-    name: Meridian & Titik Akupunktur
+    name: "Meridian & Titik Akupunktur"
     desc: Tempat mengalir meridian dan titik terhubung — tekanlah sering
   ar:
     name: الخطوط الطولية والنقاط
@@ -120,19 +120,19 @@
     name: 情志养生
     desc: 恬淡虚无，精神内守，病安从来
   en:
-    name: Emotions & Spirit
+    name: "Emotions & Spirit"
     desc: Calm and empty, spirit guarded within — whence comes disease?
   ru:
     name: Эмоции и дух
     desc: Покой и пустота, дух внутри — откуда придёт болезнь?
   fr:
-    name: Émotions & esprit
+    name: "Émotions & esprit"
     desc: Calme et vacuité, l'esprit gardé au-dedans — d'où viendrait la maladie ?
   es:
     name: Emociones y espíritu
     desc: Calma y vacuidad, espíritu guardado dentro — ¿de dónde viene la enfermedad?
   id:
-    name: Emosi & Rohani
+    name: "Emosi & Rohani"
     desc: Tenang dan hampa, rohani terjaga di dalam — dari mana datangnya penyakit?
   ar:
     name: المشاعر والروح

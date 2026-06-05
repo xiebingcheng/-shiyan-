@@ -97,7 +97,7 @@ strings:
       search_too_many: （前 50）
       search_keyword: 关键词
       page_404_title: 此页迷途
-      page_404_poem: 「岐伯曰：<em>上工治未病，不治已乱治未乱。</em>」<br>此页尚未发生，亦未乱也，请循径而归。
+      page_404_poem: "「岐伯曰：<em>上工治未病，不治已乱治未乱。</em>」<br>此页尚未发生，亦未乱也，请循径而归。"
       page_404_code: HTTP 404 · Page Not Found
       btn_back_home: 返回首页
       btn_browse_archive: 浏览归档
@@ -112,7 +112,7 @@ strings:
       updated: 更新于
       reading_time: 约
     footer:
-      poem: 「上古之人，其知道者，法于阴阳，和于术术，<br>食饮有节，起居有常，不妄作劳，故能形与神俱，而尽终其天年，度百岁乃去。」
+      poem: "「上古之人，其知道者，法于阴阳，和于术术，<br>食饮有节，起居有常，不妄作劳，故能形与神俱，而尽终其天年，度百岁乃去。」"
       cite: ——《黄帝内经·素问·上古天真论》
       col_browse: 卷 · 览
       col_know: 卷 · 知
@@ -176,7 +176,7 @@ strings:
       of: /
       total: Total
       search_placeholder: Type a keyword, e.g. "goji", "solar term", "Zúsānlǐ"…
-      search_hint: Tip: search matches titles, summaries, categories, tags and body text.
+      search_hint: "Tip: search matches titles, summaries, categories, tags and body text."
       search_empty: Type a keyword to begin.
       search_loading: Loading the index…
       search_not_found: No matches for
@@ -191,7 +191,7 @@ strings:
       btn_browse_archive: Browse Archive
       empty_tip: No articles in this category yet — please check back later.
       translate_this: Machine-translate this page
-      translate_lead: This page is in Chinese. The link below opens an automatic translation in your browser:
+      translate_lead: "This page is in Chinese. The link below opens an automatic translation in your browser:"
     pagination:
       prev: Prev
       next: Next
@@ -264,7 +264,7 @@ strings:
       of: из
       total: Всего
       search_placeholder: Введите ключевое слово, например «годжи», «сезон», «Цзусаньли»…
-      search_hint: Подсказка: поиск по заголовкам, аннотациям, категориям, тегам и тексту.
+      search_hint: "Подсказка: поиск по заголовкам, аннотациям, категориям, тегам и тексту."
       search_empty: Введите ключевое слово для поиска.
       search_loading: Загрузка индекса…
       search_not_found: Не найдено результатов для
@@ -273,13 +273,13 @@ strings:
       search_too_many: (первые 50)
       search_keyword: Ключевое слово
       page_404_title: Эта страница заблудилась
-      page_404_poem: «Цибо говорит: <em>Высший врач лечит ещё не возникшую болезнь.</em><br>Раз эта страница ещё не возникла — вернитесь на путь.»
+      page_404_poem: "«Цибо говорит: <em>Высший врач лечит ещё не возникшую болезнь.</em><br>Раз эта страница ещё не возникла — вернитесь на путь.»"
       page_404_code: HTTP 404 · Страница не найдена
       btn_back_home: На главную
       btn_browse_archive: В архив
       empty_tip: В этой категории пока нет статей.
       translate_this: Машинный перевод страницы
-      translate_lead: Эта страница на китайском. По ссылке ниже браузер выполнит автоматический перевод:
+      translate_lead: "Эта страница на китайском. По ссылке ниже браузер выполнит автоматический перевод:"
     pagination:
       prev: Назад
       next: Вперёд
@@ -288,7 +288,7 @@ strings:
       updated: Обновлено
       reading_time: Около
     footer:
-      poem: «В древности те, кто знал Путь, следовали Инь и Ян,<br>питались и пили в меру, вставали и ложились вовремя,<br>и не утруждали себя бесполезным трудом.»
+      poem: "«В древности те, кто знал Путь, следовали Инь и Ян,<br>питались и пили в меру, вставали и ложились вовремя,<br>и не утруждали себя бесполезным трудом.»"
       cite: «— Хуанди Нэйцзин · Сювэнь · Шангу Тяньчжэнь Лунь»
       col_browse: Обзор
       col_know: Знание
@@ -352,7 +352,7 @@ strings:
       of: /
       total: Total
       search_placeholder: Tapez un mot-clé, ex. « goji », « saison », « Zúsānlǐ »…
-      search_hint: Astuce : cherche dans titres, résumés, catégories, étiquettes et corps du texte.
+      search_hint: "Astuce : cherche dans titres, résumés, catégories, étiquettes et corps du texte."
       search_empty: Tapez un mot-clé pour commencer.
       search_loading: Chargement de l'index…
       search_not_found: Aucun résultat pour
@@ -361,13 +361,13 @@ strings:
       search_too_many: (50 premiers)
       search_keyword: Mot-clé
       page_404_title: Cette page s'est égarée
-      page_404_poem: « Qíbó dit : <em>Le médecin supérieur traite la maladie avant qu'elle ne naisse.</em><br>Cette page n'étant pas née, veuillez revenir au chemin. »
+      page_404_poem: "« Qíbó dit : <em>Le médecin supérieur traite la maladie avant qu'elle ne naisse.</em><br>Cette page n'étant pas née, veuillez revenir au chemin. »"
       page_404_code: HTTP 404 · Page introuvable
       btn_back_home: Retour à l'accueil
       btn_browse_archive: Parcourir les archives
       empty_tip: Aucun article dans cette catégorie pour le moment.
       translate_this: Traduction automatique
-      translate_lead: Cette page est en chinois. Le lien ci-dessous ouvre une traduction automatique dans votre navigateur :
+      translate_lead: "Cette page est en chinois. Le lien ci-dessous ouvre une traduction automatique dans votre navigateur :"
     pagination:
       prev: Précédent
       next: Suivant
@@ -376,7 +376,7 @@ strings:
       updated: Mis à jour
       reading_time: Environ
     footer:
-      poem: « Dans l'Antiquité, ceux qui connaissaient la Voie observaient le Yin et le Yang,<br>mangeaient et buvaient avec mesure, se levaient et se couchaient à heures régulières,<br>et ne s'épuisaient pas en travaux inutiles. »
+      poem: "« Dans l'Antiquité, ceux qui connaissaient la Voie observaient le Yin et le Yang,<br>mangeaient et buvaient avec mesure, se levaient et se couchaient à heures régulières,<br>et ne s'épuisaient pas en travaux inutiles. »"
       cite: « — Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn »
       col_browse: Parcourir
       col_know: Savoir
@@ -440,7 +440,7 @@ strings:
       of: de
       total: Total
       search_placeholder: Escribe una palabra clave, p. ej. «goji», «estación», «Zúsānlǐ»…
-      search_hint: Sugerencia: busca en títulos, resúmenes, categorías, etiquetas y cuerpo.
+      search_hint: "Sugerencia: busca en títulos, resúmenes, categorías, etiquetas y cuerpo."
       search_empty: Escribe una palabra clave para comenzar.
       search_loading: Cargando el índice…
       search_not_found: No se encontraron resultados para
@@ -449,13 +449,13 @@ strings:
       search_too_many: (primeros 50)
       search_keyword: Palabra clave
       page_404_title: Esta página se ha extraviado
-      page_404_poem: «Qíbó dice: <em>El médico superior previene la enfermedad antes de que aparezca.</em><br>Puesto que esta página aún no ha aparecido, vuelva al camino.»
+      page_404_poem: "«Qíbó dice: <em>El médico superior previene la enfermedad antes de que aparezca.</em><br>Puesto que esta página aún no ha aparecido, vuelva al camino.»"
       page_404_code: HTTP 404 · Página no encontrada
       btn_back_home: Volver al inicio
       btn_browse_archive: Explorar el archivo
       empty_tip: Aún no hay artículos en esta categoría.
       translate_this: Traducción automática
-      translate_lead: Esta página está en chino. El siguiente enlace abre una traducción automática en tu navegador:
+      translate_lead: "Esta página está en chino. El siguiente enlace abre una traducción automática en tu navegador:"
     pagination:
       prev: Anterior
       next: Siguiente
@@ -464,7 +464,7 @@ strings:
       updated: Actualizado
       reading_time: Aprox.
     footer:
-      poem: «En la antigüedad, quienes conocían el Camino seguían el Yin y el Yang,<br>comían y bebían con moderación, se levantaban y dormían con regularidad,<br>y no se agotaban con faenas inútiles.»
+      poem: "«En la antigüedad, quienes conocían el Camino seguían el Yin y el Yang,<br>comían y bebían con moderación, se levantaban y dormían con regularidad,<br>y no se agotaban con faenas inútiles.»"
       cite: «— Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn»
       col_browse: Explorar
       col_know: Conocer
@@ -528,7 +528,7 @@ strings:
       of: /
       total: Total
       search_placeholder: Ketik kata kunci, mis. «goji», «musim», «Zúsānlǐ»…
-      search_hint: Tip: pencarian mencakup judul, ringkasan, kategori, tag, dan isi.
+      search_hint: "Tip: pencarian mencakup judul, ringkasan, kategori, tag, dan isi."
       search_empty: Ketik kata kunci untuk mulai mencari.
       search_loading: Memuat indeks…
       search_not_found: Tidak ditemukan hasil untuk
@@ -537,13 +537,13 @@ strings:
       search_too_many: (50 teratas)
       search_keyword: Kata kunci
       page_404_title: Halaman ini tersesat
-      page_404_poem: «Qíbó berkata: <em>Tabib terbaik mencegah penyakit sebelum ia datang.</em><br>Karena halaman ini belum datang, silakan kembali ke jalan.»
+      page_404_poem: "«Qíbó berkata: <em>Tabib terbaik mencegah penyakit sebelum ia datang.</em><br>Karena halaman ini belum datang, silakan kembali ke jalan.»"
       page_404_code: HTTP 404 · Halaman tidak ditemukan
       btn_back_home: Kembali ke beranda
       btn_browse_archive: Jelajahi arsip
       empty_tip: Belum ada artikel dalam kategori ini.
       translate_this: Terjemahan mesin
-      translate_lead: Halaman ini dalam bahasa Tionghoa. Tautan di bawah membuka terjemahan otomatis di peramban Anda:
+      translate_lead: "Halaman ini dalam bahasa Tionghoa. Tautan di bawah membuka terjemahan otomatis di peramban Anda:"
     pagination:
       prev: Sebelumnya
       next: Berikutnya
@@ -552,7 +552,7 @@ strings:
       updated: Diperbarui
       reading_time: Sekitar
     footer:
-      poem: «Pada zaman dahulu, mereka yang mengenal Jalan mengikuti Yin dan Yang,<br>makan dan minum secukupnya, bangun dan tidur teratur,<br>dan tidak membebani diri dengan pekerjaan yang sia-sia.»
+      poem: "«Pada zaman dahulu, mereka yang mengenal Jalan mengikuti Yin dan Yang,<br>makan dan minum secukupnya, bangun dan tidur teratur,<br>dan tidak membebani diri dengan pekerjaan yang sia-sia.»"
       cite: «— Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn»
       col_browse: Jelajahi
       col_know: Pelajari
@@ -616,7 +616,7 @@ strings:
       of: من
       total: المجموع
       search_placeholder: اكتب كلمة مفتاحية، مثل «غوجي»، «موسم»، «تسوسانلي»…
-      search_hint: ملاحظة: البحث يشمل العناوين والملخصات والتصنيفات والوسوم والنص.
+      search_hint: "ملاحظة: البحث يشمل العناوين والملخصات والتصنيفات والوسوم والنص."
       search_empty: اكتب كلمة مفتاحية للبدء.
       search_loading: جارٍ تحميل الفهرس…
       search_not_found: لا توجد نتائج لـ
@@ -625,13 +625,13 @@ strings:
       search_too_many: (أول 50)
       search_keyword: الكلمة المفتاحية
       page_404_title: لقد ضلّت هذه الصفحة طريقها
-      page_404_poem: «قال تشي بو: <em>الطبيب الفاضل يعالج المرض قبل أن يظهر.</em><br>بما أن هذه الصفحة لم تظهر بعد، عُد إلى الطريق.»
+      page_404_poem: "«قال تشي بو: <em>الطبيب الفاضل يعالج المرض قبل أن يظهر.</em><br>بما أن هذه الصفحة لم تظهر بعد، عُد إلى الطريق.»"
       page_404_code: HTTP 404 · الصفحة غير موجودة
       btn_back_home: العودة إلى الرئيسية
       btn_browse_archive: تصفّح الأرشيف
       empty_tip: لا توجد مقالات في هذا التصنيف بعد.
       translate_this: ترجمة آلية لهذه الصفحة
-      translate_lead: هذه الصفحة بالصينية. يفتح الرابط أدناه ترجمة آلية في متصفحك:
+      translate_lead: "هذه الصفحة بالصينية. يفتح الرابط أدناه ترجمة آلية في متصفحك:"
     pagination:
       prev: السابق
       next: التالي
@@ -640,7 +640,7 @@ strings:
       updated: حُدِّث
       reading_time: نحو
     footer:
-      poem: «في القدم، كان من عرفوا الطريق يتبعون الين واليانغ،<br>ويأكلون ويشربون باعتدال، ويقومون وينامون بانتظام،<br>ولا يُتعبون أنفسهم بأعمال لا فائدة فيها.»
+      poem: "«في القدم، كان من عرفوا الطريق يتبعون الين واليانغ،<br>ويأكلون ويشربون باعتدال، ويقومون وينامون بانتظام،<br>ولا يُتعبون أنفسهم بأعمال لا فائدة فيها.»"
       cite: «— هوانغدي نيجينغ · سوون · شانغغو تيانتشن لُن»
       col_browse: تصفّح
       col_know: اعرف
