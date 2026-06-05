@@ -7,8 +7,8 @@
 
     <div class="site-footer__brand">
       <p class="site-footer__title">{{ site.title }}</p>
-      <p class="site-footer__poem">{{ s.footer.poem }}</p>
-      <p class="site-footer__cite">{{ s.footer.cite }}</p>
+      <p class="site-footer__poem">{{ s.footer.poem | raw }}</p>
+      <p class="site-footer__cite">{{ s.footer.cite | raw }}</p>
     </div>
 
     <div class="site-footer__cols">
