@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<section class="section container">
+  <header class="section__header">
+    <h1 class="section__title"><span>卷</span>分类：{{ page.category_name }}</h1>
+    <p class="section__lead">{{ page.category_desc }}</p>
+  </header>
+
+  <div class="post-list-wrap">
+    {%- assign cat_posts = site.categories[page.category] -%}
+    {%- if cat_posts and cat_posts.size > 0 -%}
+      <ul class="post-list post-list--rich">
+        {%- for post in cat_posts -%}
+          <li class="post-list__item post-list__item--rich">
+            <time class="post-list__date" datetime="{{ post.date | date_to_xmlschema }}">
+              {{ post.date | date: "%Y-%m-%d" }}
+            </time>
+            <a class="post-list__link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            {%- if post.excerpt -%}
+              <p class="post-list__excerpt">{{ post.excerpt | strip_html | truncate: 90 }}</p>
+            {%- endif -%}
+          </li>
+        {%- endfor -%}
+      </ul>
+    {%- else -%}
+      <p class="empty-tip">此分类下尚无文章，敬请期待。</p>
+    {%- endif -%}
+  </div>
+
+  <p class="back-tip"><a href="{{ '/categories/' | relative_url }}">← 返回分类总览</a></p>
+</section>

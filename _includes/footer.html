@@ -1,0 +1,51 @@
+<footer class="site-footer" role="contentinfo">
+  <div class="container site-footer__inner">
+
+    <div class="site-footer__brand">
+      <p class="site-footer__title">{{ site.title }}</p>
+      <p class="site-footer__poem">
+        「上古之人，其知道者，法于阴阳，和于术数，<br>
+        食饮有节，起居有常，不妄作劳，故能形与神俱，而尽终其天年，度百岁乃去。」
+      </p>
+      <p class="site-footer__cite">——《黄帝内经·素问·上古天真论》</p>
+    </div>
+
+    <div class="site-footer__cols">
+      <div class="site-footer__col">
+        <h4>卷 · 览</h4>
+        <ul>
+          <li><a href="{{ '/archive/' | relative_url }}">文章归档</a></li>
+          <li><a href="{{ '/categories/' | relative_url }}">分类总览</a></li>
+          <li><a href="{{ '/tags/' | relative_url }}">标签云</a></li>
+          <li><a href="{{ '/search/' | relative_url }}">全文搜索</a></li>
+        </ul>
+      </div>
+      <div class="site-footer__col">
+        <h4>卷 · 知</h4>
+        <ul>
+          <li><a href="{{ '/about/' | relative_url }}">关于小筑</a></li>
+          <li><a href="{{ '/about-zhongyi/' | relative_url }}">什么是中医</a></li>
+          <li><a href="{{ '/feed.xml' | relative_url }}">RSS 订阅</a></li>
+          <li><a href="{{ '/sitemap.xml' | relative_url }}">站点地图</a></li>
+        </ul>
+      </div>
+      <div class="site-footer__col">
+        <h4>卷 · 友</h4>
+        <ul>
+          <li><a href="https://www.zhihu.com" rel="noopener" target="_blank">知乎</a></li>
+          <li><a href="https://www.guoxue.com" rel="noopener" target="_blank">国学网</a></li>
+          <li><a href="https://www.zysj.com.cn" rel="noopener" target="_blank">中医世家</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="site-footer__bottom container">
+    <p>
+      © {{ site.time | date: '%Y' }} {{ site.title }} ·
+      Powered by <a href="https://jekyllrb.com" rel="noopener" target="_blank">Jekyll</a> ·
+      本站内容仅供科普参考，不作为诊疗依据
+    </p>
+  </div>
+</footer>

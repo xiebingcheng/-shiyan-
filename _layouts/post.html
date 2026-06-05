@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+<article class="post" itemscope itemtype="https://schema.org/Article">
+
+  <header class="post__header container">
+    {%- assign cat_data = site.data.categories | where: 'slug', post.category | first -%}
+    {%- if cat_data -%}
+      <a class="post__category" href="{{ '/categories/' | append: post.category | append: '/' | relative_url }}"
+         style="--cat-color: {{ cat_data.color }}">
+        {{ cat_data.icon }} {{ cat_data.name }}
+      </a>
+    {%- endif -%}
+
+    <h1 class="post__title" itemprop="headline">{{ page.title }}</h1>
+
+    {%- if page.subtitle -%}
+      <p class="post__subtitle">{{ page.subtitle }}</p>
+    {%- endif -%}
+
+    {%- include post-meta.html -%}
+  </header>
+
+  <div class="post__body container" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {%- if page.tags and page.tags.size > 0 -%}
+  <footer class="post__footer container">
+    <div class="post__tags">
+      <span class="post__tags-label">标签：</span>
+      {%- for tag in page.tags -%}
+        <a class="tag-chip" href="{{ '/tags/' | append: tag | append: '/' | relative_url }}">#{{ tag }}</a>
+      {%- endfor -%}
+    </div>
+  </footer>
+  {%- endif -%}
+
+  <nav class="post__nav container" aria-label="文章导航">
+    {%- if page.previous -%}
+      <a class="post__nav-link post__nav-link--prev" href="{{ page.previous.url | relative_url }}" rel="prev">
+        <span class="post__nav-arrow">←</span>
+        <span class="post__nav-text">
+          <span class="post__nav-hint">上一篇</span>
+          <span class="post__nav-title">{{ page.previous.title }}</span>
+        </span>
+      </a>
+    {%- else -%}
+      <span class="post__nav-link post__nav-link--disabled"><span class="post__nav-arrow">←</span><span class="post__nav-text">已是最新一篇</span></span>
+    {%- endif -%}
+    {%- if page.next -%}
+      <a class="post__nav-link post__nav-link--next" href="{{ page.next.url | relative_url }}" rel="next">
+        <span class="post__nav-text">
+          <span class="post__nav-hint">下一篇</span>
+          <span class="post__nav-title">{{ page.next.title }}</span>
+        </span>
+        <span class="post__nav-arrow">→</span>
+      </a>
+    {%- else -%}
+      <span class="post__nav-link post__nav-link--disabled"><span class="post__nav-text">已是最末一篇</span><span class="post__nav-arrow">→</span></span>
+    {%- endif -%}
+  </nav>
+
+  <div class="post__back container">
+    <a class="btn-ghost" href="{{ '/' | relative_url }}">← 回到首页</a>
+  </div>
+
+</article>

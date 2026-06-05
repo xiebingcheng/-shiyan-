@@ -1,0 +1,99 @@
+title: 岐黄小筑
+subtitle: 中医养生 · 顺应四时 · 调和阴阳
+description: >
+  岐黄小筑是一个专注中医养生科普的专题站。我们以《黄帝内经》为宗，
+  传播节气养生、食疗本草、经络穴位、四季调养、情志起居等中医智慧，
+  愿君「法于阴阳，和于术数，食饮有节，起居有常」。
+tagline: 一卷《内经》，半盏清茶
+author: 岐黄小筑编委会
+email: hello@example.com
+
+# 站点 URL（部署到 GitHub Pages 时改为 https://用户名.github.io/仓库名）
+url: "https://xiebingcheng.github.io"
+baseurl: "/-shiyan-"
+# 若用 user/org 站点（直接挂在用户名下），把 baseurl 留空即可
+
+lang: zh-CN
+timezone: Asia/Shanghai
+encoding: utf-8
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+paginate: 10
+paginate_path: "/page:num/"
+
+# 是否将草稿一并构建
+show_drafts: false
+future: false
+
+# 主题
+theme: minima  # 占位用；本仓库自带样式，无需远程主题
+# remote_theme: 
+
+# SEO / Webmaster
+# 已通过 jekyll-seo-tag 自动注入
+twitter:
+  username: qihuang
+  card: summary_large_image
+
+# 站点搜索（用 lunr.js 客户端搜索，构建时生成 JSON）
+search:
+  enabled: true
+  lang: zh
+
+# 排除无关文件
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - .github
+  - scripts
+  - "*.log"
+
+include:
+  - _pages
+
+# 自定义集合
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# 默认 front matter
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: false
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  - scope:
+      path: "about*"
+    values:
+      layout: page
+
+# 编码
+encoding: utf-8
+
+# kramdown 配置
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    block:
+      line_numbers: false
+
+# Liquid 配置
+liquid:
+  error_mode: warn

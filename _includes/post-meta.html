@@ -1,0 +1,26 @@
+{%- comment -%} 文章头部 meta 行 {%- endcomment -%}
+<div class="post-meta">
+  <span class="post-meta__item">
+    <span class="post-meta__icon" aria-hidden="true">✎</span>
+    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+      {{ page.date | date: "%Y年%m月%d日" }}
+    </time>
+  </span>
+  {%- if page.author -%}
+    <span class="post-meta__item">
+      <span class="post-meta__icon" aria-hidden="true">❀</span>
+      <span itemprop="author">{{ page.author }}</span>
+    </span>
+  {%- endif -%}
+  {%- assign words = page.content | strip_html | split: ' ' | size -%}
+  <span class="post-meta__item">
+    <span class="post-meta__icon" aria-hidden="true">⌛</span>
+    <span>约 {{ words | times: 1.0 | divided_by: 350 | round }} 分钟</span>
+  </span>
+  {%- if page.last_modified_at -%}
+  <span class="post-meta__item">
+    <span class="post-meta__icon" aria-hidden="true">⟳</span>
+    <span>更新于 {{ page.last_modified_at | date: "%Y-%m-%d" }}</span>
+  </span>
+  {%- endif -%}
+</div>

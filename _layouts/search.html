@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<section class="section container">
+  <header class="section__header">
+    <h1 class="section__title"><span>卷</span>搜 · 索</h1>
+    <p class="section__lead">在 {{ site.posts | size }} 篇文章中寻你所需。</p>
+  </header>
+
+  <div class="search-box">
+    <span class="search-box__icon" aria-hidden="true">◎</span>
+    <input type="search" id="search-input" class="search-box__input"
+           placeholder="输入关键词，如「枸杞」「节气」「足三里」…"
+           autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+           aria-label="搜索文章">
+    <button class="search-box__clear" type="button" id="search-clear" aria-label="清空" hidden>×</button>
+  </div>
+
+  <p class="search-hint" id="search-hint">提示：支持搜索标题、摘要、分类、标签与正文。</p>
+
+  <div class="search-results" id="search-results" aria-live="polite">
+    <p class="empty-tip">请输入关键词开始检索。</p>
+  </div>
+</section>

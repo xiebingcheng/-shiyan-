@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<section class="section container">
+  <header class="section__header">
+    <h1 class="section__title"><span>卷</span>文章归档</h1>
+    <p class="section__lead">共 {{ site.posts | size }} 篇，依年月汇集。</p>
+  </header>
+
+  {%- assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" -%}
+  {%- for year in posts_by_year -%}
+    <section class="archive-year">
+      <h2 class="archive-year__title">{{ year.name }} 年</h2>
+      <ul class="archive-list">
+        {%- for post in year.items -%}
+          <li class="archive-item">
+            <time class="archive-item__date" datetime="{{ post.date | date_to_xmlschema }}">
+              {{ post.date | date: "%m-%d" }}
+            </time>
+            {%- assign cat_data = site.data.categories | where: 'slug', post.category | first -%}
+            <span class="archive-item__cat" style="--cat-color: {{ cat_data.color | default: '#a82a2a' }}">
+              {{ cat_data.name | default: post.category }}
+            </span>
+            <a class="archive-item__link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </li>
+        {%- endfor -%}
+      </ul>
+    </section>
+  {%- endfor -%}
+</section>

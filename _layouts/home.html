@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <div class="hero__inner container">
+    <p class="hero__eyebrow">— 岐黄之道 · 养生之学 —</p>
+    <h1 class="hero__title">{{ site.title }}</h1>
+    <p class="hero__subtitle">{{ site.subtitle }}</p>
+    <p class="hero__tagline">{{ site.tagline }}</p>
+    <div class="hero__seal" aria-hidden="true">
+      <span>岐黄</span>
+    </div>
+  </div>
+  <div class="hero__divider" aria-hidden="true">
+    <svg viewBox="0 0 120 12" preserveAspectRatio="none">
+      <path d="M0 6 Q15 0 30 6 T60 6 T90 6 T120 6" fill="none" stroke="currentColor" stroke-width="1.2"/>
+    </svg>
+  </div>
+</section>
+
+<section class="section container">
+  <h2 class="section__title"><span>卷 · 一</span>最新文章</h2>
+  <p class="section__lead">以《黄帝内经》为宗，汇养生、食疗、节气、经络之要。</p>
+
+  <div class="post-grid">
+    {%- for post in paginator.posts -%}
+      {%- include post-card.html -%}
+    {%- endfor -%}
+  </div>
+
+  {%- include pagination.html -%}
+</section>
+
+<section class="section section--muted container">
+  <h2 class="section__title"><span>卷 · 二</span>览 · 分类</h2>
+  <p class="section__lead">六大类目，循序而进。</p>
+  <ul class="category-grid">
+    {%- assign cats = site.data.categories -%}
+    {%- for cat in cats -%}
+      <li class="category-card" style="--cat-color: {{ cat.color }}">
+        <a href="{{ '/categories/' | append: cat.slug | append: '/' | relative_url }}" class="category-card__link">
+          <span class="category-card__icon" aria-hidden="true">{{ cat.icon }}</span>
+          <span class="category-card__name">{{ cat.name }}</span>
+          <span class="category-card__count">
+            {%- assign count = site.posts | where: 'category', cat.slug | size -%}
+            {{ count }} 篇
+          </span>
+          <span class="category-card__desc">{{ cat.desc }}</span>
+        </a>
+      </li>
+    {%- endfor -%}
+  </ul>
+</section>

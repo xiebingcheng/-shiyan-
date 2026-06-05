@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<section class="section container">
+  <header class="section__header">
+    <h1 class="section__title"><span>卷</span>分类</h1>
+    <p class="section__lead">按主题分卷，循序而读。</p>
+  </header>
+
+  <ul class="category-list">
+    {%- for cat in site.data.categories -%}
+      {%- assign cat_posts = site.posts | where: 'category', cat.slug -%}
+      <li class="category-block" id="cat-{{ cat.slug }}" style="--cat-color: {{ cat.color }}">
+        <h2 class="category-block__title">
+          <span class="category-block__icon" aria-hidden="true">{{ cat.icon }}</span>
+          {{ cat.name }}
+          <span class="category-block__count">（{{ cat_posts.size }} 篇）</span>
+        </h2>
+        <p class="category-block__desc">{{ cat.desc }}</p>
+        {%- if cat_posts.size > 0 -%}
+        <ul class="post-list">
+          {%- for post in cat_posts limit: 10 -%}
+            <li class="post-list__item">
+              <time class="post-list__date" datetime="{{ post.date | date_to_xmlschema }}">
+                {{ post.date | date: "%Y-%m-%d" }}
+              </time>
+              <a class="post-list__link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </li>
+          {%- endfor -%}
+        </ul>
+        {%- if cat_posts.size > 10 -%}
+          <p class="category-block__more">……尚有 {{ cat_posts.size | minus: 10 }} 篇未列</p>
+        {%- endif -%}
+        {%- else -%}
+          <p class="category-block__empty">此分类下尚无文章。</p>
+        {%- endif -%}
+      </li>
+    {%- endfor -%}
+  </ul>
+</section>

@@ -1,0 +1,61 @@
+{%- comment -%} 分页导航：依赖 paginator 变量 {%- endcomment -%}
+{%- if paginator and paginator.total_pages > 1 -%}
+{%- assign base = paginator.page_trail | default: paginator -%}
+<nav class="pagination" aria-label="文章分页">
+
+  {%- comment -%} 上一页 {%- endcomment -%}
+  {%- if paginator.previous_page -%}
+    <a class="pagination__link pagination__link--edge" href="{{ paginator.previous_page_path | relative_url }}" rel="prev" aria-label="上一页">
+      <span aria-hidden="true">←</span><span class="pagination__edge-text">上一页</span>
+    </a>
+  {%- else -%}
+    <span class="pagination__link pagination__link--edge is-disabled" aria-hidden="true">
+      <span>←</span><span class="pagination__edge-text">上一页</span>
+    </span>
+  {%- endif -%}
+
+  {%- comment -%} 中间页码 {%- endcomment -%}
+  {%- assign total = paginator.total_pages -%}
+  {%- assign cur = paginator.page -%}
+
+  <ul class="pagination__pages">
+    {%- for i in (1..total) -%}
+      {%- assign diff = i | minus: cur | abs -%}
+      {%- assign show = false -%}
+      {%- if diff <= 2 -%}{%- assign show = true -%}
+      {%- elsif i == 1 or i == total -%}{%- assign show = true -%}
+      {%- endif -%}
+
+      {%- if show -%}
+        {%- if i == cur -%}
+          <li><span class="pagination__page is-current" aria-current="page">{{ i }}</span></li>
+        {%- else -%}
+          {%- if i == 1 -%}
+            {%- assign page_url = '/' | relative_url -%}
+          {%- else -%}
+            {%- assign page_url = site.paginate_path | relative_url | replace: ':num', i -%}
+          {%- endif -%}
+          <li><a class="pagination__page" href="{{ page_url }}">{{ i }}</a></li>
+        {%- endif -%}
+      {%- elsif i == 2 and cur > 4 -%}
+        <li class="pagination__ellipsis" aria-hidden="true">…</li>
+      {%- elsif i == total | minus: 1 and cur < total | minus: 3 -%}
+        <li class="pagination__ellipsis" aria-hidden="true">…</li>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+
+  {%- comment -%} 下一页 {%- endcomment -%}
+  {%- if paginator.next_page -%}
+    <a class="pagination__link pagination__link--edge" href="{{ paginator.next_page_path | relative_url }}" rel="next" aria-label="下一页">
+      <span class="pagination__edge-text">下一页</span><span aria-hidden="true">→</span>
+    </a>
+  {%- else -%}
+    <span class="pagination__link pagination__link--edge is-disabled" aria-hidden="true">
+      <span class="pagination__edge-text">下一页</span><span>→</span>
+    </span>
+  {%- endif -%}
+
+  <p class="pagination__summary">第 {{ paginator.page }} / {{ paginator.total_pages }} 页 · 共 {{ paginator.total_posts }} 篇文章</p>
+</nav>
+{%- endif -%}

@@ -1,0 +1,19 @@
+# 顶部主导航
+- title: 首页
+  url: /
+  icon: "⌂"
+- title: 归档
+  url: /archive/
+  icon: "❒"
+- title: 分类
+  url: /categories/
+  icon: "❀"
+- title: 标签
+  url: /tags/
+  icon: "▤"
+- title: 搜索
+  url: /search/
+  icon: "◎"
+- title: 关于
+  url: /about/
+  icon: "✦"

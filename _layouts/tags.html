@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<section class="section container">
+  <header class="section__header">
+    <h1 class="section__title"><span>卷</span>标签</h1>
+    <p class="section__lead">{{ site.tags | size }} 个标签，按文章数量排序。</p>
+  </header>
+
+  {%- assign tag_pairs = site.tags | sort -%}
+  <div class="tag-cloud">
+    {%- for tag in tag_pairs -%}
+      <a class="tag-cloud__item" href="{{ '/tags/' | append: tag[0] | append: '/' | relative_url }}">
+        <span class="tag-cloud__name">#{{ tag[0] }}</span>
+        <span class="tag-cloud__count">{{ tag[1].size }}</span>
+      </a>
+    {%- endfor -%}
+  </div>
+</section>
