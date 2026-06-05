@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 {%- comment -%} 根据 page.lang 或 URL 路径决定 lang/dir，缺省 zh-CN/LTR {%- endcomment -%}
 {%- assign cur_lang = page.lang | default: 'zh-CN' -%}
-{%- assign rtl_langs = site.rtl_langs | default: 'ar' | split: ',' -%}
 {%- assign is_rtl = false -%}
-{%- for l in rtl_langs -%}
-  {%- if l == cur_lang -%}{%- assign is_rtl = true -%}{%- endif -%}
-{%- endfor -%}
+{%- if site.rtl_langs and site.rtl_langs contains cur_lang -%}
+  {%- assign is_rtl = true -%}
+{%- endif -%}
 <html lang="{{ cur_lang }}" dir="{{ 'rtl' if is_rtl else 'ltr' }}" data-rtl="{{ is_rtl }}" data-lang="{{ cur_lang }}" data-theme="light">
 <head>
   {%- include head.html -%}
   {%- feed_meta -%}
   {%- seo -%}
 </head>
-<body class="layout--{{ page.layout | default: layout | default: 'default' }}{% if is_rtl %} rtl{% endif %}">
+<body class="layout--{{ page.layout | default: layout | default: 'default' }}{%- if is_rtl %} rtl{%- endif -%}">
 
   <a class="skip-link" href="#main">跳到正文</a>
 
