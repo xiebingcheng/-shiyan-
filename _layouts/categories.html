@@ -11,7 +11,11 @@ layout: default
   {%- assign cur_lang = page.lang | default: site.default_lang -%}
   <ul class="category-list">
     {%- for cat in site.data.categories -%}
-      {%- assign cat_posts = site.posts | where: 'lang', cur_lang | where: 'category', cat.slug -%}
+      {%- if cur_lang == site.default_lang -%}
+        {%- assign cat_posts = site.posts | where_exp: 'p', "p.lang == cur_lang or p.lang == empty" | where: 'category', cat.slug -%}
+      {%- else -%}
+        {%- assign cat_posts = site.posts | where: 'lang', cur_lang | where: 'category', cat.slug -%}
+      {%- endif -%}
       <li class="category-block" id="cat-{{ cat.slug }}" style="--cat-color: {{ cat.color }}">
         <h2 class="category-block__title">
           <span class="category-block__icon" aria-hidden="true">{{ cat.icon }}</span>

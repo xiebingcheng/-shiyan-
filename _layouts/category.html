@@ -10,7 +10,11 @@ layout: default
 
   {%- assign cur_lang = page.lang | default: site.default_lang -%}
   <div class="post-list-wrap">
-    {%- assign cat_posts = site.categories[page.category] | where: 'lang', cur_lang -%}
+    {%- if cur_lang == site.default_lang -%}
+      {%- assign cat_posts = site.categories[page.category] | where_exp: 'p', "p.lang == cur_lang or p.lang == empty" -%}
+    {%- else -%}
+      {%- assign cat_posts = site.categories[page.category] | where: 'lang', cur_lang -%}
+    {%- endif -%}
     {%- if cat_posts and cat_posts.size > 0 -%}
       <ul class="post-list post-list--rich">
         {%- for post in cat_posts -%}

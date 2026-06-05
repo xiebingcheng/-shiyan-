@@ -4,7 +4,11 @@ layout: default
 
 <section class="section container">
   {%- assign cur_lang = page.lang | default: site.default_lang -%}
-  {%- assign lang_tag_posts = site.tags[page.tag] | where: 'lang', cur_lang -%}
+  {%- if cur_lang == site.default_lang -%}
+    {%- assign lang_tag_posts = site.tags[page.tag] | where_exp: 'p', "p.lang == cur_lang or p.lang == empty" -%}
+  {%- else -%}
+    {%- assign lang_tag_posts = site.tags[page.tag] | where: 'lang', cur_lang -%}
+  {%- endif -%}
   <header class="section__header">
     <h1 class="section__title"><span>卷</span>标签：#{{ page.tag }}</h1>
     <p class="section__lead">共 {{ lang_tag_posts.size }} 篇文章带有此标签。</p>

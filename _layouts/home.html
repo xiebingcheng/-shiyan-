@@ -25,9 +25,14 @@ layout: default
 
   {%- assign cur_lang = page.lang | default: site.default_lang -%}
   {%- if paginator and paginator.total_pages -%}
-    {%- assign lang_posts = paginator.posts | where: 'lang', cur_lang -%}
+    {%- assign all_posts = paginator.posts -%}
   {%- else -%}
-    {%- assign lang_posts = site.posts | where: 'lang', cur_lang -%}
+    {%- assign all_posts = site.posts -%}
+  {%- endif -%}
+  {%- if cur_lang == site.default_lang -%}
+    {%- assign lang_posts = all_posts | where_exp: 'p', "p.lang == cur_lang or p.lang == empty" -%}
+  {%- else -%}
+    {%- assign lang_posts = all_posts | where: 'lang', cur_lang -%}
   {%- endif -%}
 
   <div class="post-grid">
