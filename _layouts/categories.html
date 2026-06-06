@@ -25,10 +25,10 @@ layout: default
         <p class="category-block__desc">{{ cat_desc }}</p>
         {%- if cat_posts.size > 0 -%}
         <ul class="post-list">
-          {%- for post in cat_posts limit: 10 -%}
+            {%- for post in cat_posts limit: 10 -%}
             <li class="post-list__item">
               <time class="post-list__date" datetime="{{ post.date | date_to_xmlschema }}">
-                {{ post.date | date: "%Y-%m-%d" }}
+                {% include lang-date.html date=post.date lang=cur_lang format='iso' %}
               </time>
               <a class="post-list__link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
             </li>

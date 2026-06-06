@@ -18,7 +18,7 @@ layout: default
         {%- for post in year.items -%}
           <li class="archive-item">
             <time class="archive-item__date" datetime="{{ post.date | date_to_xmlschema }}">
-              {{ post.date | date: "%m-%d" }}
+              {% include lang-date.html date=post.date lang=cur_lang format='compact' %}
             </time>
             {%- assign cat_meta = site.data.categories | where: 'slug', post.category | first -%}
             {%- assign cat_i18n = site.data['categories-i18n'] | where: 'slug', post.category | first -%}

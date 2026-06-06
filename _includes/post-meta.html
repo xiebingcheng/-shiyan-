@@ -1,15 +1,17 @@
-{%- comment -%} 文章头部 meta 行 {%- endcomment -%}
+{%- comment -%} 文章头部 meta 行（语种化日期 / 作者 / 阅读时长 / 更新时间）{%- endcomment -%}
+{%- assign cur_lang = page.lang | default: 'zh-CN' -%}
+{%- assign i18n = site.data.i18n.strings[cur_lang] -%}
 <div class="post-meta">
   <span class="post-meta__item">
     <span class="post-meta__icon" aria-hidden="true">✎</span>
     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-      {{ page.date | date: "%Y年%m月%d日" }}
+      {% include lang-date.html date=page.date lang=cur_lang format='full' %}
     </time>
   </span>
   {%- if page.author -%}
     <span class="post-meta__item">
       <span class="post-meta__icon" aria-hidden="true">❀</span>
-      <span itemprop="author">{{ page.author }}</span>
+      <span itemprop="author">{%- if cur_lang == 'zh-CN' -%}{{ page.author }}{%- else -%}{{ i18n.hero.title }}{%- endif -%}</span>
     </span>
   {%- endif -%}
   {%- assign chars = page.content | strip_html | size -%}
@@ -17,12 +19,12 @@
   {%- if words == 1 -%}{%- assign wordish = chars -%}{%- else -%}{%- assign wordish = words -%}{%- endif -%}
   <span class="post-meta__item">
     <span class="post-meta__icon" aria-hidden="true">⌛</span>
-    <span>约 {{ wordish | times: 1.0 | divided_by: 350 | round }} 分钟</span>
+    <span>{{ i18n.meta.reading_time }} {{ wordish | times: 1.0 | divided_by: 350 | round }} {{ i18n.common.minutes }}</span>
   </span>
   {%- if page.last_modified_at -%}
   <span class="post-meta__item">
     <span class="post-meta__icon" aria-hidden="true">⟳</span>
-    <span>更新于 {{ page.last_modified_at | date: "%Y-%m-%d" }}</span>
+    <span>{{ i18n.meta.updated }} {% include lang-date.html date=page.last_modified_at lang=cur_lang format='full' %}</span>
   </span>
   {%- endif -%}
 </div>

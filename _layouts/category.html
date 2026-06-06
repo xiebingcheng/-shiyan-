@@ -15,9 +15,9 @@ layout: default
       <ul class="post-list post-list--rich">
         {%- for post in cat_posts -%}
           <li class="post-list__item post-list__item--rich">
-            <time class="post-list__date" datetime="{{ post.date | date_to_xmlschema }}">
-              {{ post.date | date: "%Y-%m-%d" }}
-            </time>
+          <time class="post-list__date" datetime="{{ post.date | date_to_xmlschema }}">
+            {% include lang-date.html date=post.date lang=cur_lang format='iso' %}
+          </time>
             <a class="post-list__link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
             {%- if post.excerpt -%}
               <p class="post-list__excerpt">{{ post.excerpt | strip_html | truncate: 90 }}</p>

@@ -2,9 +2,10 @@
   文章卡片：在首页、文章列表中复用
   依赖：page / post 变量
 {%- endcomment -%}
+{%- assign cur_lang = post.lang | default: 'zh-CN' -%}
+{%- assign i18n = site.data.i18n.strings[cur_lang] -%}
 <article class="post-card" itemscope itemtype="https://schema.org/Article">
   <a class="post-card__cover" href="{{ post.url | relative_url }}" aria-hidden="true" tabindex="-1">
-    {%- assign cur_lang = post.lang | default: 'zh-CN' -%}
     {%- assign cat_meta = site.data.categories | where: 'slug', post.category | first -%}
     {%- assign cat_i18n = site.data['categories-i18n'] | where: 'slug', post.category | first -%}
     {%- assign cat_name = cat_i18n[cur_lang].name | default: cat_i18n['zh-CN'].name -%}
@@ -33,12 +34,14 @@
       {{ post.excerpt | default: post.content | strip_html | normalize_whitespace | truncate: 110 }}
     </p>
     <div class="post-card__meta">
-      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y年%m月%d日" }}</time>
+      <time datetime="{{ post.date | date_to_xmlschema }}">
+        {% include lang-date.html date=post.date lang=cur_lang format='full' %}
+      </time>
       {%- assign chars = post.content | strip_html | size -%}
       {%- assign words = post.content | strip_html | split: ' ' | size -%}
       {%- if words == 1 -%}{%- assign wordish = chars -%}{%- else -%}{%- assign wordish = words -%}{%- endif -%}
       <span class="post-card__dot">·</span>
-      <span>约 {{ wordish | times: 1.0 | divided_by: 350 | round }} 分钟</span>
+      <span>{{ i18n.meta.reading_time }} {{ wordish | times: 1.0 | divided_by: 350 | round }} {{ i18n.common.minutes }}</span>
     </div>
   </div>
 </article>

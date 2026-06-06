@@ -111,6 +111,7 @@ strings:
       written: 撰文
       updated: 更新于
       reading_time: 约
+      months: ['', '一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月']
     footer:
       poem: "「上古之人，其知道者，法于阴阳，和于术数，<br>食饮有节，起居有常，不妄作劳，故能形与神俱，而尽终其天年，度百岁乃去。」"
       cite: ——《黄帝内经·素问·上古天真论》
@@ -199,6 +200,7 @@ strings:
       written: By
       updated: Updated
       reading_time: About
+      months: ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
     footer:
       poem: '"In ancient times those who knew the Way modeled themselves on Yin and Yang,<br>and lived in harmony with the arts of numerology.<br>They ate and drank in moderation, rose and slept with regularity,<br>and did not tax themselves with useless labor."'
       cite: "— Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn (Chapter 1)"
@@ -287,6 +289,7 @@ strings:
       written: Автор
       updated: Обновлено
       reading_time: Около
+      months: ['', 'января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря']
     footer:
       poem: "«В древности те, кто знал Путь, следовали Инь и Ян,<br>питались и пили в меру, вставали и ложились вовремя,<br>и не утруждали себя бесполезным трудом.»"
       cite: «— Хуанди Нэйцзин · Сювэнь · Шангу Тяньчжэнь Лунь»
@@ -375,6 +378,7 @@ strings:
       written: Par
       updated: Mis à jour
       reading_time: Environ
+      months: ['', 'janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre']
     footer:
       poem: "« Dans l'Antiquité, ceux qui connaissaient la Voie observaient le Yin et le Yang,<br>mangeaient et buvaient avec mesure, se levaient et se couchaient à heures régulières,<br>et ne s'épuisaient pas en travaux inutiles. »"
       cite: « — Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn »
@@ -463,6 +467,7 @@ strings:
       written: Por
       updated: Actualizado
       reading_time: Aprox.
+      months: ['', 'enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre']
     footer:
       poem: "«En la antigüedad, quienes conocían el Camino seguían el Yin y el Yang,<br>comían y bebían con moderación, se levantaban y dormían con regularidad,<br>y no se agotaban con faenas inútiles.»"
       cite: «— Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn»
@@ -551,6 +556,7 @@ strings:
       written: Oleh
       updated: Diperbarui
       reading_time: Sekitar
+      months: ['', 'Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember']
     footer:
       poem: "«Pada zaman dahulu, mereka yang mengenal Jalan mengikuti Yin dan Yang,<br>makan dan minum secukupnya, bangun dan tidur teratur,<br>dan tidak membebani diri dengan pekerjaan yang sia-sia.»"
       cite: «— Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn»
@@ -639,6 +645,7 @@ strings:
       written: بقلم
       updated: حُدِّث
       reading_time: نحو
+      months: ['', 'يناير', 'فبراير', 'مارس', 'أبريل', 'مايو', 'يونيو', 'يوليو', 'أغسطس', 'سبتمبر', 'أكتوبر', 'نوفمبر', 'ديسمبر']
     footer:
       poem: "«في القدم، كان من عرفوا الطريق يتبعون الين واليانغ،<br>ويأكلون ويشربون باعتدال، ويقومون وينامون بانتظام،<br>ولا يُتعبون أنفسهم بأعمال لا فائدة فيها.»"
       cite: «— هوانغدي نيجينغ · سوون · شانغغو تيانتشن لُن»

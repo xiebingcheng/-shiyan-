@@ -1,0 +1,29 @@
+{%- comment -%}
+  语种化日期。参数：
+    date   — 必填，日期对象或字符串
+    lang   — 缺省 'zh-CN'
+    format — 缺省 'full'；可选 'compact'（无年份）/ 'iso'（2026-02-25 跨语言）
+{%- endcomment -%}
+{%- assign cur_lang = include.lang | default: 'zh-CN' -%}
+{%- assign i18n = site.data.i18n.strings[cur_lang] -%}
+{%- assign fmt = include.format | default: 'full' -%}
+{%- assign d_month_num = include.date | date: '%-m' | times: 1 -%}
+{%- assign d_day = include.date | date: '%-d' -%}
+{%- assign d_month = i18n.meta.months[d_month_num] -%}
+{%- if fmt == 'iso' -%}
+  {{ include.date | date: '%Y-%m-%d' }}
+{%- elsif fmt == 'compact' -%}
+  {%- case cur_lang -%}
+    {%- when 'zh-CN' -%}{{ d_month_num }}月{{ d_day }}日
+    {%- when 'en' -%}{{ d_month }} {{ d_day }}
+    {%- else -%}{{ d_day }} {{ d_month }}
+  {%- endcase -%}
+{%- else -%}
+  {%- assign d_year = include.date | date: '%Y' -%}
+  {%- case cur_lang -%}
+    {%- when 'zh-CN' -%}{{ d_year }}年{{ d_month }}{{ d_day }}日
+    {%- when 'en' -%}{{ d_month }} {{ d_day }}, {{ d_year }}
+    {%- when 'es' -%}{{ d_day }} de {{ d_month }} de {{ d_year }}
+    {%- else -%}{{ d_day }} {{ d_month }} {{ d_year }}
+  {%- endcase -%}
+{%- endif -%}
