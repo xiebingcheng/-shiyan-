@@ -20,9 +20,11 @@ layout: default
             <time class="archive-item__date" datetime="{{ post.date | date_to_xmlschema }}">
               {{ post.date | date: "%m-%d" }}
             </time>
-            {%- assign cat_data = site.data.categories | where: 'slug', post.category | first -%}
-            <span class="archive-item__cat" style="--cat-color: {{ cat_data.color | default: '#a82a2a' }}">
-              {{ cat_data.name | default: post.category }}
+            {%- assign cat_meta = site.data.categories | where: 'slug', post.category | first -%}
+            {%- assign cat_i18n = site.data['categories-i18n'] | where: 'slug', post.category | first -%}
+            {%- assign cat_name = cat_i18n[cur_lang].name | default: cat_i18n['zh-CN'].name -%}
+            <span class="archive-item__cat" style="--cat-color: {{ cat_meta.color | default: '#a82a2a' }}">
+              {{ cat_name | default: post.category }}
             </span>
             <a class="archive-item__link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
           </li>

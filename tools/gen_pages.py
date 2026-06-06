@@ -4,6 +4,12 @@
 import os
 
 LANGS = {
+    'en': {
+        'archive': 'Archive',
+        'categories': 'Categories',
+        'tags': 'Tags',
+        'search': 'Search',
+    },
     'ru': {
         'archive': 'Архив',
         'categories': 'Категории',
@@ -36,7 +42,7 @@ LANGS = {
     },
 }
 
-ROOT = r'E:\中医shiyan网站'
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 for lang, titles in LANGS.items():
     lang_dir = os.path.join(ROOT, lang)

@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """把 categories-i18n.yml 和 nav-i18n.yml 中所有可能引起 YAML 解析问题的 value 加引号"""
+import os
 import re
 import yaml
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 def quote_yaml_values(path):
     text = open(path, encoding='utf-8').read()
@@ -34,8 +37,8 @@ def quote_yaml_values(path):
     return '\n'.join(new_lines) + '\n'
 
 for path in [
-    r'E:\中医shiyan网站\_data\categories-i18n.yml',
-    r'E:\中医shiyan网站\_data\nav-i18n.yml',
+    os.path.join(ROOT, '_data', 'categories-i18n.yml'),
+    os.path.join(ROOT, '_data', 'nav-i18n.yml'),
 ]:
     new = quote_yaml_values(path)
     open(path, 'w', encoding='utf-8').write(new)
@@ -43,8 +46,8 @@ for path in [
 
 # 测试
 for path in [
-    r'E:\中医shiyan网站\_data\categories-i18n.yml',
-    r'E:\中医shiyan网站\_data\nav-i18n.yml',
+    os.path.join(ROOT, '_data', 'categories-i18n.yml'),
+    os.path.join(ROOT, '_data', 'nav-i18n.yml'),
 ]:
     try:
         data = yaml.safe_load(open(path, encoding='utf-8').read())

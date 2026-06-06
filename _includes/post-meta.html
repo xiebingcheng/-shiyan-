@@ -12,10 +12,12 @@
       <span itemprop="author">{{ page.author }}</span>
     </span>
   {%- endif -%}
+  {%- assign chars = page.content | strip_html | size -%}
   {%- assign words = page.content | strip_html | split: ' ' | size -%}
+  {%- if words == 1 -%}{%- assign wordish = chars -%}{%- else -%}{%- assign wordish = words -%}{%- endif -%}
   <span class="post-meta__item">
     <span class="post-meta__icon" aria-hidden="true">⌛</span>
-    <span>约 {{ words | times: 1.0 | divided_by: 350 | round }} 分钟</span>
+    <span>约 {{ wordish | times: 1.0 | divided_by: 350 | round }} 分钟</span>
   </span>
   {%- if page.last_modified_at -%}
   <span class="post-meta__item">

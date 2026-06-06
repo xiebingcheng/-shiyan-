@@ -8,7 +8,13 @@
   'use strict';
 
   var input, clearBtn, results, hint, dataPromise;
-  var DATA_URL = (window.SEARCH_DATA_URL || '/search.json');
+  var DEFAULT_URL = (function () {
+    var b = document.documentElement.getAttribute('data-baseurl') || '';
+    if (b && b.charAt(0) !== '/') b = '/' + b;
+    if (b && b.charAt(b.length - 1) === '/') b = b.slice(0, -1);
+    return (b || '') + '/search.json';
+  })();
+  var DATA_URL = (window.SEARCH_DATA_URL || DEFAULT_URL);
 
   function escapeHtml(s) {
     return String(s).replace(/[&<>"']/g, function (c) {

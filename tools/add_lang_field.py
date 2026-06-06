@@ -8,7 +8,7 @@ LANGS = {
     'en': 'en', 'ru': 'ru', 'fr': 'fr', 'es': 'es', 'id': 'id', 'ar': 'ar',
 }
 
-ROOT = r'E:\中医shiyan网站'
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 for lang_dir, lang_code in LANGS.items():
     base = os.path.join(ROOT, lang_dir)

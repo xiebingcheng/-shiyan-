@@ -10,15 +10,19 @@ layout: default
 
   {%- assign cur_lang = page.lang | default: site.default_lang -%}
   <ul class="category-list">
+    {%- assign cats_i18n = site.data['categories-i18n'] -%}
     {%- for cat in site.data.categories -%}
+      {%- assign cat_i18n = cats_i18n | where: 'slug', cat.slug | first -%}
+      {%- assign cat_name = cat_i18n[cur_lang].name | default: cat_i18n['zh-CN'].name -%}
+      {%- assign cat_desc = cat_i18n[cur_lang].desc | default: cat_i18n['zh-CN'].desc -%}
       {%- assign cat_posts = site.posts | where: 'lang', cur_lang | where: 'category', cat.slug -%}
       <li class="category-block" id="cat-{{ cat.slug }}" style="--cat-color: {{ cat.color }}">
         <h2 class="category-block__title">
           <span class="category-block__icon" aria-hidden="true">{{ cat.icon }}</span>
-          {{ cat.name }}
+          {{ cat_name }}
           <span class="category-block__count">（{{ cat_posts.size }} 篇）</span>
         </h2>
-        <p class="category-block__desc">{{ cat.desc }}</p>
+        <p class="category-block__desc">{{ cat_desc }}</p>
         {%- if cat_posts.size > 0 -%}
         <ul class="post-list">
           {%- for post in cat_posts limit: 10 -%}

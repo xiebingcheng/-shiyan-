@@ -4,21 +4,24 @@
 {%- endcomment -%}
 <article class="post-card" itemscope itemtype="https://schema.org/Article">
   <a class="post-card__cover" href="{{ post.url | relative_url }}" aria-hidden="true" tabindex="-1">
-    {%- assign cat_data = site.data.categories | where: 'slug', post.category | first -%}
+    {%- assign cur_lang = post.lang | default: 'zh-CN' -%}
+    {%- assign cat_meta = site.data.categories | where: 'slug', post.category | first -%}
+    {%- assign cat_i18n = site.data['categories-i18n'] | where: 'slug', post.category | first -%}
+    {%- assign cat_name = cat_i18n[cur_lang].name | default: cat_i18n['zh-CN'].name -%}
     {%- if post.cover -%}
       <img src="{{ post.cover | relative_url }}" alt="" loading="lazy">
     {%- else -%}
-      <span class="post-card__placeholder" style="--cat-color: {{ cat_data.color | default: '#a82a2a' }}">
-        <span class="post-card__placeholder-icon">{{ cat_data.icon | default: '❒' }}</span>
-        <span class="post-card__placeholder-name">{{ cat_data.name | default: post.category }}</span>
+      <span class="post-card__placeholder" style="--cat-color: {{ cat_meta.color | default: '#a82a2a' }}">
+        <span class="post-card__placeholder-icon">{{ cat_meta.icon | default: '❒' }}</span>
+        <span class="post-card__placeholder-name">{{ cat_name | default: post.category }}</span>
       </span>
     {%- endif -%}
   </a>
 
   <div class="post-card__body">
     <a class="post-card__cat" href="{{ '/categories/' | append: post.category | append: '/' | relative_url }}"
-       style="--cat-color: {{ cat_data.color | default: '#a82a2a' }}">
-      {{ cat_data.icon | default: '❒' }} {{ cat_data.name | default: post.category }}
+       style="--cat-color: {{ cat_meta.color | default: '#a82a2a' }}">
+      {{ cat_meta.icon | default: '❒' }} {{ cat_name | default: post.category }}
     </a>
     <h3 class="post-card__title">
       <a href="{{ post.url | relative_url }}" itemprop="url"><span itemprop="headline">{{ post.title }}</span></a>
@@ -31,9 +34,11 @@
     </p>
     <div class="post-card__meta">
       <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y年%m月%d日" }}</time>
+      {%- assign chars = post.content | strip_html | size -%}
       {%- assign words = post.content | strip_html | split: ' ' | size -%}
+      {%- if words == 1 -%}{%- assign wordish = chars -%}{%- else -%}{%- assign wordish = words -%}{%- endif -%}
       <span class="post-card__dot">·</span>
-      <span>约 {{ words | times: 1.0 | divided_by: 350 | round }} 分钟</span>
+      <span>约 {{ wordish | times: 1.0 | divided_by: 350 | round }} 分钟</span>
     </div>
   </div>
 </article>

@@ -50,17 +50,21 @@ layout: default
   <p class="section__lead">六大类目，循序而进。</p>
   <ul class="category-grid">
     {%- assign cats = site.data.categories -%}
+    {%- assign cats_i18n = site.data['categories-i18n'] -%}
     {%- for cat in cats -%}
+      {%- assign cat_i18n = cats_i18n | where: 'slug', cat.slug | first -%}
+      {%- assign cat_name = cat_i18n[cur_lang].name | default: cat_i18n['zh-CN'].name -%}
+      {%- assign cat_desc = cat_i18n[cur_lang].desc | default: cat_i18n['zh-CN'].desc -%}
       {%- assign cat_count = lang_posts | where: 'category', cat.slug | size -%}
       <li class="category-card" style="--cat-color: {{ cat.color }}">
         <a href="{{ '/categories/' | append: cat.slug | append: '/' | relative_url }}" class="category-card__link">
           <span class="category-card__icon" aria-hidden="true">{{ cat.icon }}</span>
-          <span class="category-card__name">{{ cat.name }}</span>
+          <span class="category-card__name">{{ cat_name }}</span>
           <span class="category-block__count">
             {%- assign count = lang_posts | where: 'category', cat.slug | size -%}
             {{ count }} 篇
           </span>
-          <span class="category-card__desc">{{ cat.desc }}</span>
+          <span class="category-card__desc">{{ cat_desc }}</span>
         </a>
       </li>
     {%- endfor -%}

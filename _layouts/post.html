@@ -5,12 +5,15 @@ layout: default
 <article class="post" itemscope itemtype="https://schema.org/Article">
 
   <header class="post__header container">
+    {%- assign cur_lang = page.lang | default: site.default_lang -%}
     {%- assign cur_post = page -%}
-    {%- assign cat_data = site.data.categories | where: 'slug', cur_post.category | first -%}
-    {%- if cat_data -%}
+    {%- assign cat_meta = site.data.categories | where: 'slug', cur_post.category | first -%}
+    {%- assign cat_i18n = site.data['categories-i18n'] | where: 'slug', cur_post.category | first -%}
+    {%- assign cat_name = cat_i18n[cur_lang].name | default: cat_i18n['zh-CN'].name -%}
+    {%- if cat_meta -%}
       <a class="post__category" href="{{ '/categories/' | append: cur_post.category | append: '/' | relative_url }}"
-         style="--cat-color: {{ cat_data.color }}">
-        {{ cat_data.icon }} {{ cat_data.name }}
+         style="--cat-color: {{ cat_meta.color }}">
+        {{ cat_meta.icon }} {{ cat_name }}
       </a>
     {%- endif -%}
 
@@ -38,7 +41,6 @@ layout: default
   </footer>
   {%- endif -%}
 
-  {%- assign cur_lang = page.lang | default: site.default_lang -%}
   {%- assign lang_posts = site.posts | where: 'lang', cur_lang -%}
   {%- assign lang_count = lang_posts | size -%}
   {%- assign prev_post = nil -%}
