@@ -22,6 +22,10 @@
     });
   }
 
+  function escapeAttr(s) {
+    return escapeHtml(s);
+  }
+
   function escapeReg(s) {
     return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   }
@@ -106,30 +110,31 @@
   }
 
   function render(posts, query) {
+    var t = window.QIHUANG_I18N || {};
     if (!query) {
-      results.innerHTML = '<p class="empty-tip">请输入关键词开始检索。</p>';
-      hint.textContent = '提示：支持搜索标题、摘要、分类、标签与正文。';
+      results.innerHTML = '<p class="empty-tip">' + (t.search_empty || '') + '</p>';
+      hint.textContent = t.search_hint || '';
       return;
     }
     if (!posts.length) {
-      results.innerHTML = '<p class="empty-tip">未在 ' + (window.__totalPosts || '所有') + ' 篇文章中找到与「' + escapeHtml(query) + '」相关的内容。</p>';
-      hint.textContent = '未找到结果';
+      results.innerHTML = '<p class="empty-tip">' + (t.search_not_found || '') + '「' + escapeHtml(query) + '」。</p>';
+      hint.textContent = '';
       return;
     }
     var keywords = query.trim().split(/\s+/).filter(Boolean);
-    var stats = '找到 <strong>' + posts.length + '</strong> 篇相关';
-    if (posts.length === 50) stats += '（前 50）';
-    hint.innerHTML = stats + ' · 关键词：' + keywords.map(function (k) { return '<em>' + escapeHtml(k) + '</em>'; }).join(' ');
+    var stats = (t.search_results || '') + ' <strong>' + posts.length + '</strong> ' + (t.search_related || '');
+    if (posts.length === 50) stats += t.search_too_many || '';
+    hint.innerHTML = stats + ' · ' + (t.search_keyword || '') + '：' + keywords.map(function (k) { return '<em>' + escapeHtml(k) + '</em>'; }).join(' ');
 
     var html = '<ul class="search-results__list">';
     posts.forEach(function (p) {
       html += '<li class="search-result">';
-      html += '  <h3 class="search-result__title"><a href="' + p.url + '">' + highlight(p.title, keywords) + '</a></h3>';
+      html += '  <h3 class="search-result__title"><a href="' + escapeAttr(p.url) + '">' + highlight(p.title, keywords) + '</a></h3>';
       html += '  <p class="search-result__meta">';
       html += '    <span class="search-result__cat">' + escapeHtml(p.category || '') + '</span>';
       html += '    <span> · ' + escapeHtml(p.date || '') + '</span>';
       if (p.tags && p.tags.length) {
-        html += '<span> · ' + p.tags.map(function (t) { return '#' + escapeHtml(t); }).join(' ') + '</span>';
+        html += '<span> · ' + p.tags.map(function (tt) { return '#' + escapeHtml(tt); }).join(' ') + '</span>';
       }
       html += '  </p>';
       html += '  <p class="search-result__excerpt">' + excerpt(p.excerpt || p.content, keywords, 140) + '</p>';
@@ -161,13 +166,15 @@
       var q = input.value.trim();
       if (clearBtn) clearBtn.hidden = q.length === 0;
       if (!q) { render([], ''); return; }
+      var curLang = (window.QIHUANG_I18N && window.QIHUANG_I18N.cur_lang) || document.documentElement.lang || 'zh-CN';
       loadData().then(function (posts) {
-        allPosts = posts;
-        window.__totalPosts = posts.length;
-        var found = search(posts, q);
+        var scoped = posts.filter(function (p) { return !p.lang || p.lang === curLang; });
+        allPosts = scoped;
+        window.__totalPosts = scoped.length;
+        var found = search(scoped, q);
         render(found, q);
       }).catch(function (err) {
-        results.innerHTML = '<p class="empty-tip">搜索数据加载失败：' + escapeHtml(err.message) + '</p>';
+        results.innerHTML = '<p class="empty-tip">' + escapeHtml(err.message) + '</p>';
       });
     }, 200);
 

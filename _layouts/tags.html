@@ -4,8 +4,11 @@ layout: default
 
 <section class="section container">
   <header class="section__header">
-    <h1 class="section__title"><span>卷</span>标签</h1>
-    <p class="section__lead">{{ site.tags | size }} 个标签，按文章数量排序。</p>
+    {%- assign cur_lang = page.lang | default: site.default_lang -%}
+    {%- assign i18n = site.data.i18n.strings[cur_lang] -%}
+    {%- assign tag_total = site.tags | size -%}
+    <h1 class="section__title"><span>卷</span>{{ i18n.nav.tags }}</h1>
+    <p class="section__lead">{{ i18n.section.tags_overview | replace: 'X', tag_total }}</p>
   </header>
 
   {%- assign cur_lang = page.lang | default: site.default_lang -%}

@@ -2,7 +2,7 @@
   <div class="container site-header__inner">
 
     {%- assign cur_lang = page.lang | default: 'zh-CN' -%}
-    <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="{{ site.data.i18n.strings[cur_lang].a11y.skip_to_content | default: 'Home' }}">
+    <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="{{ site.data.i18n.strings[cur_lang].nav.home | default: site.data.i18n.strings['zh-CN'].nav.home }}">
       <span class="site-brand__seal" aria-hidden="true">
         <svg viewBox="0 0 40 40" width="40" height="40">
           <rect x="2" y="2" width="36" height="36" rx="3" fill="none" stroke="currentColor" stroke-width="2"/>

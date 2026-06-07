@@ -7,6 +7,8 @@ author: Qíhuáng Lodge
 category: siji
 tags: [春季, 养肝, 疏泄, 情志, 起居]
 excerpt: "Spring belongs to Wood, corresponds to the Liver (肝, gān), and the Liver governs 'shū xiè' (疏泄, free coursing and discharge). This article systematically expounds the way to nourish the Liver in the three months of spring from six angles."
+description: >
+  Spring belongs to Wood, and the Liver is the "General" that hates constraint. Spring is the season of rising yáng-qì and ascending Liver-qì. Six keys to spring liver-care: night-sleep-early-rise, "less sour more sweet" diet, restrained anger, meridian work (Gallbladder-meridian tapping + Tàichōng LV-3), gentle exercise (walking, flying kites), and herbal teas (rose, chrysanthemum, Buddha's-hand).
 permalink: /en/2026/03/08/chun-yanggan/
 lang: en
 ---

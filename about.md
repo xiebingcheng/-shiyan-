@@ -3,6 +3,10 @@ layout: page
 title: 关于岐黄小筑
 permalink: /about/
 subtitle: 一卷《内经》，半盏清茶
+description: >
+  岐黄小筑 (Qihuang Lodge) 是一个面向全球读者的中医养生科普专题站。
+  以《黄帝内经》为宗，传播节气养生、食疗本草、经络穴位、四季调养、
+  情志起居六大主题。内容仅供科普参考，不构成任何医疗建议。
 ---
 
 ## 何谓「岐黄」
@@ -30,15 +34,26 @@ subtitle: 一卷《内经》，半盏清茶
 愿每一位访客，读完一篇文章，便能记住一句话；
 愿这一句话，恰能在某个寒夜或某个心烦的午后，给您一点点温热。
 
+## 编辑与审校
+
+本站由 [岐黄小筑编委会]({{ '/humans.txt' | relative_url }}) 维护，
+所有涉及具体健康建议的文章发布前均经过**岐黄小筑医学审校组**的复核，
+并在文末标注最后审校时间。我们欢迎有执业资格的中医师与营养师加入审校组，
+请通过 [humans.txt]({{ '/humans.txt' | relative_url }}) 中的邮箱联系。
+
 ## 免责声明
 
-本站内容仅供科普参考，**不作为任何疾病诊断或治疗的依据**。
-如有不适，请及时就医，遵从医嘱。
+本站所载内容仅供中医文化科普与日常养生参考，
+**不构成任何疾病诊断、治疗建议**。
+中药与食疗请在执业中医师指导下使用；如有不适请及时就医，遵从医嘱。
 
 ## 联络
 
-- Email：hello@example.com
+- 编辑邮箱：editorial@qihuanglodge.example
+- 审校邮箱：review@qihuanglodge.example
+- 安全问题：security@qihuanglodge.example
 - RSS：[订阅本站](/feed.xml)
+- 站点信息：[humans.txt](/humans.txt)
 
 ## 致谢
 

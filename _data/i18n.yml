@@ -70,6 +70,7 @@ strings:
       latest_lead: 以《黄帝内经》为宗，汇养生、食疗、节气、经络之要。
       categories: 览 · 分类
       categories_lead: 六大类目，循序而进。
+      tags_overview: "共 X 个标签，按文章数量排序。"
     common:
       read_more: 阅读全文
       back_home: 回到首页
@@ -104,6 +105,9 @@ strings:
       empty_tip: 此分类下尚无文章，敬请期待。
       translate_this: 机器翻译此页
       translate_lead: 本页内容为中文，可通过下方链接让浏览器自动翻译：
+      more_unlisted: "……尚有 N 篇未列"
+      archive_lead: "共 N 篇，依年月汇集。"
+      tag_count_lead: "共 N 篇文章带有此标签。"
     pagination:
       prev: 上一页
       next: 下一页
@@ -159,6 +163,7 @@ strings:
       latest_lead: Rooted in the Huángdì Nèijīng — wisdom of wellness, food therapy, solar terms, and meridians.
       categories: Browse · Categories
       categories_lead: Six categories to walk through, in order.
+      tags_overview: "X tags, sorted by article count."
     common:
       read_more: Read more
       back_home: Back to Home
@@ -193,6 +198,9 @@ strings:
       empty_tip: No articles in this category yet — please check back later.
       translate_this: Machine-translate this page
       translate_lead: "This page is in Chinese. The link below opens an automatic translation in your browser:"
+      more_unlisted: "…and N more unlisted"
+      archive_lead: "N articles, grouped by year and month."
+      tag_count_lead: "N articles carry this tag."
     pagination:
       prev: Prev
       next: Next
@@ -248,6 +256,7 @@ strings:
       latest_lead: Опираясь на «Хуанди Нэйцзин» — мудрость о здоровье, питании, сезонах и меридианах.
       categories: Категории
       categories_lead: Шесть разделов — следуйте по порядку.
+      tags_overview: "X тегов, отсортировано по количеству статей."
     common:
       read_more: Читать далее
       back_home: На главную
@@ -282,6 +291,9 @@ strings:
       empty_tip: В этой категории пока нет статей.
       translate_this: Машинный перевод страницы
       translate_lead: "Эта страница на китайском. По ссылке ниже браузер выполнит автоматический перевод:"
+      more_unlisted: "…и ещё N не показаны"
+      archive_lead: "N статей, сгруппированных по году и месяцу."
+      tag_count_lead: "N статей с этим тегом."
     pagination:
       prev: Назад
       next: Вперёд
@@ -337,6 +349,7 @@ strings:
       latest_lead: Ancré dans le Huángdì Nèijīng — sagesse du bien-être, alimentation, saisons et méridiens.
       categories: Parcourir · Catégories
       categories_lead: Six rubriques à suivre, dans l'ordre.
+      tags_overview: "X étiquettes, triées par nombre d'articles."
     common:
       read_more: Lire la suite
       back_home: Retour à l'accueil
@@ -371,6 +384,9 @@ strings:
       empty_tip: Aucun article dans cette catégorie pour le moment.
       translate_this: Traduction automatique
       translate_lead: "Cette page est en chinois. Le lien ci-dessous ouvre une traduction automatique dans votre navigateur :"
+      more_unlisted: "…et N de plus non listés"
+      archive_lead: "N articles, groupés par année et mois."
+      tag_count_lead: "N articles portent cette étiquette."
     pagination:
       prev: Précédent
       next: Suivant
@@ -426,6 +442,7 @@ strings:
       latest_lead: Con raíz en el Huángdì Nèijīng — sabiduría del bienestar, la alimentación, las estaciones y los meridianos.
       categories: Explorar · Categorías
       categories_lead: Seis secciones para recorrer, en orden.
+      tags_overview: "X etiquetas, ordenadas por número de artículos."
     common:
       read_more: Leer más
       back_home: Volver al inicio
@@ -460,6 +477,9 @@ strings:
       empty_tip: Aún no hay artículos en esta categoría.
       translate_this: Traducción automática
       translate_lead: "Esta página está en chino. El siguiente enlace abre una traducción automática en tu navegador:"
+      more_unlisted: "…y N más sin listar"
+      archive_lead: "N artículos, agrupados por año y mes."
+      tag_count_lead: "N artículos llevan esta etiqueta."
     pagination:
       prev: Anterior
       next: Siguiente
@@ -515,6 +535,7 @@ strings:
       latest_lead: Berakar dari Huángdì Nèijīng — kebijaksanaan tentang kesehatan, makanan, musim, dan meridian.
       categories: Jelajahi · Kategori
       categories_lead: Enam kategori untuk dijelajahi, berurutan.
+      tags_overview: "X tag, diurutkan berdasarkan jumlah artikel."
     common:
       read_more: Baca selengkapnya
       back_home: Kembali ke beranda
@@ -549,6 +570,9 @@ strings:
       empty_tip: Belum ada artikel dalam kategori ini.
       translate_this: Terjemahan mesin
       translate_lead: "Halaman ini dalam bahasa Tionghoa. Tautan di bawah membuka terjemahan otomatis di peramban Anda:"
+      more_unlisted: "…dan N lagi tidak terdaftar"
+      archive_lead: "N artikel, dikelompokkan berdasarkan tahun dan bulan."
+      tag_count_lead: "N artikel memakai tag ini."
     pagination:
       prev: Sebelumnya
       next: Berikutnya
@@ -604,6 +628,7 @@ strings:
       latest_lead: متجذّر في «هوانغدي نيجينغ» — حكمة العافية والطعام والفصول والخطوط الطولية.
       categories: تصفّح · التصنيفات
       categories_lead: ستة أبواب للسير فيها، بالترتيب.
+      tags_overview: "X وسوم، مرتبة حسب عدد المقالات."
     common:
       read_more: اقرأ المزيد
       back_home: العودة إلى الرئيسية
@@ -638,6 +663,9 @@ strings:
       empty_tip: لا توجد مقالات في هذا التصنيف بعد.
       translate_this: ترجمة آلية لهذه الصفحة
       translate_lead: "هذه الصفحة بالصينية. يفتح الرابط أدناه ترجمة آلية في متصفحك:"
+      more_unlisted: "…و N غير مدرجة"
+      archive_lead: "N مقالات، مجمّعة حسب السنة والشهر."
+      tag_count_lead: "N مقالات تحمل هذه الوسوم."
     pagination:
       prev: السابق
       next: التالي

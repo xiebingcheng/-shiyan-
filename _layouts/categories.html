@@ -4,8 +4,10 @@ layout: default
 
 <section class="section container">
   <header class="section__header">
-    <h1 class="section__title"><span>卷</span>分类</h1>
-    <p class="section__lead">按主题分卷，循序而读。</p>
+    {%- assign cur_lang = page.lang | default: site.default_lang -%}
+    {%- assign i18n = site.data.i18n.strings[cur_lang] -%}
+    <h1 class="section__title"><span>卷</span>{{ i18n.nav.categories }}</h1>
+    <p class="section__lead">{{ i18n.section.categories_lead }}</p>
   </header>
 
   {%- assign cur_lang = page.lang | default: site.default_lang -%}
@@ -20,7 +22,7 @@ layout: default
         <h2 class="category-block__title">
           <span class="category-block__icon" aria-hidden="true">{{ cat.icon }}</span>
           {{ cat_name }}
-          <span class="category-block__count">（{{ cat_posts.size }} 篇）</span>
+          <span class="category-block__count">（{{ cat_posts.size }} {{ i18n.common.articles }}）</span>
         </h2>
         <p class="category-block__desc">{{ cat_desc }}</p>
         {%- if cat_posts.size > 0 -%}
@@ -35,10 +37,11 @@ layout: default
           {%- endfor -%}
         </ul>
         {%- if cat_posts.size > 10 -%}
-          <p class="category-block__more">……尚有 {{ cat_posts.size | minus: 10 }} 篇未列</p>
+          {%- assign remaining = cat_posts.size | minus: 10 -%}
+          <p class="category-block__more">{{ i18n.common.more_unlisted | replace: 'N', remaining }}</p>
         {%- endif -%}
         {%- else -%}
-          <p class="category-block__empty">此分类下尚无文章。</p>
+          <p class="category-block__empty">{{ i18n.common.empty_tip }}</p>
         {%- endif -%}
       </li>
     {%- endfor -%}

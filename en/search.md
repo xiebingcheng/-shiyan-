@@ -1,6 +1,9 @@
 ---
 layout: search
-title: Search
+title: Full-text Search
 permalink: /en/search/
 lang: en
+description: >
+  Search every Qíhuáng Lodge article by title, tag, category, excerpt or body.
+  Client-side instant search with weighted ranking.
 ---
