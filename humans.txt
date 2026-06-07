@@ -1,0 +1,37 @@
+---
+layout: null
+permalink: /humans.txt
+sitemap: false
+---
+# humans.txt — 关于本站人员
+# https://humanstxt.org/
+
+/ TEAM /
+  岐黄小筑编委会 (Qihuang Lodge Editorial Board)
+  Site: https://xiebingcheng.github.io/-shiyan-/
+  Contact: editorial@qihuanglodge.example
+  GitHub: https://github.com/xiebingcheng
+  From: 全球 / Worldwide
+
+  岐黄小筑医学审校组 (Medical Review Board)
+  Contact: review@qihuanglodge.example
+  Note: 内容审校由具执业资格的中医师与营养师组成。
+        Content reviewed by licensed TCM practitioners and registered dietitians.
+
+/ SITE /
+  Last update: {{ site.time | date: '%Y/%m/%d' }}
+  Language: 简体中文 / English / Русский / Français / Español / Bahasa Indonesia / العربية
+  Doctype: Jekyll 4 / HTML5 / UTF-8
+  Generator: Jekyll {{ jekyll.version }}
+  IDE: Visual Studio Code
+  Hosting: GitHub Pages
+
+/ STANDARDS /
+  Schema: MedicalWebPage, Article, HowTo, FAQPage, BreadcrumbList, Organization
+  Open Graph · Twitter Card · hreflang (7 languages) · RSS 2.0 · Atom 1.0 · JSON Feed
+  Accessibility: WCAG 2.1 AA target
+
+/ THANKS /
+  Jekyll · jekyll-seo-tag · jekyll-sitemap · jekyll-feed
+  Noto Serif SC (Google Fonts) · Ma Shan Zheng (Google Fonts)
+  黄帝内经 (Yellow Emperor's Inner Canon) — and all TCM ancestors
