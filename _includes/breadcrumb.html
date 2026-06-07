@@ -1,7 +1,7 @@
 {%- comment -%}
   Breadcrumb include
   Usage:
-    {%- include breadcrumb.html crumbs="棣栭〉,/; 鑺傛皵鍏荤敓,/categories/jieqi/; 绔嬫槬鍏荤敓" -%}
+    {%- include breadcrumb.html crumbs="首页,/; 节气养生,/categories/jieqi/; 立春养生" -%}
   The last item has no URL (current page).
 {%- endcomment -%}
 {%- if include.crumbs -%}
@@ -21,7 +21,7 @@
           <span class="breadcrumb__current" itemprop="name" aria-current="page">{{ crumb_name }}</span>
         {%- endif -%}
         <meta itemprop="position" content="{{ forloop.index }}">
-        {%- unless forloop.last -%}<span class="breadcrumb__sep" aria-hidden="true">鈥?/span>{%- endunless -%}
+        {%- unless forloop.last -%}<span class="breadcrumb__sep" aria-hidden="true">›</span>{%- endunless -%}
       </li>
     {%- endfor -%}
   </ol>
