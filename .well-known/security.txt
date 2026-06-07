@@ -1,0 +1,8 @@
+# security.txt 鈥?RFC 9116
+# https://www.rfc-editor.org/rfc/rfc9116
+
+Contact: mailto:security@qihuanglodge.example
+Contact: https://github.com/xiebingcheng/-shiyan-/issues
+Expires: 2027-12-31T23:59:59z
+Preferred-Languages: zh-CN, en
+Canonical: https://xiebingcheng.github.io/-shiyan-/.well-known/security.txt
