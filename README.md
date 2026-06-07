@@ -3,11 +3,15 @@
 > 一卷《内经》，半盏清茶
 > 中医养生科普专题站
 
+[![Build and Deploy Jekyll site to GitHub Pages](https://github.com/xiebingcheng/-shiyan-/actions/workflows/jekyll.yml/badge.svg)](https://github.com/xiebingcheng/-shiyan-/actions/workflows/jekyll.yml)
+
 以《黄帝内经》为宗，传播节气养生、食疗本草、经络穴位、四季调养、情志起居等中医智慧。
 
 ## 在线访问
 
 部署后访问： **https://xiebingcheng.github.io/-shiyan-/**
+
+部署状态见上方徽章。失败时查看 [Actions 日志](https://github.com/xiebingcheng/-shiyan-/actions)。
 
 ## 启用 GitHub Pages
 
@@ -61,7 +65,7 @@ bundle exec jekyll serve
 │   ├── footer.html
 │   ├── post-card.html
 │   ├── post-meta.html
-│   └── pagination.html      # 10 篇/页分页
+│   └── lang-switcher.html
 ├── _posts/                  # 15 篇示例文章
 │   └── 2026-*.md
 ├── categories/              # 6 个分类页（自动生成）
@@ -73,7 +77,7 @@ bundle exec jekyll serve
 ├── tags.md                  # 标签云
 ├── search.md                # 搜索页
 ├── search.json              # 搜索数据（构建期生成）
-├── index.html               # 首页（带分页）
+├── index.html               # 首页
 ├── 404.html                 # 404 页面
 ├── feed.xml                 # RSS（jekyll-feed 自动生成）
 ├── sitemap.xml              # sitemap（jekyll-sitemap 自动生成）
@@ -94,7 +98,6 @@ bundle exec jekyll serve
 - ✅ **古风中式主题** —— 宣纸底色 / 墨色 / 朱红 / 黛青，楷体 + 宋体
 - ✅ **6 大分类** —— 节气养生 / 食疗本草 / 四季调养 / 经络穴位 / 起居有常 / 情志养生
 - ✅ **15 篇示例文章** —— 平均 1500-2000 字
-- ✅ **分页系统** —— 10 篇/页（首页 + 自动分页）
 - ✅ **客户端搜索** —— 关键词高亮，标题/标签/摘要/正文多字段加权
 - ✅ **暗色模式** —— 手动切换 + 跟随系统
 - ✅ **RSS 订阅** —— `/feed.xml`
@@ -137,6 +140,22 @@ python tools/generate_archives.py
 ### 修改分类信息
 
 编辑 `_data/categories.yml` 调整分类名称、描述、颜色、图标。
+
+## 故障排查
+
+### 构建失败（Build site 步骤红 ❌）
+
+打开 [Actions](https://github.com/xiebingcheng/-shiyan-/actions) → 选中失败的 run → 展开「Build site」步骤的完整日志，按下列顺序排查：
+
+1. **未来日期文章**：`_config.yml` 应为 `future: false`。若改为 `true`，`_posts/2026-10-08-hanlu-yanfei.md`（2026-10-08 > 今天）会进入构建。
+2. **YAML 错误**：`front matter` 或 `_data/*.yml` 的缩进 / 引号不规范，Jekyll 会跳过该文件。
+3. **Liquid 模板错误**：在 `bundle exec jekyll build --trace` 输出中搜 `Liquid Exception` / `undefined method`。
+4. **插件白名单**：`Gemfile` 中的 gem 必须都在 [GitHub Pages 白名单](https://pages.github.com/versions/)（本仓库使用 `github-pages` gem，天然包含 `jekyll-sitemap` / `jekyll-feed` / `jekyll-seo-tag` / `jekyll-paginate`）。
+5. **文件名日期**：`YYYY-MM-DD-*.md` 必须严格匹配。
+
+### 部署可达但 CI 显示失败
+
+GitHub Pages 边缘缓存 600 s。等待或访问 `?cb=<timestamp>` 绕 CDN 验证。Actions 失败但站点可达通常意味着旧构建仍在被服务，需重新 push 触发新构建。
 
 ## 免责声明
 
