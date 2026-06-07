@@ -5,6 +5,12 @@
 <meta name="format-detection" content="telephone=no">
 <meta name="referrer" content="no-referrer-when-downgrade">
 
+{%- assign cur_lang = page.lang | default: 'zh-CN' -%}
+{%- assign i18n = site.data.i18n.strings[cur_lang] -%}
+{%- if i18n and i18n.meta and i18n.meta.keywords -%}
+  <meta name="keywords" content="{{ i18n.meta.keywords }}">
+{%- endif -%}
+
 {%- comment -%} 防止主题闪烁的内联脚本：在 CSS 加载前根据 localStorage 应用主题 {%- endcomment -%}
 <script>
   (function () {
