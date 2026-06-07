@@ -21,7 +21,7 @@
           <span class="breadcrumb__current" itemprop="name" aria-current="page">{{ crumb_name }}</span>
         {%- endif -%}
         <meta itemprop="position" content="{{ forloop.index }}">
-        {%- unless forloop.last -%}<span class="breadcrumb__sep" aria-hidden="true">›</span>{%- endunless -%}
+        {%- unless forloop.last -%}<span class="breadcrumb__sep" aria-hidden="true">&gt;</span>{%- endunless -%}
       </li>
     {%- endfor -%}
   </ol>
