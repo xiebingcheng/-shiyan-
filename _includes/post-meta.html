@@ -11,7 +11,7 @@
   {%- if page.author -%}
     <span class="post-meta__item">
       <span class="post-meta__icon" aria-hidden="true">❀</span>
-      <span itemprop="author">{{ page.author }}</span>
+      <span itemprop="author">{%- if cur_lang == 'zh-CN' -%}{{ page.author }}{%- else -%}{{ i18n.hero.title }}{%- endif -%}</span>
     </span>
   {%- endif -%}
   {%- assign chars = page.content | strip_html | size -%}

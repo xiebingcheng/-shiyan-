@@ -7,8 +7,6 @@ author: Qíhuáng Lodge
 category: jieqi
 tags: [谷雨, 节气, 祛湿, 养肝, 春末]
 excerpt: "Gǔyǔ (谷雨, Grain Rain) is the last solar term of spring. Spring rains nourish the ten thousand things, and so too do they form the body's golden window for dispelling dampness and nourishing the Liver."
-description: >
-  Gǔyǔ (谷雨) is the last solar term of spring — "Clear and Bright cease snow, Grain Rain cease frost." Three priorities: dispel dampness and strengthen the Spleen, nourish the Liver and keep qì moving, and prevent the rising fire that comes with the transition to summer. Seasonal: Chinese toon (Xiāngchūn, "before the rain tender as silk, after the rain woody") and pre-rain tea.
 permalink: /en/2026/04/20/guyu-qushi/
 lang: en
 ---

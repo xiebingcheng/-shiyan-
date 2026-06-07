@@ -7,8 +7,6 @@ author: Qíhuáng Lodge
 category: jieqi
 tags: [立春, 节气, 养肝, 阳气, 生发]
 excerpt: "Lichun (立春) is when all things come forth. The three yang open into prosperity, and yang qi (阳气) begins to rise. From four angles — diet, daily routine, emotions, and the meridians — this article discusses how to follow the principle of 'shēng' (生) at the Beginning of Spring."
-description: >
-  Beginning of Spring (Lìchūn, 立春) — the first of the 24 solar terms and the moment yáng-qì begins to rise. This guide covers diet (less sour, more sweet), daily rhythm (late rest, early rise, hair down, clothes loose), emotion (be generative, do not kill), and meridian practice (Gallbladder-meridian tapping and Tàichōng LV-3 massage). Includes the "Three Treasures of Lìchūn" — spring pancakes, spinach and radish.
 permalink: /en/2026/02/04/lichun-yangsheng/
 lang: en
 ---

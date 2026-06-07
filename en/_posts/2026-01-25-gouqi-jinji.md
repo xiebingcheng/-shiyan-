@@ -7,8 +7,6 @@ author: Qíhuáng Lodge
 category: shiliao
 tags: [枸杞, 食疗, 养肝, 明目, 禁忌]
 excerpt: "Goji berries are a national staple of health preservation, but they are not for everyone. This article clarifies the nature, flavor, channel entry, suitable pairings, and taboos of goji berries — to help you eat them correctly."
-description: >
-  Goji berries (Gǒuqǐ, 枸杞) are sweet, neutral, entering the Liver, Kidney and Lung meridians. They nourish liver and kidney, brighten the eyes, and moisten the lung. But they are NOT for everyone: avoid during a cold or flu, with damp-phlegm constitution, and during pregnancy. Dosage: 10-15 berries per day. Includes ten classic combinations, picking and storing tips, and four home recipes.
 permalink: /en/2026/01/25/gouqi-jinji/
 lang: en
 ---

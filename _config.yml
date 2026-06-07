@@ -32,10 +32,12 @@ encoding: utf-8
 markdown: kramdown
 highlighter: rouge
 permalink: /:year/:month/:day/:title/
+paginate: 10
+paginate_path: "/page:num/"
 
 # 是否将草稿一并构建
 show_drafts: false
-future: false
+future: true
 
 # 主题
 theme: minima  # 占位用；本仓库自带样式，无需远程主题
@@ -44,7 +46,7 @@ theme: minima  # 占位用；本仓库自带样式，无需远程主题
 # SEO / Webmaster
 # 已通过 jekyll-seo-tag 自动注入
 twitter:
-  username: qihuanglodge
+  username: qihuang
   card: summary_large_image
 
 # 站点搜索（用 lunr.js 客户端搜索，构建时生成 JSON）
@@ -57,7 +59,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - FUNCTIONALITY.md
   - LICENSE
   - node_modules
   - vendor
@@ -65,29 +66,10 @@ exclude:
   - .jekyll-cache
   - .github
   - scripts
-  - tools
-  - build_logs
-  - build_logs.zip
-  - actions_jobs.json
-  - run.html
   - "*.log"
-  - .well-known
 
 include:
   - _pages
-
-# jekyll-feed：只输出摘要，不输出全文（避免被内容农场整站采集）
-# 注意：jekyll-feed v0.17+ 支持 feed_content: excerpt。
-# GitHub Pages 默认带 jekyll-feed 全量版本，会输出全文。
-# 如发现 feed.xml 仍是全文，可在每个 post front matter 中保留 excerpt 字段（已做），
-# 或在 _config.yml 升级 jekyll-feed 后改用 feed_content: excerpt。
-feed:
-  path: feed.xml
-  posts_limit: 20
-  feed_content: excerpt
-
-# 默认 OG / Twitter share image
-logo: /assets/img/og-default.svg
 
 # 自定义集合
 collections:

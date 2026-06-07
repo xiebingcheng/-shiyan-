@@ -2,43 +2,24 @@
 layout: default
 ---
 
-{%- assign cur_lang = page.lang | default: site.default_lang -%}
-{%- assign i18n = site.data.i18n.strings[cur_lang] -%}
-
 <section class="section container">
   <header class="section__header">
     <h1 class="section__title"><span>卷</span>搜 · 索</h1>
-    <p class="section__lead">在 {{ site.posts | size }} {{ i18n.common.articles }}中寻你所需。</p>
+    <p class="section__lead">在 {{ site.posts | size }} 篇文章中寻你所需。</p>
   </header>
 
   <div class="search-box">
     <span class="search-box__icon" aria-hidden="true">◎</span>
     <input type="search" id="search-input" class="search-box__input"
-           placeholder="{{ i18n.common.search_placeholder }}"
+           placeholder="输入关键词，如「枸杞」「节气」「足三里」…"
            autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
            aria-label="搜索文章">
     <button class="search-box__clear" type="button" id="search-clear" aria-label="清空" hidden>×</button>
   </div>
 
-  <p class="search-hint" id="search-hint">{{ i18n.common.search_hint }}</p>
+  <p class="search-hint" id="search-hint">提示：支持搜索标题、摘要、分类、标签与正文。</p>
 
   <div class="search-results" id="search-results" aria-live="polite">
-    <p class="empty-tip">{{ i18n.common.search_empty }}</p>
+    <p class="empty-tip">请输入关键词开始检索。</p>
   </div>
 </section>
-
-{%- comment -%} Expose i18n strings to client-side search.js. {%- endcomment -%}
-<script>
-  window.QIHUANG_I18N = {
-    cur_lang: {{ cur_lang | jsonify }},
-    search_placeholder: {{ i18n.common.search_placeholder | jsonify }},
-    search_hint: {{ i18n.common.search_hint | jsonify }},
-    search_empty: {{ i18n.common.search_empty | jsonify }},
-    search_not_found: {{ i18n.common.search_not_found | jsonify }},
-    search_results: {{ i18n.common.search_results | jsonify }},
-    search_related: {{ i18n.common.search_related | jsonify }},
-    search_too_many: {{ i18n.common.search_too_many | jsonify }},
-    search_keyword: {{ i18n.common.search_keyword | jsonify }},
-    search_loading: {{ i18n.common.search_loading | jsonify }}
-  };
-</script>

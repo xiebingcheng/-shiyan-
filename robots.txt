@@ -1,9 +1,3 @@
 User-agent: *
 Allow: /
-
-# Disallow accidental mojibake pre-rendered files
-Disallow: /en_lichun.html
-Disallow: /ar_about.html
-Disallow: /ar_about2.html
-
-Sitemap: https://xiebingcheng.github.io/-shiyan-/sitemap.xml
+Sitemap: {{ site.url }}{{ site.baseurl }}/sitemap.xml

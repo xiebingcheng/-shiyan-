@@ -4,10 +4,6 @@ title: About the Lodge
 permalink: /en/about/
 subtitle: One scroll of the Classic, a half-cup of clear tea
 lang: en
-description: >
-  About Qíhuáng Lodge (岐黄小筑) — a Traditional Chinese Medicine wellness
-  site organized around six themes. Editorial board, medical review process,
-  disclaimers and contact information.
 ---
 
 ## What is "Qíhuáng" (岐黄)?
@@ -36,28 +32,14 @@ The Lodge organizes its content around six themes:
 That each visitor, after reading one article, may remember a single sentence —
 and that this sentence may offer a little warmth on a cold winter night or a troubled afternoon.
 
-## Editorial & review
-
-Maintained by the [Qíhuáng Lodge Editorial Board]({{ '/humans.txt' | relative_url }}).
-Every health-claim post is reviewed by the **Qíhuáng Medical Review Board** before publication
-and stamped with the last review date. We welcome licensed TCM practitioners and registered
-dietitians to join the review board — please contact us via the email listed in [humans.txt]({{ '/humans.txt' | relative_url }}).
-
 ## Disclaimer
 
-All content on this site is for **educational and cultural purposes only**
-and is **not a substitute for professional medical advice, diagnosis, or treatment**.
-Always seek the advice of a qualified healthcare provider with any questions you may have
-regarding a medical condition. Never disregard professional medical advice or delay
-in seeking it because of something you have read on this website.
+All content on this site is for **educational purposes only** and is **not a substitute for medical diagnosis or treatment**. If you feel unwell, please consult a qualified physician and follow their advice.
 
 ## Contact
 
-- Editorial: editorial@qihuanglodge.example
-- Medical review: review@qihuanglodge.example
-- Security: security@qihuanglodge.example
+- Email: hello@example.com
 - RSS: [Subscribe](/en/feed.xml)
-- Team info: [humans.txt](/humans.txt)
 
 ## Acknowledgements
 

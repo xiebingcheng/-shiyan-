@@ -7,8 +7,6 @@ author: Qíhuáng Lodge
 category: shiliao
 tags: [山药, 食疗, 健脾, 补肾, 药食同源]
 excerpt: "Why is the Chinese yam, the very first of the 'superior-grade' herbs in the *Shénnóng Běncǎo Jīng*, so good? How to choose it, how to cook it, how to eat it? This article lays it all out in one place."
-description: >
-  Chinese yam (Shānyao, 山药) is the top-grade herb in the *Shénnóng Běncǎo Jīng* — sweet, neutral, entering the Spleen, Lung and Kidney meridians. This guide covers how to pick Hénán Tiěgùn yam vs. Huái yam, ten home recipes (millet congee, pork-rib soup, yams with fox nuts), five contraindications, and the lesser-known yams leaves and yams-bean (língyú).
 permalink: /en/2026/01/12/shanyao-shanjia/
 lang: en
 ---

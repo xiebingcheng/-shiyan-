@@ -19,138 +19,15 @@
 </script>
 
 <link rel="icon" type="image/svg+xml" href="{{ '/assets/img/seal.svg' | relative_url }}">
-
-{%- comment -%} Feeds & sitemap links {%- endcomment -%}
-<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }} - RSS" href="{{ '/feed.xml' | relative_url }}">
+<link rel="alternate" type="application/atom+xml" title="{{ site.title }} - Atom" href="{{ '/atom.xml' | relative_url }}">
 <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ '/sitemap.xml' | relative_url }}">
 
-{%- comment -%} Preconnect to Google Fonts origin (non-blocking) {%- endcomment -%}
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="dns-prefetch" href="https://fonts.googleapis.com">
-
-{%- comment -%} Font loading with display=swap to avoid FOIT {%- endcomment -%}
 <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@400;500;600;700;900&family=Long+Cang&display=swap" rel="stylesheet">
 
-{%- comment -%} Preload critical CSS to reduce LCP {%- endcomment -%}
-<link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style">
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
-{%- comment -%} Explicit canonical: jekyll-seo-tag handles it from page.canonical_url or page.permalink, but provide a hard fallback {%- endcomment -%}
 {%- if page.canonical_url -%}
   <link rel="canonical" href="{{ page.canonical_url }}">
 {%- endif -%}
-
-{%- comment -%} og:image fallback for non-jekyll-seo-tag output (twitter:image, etc.) {%- endcomment -%}
-{%- assign og_image_path = page.image | default: page.og_image | default: site.logo | default: '/assets/img/og-default.svg' -%}
-<meta property="og:image" content="{{ og_image_path | absolute_url }}">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="{{ page.title | default: site.title | escape }}">
-<meta name="twitter:image" content="{{ og_image_path | absolute_url }}">
-<meta name="twitter:image:alt" content="{{ page.title | default: site.title | escape }}">
-
-{%- comment -%} hreflang 7-language matrix. zh-CN is the default (no prefix). {%- endcomment -%}
-{%- assign base_url = site.url | append: site.baseurl -%}
-{%- assign current_path = page.url -%}
-{%- assign stripped_path = current_path
-      | replace_first: '/en/', '/'
-      | replace_first: '/ru/', '/'
-      | replace_first: '/fr/', '/'
-      | replace_first: '/es/', '/'
-      | replace_first: '/id/', '/'
-      | replace_first: '/ar/', '/' -%}
-{%- if current_path == '/' or current_path == '/index.html' -%}
-  {%- assign is_home = true -%}
-  {%- assign stripped_path = '/' -%}
-{%- else -%}
-  {%- assign is_home = false -%}
-{%- endif -%}
-<link rel="alternate" hreflang="zh-CN" href="{{ base_url }}{{ stripped_path }}">
-<link rel="alternate" hreflang="en" href="{{ base_url }}/en{{ stripped_path }}">
-<link rel="alternate" hreflang="ru" href="{{ base_url }}/ru{{ stripped_path }}">
-<link rel="alternate" hreflang="fr" href="{{ base_url }}/fr{{ stripped_path }}">
-<link rel="alternate" hreflang="es" href="{{ base_url }}/es{{ stripped_path }}">
-<link rel="alternate" hreflang="id" href="{{ base_url }}/id{{ stripped_path }}">
-<link rel="alternate" hreflang="ar" href="{{ base_url }}/ar{{ stripped_path }}">
-<link rel="alternate" hreflang="x-default" href="{{ base_url }}{{ stripped_path }}">
-
-{%- comment -%} MedicalWebPage Schema (override the generic Article from post layout for medical content) {%- endcomment -%}
-{%- if page.layout == 'post' -%}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "MedicalWebPage",
-  "@id": "{{ page.url | absolute_url }}#article",
-  "headline": {{ page.title | jsonify }},
-  "description": {{ page.description | default: page.excerpt | strip_html | normalize_whitespace | truncate: 200 | jsonify }},
-  "datePublished": "{{ page.date | date_to_xmlschema }}",
-  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
-  "inLanguage": "{{ page.lang | default: site.default_lang }}",
-  "isPartOf": {
-    "@type": "WebSite",
-    "@id": "{{ site.url }}{{ site.baseurl }}/#website",
-    "name": {{ site.title | jsonify }},
-    "url": "{{ site.url }}{{ site.baseurl }}/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "@id": "{{ site.url }}{{ site.baseurl }}/#publisher",
-    "name": {{ site.title | jsonify }},
-    "logo": {
-      "@type": "ImageObject",
-      "url": "{{ '/assets/img/logo.svg' | absolute_url }}"
-    }
-  },
-  {%- if page.author -%}
-  "author": {
-    "@type": "Organization",
-    "name": {{ page.author | jsonify }},
-    "url": "{{ site.url }}{{ site.baseurl }}/about/"
-  },
-  {%- endif -%}
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "{{ page.url | absolute_url }}"
-  },
-  "image": "{{ og_image_path | absolute_url }}",
-  "about": [
-    { "@type": "Thing", "name": "Traditional Chinese Medicine" },
-    { "@type": "Thing", "name": "Wellness" }
-  ],
-  "audience": {
-    "@type": "PeopleAudience",
-    "audienceType": "Wellness seekers interested in TCM"
-  },
-  "lastReviewed": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}"
-}
-</script>
-{%- if page.schema_type == 'HowTo' -%}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": {{ page.title | jsonify }},
-  "description": {{ page.description | default: page.excerpt | strip_html | normalize_whitespace | truncate: 200 | jsonify }},
-  "step": {{ page.howto_steps | jsonify }},
-  "totalTime": {{ page.total_time | default: 'PT15M' | jsonify }}
-}
-</script>
-{%- elsif page.faq -%}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": {{ page.faq | jsonify }}
-}
-</script>
-{%- endif -%}
-{%- endif -%}
-
-{%- comment -%} 404 noindex guard (sitemap: false on 404 layout is not enough for Google) {%- endcomment -%}
-{%- if page.url contains '404' or page.permalink == '/404.html' or page.layout == '404' -%}
-<meta name="robots" content="noindex,follow">
-{%- endif -%}
-
-{%- comment -%} Webmaster verification placeholders (replace with real codes after registering) {%- endcomment -%}
-{%- if site.bing_verify -%}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{%- endif -%}
-{%- if site.google_verify -%}<meta name="google-site-verification" content="{{ site.google_verify }}">{%- endif -%}

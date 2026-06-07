@@ -7,8 +7,6 @@ author: Qíhuáng Lodge
 category: jieqi
 tags: [雨水, 节气, 健脾, 祛湿, 痰湿]
 excerpt: "At the Yǔshuǐ (雨水) solar term, dampness (湿气, shīqì) waxes, and the Spleen (脾, pí) is most easily encumbered. This article lays out four methods — diet, moxibustion, daoyin (导引, dǎoyǐn) and daily routine — to help you nourish the root of postnatal qi (气, qì)."
-description: >
-  Yǔshuǐ (雨水, Rain Water) — the second solar term of spring, when dampness rises and the Spleen is most easily burdened. This guide covers the six signs of "damp-encumbered Spleen" plus four lines of defense: diet (yìmǐ / shānyao / fúlíng / qiànshí), moxibustion (Zhōngwǎn + Zúsānlǐ + Yīnlíngquán), the Spleen-stomach breathing exercise, and lifestyle (avoid damp, sun your bedding).
 permalink: /en/2026/02/19/yushui-jianpi/
 lang: en
 ---

@@ -4,10 +4,6 @@ title: What is Traditional Chinese Medicine?
 permalink: /en/about-zhongyi/
 subtitle: A holistic medicine whose goal is "the middle way" of harmony
 lang: en
-description: >
-  Traditional Chinese Medicine (TCM) — origins, core ideas, Yīn–Yáng and the
-  Five Phases, meridians & qì-blood, food-medicine continuum, and its
-  relation to modern medicine. A complete beginner's primer.
 ---
 
 ## What is TCM?
@@ -49,7 +45,7 @@ The **Five Phases** (五行 wǔxíng) — Wood, Fire, Earth, Metal, Water — de
 | Fire (火) | Heart (心 xīn) | Small Intestine (小肠) | Summer | Joy |
 | Earth (土) | Spleen (脾 pí) | Stomach (胃 wèi) | Late summer | Overthinking |
 | Metal (金) | Lung (肺 fèi) | Large Intestine (大肠) | Autumn | Grief |
-| Water (水) | Kidney (肾 shèn) | Blbladder (膀胱) | Winter | Fear |
+| Water (水) | Kidney (肾 shèn) | Bladder (膀胱) | Winter | Fear |
 
 ## Meridians & qì–blood
 
@@ -80,7 +76,3 @@ If you are a beginner, consider these:
 - **Běncǎo Gāngmù** (《本草纲目》) — a comprehensive materia medica; useful as a reference.
 
 May what you read here be more than knowledge — **may it be a reverence for life itself.**
-
----
-
-> **⚠ Medical Disclaimer** · All content is for educational and cultural purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Always consult a qualified healthcare provider before applying any herbal, dietary or movement practice described on this site.

@@ -2,24 +2,12 @@
 layout: default
 ---
 
-{%- assign cur_lang = page.lang | default: site.default_lang -%}
-{%- assign i18n = site.data.i18n.strings[cur_lang] -%}
-{%- assign lang_tag_count = site.tags[page.tag] | where: 'lang', cur_lang | size -%}
-{%- if cur_lang == site.default_lang -%}
-  {%- assign prefix = '' -%}
-{%- else -%}
-  {%- assign prefix = '/' | append: cur_lang -%}
-{%- endif -%}
-{%- capture bc -%}{{ i18n.nav.home }},{{ prefix }}/;{{ i18n.nav.tags }},{{ prefix }}/tags/;#{{ page.tag }}{%- endcapture -%}
-
 <section class="section container">
-  <div>
-    {%- include breadcrumb.html crumbs=bc -%}
-  </div>
+  {%- assign cur_lang = page.lang | default: site.default_lang -%}
   {%- assign lang_tag_posts = site.tags[page.tag] | where: 'lang', cur_lang -%}
   <header class="section__header">
-    <h1 class="section__title"><span>卷</span>{{ i18n.nav.tags }}：#{{ page.tag }}</h1>
-    <p class="section__lead">{{ i18n.common.tag_count_lead | replace: 'N', lang_tag_count }}</p>
+    <h1 class="section__title"><span>卷</span>标签：#{{ page.tag }}</h1>
+    <p class="section__lead">共 {{ lang_tag_posts.size }} 篇文章带有此标签。</p>
   </header>
 
   <ul class="post-list post-list--rich">
@@ -36,5 +24,5 @@ layout: default
     {%- endfor -%}
   </ul>
 
-  <p class="back-tip"><a href="{{ prefix }}/tags/">← {{ i18n.common.back_tags }}</a></p>
+  <p class="back-tip"><a href="{{ '/tags/' | relative_url }}">← 返回标签总览</a></p>
 </section>

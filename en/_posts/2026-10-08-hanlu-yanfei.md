@@ -7,8 +7,6 @@ author: Qíhuáng Lodge
 category: jieqi
 tags: [寒露, 节气, 润肺, 养阴, 秋季]
 excerpt: "At Hánlù (寒露, Cold Dew), the dew bears chill and autumn deepens. Moistening the Lung and nourishing yin (阴, yīn) is the heart of yangsheng at this solar term."
-description: >
-  Hánlù (寒露, Cold Dew) is the first of the 24 solar terms to carry the word "cold". The folk saying: "White Dew: do not bare the body; Cold Dew: do not bare the feet." Three priorities: moisten the Lung and nourish Yīn (pear syrup, honey water, lily & silver-ear soup), drink more water, and protect the feet, low back and belly button. Seasonal foods: pear, persimmon, chrysanthemum, chestnut, lotus root.
 permalink: /en/2026/10/08/hanlu-yanfei/
 lang: en
 ---

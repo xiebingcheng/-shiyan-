@@ -6,17 +6,18 @@ sitemap: false
 
 <section class="error-page">
   <div class="error-page__inner container">
-    {%- assign cur_lang = page.lang | default: site.default_lang -%}
-    {%- assign i18n = site.data.i18n.strings[cur_lang] -%}
     <div class="error-page__seal" aria-hidden="true">
       <span>四〇四</span>
     </div>
-    <h1 class="error-page__title">{{ i18n.common.page_404_title }}</h1>
-    <p class="error-page__poem">{{ i18n.common.page_404_poem | raw }}</p>
-    <p class="error-page__code">{{ i18n.common.page_404_code }}</p>
+    <h1 class="error-page__title">此页迷途</h1>
+    <p class="error-page__poem">
+      「岐伯曰：<em>上工治未病，不治已乱治未乱。</em>」<br>
+      此页尚未发生，亦未乱也，请循径而归。
+    </p>
+    <p class="error-page__code">HTTP 404 · Page Not Found</p>
     <div class="error-page__actions">
-      <a class="btn" href="{{ '/' | relative_url }}">{{ i18n.common.btn_back_home }}</a>
-      <a class="btn-ghost" href="{{ '/archive/' | relative_url }}">{{ i18n.common.btn_browse_archive }}</a>
+      <a class="btn" href="{{ '/' | relative_url }}">返回首页</a>
+      <a class="btn-ghost" href="{{ '/archive/' | relative_url }}">浏览归档</a>
     </div>
   </div>
 </section>

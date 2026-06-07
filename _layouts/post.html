@@ -2,17 +2,16 @@
 layout: default
 ---
 
-{%- assign cur_lang = page.lang | default: site.default_lang -%}
-{%- assign i18n = site.data.i18n.strings[cur_lang] -%}
-{%- assign cat_meta = site.data.categories | where: 'slug', page.category | first -%}
-{%- assign cat_i18n = site.data['categories-i18n'] | where: 'slug', page.category | first -%}
-{%- assign cat_name = cat_i18n[cur_lang].name | default: cat_i18n['zh-CN'].name -%}
-
-<article class="post" itemscope itemtype="https://schema.org/MedicalWebPage">
+<article class="post" itemscope itemtype="https://schema.org/Article">
 
   <header class="post__header container">
+    {%- assign cur_lang = page.lang | default: site.default_lang -%}
+    {%- assign cur_post = page -%}
+    {%- assign cat_meta = site.data.categories | where: 'slug', cur_post.category | first -%}
+    {%- assign cat_i18n = site.data['categories-i18n'] | where: 'slug', cur_post.category | first -%}
+    {%- assign cat_name = cat_i18n[cur_lang].name | default: cat_i18n['zh-CN'].name -%}
     {%- if cat_meta -%}
-      <a class="post__category" href="{{ '/categories/' | append: page.category | append: '/' | relative_url }}"
+      <a class="post__category" href="{{ '/categories/' | append: cur_post.category | append: '/' | relative_url }}"
          style="--cat-color: {{ cat_meta.color }}">
         {{ cat_meta.icon }} {{ cat_name }}
       </a>
@@ -26,12 +25,6 @@ layout: default
 
     {%- include post-meta.html -%}
   </header>
-
-  {%- comment -%} Breadcrumb {%- endcomment -%}
-  <div class="container">
-    {%- capture bc -%}{{ i18n.nav.home }},/{{ ' ' }}{% if cur_lang != site.default_lang %}{{ cur_lang }}/{% endif %};{{ cat_name }},/{{ ' ' }}{% if cur_lang != site.default_lang %}{{ cur_lang }}/{% endif %}categories/{{ page.category }}/;{{ page.title }}{%- endcapture -%}
-    {%- include breadcrumb.html crumbs=bc -%}
-  </div>
 
   <div class="post__body container" itemprop="articleBody">
     {{ content }}
@@ -48,50 +41,6 @@ layout: default
   </footer>
   {%- endif -%}
 
-  {%- comment -%} Article-level medical disclaimer (TCM YMYL best practice) {%- endcomment -%}
-  <aside class="post__disclaimer container" role="note" aria-label="Medical disclaimer">
-    <p>
-      <strong>⚠ 免责声明</strong>：本文内容仅供中医文化科普与日常养生参考，穴位按摩、食疗药膳、导引功法等
-      <em>不能替代专业医疗诊断与治疗</em>。个人体质有异，施用前请咨询执业中医师；
-      急症、重症、孕期及慢性疾病患者请及时就医，遵从医嘱。
-    </p>
-    {%- if page.last_modified_at or page.last_reviewed_at -%}
-    <p class="post__reviewed">
-      最后审校：{{ page.last_modified_at | default: page.last_reviewed_at | default: page.date | date: '%Y-%m-%d' }}
-      {%- if page.reviewer %} · 审校：{{ page.reviewer }}{%- endif -%}
-    </p>
-    {%- endif -%}
-  </aside>
-
-  {%- comment -%} Related posts (same category, same language) {%- endcomment -%}
-  {%- assign related_posts = site.posts | where: 'lang', cur_lang | where: 'category', page.category | sort: 'date' | reverse -%}
-  {%- assign related_count = 0 -%}
-  {%- assign related_list = '' | split: '' -%}
-  {%- for p in related_posts -%}
-    {%- if p.url != page.url and related_count < 3 -%}
-      {%- assign related_list = related_list | push: p -%}
-      {%- assign related_count = related_count | plus: 1 -%}
-    {%- endif -%}
-  {%- endfor -%}
-  {%- if related_list.size > 0 -%}
-  <section class="related-posts container" aria-label="Related articles">
-    <h2 class="related-posts__title">同主题阅读</h2>
-    <ul class="related-posts__list">
-      {%- for p in related_list -%}
-      <li class="related-posts__item">
-        <a class="related-posts__link" href="{{ p.url | relative_url }}">
-          <span class="related-posts__title">{{ p.title }}</span>
-          {%- if p.excerpt -%}
-            <span class="related-posts__excerpt">{{ p.excerpt | strip_html | truncate: 80 }}</span>
-          {%- endif -%}
-        </a>
-      </li>
-      {%- endfor -%}
-    </ul>
-  </section>
-  {%- endif -%}
-
-  {%- comment -%} Prev / Next navigation (same language) {%- endcomment -%}
   {%- assign lang_posts = site.posts | where: 'lang', cur_lang -%}
   {%- assign lang_count = lang_posts | size -%}
   {%- assign prev_post = nil -%}
@@ -113,28 +62,28 @@ layout: default
       <a class="post__nav-link post__nav-link--prev" href="{{ prev_post.url | relative_url }}" rel="prev">
         <span class="post__nav-arrow">←</span>
         <span class="post__nav-text">
-          <span class="post__nav-hint">{{ i18n.common.prev }}</span>
+          <span class="post__nav-hint">上一篇</span>
           <span class="post__nav-title">{{ prev_post.title }}</span>
         </span>
       </a>
     {%- else -%}
-      <span class="post__nav-link post__nav-link--disabled"><span class="post__nav-arrow">←</span><span class="post__nav-text">{{ i18n.common.first_article }}</span></span>
+      <span class="post__nav-link post__nav-link--disabled"><span class="post__nav-arrow">←</span><span class="post__nav-text">已是最新一篇</span></span>
     {%- endif -%}
     {%- if next_post -%}
       <a class="post__nav-link post__nav-link--next" href="{{ next_post.url | relative_url }}" rel="next">
         <span class="post__nav-text">
-          <span class="post__nav-hint">{{ i18n.common.next }}</span>
+          <span class="post__nav-hint">下一篇</span>
           <span class="post__nav-title">{{ next_post.title }}</span>
         </span>
         <span class="post__nav-arrow">→</span>
       </a>
     {%- else -%}
-      <span class="post__nav-link post__nav-link--disabled"><span class="post__nav-text">{{ i18n.common.last_article }}</span><span class="post__nav-arrow">→</span></span>
+      <span class="post__nav-link post__nav-link--disabled"><span class="post__nav-text">已是最末一篇</span><span class="post__nav-arrow">→</span></span>
     {%- endif -%}
   </nav>
 
   <div class="post__back container">
-    <a class="btn-ghost" href="{{ '/' | relative_url }}">← {{ i18n.common.back_home }}</a>
+    <a class="btn-ghost" href="{{ '/' | relative_url }}">← 回到首页</a>
   </div>
 
 </article>

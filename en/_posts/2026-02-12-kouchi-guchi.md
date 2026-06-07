@@ -7,8 +7,6 @@ author: Qíhuáng Lodge
 category: qiju
 tags: [叩齿, 固齿, 养肾, 起居, 小功法]
 excerpt: "Teeth-tapping and swallowing saliva (叩齿吞津, kòu chǐ tūn jīn) is a traditional TCM (Traditional Chinese Medicine, 中医) yangsheng (养生, yǎng shēng) practice. Tapping the teeth 36 times each on rising and before sleep firms the teeth, nourishes the kidneys, fortifies the spleen, and beautifies the complexion."
-description: >
-  Teeth-tapping (Kòuchǐ, 叩齿) — a simple 3-5 minute daily practice to strengthen teeth, tonify Kidney, moisten the mouth, and aid digestion. Tap 108 times (36 each on incisors, canines, molars), then roll the tongue, swish, and swallow the saliva. Best done at sunrise and before bed. Combines well with rubbing Yǒngquán KD-1 and Míng Tiān Gǔ.
 permalink: /en/2026/02/12/kouchi-guchi/
 lang: en
 ---
