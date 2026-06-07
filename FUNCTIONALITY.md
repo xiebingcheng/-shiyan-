@@ -26,7 +26,7 @@
 **宀愰粍灏忕瓚** 鈥斺€?涓€鍗枫€婂唴缁忋€嬨€佸崐鐩忔竻鑼剁殑涓尰鍏荤敓绉戞櫘绔欍€?
 | 缁村害 | 瑙勬牸 |
 | --- | --- |
-| 寮曟搸 | Jekyll 3.10 + GitHub Pages 闈欐€佹瀯寤?|
+| 寮曟搸 | Jekyll 4 + GitHub Pages 闈欐€佹瀯寤?|
 | 閮ㄧ讲 | push `main` 鈫?GitHub Actions 鈫?鎺ㄩ€?`_site` |
 | 婧愬湴鍧€ | https://xiebingcheng.github.io/-shiyan-/ |
 | 璇 | 7 绉嶏細zh-CN锛堥粯璁わ級 / en / ru / fr / es / id / ar |
