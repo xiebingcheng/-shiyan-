@@ -18,6 +18,7 @@ import sys
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parent.parent
 POSTS = ROOT / "_posts"
@@ -136,6 +137,10 @@ category_desc: "{desc}"
 
 
 def render_tag(tag, posts):
+    # TC-023: 对非 ASCII tag 做 percent-encoding，保证跨 Jekyll 版本的 URL 稳定性。
+    # 已存在的 tags/<chinese>.md 文件不再重命名（避免破坏既有 permalink），
+    # 这里只为未来新加的 tag 生成 URL-encoded 文件名 / permalink。
+    safe_tag = tag if all(ord(c) < 128 for c in tag) else quote(tag, safe='')
     post_items = "\n".join(
         f'        <li class="post-list__item post-list__item--rich">\n'
         f'          <time class="post-list__date" datetime="{p.get("_date").strftime("%Y-%m-%d")}">{p.get("_date").strftime("%Y-%m-%d")}</time>\n'
@@ -147,11 +152,11 @@ def render_tag(tag, posts):
     body = f"""---
 layout: tag
 title: 标签：#{tag}
-permalink: /tags/{tag}/
+permalink: /tags/{safe_tag}/
 tag: {tag}
 ---
 """
-    write_file(TAGS / f"{tag}.md", body)
+    write_file(TAGS / f"{safe_tag}.md", body)
 
 
 def main():

@@ -11,7 +11,7 @@
   --color-bg-elev:   #fdf9ec;   /* 抬升 */
   --color-fg:        #2b1d14;   /* 墨黑 */
   --color-fg-soft:   #4a3a2a;   /* 墨色 */
-  --color-fg-mute:   #7a6a55;   /* 灰墨 */
+  --color-fg-mute:   #5a5249;   /* 灰墨 */
   --color-accent:    #a82a2a;   /* 朱红 */
   --color-accent-d:  #c03a3a;   /* 印章红 */
   --color-secondary: #2d4a4f;   /* 黛青 */
@@ -39,7 +39,13 @@
   --ease:            cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* ---------- 2. 暗色主题 ---------- */
+/* ---------- 2. 暗色主题 ----------
+   单一来源：[data-theme="dark"]。_includes/head.html 顶部的内联脚本会在
+   CSS 加载前从 localStorage / prefers-color-scheme 注入 [data-theme]，
+   因此系统级暗色偏好由 JS 路径处理；本块只负责覆盖变量值。
+   旧版原本有 [data-theme="dark"] 与 @media (prefers-color-scheme: dark) 两块
+   内容完全相同的代码（TC-027 重复），此处合并为单一定义。
+*/
 [data-theme="dark"] {
   --color-bg:        #1a1410;
   --color-bg-soft:   #221a14;
@@ -47,33 +53,14 @@
   --color-fg:        #e8dcc0;
   --color-fg-soft:   #c8b894;
   --color-fg-mute:   #9a8a70;
-  --color-accent:    #d04848;
-  --color-accent-d:  #e86060;
+  --color-accent:    #e26060;
+  --color-accent-d:  #ee7070;
   --color-secondary: #6ba0a8;
   --color-tertiary:  #b89870;
   --color-line:      #3a2e22;
   --color-line-soft: #2e2418;
   --color-shadow:    rgba(0, 0, 0, 0.4);
   --color-shadow-strong: rgba(0, 0, 0, 0.6);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --color-bg:        #1a1410;
-    --color-bg-soft:   #221a14;
-    --color-bg-elev:   #2a2018;
-    --color-fg:        #e8dcc0;
-    --color-fg-soft:   #c8b894;
-    --color-fg-mute:   #9a8a70;
-    --color-accent:    #d04848;
-    --color-accent-d:  #e86060;
-    --color-secondary: #6ba0a8;
-    --color-tertiary:  #b89870;
-    --color-line:      #3a2e22;
-    --color-line-soft: #2e2418;
-    --color-shadow:    rgba(0, 0, 0, 0.4);
-    --color-shadow-strong: rgba(0, 0, 0, 0.6);
-  }
 }
 
 /* ---------- 3. 基础重置 ---------- */

@@ -3,7 +3,6 @@ permalink: /search.json
 layout: null
 sitemap: false
 ---
-{%- assign results = "" | split: "" -%}
 [
 {%- for post in site.posts -%}
   {
