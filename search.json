@@ -9,6 +9,7 @@ sitemap: false
     "title":     {{ post.title | jsonify }},
     "url":       {{ post.url | relative_url | jsonify }},
     "date":      {{ post.date | date: '%Y-%m-%d' | jsonify }},
+    "lang":      {{ post.lang | default: site.default_lang | jsonify }},
     "category":  {{ post.category | jsonify }},
     "tags":      {{ post.tags | jsonify }},
     "excerpt":   {{ post.excerpt | default: '' | strip_html | normalize_whitespace | truncate: 160 | jsonify }},

@@ -7,6 +7,8 @@ author: Qíhuáng Lodge
 category: siji
 tags: [冬季, 养肾, 藏精, 温补, 冬至]
 excerpt: "Winter belongs to Water and corresponds to the Kidney; the Kidney stores the Essence. From five angles — daily routine, diet, emotions and bedroom conduct, the meridians, and *dǎoyǐn* (导引) — this article unfolds the path of nourishing the Kidney in the three months of winter."
+description: >
+  Winter is the season of "closing and storing" (闭藏) and the Kidney is the Zàng-organ that stores jīng (essence). "If you do not store jīng in winter, you will fall ill with warm disease in spring." This guide covers five angles of winter kidney care: daily rhythm, diet (mutton + danggui ginger soup, "five blacks"), emotion, sexual moderation, and moxibustion on Guānyuán CV-4 at winter solstice.
 permalink: /en/2026/01/18/dong-yangshen/
 lang: en
 ---

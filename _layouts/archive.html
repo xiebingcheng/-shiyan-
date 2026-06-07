@@ -2,18 +2,30 @@
 layout: default
 ---
 
+{%- assign cur_lang = page.lang | default: site.default_lang -%}
+{%- assign i18n = site.data.i18n.strings[cur_lang] -%}
+{%- assign lang_total = site.posts | where: 'lang', cur_lang | size -%}
+{%- if cur_lang == site.default_lang -%}
+  {%- assign prefix = '' -%}
+{%- else -%}
+  {%- assign prefix = '/' | append: cur_lang -%}
+{%- endif -%}
+{%- capture bc -%}{{ i18n.nav.home }},{{ prefix }}/;{{ i18n.footer.link_archive }}{%- endcapture -%}
+
 <section class="section container">
-  {%- assign cur_lang = page.lang | default: site.default_lang -%}
-  {%- assign lang_posts = site.posts | where: 'lang', cur_lang -%}
+  <div>
+    {%- include breadcrumb.html crumbs=bc -%}
+  </div>
   <header class="section__header">
-    <h1 class="section__title"><span>卷</span>文章归档</h1>
-    <p class="section__lead">共 {{ lang_posts | size }} 篇，依年月汇集。</p>
+    <h1 class="section__title"><span>卷</span>{{ i18n.footer.link_archive }}</h1>
+    <p class="section__lead">{{ i18n.common.archive_lead | replace: 'N', lang_total }}</p>
   </header>
 
+  {%- assign lang_posts = site.posts | where: 'lang', cur_lang -%}
   {%- assign posts_by_year = lang_posts | group_by_exp: "post", "post.date | date: '%Y'" -%}
   {%- for year in posts_by_year -%}
     <section class="archive-year">
-      <h2 class="archive-year__title">{{ year.name }} 年</h2>
+      <h2 class="archive-year__title">{%- if cur_lang == 'zh-CN' -%}{{ year.name }} 年{%- elsif cur_lang == 'ru' -%}{{ year.name }} г.{%- else -%}{{ year.name }}{%- endif -%}</h2>
       <ul class="archive-list">
         {%- for post in year.items -%}
           <li class="archive-item">

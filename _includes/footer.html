@@ -3,6 +3,14 @@
 {%- assign i18n = i18n_data.strings -%}
 {%- assign s = i18n[cur_lang] -%}
 {%- if s == nil -%}{%- assign s = i18n['zh-CN'] -%}{%- endif -%}
+
+{%- comment -%} Build locale-aware archive URL. {%- endcomment -%}
+{%- if cur_lang == site.default_lang -%}
+  {%- assign prefix = '' -%}
+{%- else -%}
+  {%- assign prefix = '/' | append: cur_lang -%}
+{%- endif -%}
+
 <footer class="site-footer" role="contentinfo">
   <div class="container site-footer__inner">
 
@@ -16,37 +24,52 @@
       <div class="site-footer__col">
         <h4>{{ s.footer.col_browse }}</h4>
         <ul>
-          <li><a href="{% if cur_lang == 'zh-CN' %}{{ '/archive/' | relative_url }}{% else %}{{ '/' | append: cur_lang | append: '/archive/' | relative_url }}{% endif %}">{{ s.footer.link_archive }}</a></li>
-          <li><a href="{% if cur_lang == 'zh-CN' %}{{ '/categories/' | relative_url }}{% else %}{{ '/' | append: cur_lang | append: '/categories/' | relative_url }}{% endif %}">{{ s.footer.link_categories }}</a></li>
-          <li><a href="{% if cur_lang == 'zh-CN' %}{{ '/tags/' | relative_url }}{% else %}{{ '/' | append: cur_lang | append: '/tags/' | relative_url }}{% endif %}">{{ s.footer.link_tags }}</a></li>
-          <li><a href="{% if cur_lang == 'zh-CN' %}{{ '/search/' | relative_url }}{% else %}{{ '/' | append: cur_lang | append: '/search/' | relative_url }}{% endif %}">{{ s.footer.link_search }}</a></li>
+          <li><a href="{{ prefix }}/archive/">{{ s.footer.link_archive }}</a></li>
+          <li><a href="{{ prefix }}/categories/">{{ s.footer.link_categories }}</a></li>
+          <li><a href="{{ prefix }}/tags/">{{ s.footer.link_tags }}</a></li>
+          <li><a href="{{ prefix }}/search/">{{ s.footer.link_search }}</a></li>
         </ul>
       </div>
       <div class="site-footer__col">
         <h4>{{ s.footer.col_know }}</h4>
         <ul>
-          <li><a href="{% if cur_lang == 'zh-CN' %}{{ '/about/' | relative_url }}{% else %}{{ '/' | append: cur_lang | append: '/about/' | relative_url }}{% endif %}">{{ s.footer.link_about }}</a></li>
-          <li><a href="{% if cur_lang == 'zh-CN' %}{{ '/about-zhongyi/' | relative_url }}{% else %}{{ '/' | append: cur_lang | append: '/about-zhongyi/' | relative_url }}{% endif %}">{{ s.footer.link_about_zy }}</a></li>
+          <li><a href="{{ prefix }}/about/">{{ s.footer.link_about }}</a></li>
+          <li><a href="{{ prefix }}/about-zhongyi/">{{ s.footer.link_about_zy }}</a></li>
           <li><a href="{{ '/feed.xml' | relative_url }}">{{ s.footer.link_rss }}</a></li>
           <li><a href="{{ '/sitemap.xml' | relative_url }}">{{ s.footer.link_sitemap }}</a></li>
+          <li><a href="{{ '/humans.txt' | relative_url }}">humans.txt</a></li>
         </ul>
       </div>
       <div class="site-footer__col">
         <h4>{{ s.footer.col_friend }}</h4>
         <ul>
-          <li><a href="https://www.zhihu.com" rel="noopener" target="_blank">Zhihu</a></li>
-          <li><a href="https://www.guoxue.com" rel="noopener" target="_blank">Guoxue</a></li>
-          <li><a href="https://www.zysj.com.cn" rel="noopener" target="_blank">ZYSJ</a></li>
+          <li><a href="https://www.nhc.gov.cn" rel="noopener noreferrer nofollow" target="_blank">国家卫健委</a></li>
+          <li><a href="http://www.satcm.gov.cn" rel="noopener noreferrer nofollow" target="_blank">国家中医药管理局</a></li>
+          <li><a href="https://www.wfcms.org" rel="noopener noreferrer nofollow" target="_blank">世界中联</a></li>
         </ul>
       </div>
     </div>
 
   </div>
 
+  {%- comment -%} Global medical disclaimer (TCM YMYL / E-E-A-T) {%- endcomment -%}
+  <div class="container">
+    <p class="site-footer__disclaimer">
+      <strong>⚠ Medical Disclaimer · 免责声明</strong> ·
+      All content on this site is for <em>educational and cultural purposes only</em>
+      and is <em>not a substitute for professional medical advice, diagnosis, or treatment</em>.
+      Always seek the advice of a qualified healthcare provider with any questions you may have
+      regarding a medical condition. Never disregard professional medical advice or delay
+      in seeking it because of something you have read on this website.<br>
+      本站所载内容仅供中医文化科普与日常养生参考，<em>不构成任何疾病诊断、治疗建议</em>。
+      中药与食疗请在执业中医师指导下使用；如有不适请及时就医，遵从医嘱。
+    </p>
+  </div>
+
   <div class="site-footer__bottom container">
     <p>
       © {{ site.time | date: '%Y' }} {{ site.title }} ·
-      {{ s.footer.powered }} <a href="https://jekyllrb.com" rel="noopener" target="_blank">Jekyll</a> ·
+      {{ s.footer.powered }} <a href="https://jekyllrb.com" rel="noopener noreferrer" target="_blank">Jekyll</a> ·
       {{ s.footer.copyright }}
     </p>
   </div>

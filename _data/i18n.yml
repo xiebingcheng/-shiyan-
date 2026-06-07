@@ -1,100 +1,148 @@
 # ============================================================
-# 宀愰粍灏忕瓚 路 UI 鍥介檯鍖栬瘝搴?# 7 璇█锛歾h-CN锛堥粯璁わ級銆乪n銆乺u銆乫r銆乪s銆乮d銆乤r
-# 鐢ㄦ硶锛歴ite.data.i18n.<lang>.<key>
+# 岐黄小筑 · UI 国际化词库
+# 7 语言：zh-CN（默认）、en、ru、fr、es、id、ar
+# 用法：site.data.i18n.<lang>.<key>
 # ============================================================
 
-# 璇█鍏冧俊鎭?langs:
+# 语言元信息
+langs:
   - code: zh-CN
-    name: 绠€浣撲腑鏂?    native: 绠€浣撲腑鏂?    flag: 馃嚚馃嚦
+    name: 简体中文
+    native: 简体中文
+    flag: 🇨🇳
     en_name: Simplified Chinese
     rtl: false
   - code: en
     name: English
     native: English
-    flag: 馃嚞馃嚙
+    flag: 🇬🇧
     en_name: English
     rtl: false
   - code: ru
-    name: 袪褍褋褋泻懈泄
-    native: 袪褍褋褋泻懈泄
-    flag: 馃嚪馃嚭
+    name: Русский
+    native: Русский
+    flag: 🇷🇺
     en_name: Russian
     rtl: false
   - code: fr
-    name: Fran莽ais
-    native: Fran莽ais
-    flag: 馃嚝馃嚪
+    name: Français
+    native: Français
+    flag: 🇫🇷
     en_name: French
     rtl: false
   - code: es
-    name: Espa帽ol
-    native: Espa帽ol
-    flag: 馃嚜馃嚫
+    name: Español
+    native: Español
+    flag: 🇪🇸
     en_name: Spanish
     rtl: false
   - code: id
     name: Bahasa Indonesia
     native: Bahasa Indonesia
-    flag: 馃嚠馃嚛
+    flag: 🇮🇩
     en_name: Indonesian
     rtl: false
   - code: ar
-    name: 丕賱毓乇亘賷丞
-    native: 丕賱毓乇亘賷丞
-    flag: 馃嚫馃嚘
+    name: العربية
+    native: العربية
+    flag: 🇸🇦
     en_name: Arabic
     rtl: true
 
-# ---------- UI 瀛楃涓?----------
+# ---------- UI 字符串 ----------
 strings:
-  # ----- 绠€浣撲腑鏂囷紙榛樿锛?-----
+  # ----- 简体中文（默认） -----
   zh-CN:
     nav:
-      home: 棣栭〉
-      archive: 褰掓。
-      categories: 鍒嗙被
-      tags: 鏍囩
-      search: 鎼滅储
-      about: 鍏充簬
+      home: 首页
+      archive: 归档
+      categories: 分类
+      tags: 标签
+      search: 搜索
+      about: 关于
     hero:
-      title: 宀愰粍灏忕瓚
-      subtitle: 涓尰鍏荤敓 路 椤哄簲鍥涙椂 路 璋冨拰闃撮槼
-      tagline: 涓€鍗枫€婂唴缁忋€嬶紝鍗婄洀娓呰尪
+      eyebrow: 岐黄之道 · 养生之学
+      title: 岐黄小筑
+      subtitle: 中医养生 · 顺应四时 · 调和阴阳
+      tagline: 一卷《内经》，半盏清茶
     section:
-      latest: 鏈€鏂版枃绔?      latest_lead: 浠ャ€婇粍甯濆唴缁忋€嬩负瀹楋紝姹囧吇鐢熴€侀鐤椼€佽妭姘斻€佺粡缁滀箣瑕併€?      categories: 瑙?路 鍒嗙被
-      categories_lead: 鍏ぇ绫荤洰锛屽惊搴忚€岃繘銆?      tags_overview: "鍏?X 涓爣绛撅紝鎸夋枃绔犳暟閲忔帓搴忋€?
+      latest: 最新文章
+      latest_lead: 以《黄帝内经》为宗，汇养生、食疗、节气、经络之要。
+      categories: 览 · 分类
+      categories_lead: 六大类目，循序而进。
+      tags_overview: "共 X 个标签，按文章数量排序。"
     common:
-      read_more: 闃呰鍏ㄦ枃
-      back_home: 鍥炲埌棣栭〉
-      back_categories: 杩斿洖鍒嗙被鎬昏
-      back_tags: 杩斿洖鏍囩鎬昏
-      prev: 涓婁竴绡?      next: 涓嬩竴绡?      prev_short: 涓婁竴椤?      next_short: 涓嬩竴椤?      first_article: 宸叉槸鏈€鏂颁竴绡?      last_article: 宸叉槸鏈€鏈竴绡?      minutes: 鍒嗛挓
-      articles: 绡?      article: 绡囨枃绔?      page_of: 绗?      of: 椤?      total: 鍏?      search_placeholder: 杈撳叆鍏抽敭璇嶏紝濡傘€屾灨鏉炪€嶃€岃妭姘斻€嶃€岃冻涓夐噷銆嶁€?      search_hint: 鎻愮ず锛氭敮鎸佹悳绱㈡爣棰樸€佹憳瑕併€佸垎绫汇€佹爣绛句笌姝ｆ枃銆?      search_empty: 璇疯緭鍏ュ叧閿瘝寮€濮嬫绱€?      search_loading: 姝ｅ湪鍔犺浇绱㈠紩鈥?      search_not_found: 鏈湪鎵€鏈夋枃绔犱腑鎵惧埌涓?      search_results: 鎵惧埌
-      search_related: 绡囩浉鍏?      search_too_many: 锛堝墠 50锛?      search_keyword: 鍏抽敭璇?      page_404_title: 姝ら〉杩烽€?      page_404_poem: "銆屽矏浼洶锛?em>涓婂伐娌绘湭鐥咃紝涓嶆不宸蹭贡娌绘湭涔便€?/em>銆?br>姝ら〉灏氭湭鍙戠敓锛屼害鏈贡涔燂紝璇峰惊寰勮€屽綊銆?
-      page_404_code: HTTP 404 路 Page Not Found
-      btn_back_home: 杩斿洖棣栭〉
-      btn_browse_archive: 娴忚褰掓。
-      empty_tip: 姝ゅ垎绫讳笅灏氭棤鏂囩珷锛屾暚璇锋湡寰呫€?      more_unlisted: "鈥︹€﹀皻鏈?N 绡囨湭鍒?
-      archive_lead: "鍏?N 绡囷紝渚濆勾鏈堟眹闆嗐€?
-      tag_count_lead: "鍏?N 绡囨枃绔犲甫鏈夋鏍囩銆?
+      read_more: 阅读全文
+      back_home: 回到首页
+      back_categories: 返回分类总览
+      back_tags: 返回标签总览
+      prev: 上一篇
+      next: 下一篇
+      prev_short: 上一页
+      next_short: 下一页
+      first_article: 已是最新一篇
+      last_article: 已是最末一篇
+      minutes: 分钟
+      articles: 篇
+      article: 篇文章
+      page_of: 第
+      of: 页
+      total: 共
+      search_placeholder: 输入关键词，如「枸杞」「节气」「足三里」…
+      search_hint: 提示：支持搜索标题、摘要、分类、标签与正文。
+      search_empty: 请输入关键词开始检索。
+      search_loading: 正在加载索引…
+      search_not_found: 未在所有文章中找到与
+      search_results: 找到
+      search_related: 篇相关
+      search_too_many: （前 50）
+      search_keyword: 关键词
+      page_404_title: 此页迷途
+      page_404_poem: "「岐伯曰：<em>上工治未病，不治已乱治未乱。</em>」<br>此页尚未发生，亦未乱也，请循径而归。"
+      page_404_code: HTTP 404 · Page Not Found
+      btn_back_home: 返回首页
+      btn_browse_archive: 浏览归档
+      empty_tip: 此分类下尚无文章，敬请期待。
+      translate_this: 机器翻译此页
+      translate_lead: 本页内容为中文，可通过下方链接让浏览器自动翻译：
+      more_unlisted: "……尚有 N 篇未列"
+      archive_lead: "共 N 篇，依年月汇集。"
+      tag_count_lead: "共 N 篇文章带有此标签。"
+    pagination:
+      prev: 上一页
+      next: 下一页
     meta:
-      updated: 鏇存柊浜?      reading_time: 绾?      months: ['', '涓€鏈?, '浜屾湀', '涓夋湀', '鍥涙湀', '浜旀湀', '鍏湀', '涓冩湀', '鍏湀', '涔濇湀', '鍗佹湀', '鍗佷竴鏈?, '鍗佷簩鏈?]
+      written: 撰文
+      updated: 更新于
+      reading_time: 约
+      months: ['', '一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月']
     footer:
-      poem: "銆屼笂鍙や箣浜猴紝鍏剁煡閬撹€咃紝娉曚簬闃撮槼锛屽拰浜庢湳鏁帮紝<br>椋熼ギ鏈夎妭锛岃捣灞呮湁甯革紝涓嶅浣滃姵锛屾晠鑳藉舰涓庣淇憋紝鑰屽敖缁堝叾澶╁勾锛屽害鐧惧瞾涔冨幓銆傘€?
-      cite: 鈥斺€斻€婇粍甯濆唴缁徛风礌闂蜂笂鍙ゅぉ鐪熻銆?      col_browse: 鍗?路 瑙?      col_know: 鍗?路 鐭?      col_friend: 鍗?路 鍙?      link_archive: 鏂囩珷褰掓。
-      link_categories: 鍒嗙被鎬昏
-      link_tags: 鏍囩浜?      link_search: 鍏ㄦ枃鎼滅储
-      link_about: 鍏充簬灏忕瓚
-      link_about_zy: 浠€涔堟槸涓尰
-      link_rss: RSS 璁㈤槄
-      link_sitemap: 绔欑偣鍦板浘
-      copyright: 鏈珯鍐呭浠呬緵绉戞櫘鍙傝€冿紝涓嶄綔涓鸿瘖鐤椾緷鎹?      powered: Powered by
+      poem: "「上古之人，其知道者，法于阴阳，和于术数，<br>食饮有节，起居有常，不妄作劳，故能形与神俱，而尽终其天年，度百岁乃去。」"
+      cite: ——《黄帝内经·素问·上古天真论》
+      col_browse: 卷 · 览
+      col_know: 卷 · 知
+      col_friend: 卷 · 友
+      link_archive: 文章归档
+      link_categories: 分类总览
+      link_tags: 标签云
+      link_search: 全文搜索
+      link_about: 关于小筑
+      link_about_zy: 什么是中医
+      link_rss: RSS 订阅
+      link_sitemap: 站点地图
+      copyright: 本站内容仅供科普参考，不作为诊疗依据
+      powered: Powered by
+    lang:
+      switch_label: 语言
+      current: 当前语言
+    notif:
+      lang_changed: 语言已切换
     a11y:
-      skip_to_content: 璺冲埌姝ｆ枃
-      open_menu: 鎵撳紑鑿滃崟
-      close_menu: 鍏抽棴鑿滃崟
-      toggle_theme: 鍒囨崲涓婚
-      clear_search: 娓呯┖
+      skip_to_content: 跳到正文
+      open_menu: 打开菜单
+      close_menu: 关闭菜单
+      toggle_theme: 切换主题
+      clear_search: 清空
 
   # ----- English -----
   en:
@@ -106,13 +154,14 @@ strings:
       search: Search
       about: About
     hero:
-      title: Q铆hu谩ng Lodge
-      subtitle: Traditional Chinese Medicine 路 Following the Seasons 路 Harmonizing Yin and Yang
+      eyebrow: The Way of Qíhuáng · The Art of Wellness
+      title: Qíhuáng Lodge
+      subtitle: Traditional Chinese Medicine · Following the Seasons · Harmonizing Yin and Yang
       tagline: One scroll of the Yellow Emperor's Classic, a half-cup of clear tea
     section:
       latest: Latest Articles
-      latest_lead: Rooted in the Hu谩ngd矛 N猫ij墨ng 鈥?wisdom of wellness, food therapy, solar terms, and meridians.
-      categories: Browse 路 Categories
+      latest_lead: Rooted in the Huángdì Nèijīng — wisdom of wellness, food therapy, solar terms, and meridians.
+      categories: Browse · Categories
       categories_lead: Six categories to walk through, in order.
       tags_overview: "X tags, sorted by article count."
     common:
@@ -132,29 +181,37 @@ strings:
       page_of: p.
       of: /
       total: Total
-      search_placeholder: Type a keyword, e.g. "goji", "solar term", "Z煤s膩nl菒"鈥?      search_hint: "Tip: search matches titles, summaries, categories, tags and body text."
+      search_placeholder: Type a keyword, e.g. "goji", "solar term", "Zúsānlǐ"…
+      search_hint: "Tip: search matches titles, summaries, categories, tags and body text."
       search_empty: Type a keyword to begin.
-      search_loading: Loading the index鈥?      search_not_found: No matches for
+      search_loading: Loading the index…
+      search_not_found: No matches for
       search_results: Found
       search_related: result(s)
       search_too_many: (top 50)
       search_keyword: Keyword
       page_404_title: This page has wandered off
-      page_404_poem: "Q铆b贸 says: <em>The superior physician prevents disease; the mediocre treats it after it has arisen.</em><br>As this page has not arisen, kindly return to the path."
-      page_404_code: HTTP 404 路 Page Not Found
+      page_404_poem: "Qíbó says: <em>The superior physician prevents disease; the mediocre treats it after it has arisen.</em><br>As this page has not arisen, kindly return to the path."
+      page_404_code: HTTP 404 · Page Not Found
       btn_back_home: Back to Home
       btn_browse_archive: Browse Archive
-      empty_tip: No articles in this category yet 鈥?please check back later.
-      more_unlisted: "鈥nd N more unlisted"
+      empty_tip: No articles in this category yet — please check back later.
+      translate_this: Machine-translate this page
+      translate_lead: "This page is in Chinese. The link below opens an automatic translation in your browser:"
+      more_unlisted: "…and N more unlisted"
       archive_lead: "N articles, grouped by year and month."
       tag_count_lead: "N articles carry this tag."
+    pagination:
+      prev: Prev
+      next: Next
     meta:
+      written: By
       updated: Updated
       reading_time: About
       months: ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
     footer:
       poem: '"In ancient times those who knew the Way modeled themselves on Yin and Yang,<br>and lived in harmony with the arts of numerology.<br>They ate and drank in moderation, rose and slept with regularity,<br>and did not tax themselves with useless labor."'
-      cite: "鈥?Hu谩ngd矛 N猫ij墨ng 路 S霉w猫n 路 Sh脿ngg菙 Ti膩nzh膿n L霉n (Chapter 1)"
+      cite: "— Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn (Chapter 1)"
       col_browse: Browse
       col_know: Learn
       col_friend: Connect
@@ -166,8 +223,13 @@ strings:
       link_about_zy: What is TCM?
       link_rss: RSS Feed
       link_sitemap: Sitemap
-      copyright: Content is for educational purposes only 鈥?not medical advice.
+      copyright: Content is for educational purposes only — not medical advice.
       powered: Powered by
+    lang:
+      switch_label: Language
+      current: Current language
+    notif:
+      lang_changed: Language switched
     a11y:
       skip_to_content: Skip to content
       open_menu: Open menu
@@ -175,240 +237,282 @@ strings:
       toggle_theme: Toggle theme
       clear_search: Clear
 
-  # ----- 袪褍褋褋泻懈泄 (Russian) -----
+  # ----- Русский (Russian) -----
   ru:
     nav:
-      home: 袚谢邪胁薪邪褟
-      archive: 袗褉褏懈胁
-      categories: 袣邪褌械谐芯褉懈懈
-      tags: 孝械谐懈
-      search: 袩芯懈褋泻
-      about: 袨 褋邪泄褌械
+      home: Главная
+      archive: Архив
+      categories: Категории
+      tags: Теги
+      search: Поиск
+      about: О сайте
     hero:
-      title: 笑懈褏褍邪薪 小褟芯褔卸褍
-      subtitle: 孝褉邪写懈褑懈芯薪薪邪褟 泻懈褌邪泄褋泻邪褟 屑械写懈褑懈薪邪 路 小谢械写褍褟 褋械蟹芯薪邪屑 路 袚邪褉屑芯薪懈褟 袠薪褜 懈 携薪
-      tagline: 袨写懈薪 褋胁懈褌芯泻 芦啸褍邪薪写懈 袧褝泄褑蟹懈薪禄, 锌芯谢褔邪褕泻懈 褔懈褋褌芯谐芯 褔邪褟
+      eyebrow: Путь Цихуан · Искусство здоровья
+      title: Цихуан Сяочжу
+      subtitle: Традиционная китайская медицина · Следуя сезонам · Гармония Инь и Ян
+      tagline: Один свиток «Хуанди Нэйцзин», полчашки чистого чая
     section:
-      latest: 小胁械卸懈械 褋褌邪褌褜懈
-      latest_lead: 袨锌懈褉邪褟褋褜 薪邪 芦啸褍邪薪写懈 袧褝泄褑蟹懈薪禄 鈥?屑褍写褉芯褋褌褜 芯 蟹写芯褉芯胁褜械, 锌懈褌邪薪懈懈, 褋械蟹芯薪邪褏 懈 屑械褉懈写懈邪薪邪褏.
-      categories: 袣邪褌械谐芯褉懈懈
-      categories_lead: 楔械褋褌褜 褉邪蟹写械谢芯胁 鈥?褋谢械写褍泄褌械 锌芯 锌芯褉褟写泻褍.
-      tags_overview: "X 褌械谐芯胁, 芯褌褋芯褉褌懈褉芯胁邪薪芯 锌芯 泻芯谢懈褔械褋褌胁褍 褋褌邪褌械泄."
+      latest: Свежие статьи
+      latest_lead: Опираясь на «Хуанди Нэйцзин» — мудрость о здоровье, питании, сезонах и меридианах.
+      categories: Категории
+      categories_lead: Шесть разделов — следуйте по порядку.
+      tags_overview: "X тегов, отсортировано по количеству статей."
     common:
-      read_more: 效懈褌邪褌褜 写邪谢械械
-      back_home: 袧邪 谐谢邪胁薪褍褞
-      back_categories: 袧邪蟹邪写 泻 泻邪褌械谐芯褉懈褟屑
-      back_tags: 袧邪蟹邪写 泻 褌械谐邪屑
-      prev: 袩褉械写褘写褍褖邪褟
-      next: 小谢械写褍褞褖邪褟
-      prev_short: 袧邪蟹邪写
-      next_short: 袙锌械褉褢写
-      first_article: 袙褘 褍 锌芯褋谢械写薪械泄 褋褌邪褌褜懈
-      last_article: 袙褘 褍 锌械褉胁芯泄 褋褌邪褌褜懈
-      minutes: 屑懈薪
-      articles: 褋褌邪褌械泄
-      article: 褋褌邪褌械泄
-      page_of: 褋褌褉.
-      of: 懈蟹
-      total: 袙褋械谐芯
-      search_placeholder: 袙胁械写懈褌械 泻谢褞褔械胁芯械 褋谢芯胁芯, 薪邪锌褉懈屑械褉 芦谐芯写卸懈禄, 芦褋械蟹芯薪禄, 芦笑蟹褍褋邪薪褜谢懈禄鈥?      search_hint: "袩芯写褋泻邪蟹泻邪: 锌芯懈褋泻 锌芯 蟹邪谐芯谢芯胁泻邪屑, 邪薪薪芯褌邪褑懈褟屑, 泻邪褌械谐芯褉懈褟屑, 褌械谐邪屑 懈 褌械泻褋褌褍."
-      search_empty: 袙胁械写懈褌械 泻谢褞褔械胁芯械 褋谢芯胁芯 写谢褟 锌芯懈褋泻邪.
-      search_loading: 袟邪谐褉褍蟹泻邪 懈薪写械泻褋邪鈥?      search_not_found: 袧械 薪邪泄写械薪芯 褉械蟹褍谢褜褌邪褌芯胁 写谢褟
-      search_results: 袧邪泄写械薪芯
-      search_related: 褉械蟹褍谢褜褌邪褌芯胁
-      search_too_many: (锌械褉胁褘械 50)
-      search_keyword: 袣谢褞褔械胁芯械 褋谢芯胁芯
-      page_404_title: 协褌邪 褋褌褉邪薪懈褑邪 蟹邪斜谢褍写懈谢邪褋褜
-      page_404_poem: "芦笑懈斜芯 谐芯胁芯褉懈褌: <em>袙褘褋褕懈泄 胁褉邪褔 谢械褔懈褌 械褖褢 薪械 胁芯蟹薪懈泻褕褍褞 斜芯谢械蟹薪褜.</em><br>袪邪蟹 褝褌邪 褋褌褉邪薪懈褑邪 械褖褢 薪械 胁芯蟹薪懈泻谢邪 鈥?胁械褉薪懈褌械褋褜 薪邪 锌褍褌褜.禄"
-      page_404_code: HTTP 404 路 小褌褉邪薪懈褑邪 薪械 薪邪泄写械薪邪
-      btn_back_home: 袧邪 谐谢邪胁薪褍褞
-      btn_browse_archive: 袙 邪褉褏懈胁
-      empty_tip: 袙 褝褌芯泄 泻邪褌械谐芯褉懈懈 锌芯泻邪 薪械褌 褋褌邪褌械泄.
-      more_unlisted: "鈥π?械褖褢 N 薪械 锌芯泻邪蟹邪薪褘"
-      archive_lead: "N 褋褌邪褌械泄, 褋谐褉褍锌锌懈褉芯胁邪薪薪褘褏 锌芯 谐芯写褍 懈 屑械褋褟褑褍."
-      tag_count_lead: "N 褋褌邪褌械泄 褋 褝褌懈屑 褌械谐芯屑."
+      read_more: Читать далее
+      back_home: На главную
+      back_categories: Назад к категориям
+      back_tags: Назад к тегам
+      prev: Предыдущая
+      next: Следующая
+      prev_short: Назад
+      next_short: Вперёд
+      first_article: Вы у последней статьи
+      last_article: Вы у первой статьи
+      minutes: мин
+      articles: статей
+      article: статей
+      page_of: стр.
+      of: из
+      total: Всего
+      search_placeholder: Введите ключевое слово, например «годжи», «сезон», «Цзусаньли»…
+      search_hint: "Подсказка: поиск по заголовкам, аннотациям, категориям, тегам и тексту."
+      search_empty: Введите ключевое слово для поиска.
+      search_loading: Загрузка индекса…
+      search_not_found: Не найдено результатов для
+      search_results: Найдено
+      search_related: результатов
+      search_too_many: (первые 50)
+      search_keyword: Ключевое слово
+      page_404_title: Эта страница заблудилась
+      page_404_poem: "«Цибо говорит: <em>Высший врач лечит ещё не возникшую болезнь.</em><br>Раз эта страница ещё не возникла — вернитесь на путь.»"
+      page_404_code: HTTP 404 · Страница не найдена
+      btn_back_home: На главную
+      btn_browse_archive: В архив
+      empty_tip: В этой категории пока нет статей.
+      translate_this: Машинный перевод страницы
+      translate_lead: "Эта страница на китайском. По ссылке ниже браузер выполнит автоматический перевод:"
+      more_unlisted: "…и ещё N не показаны"
+      archive_lead: "N статей, сгруппированных по году и месяцу."
+      tag_count_lead: "N статей с этим тегом."
+    pagination:
+      prev: Назад
+      next: Вперёд
     meta:
-      updated: 袨斜薪芯胁谢械薪芯
-      reading_time: 袨泻芯谢芯
-      months: ['', '褟薪胁邪褉褟', '褎械胁褉邪谢褟', '屑邪褉褌邪', '邪锌褉械谢褟', '屑邪褟', '懈褞薪褟', '懈褞谢褟', '邪胁谐褍褋褌邪', '褋械薪褌褟斜褉褟', '芯泻褌褟斜褉褟', '薪芯褟斜褉褟', '写械泻邪斜褉褟']
+      written: Автор
+      updated: Обновлено
+      reading_time: Около
+      months: ['', 'января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря']
     footer:
-      poem: "芦袙 写褉械胁薪芯褋褌懈 褌械, 泻褌芯 蟹薪邪谢 袩褍褌褜, 褋谢械写芯胁邪谢懈 袠薪褜 懈 携薪,<br>锌懈褌邪谢懈褋褜 懈 锌懈谢懈 胁 屑械褉褍, 胁褋褌邪胁邪谢懈 懈 谢芯卸懈谢懈褋褜 胁芯胁褉械屑褟,<br>懈 薪械 褍褌褉褍卸写邪谢懈 褋械斜褟 斜械褋锌芯谢械蟹薪褘屑 褌褉褍写芯屑.禄"
-      cite: 芦鈥?啸褍邪薪写懈 袧褝泄褑蟹懈薪 路 小褞胁褝薪褜 路 楔邪薪谐褍 孝褟薪褜褔卸褝薪褜 袥褍薪褜禄
-      col_browse: 袨斜蟹芯褉
-      col_know: 袟薪邪薪懈械
-      col_friend: 袛褉褍蟹褜褟
-      link_archive: 袗褉褏懈胁 褋褌邪褌械泄
-      link_categories: 袙褋械 泻邪褌械谐芯褉懈懈
-      link_tags: 袨斜谢邪泻芯 褌械谐芯胁
-      link_search: 袩芯谢薪芯褌械泻褋褌芯胁褘泄 锌芯懈褋泻
-      link_about: 袨 褋邪泄褌械
-      link_about_zy: 效褌芯 褌邪泻芯械 孝袣袦?
-      link_rss: RSS-谢械薪褌邪
-      link_sitemap: 袣邪褉褌邪 褋邪泄褌邪
-      copyright: 袦邪褌械褉懈邪谢褘 薪芯褋褟褌 芯蟹薪邪泻芯屑懈褌械谢褜薪褘泄 褏邪褉邪泻褌械褉 懈 薪械 蟹邪屑械薪褟褞褌 泻芯薪褋褍谢褜褌邪褑懈褞 胁褉邪褔邪.
-      powered: 小芯蟹写邪薪芯 薪邪
+      poem: "«В древности те, кто знал Путь, следовали Инь и Ян,<br>питались и пили в меру, вставали и ложились вовремя,<br>и не утруждали себя бесполезным трудом.»"
+      cite: «— Хуанди Нэйцзин · Сювэнь · Шангу Тяньчжэнь Лунь»
+      col_browse: Обзор
+      col_know: Знание
+      col_friend: Друзья
+      link_archive: Архив статей
+      link_categories: Все категории
+      link_tags: Облако тегов
+      link_search: Полнотекстовый поиск
+      link_about: О сайте
+      link_about_zy: Что такое ТКМ?
+      link_rss: RSS-лента
+      link_sitemap: Карта сайта
+      copyright: Материалы носят ознакомительный характер и не заменяют консультацию врача.
+      powered: Создано на
+    lang:
+      switch_label: Язык
+      current: Текущий язык
+    notif:
+      lang_changed: Язык переключён
     a11y:
-      skip_to_content: 袣 褋芯写械褉卸邪薪懈褞
-      open_menu: 袨褌泻褉褘褌褜 屑械薪褞
-      close_menu: 袟邪泻褉褘褌褜 屑械薪褞
-      toggle_theme: 小屑械薪懈褌褜 褌械屑褍
-      clear_search: 袨褔懈褋褌懈褌褜
+      skip_to_content: К содержанию
+      open_menu: Открыть меню
+      close_menu: Закрыть меню
+      toggle_theme: Сменить тему
+      clear_search: Очистить
 
-  # ----- Fran莽ais (French) -----
+  # ----- Français (French) -----
   fr:
     nav:
       home: Accueil
       archive: Archives
-      categories: Cat茅gories
-      tags: 脡tiquettes
+      categories: Catégories
+      tags: Étiquettes
       search: Recherche
-      about: 脌 propos
+      about: À propos
     hero:
-      title: Le Pavillon Q铆hu谩ng
-      subtitle: M茅decine traditionnelle chinoise 路 Suivre les saisons 路 Harmoniser le Yin et le Yang
-      tagline: Un rouleau du Classique de l'Empereur Jaune, une demi-tasse de th茅 clair
+      eyebrow: La voie de Qíhuáng · L'art du bien-être
+      title: Le Pavillon Qíhuáng
+      subtitle: Médecine traditionnelle chinoise · Suivre les saisons · Harmoniser le Yin et le Yang
+      tagline: Un rouleau du Classique de l'Empereur Jaune, une demi-tasse de thé clair
     section:
       latest: Derniers articles
-      latest_lead: Ancr茅 dans le Hu谩ngd矛 N猫ij墨ng 鈥?sagesse du bien-锚tre, alimentation, saisons et m茅ridiens.
-      categories: Parcourir 路 Cat茅gories
-      categories_lead: Six rubriques 脿 suivre, dans l'ordre.
-      tags_overview: "X 茅tiquettes, tri茅es par nombre d'articles."
+      latest_lead: Ancré dans le Huángdì Nèijīng — sagesse du bien-être, alimentation, saisons et méridiens.
+      categories: Parcourir · Catégories
+      categories_lead: Six rubriques à suivre, dans l'ordre.
+      tags_overview: "X étiquettes, triées par nombre d'articles."
     common:
       read_more: Lire la suite
-      back_home: Retour 脿 l'accueil
-      back_categories: Retour aux cat茅gories
-      back_tags: Retour aux 茅tiquettes
-      prev: Pr茅c茅dent
+      back_home: Retour à l'accueil
+      back_categories: Retour aux catégories
+      back_tags: Retour aux étiquettes
+      prev: Précédent
       next: Suivant
-      prev_short: Pr茅c.
+      prev_short: Préc.
       next_short: Suiv.
-      first_article: Vous 锚tes au dernier article
-      last_article: Vous 锚tes au premier article
+      first_article: Vous êtes au dernier article
+      last_article: Vous êtes au premier article
       minutes: min
       articles: articles
       article: articles
       page_of: p.
       of: /
       total: Total
-      search_placeholder: Tapez un mot-cl茅, ex. 芦 goji 禄, 芦 saison 禄, 芦 Z煤s膩nl菒 禄鈥?      search_hint: "Astuce : cherche dans titres, r茅sum茅s, cat茅gories, 茅tiquettes et corps du texte."
-      search_empty: Tapez un mot-cl茅 pour commencer.
-      search_loading: Chargement de l'index鈥?      search_not_found: Aucun r茅sultat pour
-      search_results: Trouv茅
-      search_related: r茅sultat(s)
+      search_placeholder: Tapez un mot-clé, ex. « goji », « saison », « Zúsānlǐ »…
+      search_hint: "Astuce : cherche dans titres, résumés, catégories, étiquettes et corps du texte."
+      search_empty: Tapez un mot-clé pour commencer.
+      search_loading: Chargement de l'index…
+      search_not_found: Aucun résultat pour
+      search_results: Trouvé
+      search_related: résultat(s)
       search_too_many: (50 premiers)
-      search_keyword: Mot-cl茅
-      page_404_title: Cette page s'est 茅gar茅e
-      page_404_poem: "芦 Q铆b贸 dit : <em>Le m茅decin sup茅rieur traite la maladie avant qu'elle ne naisse.</em><br>Cette page n'茅tant pas n茅e, veuillez revenir au chemin. 禄"
-      page_404_code: HTTP 404 路 Page introuvable
-      btn_back_home: Retour 脿 l'accueil
+      search_keyword: Mot-clé
+      page_404_title: Cette page s'est égarée
+      page_404_poem: "« Qíbó dit : <em>Le médecin supérieur traite la maladie avant qu'elle ne naisse.</em><br>Cette page n'étant pas née, veuillez revenir au chemin. »"
+      page_404_code: HTTP 404 · Page introuvable
+      btn_back_home: Retour à l'accueil
       btn_browse_archive: Parcourir les archives
-      empty_tip: Aucun article dans cette cat茅gorie pour le moment.
-      more_unlisted: "鈥t N de plus non list茅s"
-      archive_lead: "N articles, group茅s par ann茅e et mois."
-      tag_count_lead: "N articles portent cette 茅tiquette."
+      empty_tip: Aucun article dans cette catégorie pour le moment.
+      translate_this: Traduction automatique
+      translate_lead: "Cette page est en chinois. Le lien ci-dessous ouvre une traduction automatique dans votre navigateur :"
+      more_unlisted: "…et N de plus non listés"
+      archive_lead: "N articles, groupés par année et mois."
+      tag_count_lead: "N articles portent cette étiquette."
+    pagination:
+      prev: Précédent
+      next: Suivant
     meta:
-      updated: Mis 脿 jour
+      written: Par
+      updated: Mis à jour
       reading_time: Environ
-      months: ['', 'janvier', 'f茅vrier', 'mars', 'avril', 'mai', 'juin', 'juillet', 'ao没t', 'septembre', 'octobre', 'novembre', 'd茅cembre']
+      months: ['', 'janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre']
     footer:
-      poem: "芦 Dans l'Antiquit茅, ceux qui connaissaient la Voie observaient le Yin et le Yang,<br>mangeaient et buvaient avec mesure, se levaient et se couchaient 脿 heures r茅guli猫res,<br>et ne s'茅puisaient pas en travaux inutiles. 禄"
-      cite: 芦 鈥?Hu谩ngd矛 N猫ij墨ng 路 S霉w猫n 路 Sh脿ngg菙 Ti膩nzh膿n L霉n 禄
+      poem: "« Dans l'Antiquité, ceux qui connaissaient la Voie observaient le Yin et le Yang,<br>mangeaient et buvaient avec mesure, se levaient et se couchaient à heures régulières,<br>et ne s'épuisaient pas en travaux inutiles. »"
+      cite: « — Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn »
       col_browse: Parcourir
       col_know: Savoir
       col_friend: Amis
       link_archive: Archives d'articles
-      link_categories: Toutes les cat茅gories
-      link_tags: Nuage d'茅tiquettes
+      link_categories: Toutes les catégories
+      link_tags: Nuage d'étiquettes
       link_search: Recherche plein texte
-      link_about: 脌 propos du Pavillon
+      link_about: À propos du Pavillon
       link_about_zy: Qu'est-ce que la MTC ?
       link_rss: Flux RSS
       link_sitemap: Plan du site
-      copyright: Contenu 脿 but 茅ducatif uniquement 鈥?ne remplace pas un avis m茅dical.
-      powered: Propuls茅 par
+      copyright: Contenu à but éducatif uniquement — ne remplace pas un avis médical.
+      powered: Propulsé par
+    lang:
+      switch_label: Langue
+      current: Langue actuelle
+    notif:
+      lang_changed: Langue modifiée
     a11y:
       skip_to_content: Aller au contenu
       open_menu: Ouvrir le menu
       close_menu: Fermer le menu
-      toggle_theme: Changer le th猫me
+      toggle_theme: Changer de thème
       clear_search: Effacer
 
-  # ----- Espa帽ol (Spanish) -----
+  # ----- Español (Spanish) -----
   es:
     nav:
       home: Inicio
       archive: Archivo
-      categories: Categor铆as
+      categories: Categorías
       tags: Etiquetas
       search: Buscar
       about: Acerca de
     hero:
-      title: La Caba帽a Q铆hu谩ng
-      subtitle: Medicina Tradicional China 路 Siguiendo las estaciones 路 Armonizando el Yin y el Yang
-      tagline: Un pergamino del Cl谩sico del Emperador Amarillo, media taza de t茅 claro
+      eyebrow: El camino de Qíhuáng · El arte del bienestar
+      title: La Cabaña Qíhuáng
+      subtitle: Medicina Tradicional China · Siguiendo las estaciones · Armonizando el Yin y el Yang
+      tagline: Un pergamino del Clásico del Emperador Amarillo, media taza de té claro
     section:
-      latest: 脷ltimos art铆culos
-      latest_lead: Con ra铆z en el Hu谩ngd矛 N猫ij墨ng 鈥?sabidur铆a del bienestar, la alimentaci贸n, las estaciones y los meridianos.
-      categories: Explorar 路 Categor铆as
+      latest: Últimos artículos
+      latest_lead: Con raíz en el Huángdì Nèijīng — sabiduría del bienestar, la alimentación, las estaciones y los meridianos.
+      categories: Explorar · Categorías
       categories_lead: Seis secciones para recorrer, en orden.
-      tags_overview: "X etiquetas, ordenadas por n煤mero de art铆culos."
+      tags_overview: "X etiquetas, ordenadas por número de artículos."
     common:
-      read_more: Leer m谩s
+      read_more: Leer más
       back_home: Volver al inicio
-      back_categories: Volver a categor铆as
+      back_categories: Volver a categorías
       back_tags: Volver a etiquetas
       prev: Anterior
       next: Siguiente
       prev_short: Ant.
       next_short: Sig.
-      first_article: Est谩s en el art铆culo m谩s reciente
-      last_article: Est谩s en el art铆culo m谩s antiguo
+      first_article: Estás en el artículo más reciente
+      last_article: Estás en el artículo más antiguo
       minutes: min
-      articles: art铆culos
-      article: art铆culos
-      page_of: p谩g.
+      articles: artículos
+      article: artículos
+      page_of: pág.
       of: de
       total: Total
-      search_placeholder: Escribe una palabra clave, p. ej. 芦goji禄, 芦estaci贸n禄, 芦Z煤s膩nl菒禄鈥?      search_hint: "Sugerencia: busca en t铆tulos, res煤menes, categor铆as, etiquetas y cuerpo."
+      search_placeholder: Escribe una palabra clave, p. ej. «goji», «estación», «Zúsānlǐ»…
+      search_hint: "Sugerencia: busca en títulos, resúmenes, categorías, etiquetas y cuerpo."
       search_empty: Escribe una palabra clave para comenzar.
-      search_loading: Cargando el 铆ndice鈥?      search_not_found: No se encontraron resultados para
+      search_loading: Cargando el índice…
+      search_not_found: No se encontraron resultados para
       search_results: Se encontraron
       search_related: resultado(s)
       search_too_many: (primeros 50)
       search_keyword: Palabra clave
-      page_404_title: Esta p谩gina se ha extraviado
-      page_404_poem: "芦Q铆b贸 dice: <em>El m茅dico superior previene la enfermedad antes de que aparezca.</em><br>Puesto que esta p谩gina a煤n no ha aparecido, vuelva al camino.禄"
-      page_404_code: HTTP 404 路 P谩gina no encontrada
+      page_404_title: Esta página se ha extraviado
+      page_404_poem: "«Qíbó dice: <em>El médico superior previene la enfermedad antes de que aparezca.</em><br>Puesto que esta página aún no ha aparecido, vuelva al camino.»"
+      page_404_code: HTTP 404 · Página no encontrada
       btn_back_home: Volver al inicio
       btn_browse_archive: Explorar el archivo
-      empty_tip: A煤n no hay art铆culos en esta categor铆a.
-      more_unlisted: "鈥 N m谩s sin listar"
-      archive_lead: "N art铆culos, agrupados por a帽o y mes."
-      tag_count_lead: "N art铆culos llevan esta etiqueta."
+      empty_tip: Aún no hay artículos en esta categoría.
+      translate_this: Traducción automática
+      translate_lead: "Esta página está en chino. El siguiente enlace abre una traducción automática en tu navegador:"
+      more_unlisted: "…y N más sin listar"
+      archive_lead: "N artículos, agrupados por año y mes."
+      tag_count_lead: "N artículos llevan esta etiqueta."
+    pagination:
+      prev: Anterior
+      next: Siguiente
     meta:
+      written: Por
       updated: Actualizado
       reading_time: Aprox.
       months: ['', 'enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre']
     footer:
-      poem: "芦En la antig眉edad, quienes conoc铆an el Camino segu铆an el Yin y el Yang,<br>com铆an y beb铆an con moderaci贸n, se levantaban y dorm铆an con regularidad,<br>y no se agotaban con faenas in煤tiles.禄"
-      cite: 芦鈥?Hu谩ngd矛 N猫ij墨ng 路 S霉w猫n 路 Sh脿ngg菙 Ti膩nzh膿n L霉n禄
+      poem: "«En la antigüedad, quienes conocían el Camino seguían el Yin y el Yang,<br>comían y bebían con moderación, se levantaban y dormían con regularidad,<br>y no se agotaban con faenas inútiles.»"
+      cite: «— Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn»
       col_browse: Explorar
       col_know: Conocer
       col_friend: Amigos
-      link_archive: Archivo de art铆culos
-      link_categories: Todas las categor铆as
+      link_archive: Archivo de artículos
+      link_categories: Todas las categorías
       link_tags: Nube de etiquetas
-      link_search: B煤squeda completa
-      link_about: Acerca de la Caba帽a
-      link_about_zy: 驴Qu茅 es la MTC?
+      link_search: Búsqueda completa
+      link_about: Acerca de la Cabaña
+      link_about_zy: ¿Qué es la MTC?
       link_rss: RSS
       link_sitemap: Mapa del sitio
-      copyright: Contenido solo con fines educativos 鈥?no sustituye consejo m茅dico.
+      copyright: Contenido solo con fines educativos — no sustituye consejo médico.
       powered: Desarrollado con
+    lang:
+      switch_label: Idioma
+      current: Idioma actual
+    notif:
+      lang_changed: Idioma cambiado
     a11y:
       skip_to_content: Saltar al contenido
-      open_menu: Abrir men煤
-      close_menu: Cerrar men煤
+      open_menu: Abrir menú
+      close_menu: Cerrar menú
       toggle_theme: Cambiar tema
       clear_search: Borrar
 
@@ -422,13 +526,14 @@ strings:
       search: Cari
       about: Tentang
     hero:
-      title: Pondok Q铆hu谩ng
-      subtitle: Pengobatan Tradisional Tiongkok 路 Mengikuti musim 路 Menyeimbangkan Yin dan Yang
+      eyebrow: Jalan Qíhuáng · Seni kesehatan
+      title: Pondok Qíhuáng
+      subtitle: Pengobatan Tradisional Tiongkok · Mengikuti musim · Menyeimbangkan Yin dan Yang
       tagline: Satu gulungan Klasik Kaisar Kuning, setengah cangkir teh bening
     section:
       latest: Artikel terbaru
-      latest_lead: Berakar dari Hu谩ngd矛 N猫ij墨ng 鈥?kebijaksanaan tentang kesehatan, makanan, musim, dan meridian.
-      categories: Jelajahi 路 Kategori
+      latest_lead: Berakar dari Huángdì Nèijīng — kebijaksanaan tentang kesehatan, makanan, musim, dan meridian.
+      categories: Jelajahi · Kategori
       categories_lead: Enam kategori untuk dijelajahi, berurutan.
       tags_overview: "X tag, diurutkan berdasarkan jumlah artikel."
     common:
@@ -448,29 +553,37 @@ strings:
       page_of: hal.
       of: /
       total: Total
-      search_placeholder: Ketik kata kunci, mis. 芦goji禄, 芦musim禄, 芦Z煤s膩nl菒禄鈥?      search_hint: "Tip: pencarian mencakup judul, ringkasan, kategori, tag, dan isi."
+      search_placeholder: Ketik kata kunci, mis. «goji», «musim», «Zúsānlǐ»…
+      search_hint: "Tip: pencarian mencakup judul, ringkasan, kategori, tag, dan isi."
       search_empty: Ketik kata kunci untuk mulai mencari.
-      search_loading: Memuat indeks鈥?      search_not_found: Tidak ditemukan hasil untuk
+      search_loading: Memuat indeks…
+      search_not_found: Tidak ditemukan hasil untuk
       search_results: Ditemukan
       search_related: hasil
       search_too_many: (50 teratas)
       search_keyword: Kata kunci
       page_404_title: Halaman ini tersesat
-      page_404_poem: "芦Q铆b贸 berkata: <em>Tabib terbaik mencegah penyakit sebelum ia datang.</em><br>Karena halaman ini belum datang, silakan kembali ke jalan.禄"
-      page_404_code: HTTP 404 路 Halaman tidak ditemukan
+      page_404_poem: "«Qíbó berkata: <em>Tabib terbaik mencegah penyakit sebelum ia datang.</em><br>Karena halaman ini belum datang, silakan kembali ke jalan.»"
+      page_404_code: HTTP 404 · Halaman tidak ditemukan
       btn_back_home: Kembali ke beranda
       btn_browse_archive: Jelajahi arsip
       empty_tip: Belum ada artikel dalam kategori ini.
-      more_unlisted: "鈥an N lagi tidak terdaftar"
+      translate_this: Terjemahan mesin
+      translate_lead: "Halaman ini dalam bahasa Tionghoa. Tautan di bawah membuka terjemahan otomatis di peramban Anda:"
+      more_unlisted: "…dan N lagi tidak terdaftar"
       archive_lead: "N artikel, dikelompokkan berdasarkan tahun dan bulan."
       tag_count_lead: "N artikel memakai tag ini."
+    pagination:
+      prev: Sebelumnya
+      next: Berikutnya
     meta:
+      written: Oleh
       updated: Diperbarui
       reading_time: Sekitar
       months: ['', 'Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember']
     footer:
-      poem: "芦Pada zaman dahulu, mereka yang mengenal Jalan mengikuti Yin dan Yang,<br>makan dan minum secukupnya, bangun dan tidur teratur,<br>dan tidak membebani diri dengan pekerjaan yang sia-sia.禄"
-      cite: 芦鈥?Hu谩ngd矛 N猫ij墨ng 路 S霉w猫n 路 Sh脿ngg菙 Ti膩nzh膿n L霉n禄
+      poem: "«Pada zaman dahulu, mereka yang mengenal Jalan mengikuti Yin dan Yang,<br>makan dan minum secukupnya, bangun dan tidur teratur,<br>dan tidak membebani diri dengan pekerjaan yang sia-sia.»"
+      cite: «— Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn»
       col_browse: Jelajahi
       col_know: Pelajari
       col_friend: Sahabat
@@ -482,8 +595,13 @@ strings:
       link_about_zy: Apa itu TCM?
       link_rss: Umpan RSS
       link_sitemap: Peta situs
-      copyright: Konten hanya untuk tujuan edukasi 鈥?bukan pengganti nasihat medis.
+      copyright: Konten hanya untuk tujuan edukasi — bukan pengganti nasihat medis.
       powered: Dibuat dengan
+    lang:
+      switch_label: Bahasa
+      current: Bahasa saat ini
+    notif:
+      lang_changed: Bahasa diganti
     a11y:
       skip_to_content: Lewati ke konten
       open_menu: Buka menu
@@ -491,81 +609,95 @@ strings:
       toggle_theme: Ganti tema
       clear_search: Hapus
 
-  # ----- 丕賱毓乇亘賷丞 (Arabic) -----
+  # ----- العربية (Arabic) -----
   ar:
     nav:
-      home: 丕賱乇卅賷爻賷丞
-      archive: 丕賱兀乇卮賷賮
-      categories: 丕賱鬲氐賳賷賮丕鬲
-      tags: 丕賱賵爻賵賲
-      search: 亘丨孬
-      about: 賳亘匕丞
+      home: الرئيسية
+      archive: الأرشيف
+      categories: التصنيفات
+      tags: الوسوم
+      search: بحث
+      about: نبذة
     hero:
-      title: 囟賷丕賮丞 鬲卮賷賴賵丕賳睾
-      subtitle: 丕賱胤亘 丕賱氐賷賳賷 丕賱鬲賯賱賷丿賷 路 丕鬲亘丕毓 丕賱賮氐賵賱 路 賲賵丕夭賳丞 丕賱賷賳 賵丕賱賷丕賳睾
-      tagline: 賲禺胤賵胤丞 賲賳 芦賰鬲丕亘 丕賱廿賲亘乇丕胤賵乇 丕賱兀氐賮乇禄貙 賳氐賮 賰賵亘 賲賳 丕賱卮丕賷 丕賱氐丕賮賷
+      eyebrow: طريق تشيهوانغ · فن العافية
+      title: ضيافة تشيهوانغ
+      subtitle: الطب الصيني التقليدي · اتباع الفصول · موازنة الين واليانغ
+      tagline: مخطوطة من «كتاب الإمبراطور الأصفر»، نصف كوب من الشاي الصافي
     section:
-      latest: 兀丨丿孬 丕賱賲賯丕賱丕鬲
-      latest_lead: 賲鬲噩匕賾乇 賮賷 芦賴賵丕賳睾丿賷 賳賷噩賷賳睾禄 鈥?丨賰賲丞 丕賱毓丕賮賷丞 賵丕賱胤毓丕賲 賵丕賱賮氐賵賱 賵丕賱禺胤賵胤 丕賱胤賵賱賷丞.
-      categories: 鬲氐賮賾丨 路 丕賱鬲氐賳賷賮丕鬲
-      categories_lead: 爻鬲丞 兀亘賵丕亘 賱賱爻賷乇 賮賷賴丕貙 亘丕賱鬲乇鬲賷亘.
-      tags_overview: "X 賵爻賵賲貙 賲乇鬲亘丞 丨爻亘 毓丿丿 丕賱賲賯丕賱丕鬲."
+      latest: أحدث المقالات
+      latest_lead: متجذّر في «هوانغدي نيجينغ» — حكمة العافية والطعام والفصول والخطوط الطولية.
+      categories: تصفّح · التصنيفات
+      categories_lead: ستة أبواب للسير فيها، بالترتيب.
+      tags_overview: "X وسوم، مرتبة حسب عدد المقالات."
     common:
-      read_more: 丕賯乇兀 丕賱賲夭賷丿
-      back_home: 丕賱毓賵丿丞 廿賱賶 丕賱乇卅賷爻賷丞
-      back_categories: 丕賱毓賵丿丞 廿賱賶 丕賱鬲氐賳賷賮丕鬲
-      back_tags: 丕賱毓賵丿丞 廿賱賶 丕賱賵爻賵賲
-      prev: 丕賱爻丕亘賯
-      next: 丕賱鬲丕賱賷
-      prev_short: 丕賱爻丕亘賯
-      next_short: 丕賱鬲丕賱賷
-      first_article: 兀賳鬲 賮賷 兀丨丿孬 賲賯丕賱
-      last_article: 兀賳鬲 賮賷 兀賯丿賲 賲賯丕賱
-      minutes: 丿賯賷賯丞
-      articles: 賲賯丕賱丕鬲
-      article: 賲賯丕賱丕鬲
-      page_of: 氐.
-      of: 賲賳
-      total: 丕賱賲噩賲賵毓
-      search_placeholder: 丕賰鬲亘 賰賱賲丞 賲賮鬲丕丨賷丞貙 賲孬賱 芦睾賵噩賷禄貙 芦賲賵爻賲禄貙 芦鬲爻賵爻丕賳賱賷禄鈥?      search_hint: "賲賱丕丨馗丞: 丕賱亘丨孬 賷卮賲賱 丕賱毓賳丕賵賷賳 賵丕賱賲賱禺氐丕鬲 賵丕賱鬲氐賳賷賮丕鬲 賵丕賱賵爻賵賲 賵丕賱賳氐."
-      search_empty: 丕賰鬲亘 賰賱賲丞 賲賮鬲丕丨賷丞 賱賱亘丿亍.
-      search_loading: 噩丕乇賺 鬲丨賲賷賱 丕賱賮賴乇爻鈥?      search_not_found: 賱丕 鬲賵噩丿 賳鬲丕卅噩 賱賭
-      search_results: 鬲賲 丕賱毓孬賵乇 毓賱賶
-      search_related: 賳鬲賷噩丞
-      search_too_many: (兀賵賱 50)
-      search_keyword: 丕賱賰賱賲丞 丕賱賲賮鬲丕丨賷丞
-      page_404_title: 賱賯丿 囟賱賾鬲 賴匕賴 丕賱氐賮丨丞 胤乇賷賯賴丕
-      page_404_poem: "芦賯丕賱 鬲卮賷 亘賵: <em>丕賱胤亘賷亘 丕賱賮丕囟賱 賷毓丕賱噩 丕賱賲乇囟 賯亘賱 兀賳 賷馗賴乇.</em><br>亘賲丕 兀賳 賴匕賴 丕賱氐賮丨丞 賱賲 鬲馗賴乇 亘毓丿貙 毓購丿 廿賱賶 丕賱胤乇賷賯.禄"
-      page_404_code: HTTP 404 路 丕賱氐賮丨丞 睾賷乇 賲賵噩賵丿丞
-      btn_back_home: 丕賱毓賵丿丞 廿賱賶 丕賱乇卅賷爻賷丞
-      btn_browse_archive: 鬲氐賮賾丨 丕賱兀乇卮賷賮
-      empty_tip: 賱丕 鬲賵噩丿 賲賯丕賱丕鬲 賮賷 賴匕丕 丕賱鬲氐賳賷賮 亘毓丿.
-      more_unlisted: "鈥?N 睾賷乇 賲丿乇噩丞"
-      archive_lead: "N 賲賯丕賱丕鬲貙 賲噩賲賾毓丞 丨爻亘 丕賱爻賳丞 賵丕賱卮賴乇."
-      tag_count_lead: "N 賲賯丕賱丕鬲 鬲丨賲賱 賴匕賴 丕賱賵爻賵賲."
+      read_more: اقرأ المزيد
+      back_home: العودة إلى الرئيسية
+      back_categories: العودة إلى التصنيفات
+      back_tags: العودة إلى الوسوم
+      prev: السابق
+      next: التالي
+      prev_short: السابق
+      next_short: التالي
+      first_article: أنت في أحدث مقال
+      last_article: أنت في أقدم مقال
+      minutes: دقيقة
+      articles: مقالات
+      article: مقالات
+      page_of: ص.
+      of: من
+      total: المجموع
+      search_placeholder: اكتب كلمة مفتاحية، مثل «غوجي»، «موسم»، «تسوسانلي»…
+      search_hint: "ملاحظة: البحث يشمل العناوين والملخصات والتصنيفات والوسوم والنص."
+      search_empty: اكتب كلمة مفتاحية للبدء.
+      search_loading: جارٍ تحميل الفهرس…
+      search_not_found: لا توجد نتائج لـ
+      search_results: تم العثور على
+      search_related: نتيجة
+      search_too_many: (أول 50)
+      search_keyword: الكلمة المفتاحية
+      page_404_title: لقد ضلّت هذه الصفحة طريقها
+      page_404_poem: "«قال تشي بو: <em>الطبيب الفاضل يعالج المرض قبل أن يظهر.</em><br>بما أن هذه الصفحة لم تظهر بعد، عُد إلى الطريق.»"
+      page_404_code: HTTP 404 · الصفحة غير موجودة
+      btn_back_home: العودة إلى الرئيسية
+      btn_browse_archive: تصفّح الأرشيف
+      empty_tip: لا توجد مقالات في هذا التصنيف بعد.
+      translate_this: ترجمة آلية لهذه الصفحة
+      translate_lead: "هذه الصفحة بالصينية. يفتح الرابط أدناه ترجمة آلية في متصفحك:"
+      more_unlisted: "…و N غير مدرجة"
+      archive_lead: "N مقالات، مجمّعة حسب السنة والشهر."
+      tag_count_lead: "N مقالات تحمل هذه الوسوم."
+    pagination:
+      prev: السابق
+      next: التالي
     meta:
-      updated: 丨購丿賽賾孬
-      reading_time: 賳丨賵
-      months: ['', '賷賳丕賷乇', '賮亘乇丕賷乇', '賲丕乇爻', '兀亘乇賷賱', '賲丕賷賵', '賷賵賳賷賵', '賷賵賱賷賵', '兀睾爻胤爻', '爻亘鬲賲亘乇', '兀賰鬲賵亘乇', '賳賵賮賲亘乇', '丿賷爻賲亘乇']
+      written: بقلم
+      updated: حُدِّث
+      reading_time: نحو
+      months: ['', 'يناير', 'فبراير', 'مارس', 'أبريل', 'مايو', 'يونيو', 'يوليو', 'أغسطس', 'سبتمبر', 'أكتوبر', 'نوفمبر', 'ديسمبر']
     footer:
-      poem: "芦賮賷 丕賱賯丿賲貙 賰丕賳 賲賳 毓乇賮賵丕 丕賱胤乇賷賯 賷鬲亘毓賵賳 丕賱賷賳 賵丕賱賷丕賳睾貙<br>賵賷兀賰賱賵賳 賵賷卮乇亘賵賳 亘丕毓鬲丿丕賱貙 賵賷賯賵賲賵賳 賵賷賳丕賲賵賳 亘丕賳鬲馗丕賲貙<br>賵賱丕 賷購鬲毓亘賵賳 兀賳賮爻賴賲 亘兀毓賲丕賱 賱丕 賮丕卅丿丞 賮賷賴丕.禄"
-      cite: 芦鈥?賴賵丕賳睾丿賷 賳賷噩賷賳睾 路 爻賵賵賳 路 卮丕賳睾睾賵 鬲賷丕賳鬲卮賳 賱購賳禄
-      col_browse: 鬲氐賮賾丨
-      col_know: 丕毓乇賮
-      col_friend: 兀氐丨丕亘
-      link_archive: 兀乇卮賷賮 丕賱賲賯丕賱丕鬲
-      link_categories: 賰賱 丕賱鬲氐賳賷賮丕鬲
-      link_tags: 爻丨丕亘丞 丕賱賵爻賵賲
-      link_search: 亘丨孬 賰丕賲賱
-      link_about: 毓賳 丕賱囟賷丕賮丞
-      link_about_zy: 賲丕 賴賵 丕賱胤亘 丕賱氐賷賳賷責
-      link_rss: 鬲睾匕賷丞 RSS
-      link_sitemap: 禺乇賷胤丞 丕賱賲賵賯毓
-      copyright: 丕賱賲丨鬲賵賶 賱兀睾乇丕囟 鬲毓賱賷賲賷丞 賮賯胤 鈥?賱賷爻 亘丿賷賱丕賸 毓賳 丕賱丕爻鬲卮丕乇丞 丕賱胤亘賷丞.
-      powered: 賲亘賳賷 毓賱賶
+      poem: "«في القدم، كان من عرفوا الطريق يتبعون الين واليانغ،<br>ويأكلون ويشربون باعتدال، ويقومون وينامون بانتظام،<br>ولا يُتعبون أنفسهم بأعمال لا فائدة فيها.»"
+      cite: «— هوانغدي نيجينغ · سوون · شانغغو تيانتشن لُن»
+      col_browse: تصفّح
+      col_know: اعرف
+      col_friend: أصحاب
+      link_archive: أرشيف المقالات
+      link_categories: كل التصنيفات
+      link_tags: سحابة الوسوم
+      link_search: بحث كامل
+      link_about: عن الضيافة
+      link_about_zy: ما هو الطب الصيني؟
+      link_rss: تغذية RSS
+      link_sitemap: خريطة الموقع
+      copyright: المحتوى لأغراض تعليمية فقط — ليس بديلاً عن الاستشارة الطبية.
+      powered: مبني على
+    lang:
+      switch_label: اللغة
+      current: اللغة الحالية
+    notif:
+      lang_changed: تم تغيير اللغة
     a11y:
-      skip_to_content: 鬲噩丕賵夭 廿賱賶 丕賱賲丨鬲賵賶
-      open_menu: 賮鬲丨 丕賱賯丕卅賲丞
-      close_menu: 廿睾賱丕賯 丕賱賯丕卅賲丞
-      toggle_theme: 鬲亘丿賷賱 丕賱爻賲丞
-      clear_search: 賲爻丨
+      skip_to_content: تجاوز إلى المحتوى
+      open_menu: فتح القائمة
+      close_menu: إغلاق القائمة
+      toggle_theme: تبديل السمة
+      clear_search: مسح

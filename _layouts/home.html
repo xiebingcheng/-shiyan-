@@ -4,10 +4,12 @@ layout: default
 
 <section class="hero">
   <div class="hero__inner container">
+    {%- assign cur_lang = page.lang | default: site.default_lang -%}
+    {%- assign i18n = site.data.i18n.strings[cur_lang] -%}
     <p class="hero__eyebrow">— 岐黄之道 · 养生之学 —</p>
-    <h1 class="hero__title">{{ site.title }}</h1>
-    <p class="hero__subtitle">{{ site.subtitle }}</p>
-    <p class="hero__tagline">{{ site.tagline }}</p>
+    <h1 class="hero__title">{{ i18n.hero.title }}</h1>
+    <p class="hero__subtitle">{{ i18n.hero.subtitle }}</p>
+    <p class="hero__tagline">{{ i18n.hero.tagline }}</p>
     <div class="hero__seal" aria-hidden="true">
       <span>岐黄</span>
     </div>
@@ -20,10 +22,9 @@ layout: default
 </section>
 
 <section class="section container">
-  <h2 class="section__title"><span>卷 · 一</span>最新文章</h2>
-  <p class="section__lead">以《黄帝内经》为宗，汇养生、食疗、节气、经络之要。</p>
+  <h2 class="section__title"><span>卷 · 一</span>{{ i18n.section.latest }}</h2>
+  <p class="section__lead">{{ i18n.section.latest_lead }}</p>
 
-  {%- assign cur_lang = page.lang | default: site.default_lang -%}
   {%- assign lang_posts = site.posts | where: 'lang', cur_lang -%}
   {%- if cur_lang == site.default_lang -%}
     {%- assign archive_url = '/archive/' -%}
@@ -46,8 +47,8 @@ layout: default
 </section>
 
 <section class="section section--muted container">
-  <h2 class="section__title"><span>卷 · 二</span>览 · 分类</h2>
-  <p class="section__lead">六大类目，循序而进。</p>
+  <h2 class="section__title"><span>卷 · 二</span>{{ i18n.section.categories }}</h2>
+  <p class="section__lead">{{ i18n.section.categories_lead }}</p>
   <ul class="category-grid">
     {%- assign cats = site.data.categories -%}
     {%- assign cats_i18n = site.data['categories-i18n'] -%}
@@ -60,7 +61,7 @@ layout: default
         <a href="{{ '/categories/' | append: cat.slug | append: '/' | relative_url }}" class="category-card__link">
           <span class="category-card__icon" aria-hidden="true">{{ cat.icon }}</span>
           <span class="category-card__name">{{ cat_name }}</span>
-          <span class="category-block__count">
+          <span class="category-card__count">
             {%- assign count = lang_posts | where: 'category', cat.slug | size -%}
             {{ count }} 篇
           </span>
