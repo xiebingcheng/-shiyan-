@@ -1,0 +1,48 @@
+# Authors / Editorial board
+# Used for E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness)
+# Add real review credentials here when you partner with licensed TCM practitioners.
+
+- slug: qihuang-editorial
+  name_zh: 岐黄小筑编委会
+  name_en: Qihuang Lodge Editorial Board
+  role_zh: 内容编辑
+  role_en: Editorial
+  bio_zh: >
+    由中医院校背景的编辑团队组成。所有涉及健康的具体建议，
+    在发布前均经过多源古籍与权威教材交叉核对；
+    建议读者在重大健康决策前咨询执业医师。
+  bio_en: >
+    A small editorial team with TCM university background.
+    Every health claim is cross-referenced against classical sources
+    and authoritative textbooks before publication.
+    Always consult a licensed practitioner for personal health decisions.
+  same_as:
+    - https://github.com/xiebingcheng
+  email: editorial@qihuanglodge.example
+
+- slug: qihuang-medical-review
+  name_zh: 岐黄小筑医学审校组
+  name_en: Qihuang Lodge Medical Review Board
+  role_zh: 医学审校
+  role_en: Medical Reviewer
+  bio_zh: >
+    由具有执业资格的中医师与营养师组成。所有发布文章
+    都会标注最后审校时间。请在文章页脚查看具体审校人。
+  bio_en: >
+    Composed of licensed TCM practitioners and registered dietitians.
+    Each article is stamped with the last review date shown at the foot of the post.
+  email: review@qihuanglodge.example
+
+# 审校医师占位 — 当与真实执业中医师签约后，
+# 在这里加新条目，并在文章 front matter 用 reviewer: <slug> 引用。
+# Example template:
+# - slug: zhang-zhongjing
+#   name_zh: 张仲景（化名）
+#   name_en: Dr. Z. Zhang (placeholder)
+#   role_zh: 执业中医师
+#   role_en: Licensed TCM Practitioner
+#   credential: 执业医师编号 11010XXXXXXXXX（脱敏） · 北京中医药大学 副教授
+#   bio_zh: 从事中医临床 20 年，擅长内科调理与亚健康干预。
+#   bio_en: 20 years of TCM clinical practice, focusing on internal medicine and sub-health intervention.
+#   same_as:
+#     - https://www.linkedin.com/in/xxxx
