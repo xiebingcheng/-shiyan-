@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -16,27 +17,27 @@
   <rect x="60" y="60" width="1080" height="510" fill="none" stroke="#a82a2a" stroke-width="2" rx="8"/>
   <rect x="78" y="78" width="1044" height="474" fill="none" stroke="#a82a2a" stroke-width="0.6" rx="4" opacity="0.5"/>
 
-  <!-- 鍗扮珷 -->
+  <!-- 印章 -->
   <g transform="translate(880, 130)">
     <rect x="0" y="0" width="120" height="120" rx="4" fill="none" stroke="#a82a2a" stroke-width="3"/>
-    <text x="60" y="56" text-anchor="middle" font-family="serif" font-size="44" font-weight="700" fill="#a82a2a">宀?/text>
-    <text x="60" y="100" text-anchor="middle" font-family="serif" font-size="44" font-weight="700" fill="#a82a2a">榛?/text>
+    <text x="60" y="56" text-anchor="middle" font-family="serif" font-size="44" font-weight="700" fill="#a82a2a">岐</text>
+    <text x="60" y="100" text-anchor="middle" font-family="serif" font-size="44" font-weight="700" fill="#a82a2a">黄</text>
   </g>
 
-  <!-- 涓绘爣棰?-->
-  <text x="120" y="280" font-family="'Noto Serif SC', 'Songti SC', serif" font-size="84" font-weight="700" fill="#1a1410">宀愰粍灏忕瓚</text>
+  <!-- 主标题 -->
+  <text x="120" y="280" font-family="'Noto Serif SC', 'Songti SC', serif" font-size="84" font-weight="700" fill="#1a1410">岐黄书房</text>
 
-  <!-- 鍓爣棰?-->
-  <text x="120" y="360" font-family="'Noto Serif SC', 'Songti SC', serif" font-size="34" font-weight="400" fill="#2d4a4f">涓尰鍏荤敓 路 椤哄簲鍥涙椂 路 璋冨拰闃撮槼</text>
+  <!-- 副标题 -->
+  <text x="120" y="360" font-family="'Noto Serif SC', 'Songti SC', serif" font-size="34" font-weight="400" fill="#2d4a4f">中医养生 · 顺应四时 · 调和阴阳</text>
 
-  <!-- 瑁呴グ绾?-->
+  <!-- 装饰线 -->
   <line x1="120" y1="400" x2="600" y2="400" stroke="#a82a2a" stroke-width="1.2"/>
   <circle cx="360" cy="400" r="4" fill="#a82a2a"/>
 
-  <!-- 寮曡█ -->
-  <text x="120" y="450" font-family="'Noto Serif SC', serif" font-size="22" font-style="italic" fill="#1a1410" opacity="0.8">銆屾硶浜庨槾闃筹紝鍜屼簬鏈暟锛岄楗湁鑺傦紝璧峰眳鏈夊父銆傘€?/text>
-  <text x="120" y="482" font-family="serif" font-size="18" fill="#1a1410" opacity="0.6">鈥?銆婇粍甯濆唴缁?路 涓婂彜澶╃湡璁恒€?/text>
+  <!-- 引用 -->
+  <text x="120" y="450" font-family="'Noto Serif SC', serif" font-size="22" font-style="italic" fill="#1a1410" opacity="0.8">「法于阴阳，和于术数，食饮有节，起居有常。」</text>
+  <text x="120" y="482" font-family="serif" font-size="18" fill="#1a1410" opacity="0.6">——《黄帝内经 · 素问 · 上古天真论》</text>
 
-  <!-- 搴曢儴缃戝潃 -->
-  <text x="120" y="540" font-family="serif" font-size="20" fill="#2d4a4f" opacity="0.8">Qihuang Lodge 路 Traditional Chinese Medicine Wellness</text>
+  <!-- 底部网址 -->
+  <text x="120" y="540" font-family="serif" font-size="20" fill="#2d4a4f" opacity="0.8">Qíhuáng Study · Traditional Chinese Medicine Wellness</text>
 </svg>

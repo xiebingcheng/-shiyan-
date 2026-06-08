@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tentang Pondok
+title: Tentang Studio
 permalink: /id/about/
 subtitle: Satu gulungan Klasik, setengah cangkir teh bening
 lang: id
@@ -10,7 +10,7 @@ lang: id
 
 "Qí" (岐)指的是 Qíbó (岐伯); "Huáng" (黄)指的是 Kaisar Kuning (Huángdì, 黄帝).
 *Huángdì Nèijīng* (《黄帝内经》), kitab dasar pengobatan Tionghoa, disusun sebagai dialog antara Kaisar Kuning dan menterinya Qíbó. Karena itu, generasi-generasi kemudian menggunakan "Qíhuáng" (岐黄) sebagai metonim untuk seluruh pengobatan Tionghoa.
-"Pondok" (Xiǎozhú, 小筑) dinamai menurut semangat bertanya Qíbó dan Kaisar Kuning — menerjemahkan kebijaksanaan TCM menjadi kata-kata yang dapat dibaca dan digunakan orang awam.
+"Studio" (Shūfáng, 书房) dinamai menurut semangat bertanya Qíbó dan Kaisar Kuning — menerjemahkan kebijaksanaan TCM menjadi kata-kata yang dapat dibaca dan digunakan orang awam.
 
 ## Apa yang dapat Anda temukan di sini
 
@@ -18,7 +18,7 @@ lang: id
 >
 > — *Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn* (babak 1)
 
-Pondok mengatur kontennya dalam enam tema:
+Studio mengatur kontennya dalam enam tema:
 
 - **Musim** (节气养生) — Mengikuti 24 musim, menyelaraskan Langit dan Manusia
 - **Terapi Makanan & Herbal** (食疗本草) — Makanan dan obat berakar sama

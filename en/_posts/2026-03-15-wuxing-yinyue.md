@@ -3,7 +3,7 @@ layout: post
 title: "The Five-Element Music Courses the Liver: One Jue (角) Note, and Spring Qi Becomes Harmonious"
 subtitle: "A hundred diseases are born of qi, and end in sound"
 date: 2026-03-15 09:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: qingzhi
 tags: [五行音乐, 角音, 疏肝, 情志, 音乐疗法]
 excerpt: "\"A hundred diseases are born of qi, and end in sound\" — the five notes correspond to the five zang; listening to the right music can course the Liver, nourish the Heart, fortify the Spleen, moisten the Lungs, and tonify the Kidneys."
@@ -11,8 +11,10 @@ description: >
   "A hundred diseases arise from qì, and end with sound." The five tones of the Chinese pentatonic scale (jiǎo, zhǐ, gōng, shāng, yǔ) correspond to the five Zàng organs (Liver, Heart, Spleen, Lung, Kidney). Listening to *Hújiā Shíbāpāi* (jiǎo) soothes the Liver; *Èrquán Yìngyuè* (yǔ) tonifies the Kidney. 30-60 minutes at 40-60 dB daily. Includes four clinical applications and contraindications.
 permalink: /en/2026/03/15/wuxing-yinyue/
 lang: en
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「**百病生于气，止于音。**」
 >
 > 「**宫动脾，商动肺，角动肝，徵动心，羽动肾。**」

@@ -22,8 +22,20 @@
     });
   }
 
+  function isSafeUrl(u) {
+    if (u == null) return false;
+    var s = String(u);
+    if (s.charAt(0) === '/') {
+      if (s.charAt(1) === '/') return false;
+      return true;
+    }
+    return /^(https?:)/i.test(s);
+  }
+
   function escapeAttr(s) {
-    return escapeHtml(s);
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' })[c];
+    });
   }
 
   function escapeReg(s) {
@@ -129,7 +141,8 @@
     var html = '<ul class="search-results__list">';
     posts.forEach(function (p) {
       html += '<li class="search-result">';
-      html += '  <h3 class="search-result__title"><a href="' + escapeAttr(p.url) + '">' + highlight(p.title, keywords) + '</a></h3>';
+      var safeUrl = isSafeUrl(p.url) ? p.url : '#';
+      html += '  <h3 class="search-result__title"><a href="' + escapeAttr(safeUrl) + '">' + highlight(p.title, keywords) + '</a></h3>';
       html += '  <p class="search-result__meta">';
       html += '    <span class="search-result__cat">' + escapeHtml(p.category || '') + '</span>';
       html += '    <span> · ' + escapeHtml(p.date || '') + '</span>';

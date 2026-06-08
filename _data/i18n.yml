@@ -1,5 +1,5 @@
 # ============================================================
-# 岐黄小筑 · UI 国际化词库
+# 岐黄书房 · UI 国际化词库
 # 7 语言：zh-CN（默认）、en、ru、fr、es、id、ar
 # 用法：site.data.i18n.<lang>.<key>
 # ============================================================
@@ -62,7 +62,7 @@ strings:
       about: 关于
     hero:
       eyebrow: 岐黄之道 · 养生之学
-      title: 岐黄小筑
+      title: 岐黄书房
       subtitle: 中医养生 · 顺应四时 · 调和阴阳
       tagline: 一卷《内经》，半盏清茶
     section:
@@ -106,8 +106,24 @@ strings:
       translate_this: 机器翻译此页
       translate_lead: 本页内容为中文，可通过下方链接让浏览器自动翻译：
       more_unlisted: "……尚有 N 篇未列"
+      archive_year_suffix: 年
+      error_404_seal: "四〇四"
       archive_lead: "共 N 篇，依年月汇集。"
       tag_count_lead: "共 N 篇文章带有此标签。"
+      volume_one: "卷 · 一"
+      volume_one_short: "卷"
+      volume_two: "卷 · 二"
+      view_all: "共 N 篇 · 查看全部归档 →"
+      view_all_archive: "查看全部归档 →"
+      post_tags: "标签"
+      related_title: "同主题阅读"
+      navigation: 导航
+      post_nav_aria: "文章导航"
+      last_reviewed: "最后审校"
+      disclaimer_aria: "免责声明"
+      search_page_title: "搜 · 索"
+      search_input_aria: "搜索文章"
+      search_lead: "在 N 篇文章中寻你所需。"
     pagination:
       prev: 上一页
       next: 下一页
@@ -127,10 +143,13 @@ strings:
       link_categories: 分类总览
       link_tags: 标签云
       link_search: 全文搜索
-      link_about: 关于小筑
+      link_about: 关于书房
       link_about_zy: 什么是中医
       link_rss: RSS 订阅
       link_sitemap: 站点地图
+      link_nhc: 国家卫健委
+      link_satcm: 国家中医药管理局
+      link_wfcms: 世界中联
       copyright: 本站内容仅供科普参考，不作为诊疗依据
       powered: Powered by
     lang:
@@ -156,7 +175,7 @@ strings:
       about: About
     hero:
       eyebrow: The Way of Qíhuáng · The Art of Wellness
-      title: Qíhuáng Lodge
+      title: Qíhuáng Study
       subtitle: Traditional Chinese Medicine · Following the Seasons · Harmonizing Yin and Yang
       tagline: One scroll of the Yellow Emperor's Classic, a half-cup of clear tea
     section:
@@ -200,8 +219,24 @@ strings:
       translate_this: Machine-translate this page
       translate_lead: "This page is in Chinese. The link below opens an automatic translation in your browser:"
       more_unlisted: "…and N more unlisted"
+      archive_year_suffix: ""
+      error_404_seal: "404"
       archive_lead: "N articles, grouped by year and month."
       tag_count_lead: "N articles carry this tag."
+      volume_one: "Vol · I"
+      volume_one_short: "Vol"
+      volume_two: "Vol · II"
+      view_all: "N articles · <a href=\"{{ url }}\">View all →</a>"
+      view_all_archive: "View all →"
+      post_tags: "Tags"
+      related_title: "Related Reading"
+      post_nav_aria: "Article navigation"
+      last_reviewed: "Last reviewed"
+      disclaimer_aria: "Medical disclaimer"
+      navigation: Navigation
+      search_page_title: "Search"
+      search_input_aria: "Search articles"
+      search_lead: "Search among N articles."
     pagination:
       prev: Prev
       next: Next
@@ -210,7 +245,7 @@ strings:
       updated: Updated
       reading_time: About
       months: ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
-      keywords: "TCM, traditional Chinese medicine, Chinese wellness, Qíhuáng Lodge, Huángdì Nèijīng, solar terms, food therapy, herbal medicine, four seasons, meridians, acupoints, daily rhythms, yin yang, five elements"
+      keywords: "TCM, traditional Chinese medicine, Chinese wellness, Qíhuáng Study, Huángdì Nèijīng, solar terms, food therapy, herbal medicine, four seasons, meridians, acupoints, daily rhythms, yin yang, five elements"
     footer:
       poem: '"In ancient times those who knew the Way modeled themselves on Yin and Yang,<br>and lived in harmony with the arts of numerology.<br>They ate and drank in moderation, rose and slept with regularity,<br>and did not tax themselves with useless labor."'
       cite: "— Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn (Chapter 1)"
@@ -221,10 +256,13 @@ strings:
       link_categories: All Categories
       link_tags: Tag Cloud
       link_search: Full-text Search
-      link_about: About the Lodge
+      link_about: About the Study
       link_about_zy: What is TCM?
       link_rss: RSS Feed
       link_sitemap: Sitemap
+      link_nhc: NHC
+      link_satcm: SATCM
+      link_wfcms: WFCMS
       copyright: Content is for educational purposes only — not medical advice.
       powered: Powered by
     lang:
@@ -250,7 +288,7 @@ strings:
       about: О сайте
     hero:
       eyebrow: Путь Цихуан · Искусство здоровья
-      title: Цихуан Сяочжу
+      title: Кабинет «Цихуан»
       subtitle: Традиционная китайская медицина · Следуя сезонам · Гармония Инь и Ян
       tagline: Один свиток «Хуанди Нэйцзин», полчашки чистого чая
     section:
@@ -294,8 +332,24 @@ strings:
       translate_this: Машинный перевод страницы
       translate_lead: "Эта страница на китайском. По ссылке ниже браузер выполнит автоматический перевод:"
       more_unlisted: "…и ещё N не показаны"
+      archive_year_suffix: " г."
+      error_404_seal: "404"
       archive_lead: "N статей, сгруппированных по году и месяцу."
       tag_count_lead: "N статей с этим тегом."
+      volume_one: "卷 · I"
+      volume_one_short: "卷"
+      volume_two: "卷 · II"
+      view_all: "N статей · <a href=\"{{ url }}\">Bce →</a>"
+      view_all_archive: "Bce →"
+      post_tags: "Теги"
+      related_title: "Похожие статьи"
+      navigation: Навигация
+      post_nav_aria: "Навигация"
+      last_reviewed: "Последняя проверка"
+      disclaimer_aria: "Медицинский отказ от ответственности"
+      search_page_title: "Поиск"
+      search_input_aria: "Поиск статей"
+      search_lead: "Поиск среди N статей."
     pagination:
       prev: Назад
       next: Вперёд
@@ -304,7 +358,7 @@ strings:
       updated: Обновлено
       reading_time: Около
       months: ['', 'января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря']
-      keywords: "ТКМ, традиционная китайская медицина, Цихуан, Хуанди Нэйцзин, здоровье, восточная медицина, иглоукалывание, меридианы, пять элементов, инь ян, фитотерапия, цигун, долголетие, акупунктура"
+      keywords: "ТКМ, традиционная китайская медицина, Цихуан, Кабинет Цихуан, Хуанди Нэйцзин, здоровье, восточная медицина, иглоукалывание, меридианы, пять элементов, инь ян, фитотерапия, цигун, долголетие, акупунктура"
     footer:
       poem: "«В древности те, кто знал Путь, следовали Инь и Ян,<br>питались и пили в меру, вставали и ложились вовремя,<br>и не утруждали себя бесполезным трудом.»"
       cite: «— Хуанди Нэйцзин · Сювэнь · Шангу Тяньчжэнь Лунь»
@@ -315,10 +369,13 @@ strings:
       link_categories: Все категории
       link_tags: Облако тегов
       link_search: Полнотекстовый поиск
-      link_about: О сайте
+      link_about: О Кабинете
       link_about_zy: Что такое ТКМ?
       link_rss: RSS-лента
       link_sitemap: Карта сайта
+      link_nhc: NHC
+      link_satcm: SATCM
+      link_wfcms: WFCMS
       copyright: Материалы носят ознакомительный характер и не заменяют консультацию врача.
       powered: Создано на
     lang:
@@ -344,7 +401,7 @@ strings:
       about: À propos
     hero:
       eyebrow: La voie de Qíhuáng · L'art du bien-être
-      title: Le Pavillon Qíhuáng
+      title: Le Cabinet Qíhuáng
       subtitle: Médecine traditionnelle chinoise · Suivre les saisons · Harmoniser le Yin et le Yang
       tagline: Un rouleau du Classique de l'Empereur Jaune, une demi-tasse de thé clair
     section:
@@ -388,8 +445,24 @@ strings:
       translate_this: Traduction automatique
       translate_lead: "Cette page est en chinois. Le lien ci-dessous ouvre une traduction automatique dans votre navigateur :"
       more_unlisted: "…et N de plus non listés"
+      archive_year_suffix: ""
+      error_404_seal: "404"
       archive_lead: "N articles, groupés par année et mois."
       tag_count_lead: "N articles portent cette étiquette."
+      volume_one: "卷 · I"
+      volume_one_short: "卷"
+      volume_two: "卷 · II"
+      view_all: "N articles · <a href=\"{{ url }}\">Tout voir →</a>"
+      view_all_archive: "Tout voir →"
+      post_tags: "Étiquettes"
+      related_title: "Lecture connexe"
+      navigation: Navigation
+      post_nav_aria: "Navigation d'article"
+      last_reviewed: "Dernière révision"
+      disclaimer_aria: "Avertissement médical"
+      search_page_title: "Recherche"
+      search_input_aria: "Rechercher des articles"
+      search_lead: "Recherche dans N articles."
     pagination:
       prev: Précédent
       next: Suivant
@@ -398,7 +471,7 @@ strings:
       updated: Mis à jour
       reading_time: Environ
       months: ['', 'janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre']
-      keywords: "MTC, médecine traditionnelle chinoise, bien-être, Qíhuáng, Huángdì Nèijīng, acupuncture, méridiens, phytothérapie, diététique chinoise, cinq éléments, yin yang, saisons, santé naturelle, qi gong"
+      keywords: "MTC, médecine traditionnelle chinoise, bien-être, Qíhuáng, Cabinet Qíhuáng, Huángdì Nèijīng, acupuncture, méridiens, phytothérapie, diététique chinoise, cinq éléments, yin yang, saisons, santé naturelle, qi gong"
     footer:
       poem: "« Dans l'Antiquité, ceux qui connaissaient la Voie observaient le Yin et le Yang,<br>mangeaient et buvaient avec mesure, se levaient et se couchaient à heures régulières,<br>et ne s'épuisaient pas en travaux inutiles. »"
       cite: « — Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn »
@@ -409,10 +482,13 @@ strings:
       link_categories: Toutes les catégories
       link_tags: Nuage d'étiquettes
       link_search: Recherche plein texte
-      link_about: À propos du Pavillon
+      link_about: À propos du Cabinet
       link_about_zy: Qu'est-ce que la MTC ?
       link_rss: Flux RSS
       link_sitemap: Plan du site
+      link_nhc: NHC
+      link_satcm: SATCM
+      link_wfcms: WFCMS
       copyright: Contenu à but éducatif uniquement — ne remplace pas un avis médical.
       powered: Propulsé par
     lang:
@@ -438,7 +514,7 @@ strings:
       about: Acerca de
     hero:
       eyebrow: El camino de Qíhuáng · El arte del bienestar
-      title: La Cabaña Qíhuáng
+      title: El Estudio Qíhuáng
       subtitle: Medicina Tradicional China · Siguiendo las estaciones · Armonizando el Yin y el Yang
       tagline: Un pergamino del Clásico del Emperador Amarillo, media taza de té claro
     section:
@@ -482,8 +558,24 @@ strings:
       translate_this: Traducción automática
       translate_lead: "Esta página está en chino. El siguiente enlace abre una traducción automática en tu navegador:"
       more_unlisted: "…y N más sin listar"
+      archive_year_suffix: ""
+      error_404_seal: "404"
       archive_lead: "N artículos, agrupados por año y mes."
       tag_count_lead: "N artículos llevan esta etiqueta."
+      volume_one: "卷 · I"
+      volume_one_short: "卷"
+      volume_two: "卷 · II"
+      view_all: "N artículos · <a href=\"{{ url }}\">Ver todo →</a>"
+      view_all_archive: "Ver todo →"
+      post_tags: "Etiquetas"
+      related_title: "Lectura relacionada"
+      navigation: Navegación
+      post_nav_aria: "Navegación de artículo"
+      last_reviewed: "Última revisión"
+      disclaimer_aria: "Aviso médico"
+      search_page_title: "Buscar"
+      search_input_aria: "Buscar artículos"
+      search_lead: "Busca en N artículos."
     pagination:
       prev: Anterior
       next: Siguiente
@@ -492,7 +584,7 @@ strings:
       updated: Actualizado
       reading_time: Aprox.
       months: ['', 'enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre']
-      keywords: "MTC, medicina tradicional china, bienestar, Qíhuáng, Huángdì Nèijīng, acupuntura, meridianos, fitoterapia, dietética china, cinco elementos, yin yang, estaciones, salud natural, qigong"
+      keywords: "MTC, medicina tradicional china, bienestar, Qíhuáng, Estudio Qíhuáng, Huángdì Nèijīng, acupuntura, meridianos, fitoterapia, dietética china, cinco elementos, yin yang, estaciones, salud natural, qigong"
     footer:
       poem: "«En la antigüedad, quienes conocían el Camino seguían el Yin y el Yang,<br>comían y bebían con moderación, se levantaban y dormían con regularidad,<br>y no se agotaban con faenas inútiles.»"
       cite: «— Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn»
@@ -503,10 +595,13 @@ strings:
       link_categories: Todas las categorías
       link_tags: Nube de etiquetas
       link_search: Búsqueda completa
-      link_about: Acerca de la Cabaña
+      link_about: Acerca del Estudio
       link_about_zy: ¿Qué es la MTC?
       link_rss: RSS
       link_sitemap: Mapa del sitio
+      link_nhc: NHC
+      link_satcm: SATCM
+      link_wfcms: WFCMS
       copyright: Contenido solo con fines educativos — no sustituye consejo médico.
       powered: Desarrollado con
     lang:
@@ -532,7 +627,7 @@ strings:
       about: Tentang
     hero:
       eyebrow: Jalan Qíhuáng · Seni kesehatan
-      title: Pondok Qíhuáng
+      title: Studio Qíhuáng
       subtitle: Pengobatan Tradisional Tiongkok · Mengikuti musim · Menyeimbangkan Yin dan Yang
       tagline: Satu gulungan Klasik Kaisar Kuning, setengah cangkir teh bening
     section:
@@ -576,8 +671,23 @@ strings:
       translate_this: Terjemahan mesin
       translate_lead: "Halaman ini dalam bahasa Tionghoa. Tautan di bawah membuka terjemahan otomatis di peramban Anda:"
       more_unlisted: "…dan N lagi tidak terdaftar"
+      archive_year_suffix: ""
       archive_lead: "N artikel, dikelompokkan berdasarkan tahun dan bulan."
       tag_count_lead: "N artikel memakai tag ini."
+      volume_one: "卷 · I"
+      volume_one_short: "卷"
+      volume_two: "卷 · II"
+      view_all: "N artikel · <a href=\"{{ url }}\">Lihat semua →</a>"
+      view_all_archive: "Lihat semua →"
+      post_tags: "Tag"
+      related_title: "Bacaan terkait"
+      navigation: Navigasi
+      post_nav_aria: "Navigasi artikel"
+      last_reviewed: "Ditinjau terakhir"
+      disclaimer_aria: "Penafian medis"
+      search_page_title: "Cari"
+      search_input_aria: "Cari artikel"
+      search_lead: "Cari di antara N artikel."
     pagination:
       prev: Sebelumnya
       next: Berikutnya
@@ -586,7 +696,7 @@ strings:
       updated: Diperbarui
       reading_time: Sekitar
       months: ['', 'Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember']
-      keywords: "TCM, pengobatan tradisional Tionghoa, kesehatan, Qíhuáng, Huangdi Neijing, akupunktur, meridian, herbal, diet, lima elemen, yin yang, musim, kesejahteraan, qigong"
+      keywords: "TCM, pengobatan tradisional Tionghoa, kesehatan, Qíhuáng, Studio Qíhuáng, Huangdi Neijing, akupunktur, meridian, herbal, diet, lima elemen, yin yang, musim, kesejahteraan, qigong"
     footer:
       poem: "«Pada zaman dahulu, mereka yang mengenal Jalan mengikuti Yin dan Yang,<br>makan dan minum secukupnya, bangun dan tidur teratur,<br>dan tidak membebani diri dengan pekerjaan yang sia-sia.»"
       cite: «— Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn»
@@ -597,10 +707,13 @@ strings:
       link_categories: Semua kategori
       link_tags: Awan tag
       link_search: Pencarian penuh
-      link_about: Tentang Pondok
+      link_about: Tentang Studio
       link_about_zy: Apa itu TCM?
       link_rss: Umpan RSS
       link_sitemap: Peta situs
+      link_nhc: NHC
+      link_satcm: SATCM
+      link_wfcms: WFCMS
       copyright: Konten hanya untuk tujuan edukasi — bukan pengganti nasihat medis.
       powered: Dibuat dengan
     lang:
@@ -626,7 +739,7 @@ strings:
       about: نبذة
     hero:
       eyebrow: طريق تشيهوانغ · فن العافية
-      title: ضيافة تشيهوانغ
+      title: مكتبة تشيهوانغ
       subtitle: الطب الصيني التقليدي · اتباع الفصول · موازنة الين واليانغ
       tagline: مخطوطة من «كتاب الإمبراطور الأصفر»، نصف كوب من الشاي الصافي
     section:
@@ -670,8 +783,24 @@ strings:
       translate_this: ترجمة آلية لهذه الصفحة
       translate_lead: "هذه الصفحة بالصينية. يفتح الرابط أدناه ترجمة آلية في متصفحك:"
       more_unlisted: "…و N غير مدرجة"
+      archive_year_suffix: ""
+      error_404_seal: "404"
       archive_lead: "N مقالات، مجمّعة حسب السنة والشهر."
       tag_count_lead: "N مقالات تحمل هذه الوسوم."
+      volume_one: "الجزء · I"
+      volume_one_short: "الجزء"
+      volume_two: "الجزء · II"
+      view_all: "N مقالات · <a href=\"{{ url }}\">عرض الكل ←</a>"
+      view_all_archive: "عرض الكل ←"
+      post_tags: "الوسوم"
+      related_title: "قراءات ذات صلة"
+      navigation: التنقل
+      post_nav_aria: "تنقل المقالات"
+      last_reviewed: "آخر مراجعة"
+      disclaimer_aria: "إخلاء مسؤولية طبية"
+      search_page_title: "بحث"
+      search_input_aria: "بحث المقالات"
+      search_lead: "ابحث في N مقالات."
     pagination:
       prev: السابق
       next: التالي
@@ -680,7 +809,7 @@ strings:
       updated: حُدِّث
       reading_time: نحو
       months: ['', 'يناير', 'فبراير', 'مارس', 'أبريل', 'مايو', 'يونيو', 'يوليو', 'أغسطس', 'سبتمبر', 'أكتوبر', 'نوفمبر', 'ديسمبر']
-      keywords: "الطب الصيني التقليدي, طب صيني, الصحة, تشيهوانغ, هوانغدي نيجينغ, الوخز بالإبر, خطوط الطول, طب الأعشاب, العناصر الخمسة, الين واليانغ, الفصول, العافية, تقويم شمسي, تشيغونغ"
+      keywords: "الطب الصيني التقليدي, طب صيني, الصحة, تشيهوانغ, مكتبة تشيهوانغ, هوانغدي نيجينغ, الوخز بالإبر, خطوط الطول, طب الأعشاب, العناصر الخمسة, الين واليانغ, الفصول, العافية, تقويم شمسي, تشيغونغ"
     footer:
       poem: "«في القدم، كان من عرفوا الطريق يتبعون الين واليانغ،<br>ويأكلون ويشربون باعتدال، ويقومون وينامون بانتظام،<br>ولا يُتعبون أنفسهم بأعمال لا فائدة فيها.»"
       cite: «— هوانغدي نيجينغ · سوون · شانغغو تيانتشن لُن»
@@ -691,10 +820,13 @@ strings:
       link_categories: كل التصنيفات
       link_tags: سحابة الوسوم
       link_search: بحث كامل
-      link_about: عن الضيافة
+      link_about: عن المكتبة
       link_about_zy: ما هو الطب الصيني؟
       link_rss: تغذية RSS
       link_sitemap: خريطة الموقع
+      link_nhc: NHC
+      link_satcm: SATCM
+      link_wfcms: WFCMS
       copyright: المحتوى لأغراض تعليمية فقط — ليس بديلاً عن الاستشارة الطبية.
       powered: مبني على
     lang:

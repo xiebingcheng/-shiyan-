@@ -1,4 +1,4 @@
-# 岐黄小筑
+# 岐黄书房
 
 > 一卷《内经》，半盏清茶
 > 中医养生科普专题站
@@ -70,7 +70,7 @@ bundle exec jekyll serve
 │   └── 2026-*.md
 ├── categories/              # 6 个分类页（自动生成）
 ├── tags/                    # 55 个标签页（自动生成）
-├── about.md                 # 关于小筑
+├── about.md                 # 关于书房
 ├── about-zhongyi.md         # 什么是中医
 ├── archive.md               # 文章归档
 ├── categories.md            # 分类总览

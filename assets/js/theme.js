@@ -5,6 +5,7 @@
   var STORAGE_KEY = 'theme';
   var root = document.documentElement;
   var btn;
+  var a11y = (window.QIHUANG_I18N && window.QIHUANG_I18N.a11y) || {};
 
   function getStored() {
     try { return localStorage.getItem(STORAGE_KEY); } catch (e) { return null; }
@@ -16,8 +17,9 @@
     root.setAttribute('data-theme', theme);
     setStored(theme);
     if (btn) {
-      btn.setAttribute('aria-label', theme === 'dark' ? '切换为浅色主题' : '切换为深色主题');
-      btn.setAttribute('title', theme === 'dark' ? '切换为浅色主题' : '切换为深色主题');
+      var label = a11y.toggle_theme || 'Toggle theme';
+      btn.setAttribute('aria-label', label);
+      btn.setAttribute('title', label);
     }
   }
   function current() {

@@ -3,7 +3,7 @@ layout: post
 title: "The Three Winter Months: Five Wisdoms for Nourishing the Kidney and Storing the Essence"
 subtitle: "Winter rules closure and storage; to nourish the Kidney is to nourish the root"
 date: 2026-01-18 08:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: siji
 tags: [冬季, 养肾, 藏精, 温补, 冬至]
 excerpt: "Winter belongs to Water and corresponds to the Kidney; the Kidney stores the Essence. From five angles — daily routine, diet, emotions and bedroom conduct, the meridians, and *dǎoyǐn* (导引) — this article unfolds the path of nourishing the Kidney in the three months of winter."
@@ -11,8 +11,10 @@ description: >
   Winter is the season of "closing and storing" (闭藏) and the Kidney is the Zàng-organ that stores jīng (essence). "If you do not store jīng in winter, you will fall ill with warm disease in spring." This guide covers five angles of winter kidney care: daily rhythm, diet (mutton + danggui ginger soup, "five blacks"), emotion, sexual moderation, and moxibustion on Guānyuán CV-4 at winter solstice.
 permalink: /en/2026/01/18/dong-yangshen/
 lang: en
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「The three months of winter are the season of *bì cáng* (闭藏, closure and storage). Water freezes and the earth cracks. Do not disturb the Yang. Retire early and rise late, and you must wait for the sunlight.」
 >
 > ——《黄帝内经·素问·四气调神大论》(*Huángdì Nèijīng*, *Sùwèn*, *Sìqì Tiáoshén Dàlùn*)

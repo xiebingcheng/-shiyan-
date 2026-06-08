@@ -4,24 +4,31 @@ layout: default
 
 <section class="section container">
   <header class="section__header">
-    {%- assign cur_lang = page.lang | default: site.default_lang -%}
-    {%- assign i18n = site.data.i18n.strings[cur_lang] -%}
-    {%- assign tag_total = site.tags | size -%}
-    <h1 class="section__title"><span>卷</span>{{ i18n.nav.tags }}</h1>
-    <p class="section__lead">{{ i18n.section.tags_overview | replace: 'X', tag_total }}</p>
+  {%- assign cur_lang = page.lang | default: site.default_lang -%}
+  {%- assign i18n = site.data.i18n.strings[cur_lang] -%}
+  {%- assign tag_total = site.tags | size -%}
+  <h1 class="section__title"><span>{{ i18n.common.volume_one_short }}</span>{{ i18n.nav.tags }}</h1>
+  <p class="section__lead">{{ i18n.section.tags_overview | replace: 'X', tag_total }}</p>
   </header>
 
-  {%- assign cur_lang = page.lang | default: site.default_lang -%}
-  {%- assign tag_pairs = site.tags | sort -%}
+  {%- assign tag_pairs_sorted = '' | split: '' -%}
+  {%- for tag in site.tags -%}
+    {%- assign lang_count = tag[1] | where: 'lang', cur_lang | size -%}
+    {%- if lang_count > 0 -%}
+      {%- assign sort_key = 99999 | minus: lang_count -%}
+      {%- assign tag_entry = sort_key | append: '||' | append: tag[0] -%}
+      {%- assign tag_pairs_sorted = tag_pairs_sorted | push: tag_entry -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- assign tag_pairs_sorted = tag_pairs_sorted | sort -%}
   <div class="tag-cloud">
-    {%- for tag in tag_pairs -%}
-      {%- assign lang_tag_posts = tag[1] | where: 'lang', cur_lang -%}
-      {%- if lang_tag_posts.size > 0 -%}
-        <a class="tag-cloud__item" href="{{ '/tags/' | append: tag[0] | append: '/' | relative_url }}">
-          <span class="tag-cloud__name">#{{ tag[0] }}</span>
-          <span class="tag-cloud__count">{{ lang_tag_posts.size }}</span>
-        </a>
-      {%- endif -%}
+    {%- for entry in tag_pairs_sorted -%}
+      {%- assign tag_name = entry | split: '||' | last -%}
+      {%- assign lang_tag_posts = site.tags[tag_name] | where: 'lang', cur_lang -%}
+      <a class="tag-cloud__item" href="{{ '/tags/' | append: tag_name | append: '/' | relative_url }}">
+        <span class="tag-cloud__name">#{{ tag_name }}</span>
+        <span class="tag-cloud__count">{{ lang_tag_posts.size }}</span>
+      </a>
     {%- endfor -%}
   </div>
 </section>

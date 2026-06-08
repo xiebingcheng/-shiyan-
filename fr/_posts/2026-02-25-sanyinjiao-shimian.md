@@ -3,14 +3,16 @@ layout: post
 title: "Masser Sānyīnjiāo (SP-6) contre l'insomnie : un point apaisant le sommeil qui harmonise Foie, Rate et Reins"
 subtitle: "Un point traverse trois méridiens ; pour guérir le sommeil, commencez par guérir le Cœur"
 date: 2026-02-25 21:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: jingluo
 tags: [三阴交, 失眠, 安神, 穴位, 妇科]
 excerpt: "Sānyīnjiāo (三阴交, SP-6) est le point de rencontre des trois méridiens yin du Foie, de la Rate et des Reins ; c'est le premier point gynécologique, et un point essentiel pour calmer l'esprit et favoriser le sommeil. Cet article détaille son usage pour le sommeil."
 permalink: /fr/2026/02/25/sanyinjiao-shimian/
 lang: fr
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「**三阴交，在内踝上三寸，骨下陷者中，足太阴、少阴、厥阴之会。**」
 >
 > « Sānyīnjiāo se trouve à trois *cùn* au-dessus de la malléole interne, dans la dépression sous l'os ; c'est le point de rencontre des [méridiens] Pied-Taiyin (Rate), Pied-Shaoyin (Reins) et Pied-Jueyin (Foie). »

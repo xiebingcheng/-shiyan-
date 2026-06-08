@@ -3,14 +3,16 @@ layout: post
 title: "La semilla de loto: el primer alimento para nutrir el Corazón en verano"
 subtitle: "«La semilla del pétalo del loto aclara el Corazón y abate el fuego»"
 date: 2026-05-15 08:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: shiliao
 tags: [莲子, 食疗, 养心, 健脾, 安神]
 excerpt: "La semilla de loto (莲子, liánzǐ) es el regalo del verano. Recolectada cuando la flor de loto está en plena floración, nutre el Corazón y aquieta el espíritu, fortifica el Bazo y detiene la diarrea, tonifica los Riñones y asegura la esencia."
 permalink: /es/2026/05/15/lianzi-yangxin/
 lang: es
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「**出淤泥而不染，濯清涟而不妖。**」
 >
 > «Surgida del lodo cenagoso, sin mancharse; lavada en aguas claras, sin coquetería.»

@@ -3,14 +3,16 @@ layout: post
 title: "Les trois mois du printemps : six clés pour nourrir le Foie et sa libre circulation"
 subtitle: "Le Qi du printemps pénètre le Foie ; nourrir le Foie, c'est nourrir la vie (养生)"
 date: 2026-03-08 09:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: siji
 tags: [春季, 养肝, 疏泄, 情志, 起居]
 excerpt: "Le printemps appartient au Bois, correspond au Foie (肝, gān), et le Foie gouverne le « shū xiè » (疏泄, libre circulation et drainage). Cet article expose systématiquement, sous six angles, la voie pour nourrir le Foie durant les trois mois du printemps."
 permalink: /fr/2026/03/08/chun-yanggan/
 lang: fr
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「春三月，此谓发陈，天地俱生，万物以荣。」
 >
 > «Les trois mois du printemps sont la saison du *fā chén* (发陈, l'épanchement de ce qui est stocké). Le Ciel et la Terre ensemble donnent naissance ; les dix mille êtres s'épanouissent.»

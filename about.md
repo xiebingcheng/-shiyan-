@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 关于岐黄小筑
+title: 关于岐黄书房
 permalink: /about/
 subtitle: 一卷《内经》，半盏清茶
 description: >
-  岐黄小筑 (Qihuang Lodge) 是一个面向全球读者的中医养生科普专题站。
+  岐黄书房 (Qíhuáng Study) 是一个面向全球读者的中医养生科普专题站。
   以《黄帝内经》为宗，传播节气养生、食疗本草、经络穴位、四季调养、
   情志起居六大主题。内容仅供科普参考，不构成任何医疗建议。
 ---
@@ -13,14 +13,14 @@ description: >
 
 「岐」指岐伯，「黄」指黄帝。
 《黄帝内经》以黄帝与岐伯问答为骨架，开中医理论之先河，故后世以「岐黄」代指中医。
-本站取名「岐黄小筑」，意在效岐伯黄帝之问对，把中医养生的智慧，写成普通人也读得懂的文字。
+本站取名「岐黄书房」，意在效岐伯黄帝之问对，把中医养生的智慧，写成普通人也读得懂的文字。
 
-## 小筑所建
+## 书房所建
 
 > 「上古之人，其知道者，法于阴阳，和于术数，食饮有节，起居有常，不妄作劳，故能形与神俱，而尽终其天年，度百岁乃去。」
 > ——《黄帝内经·素问·上古天真论》
 
-小筑内容围绕六个方向展开：
+书房内容围绕六个方向展开：
 
 - **节气养生** —— 顺应二十四节气，调和天人相应
 - **食疗本草** —— 药食同源，本草入馔
@@ -36,8 +36,8 @@ description: >
 
 ## 编辑与审校
 
-本站由 [岐黄小筑编委会]({{ '/humans.txt' | relative_url }}) 维护，
-所有涉及具体健康建议的文章发布前均经过**岐黄小筑医学审校组**的复核，
+本站由 [岐黄书房编委会]({{ '/humans.txt' | relative_url }}) 维护，
+所有涉及具体健康建议的文章发布前均经过**岐黄书房医学审校组**的复核，
 并在文末标注最后审校时间。我们欢迎有执业资格的中医师与营养师加入审校组，
 请通过 [humans.txt]({{ '/humans.txt' | relative_url }}) 中的邮箱联系。
 
@@ -49,9 +49,9 @@ description: >
 
 ## 联络
 
-- 编辑邮箱：editorial@qihuanglodge.example
-- 审校邮箱：review@qihuanglodge.example
-- 安全问题：security@qihuanglodge.example
+- 编辑邮箱：editorial@qihuangstudy.example
+- 审校邮箱：review@qihuangstudy.example
+- 安全问题：security@qihuangstudy.example
 - RSS：[订阅本站](/feed.xml)
 - 站点信息：[humans.txt](/humans.txt)
 

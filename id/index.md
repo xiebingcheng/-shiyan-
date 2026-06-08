@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Pondok Qíhuáng
+title: Studio Qíhuáng
 permalink: /id/
 lang: id
 ---

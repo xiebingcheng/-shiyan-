@@ -2,7 +2,8 @@
   <div class="container site-header__inner">
 
     {%- assign cur_lang = page.lang | default: 'zh-CN' -%}
-    <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="{{ site.data.i18n.strings[cur_lang].nav.home | default: site.data.i18n.strings['zh-CN'].nav.home }}">
+    {%- assign i18n = site.data.i18n.strings[cur_lang] -%}
+    <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="{{ i18n.nav.home }}">
       <span class="site-brand__seal" aria-hidden="true">
         <svg viewBox="0 0 40 40" width="40" height="40">
           <rect x="2" y="2" width="36" height="36" rx="3" fill="none" stroke="currentColor" stroke-width="2"/>
@@ -16,11 +17,11 @@
       </span>
     </a>
 
-    <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="菜单">
+    <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="{{ i18n.a11y.open_menu }}">
       <span></span><span></span><span></span>
     </button>
 
-    <nav id="site-nav" class="site-nav" role="navigation" aria-label="主导航">
+    <nav id="site-nav" class="site-nav" role="navigation" aria-label="{{ i18n.nav.home }} {{ i18n.common.navigation }}">
       <ul class="site-nav__list">
         {%- assign nav_i18n = site.data['nav-i18n'] -%}
         {%- for item in nav_i18n -%}
@@ -55,7 +56,7 @@
         {%- endfor -%}
         <li class="site-nav__item site-nav__item--tools">
           {%- include lang-switcher.html -%}
-          <button class="theme-toggle" type="button" aria-label="切换主题" title="切换明暗主题">
+          <button class="theme-toggle" type="button" aria-label="{{ i18n.a11y.toggle_theme }}" title="{{ i18n.a11y.toggle_theme }}">
             <span class="theme-toggle__sun" aria-hidden="true">☀</span>
             <span class="theme-toggle__moon" aria-hidden="true">☾</span>
           </button>

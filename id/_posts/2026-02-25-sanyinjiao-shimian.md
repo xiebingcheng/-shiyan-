@@ -3,14 +3,16 @@ layout: post
 title: "Memijat Sānyīnjiāo (SP-6) untuk Insomnia: Titik Penenang Tidur yang Menyehatkan Hati, Limpa, dan Ginjal"
 subtitle: "Satu titik menembus tiga meridian; untuk menyembuhkan tidur, sembuhkan dulu Jantung"
 date: 2026-02-25 21:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: jingluo
 tags: [三阴交, 失眠, 安神, 穴位, 妇科]
 excerpt: "Sānyīnjiāo (三阴交, SP-6) adalah titik pertemuan tiga meridian yin Hati, Limpa, dan Ginjal; ia adalah titik ginekologi utama, dan titik penting untuk menenteramkan jiwa serta membantu tidur. Artikel ini menguraikan penggunaannya untuk tidur."
 permalink: /id/2026/02/25/sanyinjiao-shimian/
 lang: id
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「**三阴交，在内踝上三寸，骨下陷者中，足太阴、少阴、厥阴之会。**」
 >
 > «Sānyīnjiāo terletak tiga *cùn* di atas maleolus medial, pada cekungan di bawah tulang; ia adalah titik pertemuan [meridian] Kaki-Taiyin (Limpa), Kaki-Shaoyin (Ginjal), dan Kaki-Jueyin (Hati).»

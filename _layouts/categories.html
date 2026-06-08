@@ -6,11 +6,10 @@ layout: default
   <header class="section__header">
     {%- assign cur_lang = page.lang | default: site.default_lang -%}
     {%- assign i18n = site.data.i18n.strings[cur_lang] -%}
-    <h1 class="section__title"><span>卷</span>{{ i18n.nav.categories }}</h1>
+    <h1 class="section__title"><span>{{ i18n.common.volume_one_short }}</span>{{ i18n.nav.categories }}</h1>
     <p class="section__lead">{{ i18n.section.categories_lead }}</p>
   </header>
 
-  {%- assign cur_lang = page.lang | default: site.default_lang -%}
   <ul class="category-list">
     {%- assign cats_i18n = site.data['categories-i18n'] -%}
     {%- for cat in site.data.categories -%}
@@ -22,7 +21,7 @@ layout: default
         <h2 class="category-block__title">
           <span class="category-block__icon" aria-hidden="true">{{ cat.icon }}</span>
           {{ cat_name }}
-          <span class="category-block__count">（{{ cat_posts.size }} {{ i18n.common.articles }}）</span>
+          <span class="category-block__count">({{ cat_posts.size }} {{ i18n.common.articles }})</span>
         </h2>
         <p class="category-block__desc">{{ cat_desc }}</p>
         {%- if cat_posts.size > 0 -%}

@@ -2,15 +2,17 @@
 layout: post
 title: "Hánlù: otoño profundo, rocío denso — Humedecer el Pulmón y nutrir el Yin"
 subtitle: "«Mediados de otoño — el rocío se enfría y está a punto de condensarse»"
-date: 2026-10-08 08:30:00 +0800
-author: Qíhuáng Lodge
+date: 2025-10-08 08:30:00 +0800
+author: Qíhuáng Study
 category: jieqi
 tags: [寒露, 节气, 润肺, 养阴, 秋季]
 excerpt: "En Hánlù (寒露, Rocío Frío), el rocío trae frío y el otoño se profundiza. Humedecer el Pulmón y nutrir el Yin (阴, yīn) es el núcleo del Yangsheng en este término solar."
-permalink: /es/2026/10/08/hanlu-yanfei/
+permalink: /es/2025/10/08/hanlu-yanfei/
 lang: es
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「**九月节，露气寒冷，将凝结也。**」
 >
 > «Mediados de otoño — el rocío se enfría y está a punto de condensarse.»

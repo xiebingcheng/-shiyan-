@@ -1,6 +1,6 @@
 ---
 layout: home
-title: La Cabaña Qíhuáng
+title: El Estudio Qíhuáng
 permalink: /es/
 lang: es
 ---

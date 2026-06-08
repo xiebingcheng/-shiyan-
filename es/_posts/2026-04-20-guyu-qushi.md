@@ -3,14 +3,16 @@ layout: post
 title: "Gǔyǔ: el período dorado para expulsar la humedad al final de la primavera"
 subtitle: "«Qīngmíng corta la nieve, Gǔyǔ corta la escarcha» — Atrapa la cola de la primavera"
 date: 2026-04-20 08:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: jieqi
 tags: [谷雨, 节气, 祛湿, 养肝, 春末]
 excerpt: "Gǔyǔ (谷雨, Lluvia para el Grano) es el último término solar de la primavera. La lluvia de primavera nutre los diez mil seres y constituye también la ventana dorada del cuerpo para expulsar la humedad y nutrir el Hígado."
 permalink: /es/2026/04/20/guyu-qushi/
 lang: es
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「**清明断雪，谷雨断霜。**」
 >
 > 「**谷雨春光晓，山川黛色青。**」

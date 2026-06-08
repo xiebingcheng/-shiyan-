@@ -3,14 +3,16 @@ layout: post
 title: "La musique des cinq éléments libère le Foie : un air en jué (角), et le Qi du printemps s'accorde de lui-même"
 subtitle: "Cent maladies naissent du Qi et s'achèvent dans le son"
 date: 2026-03-15 09:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: qingzhi
 tags: [五行音乐, 角音, 疏肝, 情志, 音乐疗法]
 excerpt: "« Cent maladies naissent du Qi et s'achèvent dans le son » — les cinq notes correspondent aux cinq zang ; écouter la bonne musique peut libérer le Foie, nourrir le Cœur, fortifier la Rate, humidifier les Poumons et tonifier les Reins."
 permalink: /fr/2026/03/15/wuxing-yinyue/
 lang: fr
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「**百病生于气，止于音。**」
 >
 > 「**宫动脾，商动肺，角动肝，徵动心，羽动肾。**」

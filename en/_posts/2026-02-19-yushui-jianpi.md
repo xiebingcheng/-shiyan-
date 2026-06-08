@@ -3,7 +3,7 @@ layout: post
 title: "Four Methods to Fortify the Spleen and Dispel Dampness at the Yǔshuǐ Solar Term"
 subtitle: "Rain descends from Heaven, dampness rises from Earth; the Spleen is the Central Earth, and dreads being clogged above all"
 date: 2026-02-19 09:30:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: jieqi
 tags: [雨水, 节气, 健脾, 祛湿, 痰湿]
 excerpt: "At the Yǔshuǐ (雨水) solar term, dampness (湿气, shīqì) waxes, and the Spleen (脾, pí) is most easily encumbered. This article lays out four methods — diet, moxibustion, daoyin (导引, dǎoyǐn) and daily routine — to help you nourish the root of postnatal qi (气, qì)."
@@ -11,8 +11,10 @@ description: >
   Yǔshuǐ (雨水, Rain Water) — the second solar term of spring, when dampness rises and the Spleen is most easily burdened. This guide covers the six signs of "damp-encumbered Spleen" plus four lines of defense: diet (yìmǐ / shānyao / fúlíng / qiànshí), moxibustion (Zhōngwǎn + Zúsānlǐ + Yīnlíngquán), the Spleen-stomach breathing exercise, and lifestyle (avoid damp, sun your bedding).
 permalink: /en/2026/02/19/yushui-jianpi/
 lang: en
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「好雨知时节，当春乃发生。随风潜入夜，润物细无声。」
 >
 > "The good rain knows the seasons; when spring comes, it gives life. It slips in with the wind at night, and moistens all things without a sound."

@@ -3,14 +3,16 @@ layout: post
 title: "Cuatro métodos para fortalecer el Bazo y expulsar la Humedad en el término solar Yǔshuǐ (Agua de Lluvia)"
 subtitle: "La lluvia desciende del Cielo, la Humedad brota de la Tierra; el Bazo es la Tierra Central, y teme sobre todo verse anegado"
 date: 2026-02-19 09:30:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: jieqi
 tags: [雨水, 节气, 健脾, 祛湿, 痰湿]
 excerpt: "En el término solar Yǔshuǐ (雨水), la Humedad (湿气, shīqì) crece, y el Bazo (脾, pí) es lo más fácil de anegar. Este artículo reúne cuatro métodos — alimentación, moxibustión (艾灸, àijiǔ), daoyin (导引, dǎoyǐn) y rutina diaria — para ayudarle a nutrir la raíz del Qi postnatal."
 permalink: /es/2026/02/19/yushui-jianpi/
 lang: es
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「好雨知时节，当春乃发生。随风潜入夜，润物细无声。」
 >
 > «La buena lluvia conoce las estaciones; al llegar la primavera, da la vida. Con el viento se cuela en la noche, y humedece todas las cosas sin ruido.»

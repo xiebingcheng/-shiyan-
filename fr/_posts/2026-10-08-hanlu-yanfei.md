@@ -2,15 +2,17 @@
 layout: post
 title: "Hánlù : automne profond, rosée lourde — Humidifier le Poumon et nourrir le Yin"
 subtitle: "« Mi-automne — l'air de la rosée se refroidit et va se condenser »"
-date: 2026-10-08 08:30:00 +0800
-author: Qíhuáng Lodge
+date: 2025-10-08 08:30:00 +0800
+author: Qíhuáng Study
 category: jieqi
 tags: [寒露, 节气, 润肺, 养阴, 秋季]
 excerpt: "À Hánlù (寒露, Rosée Froide), la rosée porte le froid et l'automne s'approfondit. Humidifier le Poumon et nourrir le Yin (阴, yīn) est le cœur du Yangsheng à ce terme solaire."
-permalink: /fr/2026/10/08/hanlu-yanfei/
+permalink: /fr/2025/10/08/hanlu-yanfei/
 lang: fr
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「**九月节，露气寒冷，将凝结也。**」
 >
 > « Mi-automne — l'air de la rosée se refroidit et va se condenser. »

@@ -3,14 +3,16 @@ layout: post
 title: "Biji Teratai: Bahan Utama Merawat Jantung di Musim Panas"
 subtitle: "«Biji teratai dari polong, menjernihkan Jantung dan menurunkan api»"
 date: 2026-05-15 08:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: shiliao
 tags: [莲子, 食疗, 养心, 健脾, 安神]
 excerpt: "Biji teratai (莲子, liánzǐ) adalah karunia musim panas. Dipanen ketika bunga teratai bermekaran, ia merawat Jantung dan menenteramkan roh, memperkuat Limpa dan menghentikan diare, men-tonifikasi Ginjal dan mengukuhkan jing."
 permalink: /id/2026/05/15/lianzi-yangxin/
 lang: id
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「**出淤泥而不染，濯清涟而不妖。**」
 >
 > «Muncul dari lumpur kotor namun tak ternoda; basuh dalam riak jernih namun tak genit.»

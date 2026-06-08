@@ -3,14 +3,16 @@ layout: post
 title: "Dix tapotements de dents au lever : petite pratique pour affermir les dents et nourrir les Reins"
 subtitle: "De toutes les choses pour nourrir la vie (养生), aucune ne vaut l'affermissement des dents"
 date: 2026-02-12 07:30:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: qiju
 tags: [叩齿, 固齿, 养肾, 起居, 小功法]
 excerpt: "Le tapotement des dents et l'absorption de la salive (叩齿吞津, kòu chǐ tūn jīn) est une pratique traditionnelle de yangsheng (养生, yǎng shēng, nourrir la vie) en MTC (Médecine Traditionnelle Chinoise, 中医). Trente-six tapotements au lever et avant le coucher affermissent les dents, nourrissent les Reins, fortifient la Rate et embellissent le teint."
 permalink: /fr/2026/02/12/kouchi-guchi/
 lang: fr
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「**齿为骨之余，肾主骨，叩齿则骨坚，骨坚则齿牢。**」
 >
 > «Les dents sont le surplus des os ; les Reins gouvernent les os. Quand on tape les dents, les os deviennent fermes ; quand les os sont fermes, les dents tiennent.»

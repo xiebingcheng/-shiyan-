@@ -2,15 +2,17 @@
 layout: post
 title: "Hánlù: Kedalaman Musim Gugur, Embun yang Berat — Melembapkan Paru dan Menutrisi Yin"
 subtitle: "«Bulan kesembilan, embun berubah dingin dan hampir membeku»"
-date: 2026-10-08 08:30:00 +0800
-author: Qíhuáng Lodge
+date: 2025-10-08 08:30:00 +0800
+author: Qíhuáng Study
 category: jieqi
 tags: [寒露, 节气, 润肺, 养阴, 秋季]
 excerpt: "Pada Hánlù (寒露, Hánlù, Cold Dew), embun membawa hawa dingin dan musim gugur semakin dalam. Melembapkan Paru dan memutrisi Yin (阴, yīn) adalah inti dari Yangsheng (养生) pada istilah matahari ini."
-permalink: /id/2026/10/08/hanlu-yanfei/
+permalink: /id/2025/10/08/hanlu-yanfei/
 lang: id
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「**九月节，露气寒冷，将凝结也。**」
 >
 > «Bulan kesembilan, embun berubah dingin dan hampir membeku.»

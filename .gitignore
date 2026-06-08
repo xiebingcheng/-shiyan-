@@ -15,5 +15,6 @@ vendor/
 # 调试临时文件
 actions_jobs.json
 build_logs.zip
+build_logs/
 run.html
 *_backup_*.zip

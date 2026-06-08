@@ -3,14 +3,16 @@ layout: post
 title: "Les baies de goji : trois « à faire » et trois « à ne pas faire » pour les consommer"
 subtitle: "« La baie anti-âge » n'est pas à mâcher chaque jour par tout le monde"
 date: 2026-01-25 08:30:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: shiliao
 tags: [枸杞, 食疗, 养肝, 明目, 禁忌]
 excerpt: "Les baies de goji sont un incontournable national de la préservation de la santé, mais elles ne conviennent pas à tout le monde. Cet article clarifie la nature, la saveur, l'entrée dans les méridiens, les associations heureuses et les tabous des baies de goji — pour vous aider à les manger correctement."
 permalink: /fr/2026/01/25/gouqi-jinji/
 lang: fr
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > « Le goji, doux et neutre, pénètre le Foie et le Rein, profite à l'Essence, éclaircit les yeux, et nourrit l'Essence et le Sang. »
 >
 > ——Vers mnémonique du *Zhōngyào Xué* (《中药学》, Matière Médicale Chinoise)

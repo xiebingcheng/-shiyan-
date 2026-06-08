@@ -12,7 +12,12 @@ layout: default
 
   <header class="post__header container">
     {%- if cat_meta -%}
-      <a class="post__category" href="{{ '/categories/' | append: page.category | append: '/' | relative_url }}"
+      {%- if cur_lang == site.default_lang -%}
+        {%- assign cat_url = '/categories/' | append: page.category | append: '/' -%}
+      {%- else -%}
+        {%- assign cat_url = '/' | append: cur_lang | append: '/categories/' | append: page.category | append: '/' -%}
+      {%- endif -%}
+      <a class="post__category" href="{{ cat_url | relative_url }}"
          style="--cat-color: {{ cat_meta.color }}">
         {{ cat_meta.icon }} {{ cat_name }}
       </a>
@@ -29,7 +34,12 @@ layout: default
 
   {%- comment -%} Breadcrumb {%- endcomment -%}
   <div class="container">
-    {%- capture bc -%}{{ i18n.nav.home }},/{{ ' ' }}{% if cur_lang != site.default_lang %}{{ cur_lang }}/{% endif %};{{ cat_name }},/{{ ' ' }}{% if cur_lang != site.default_lang %}{{ cur_lang }}/{% endif %}categories/{{ page.category }}/;{{ page.title }}{%- endcapture -%}
+    {%- if cur_lang == site.default_lang -%}
+      {%- assign prefix = '' -%}
+    {%- else -%}
+      {%- assign prefix = '/' | append: cur_lang -%}
+    {%- endif -%}
+    {%- capture bc -%}{{ i18n.nav.home }},{{ prefix }}/;{{ cat_name }},{{ prefix }}/categories/{{ page.category }}/;{{ page.title }}{%- endcapture -%}
     {%- include breadcrumb.html crumbs=bc -%}
   </div>
 
@@ -40,25 +50,27 @@ layout: default
   {%- if page.tags and page.tags.size > 0 -%}
   <footer class="post__footer container">
     <div class="post__tags">
-      <span class="post__tags-label">标签：</span>
+      <span class="post__tags-label">{{ i18n.common.post_tags }}：</span>
       {%- for tag in page.tags -%}
-        <a class="tag-chip" href="{{ '/tags/' | append: tag | append: '/' | relative_url }}">#{{ tag }}</a>
+        {%- if cur_lang == site.default_lang -%}
+          {%- assign tag_url = '/tags/' | append: tag | append: '/' -%}
+        {%- else -%}
+          {%- assign tag_url = '/' | append: cur_lang | append: '/tags/' | append: tag | append: '/' -%}
+        {%- endif -%}
+        <a class="tag-chip" href="{{ tag_url | relative_url }}">#{{ tag }}</a>
       {%- endfor -%}
     </div>
   </footer>
   {%- endif -%}
 
   {%- comment -%} Article-level medical disclaimer (TCM YMYL best practice) {%- endcomment -%}
-  <aside class="post__disclaimer container" role="note" aria-label="Medical disclaimer">
+  <aside class="post__disclaimer container" role="note" aria-label="{{ i18n.common.disclaimer_aria }}">
     <p>
-      <strong>⚠ 免责声明</strong>：本文内容仅供中医文化科普与日常养生参考，穴位按摩、食疗药膳、导引功法等
-      <em>不能替代专业医疗诊断与治疗</em>。个人体质有异，施用前请咨询执业中医师；
-      急症、重症、孕期及慢性疾病患者请及时就医，遵从医嘱。
+      <strong>⚠ {{ i18n.footer.copyright }}</strong>
     </p>
     {%- if page.last_modified_at or page.last_reviewed_at -%}
     <p class="post__reviewed">
-      最后审校：{{ page.last_modified_at | default: page.last_reviewed_at | default: page.date | date: '%Y-%m-%d' }}
-      {%- if page.reviewer %} · 审校：{{ page.reviewer }}{%- endif -%}
+      {{ i18n.common.last_reviewed }}：{{ page.last_modified_at | default: page.last_reviewed_at | default: page.date | date: '%Y-%m-%d' }}
     </p>
     {%- endif -%}
   </aside>
@@ -74,8 +86,8 @@ layout: default
     {%- endif -%}
   {%- endfor -%}
   {%- if related_list.size > 0 -%}
-  <section class="related-posts container" aria-label="Related articles">
-    <h2 class="related-posts__title">同主题阅读</h2>
+  <section class="related-posts container" aria-label="{{ i18n.common.related_title }}">
+    <h2 class="related-posts__title">{{ i18n.common.related_title }}</h2>
     <ul class="related-posts__list">
       {%- for p in related_list -%}
       <li class="related-posts__item">
@@ -108,7 +120,7 @@ layout: default
     {%- endif -%}
   {%- endfor -%}
 
-  <nav class="post__nav container" aria-label="文章导航">
+  <nav class="post__nav container" aria-label="{{ i18n.common.post_nav_aria }}">
     {%- if prev_post -%}
       <a class="post__nav-link post__nav-link--prev" href="{{ prev_post.url | relative_url }}" rel="prev">
         <span class="post__nav-arrow">←</span>

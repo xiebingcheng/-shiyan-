@@ -17,7 +17,7 @@
 </head>
 <body class="layout--{{ page.layout | default: layout | default: 'default' }}{%- if is_rtl %} rtl{%- endif -%}">
 
-  <a class="skip-link" href="#main">跳到正文</a>
+  <a class="skip-link" href="#main">{{ site.data.i18n.strings[cur_lang].a11y.skip_to_content | default: '跳到正文' }}</a>
 
   {%- include header.html -%}
 
@@ -27,6 +27,16 @@
 
   {%- include footer.html -%}
 
+  <script>
+    window.QIHUANG_I18N = {
+      cur_lang: {{ cur_lang | jsonify }},
+      a11y: {
+        open_menu: {{ site.data.i18n.strings[cur_lang].a11y.open_menu | jsonify }},
+        close_menu: {{ site.data.i18n.strings[cur_lang].a11y.close_menu | jsonify }},
+        toggle_theme: {{ site.data.i18n.strings[cur_lang].a11y.toggle_theme | jsonify }}
+      }
+    };
+  </script>
   <script src="{{ '/assets/js/theme.js' | relative_url }}" defer></script>
   <script src="{{ '/assets/js/nav.js' | relative_url }}" defer></script>
   <script src="{{ '/assets/js/i18n.js' | relative_url }}" defer></script>

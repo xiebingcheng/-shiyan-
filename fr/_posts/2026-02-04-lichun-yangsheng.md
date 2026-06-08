@@ -3,14 +3,16 @@ layout: post
 title: "Prendre soin de sa santé au Lichun : s'accorder à la montée du Yang"
 subtitle: "L'année commence au printemps ; l'art du Yangsheng (养生) commence par le « Shēng » (生, génération)"
 date: 2026-02-04 09:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: jieqi
 tags: [立春, 节气, 养肝, 阳气, 生发]
 excerpt: "Lichun (立春) — le moment où toutes choses naissent. Les trois Yang ouvrent la prospérité, et le Qi Yang (阳气) commence à s'élever. Sous quatre angles — alimentation, hygiène de vie, émotions et méridiens — cet article explique comment suivre le principe du « Shēng » (生) au Commencement du Printemps."
 permalink: /fr/2026/02/04/lichun-yangsheng/
 lang: fr
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「春三月，此谓发陈，天地俱生，万物以荣，夜卧早起，广步于庭，被发缓形，以使志生，生而勿杀，予而勿夺，赏而勿罚，此春气之应，养生之道也。」
 >
 > ——《黄帝内经·素问·四气调神大论》

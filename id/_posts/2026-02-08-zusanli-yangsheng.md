@@ -3,14 +3,16 @@ layout: post
 title: "Zúsānlǐ (ST-36): Titik Akupunktur Utama untuk Perawatan Kesehatan Harian"
 subtitle: "\"Jika ingin damai, biarlah Zúsānlǐ tak pernah kering\""
 date: 2026-02-08 08:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: jingluo
 tags: [足三里, 穴位, 足阳明胃经, 艾灸, 保健]
 excerpt: "\"Jika ingin damai, biarlah Zúsānlǐ tak pernah kering\" — Sūn Sīmiǎo merangkum dalam satu kalimat status Zúsānlǐ. Artikel ini merinci letak, khasiat, dan cara penekanan, pemijatan, serta moksibusi pada Zúsānlǐ."
 permalink: /id/2026/02/08/zusanli-yangsheng/
 lang: id
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「**Jika ingin damai, biarlah Zúsānlǐ tak pernah kering.**」
 >
 > ——Sūn Sīmiǎo, *Qiānjīn Yàofāng* (《千金要方》, Resep Seribu Keping Emas)

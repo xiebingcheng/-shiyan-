@@ -3,7 +3,7 @@ layout: post
 title: "Chinese Yam: A 'Superior-Grade' Home Dish for Tonifying the Spleen and Benefiting the Kidney"
 subtitle: "Huai yam, Iron-stick yam — a treasure from end to end"
 date: 2026-01-12 08:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: shiliao
 tags: [山药, 食疗, 健脾, 补肾, 药食同源]
 excerpt: "Why is the Chinese yam, the very first of the 'superior-grade' herbs in the *Shénnóng Běncǎo Jīng*, so good? How to choose it, how to cook it, how to eat it? This article lays it all out in one place."
@@ -11,8 +11,10 @@ description: >
   Chinese yam (Shānyao, 山药) is the top-grade herb in the *Shénnóng Běncǎo Jīng* — sweet, neutral, entering the Spleen, Lung and Kidney meridians. This guide covers how to pick Hénán Tiěgùn yam vs. Huái yam, ten home recipes (millet congee, pork-rib soup, yams with fox nuts), five contraindications, and the lesser-known yams leaves and yams-bean (língyú).
 permalink: /en/2026/01/12/shanyao-shanjia/
 lang: en
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「Yam, also named *shǔyù* (薯蓣). Flavor sweet and warm. It governs injury to the center, supplements weakness and emaciation, removes the qi of cold and heat, supplements the center and boosts qi and strength, and increases the muscles. Long-term ingestion brightens the ears and eyes, lightens the body and abolishes hunger, and extends the years.」
 >
 > ——《神农本草经》(*Shénnóng Běncǎo Jīng*, Divine Farmer's Classic of Materia Medica)

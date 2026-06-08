@@ -2,9 +2,9 @@
 # Used for E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness)
 # Add real review credentials here when you partner with licensed TCM practitioners.
 
-- slug: qihuang-editorial
-  name_zh: 岐黄小筑编委会
-  name_en: Qihuang Lodge Editorial Board
+- slug: qihuangstudy-editorial
+  name_zh: 岐黄书房编委会
+  name_en: Qíhuáng Study Editorial Board
   role_zh: 内容编辑
   role_en: Editorial
   bio_zh: >
@@ -18,11 +18,11 @@
     Always consult a licensed practitioner for personal health decisions.
   same_as:
     - https://github.com/xiebingcheng
-  email: editorial@qihuanglodge.example
+  email: editorial@qihuangstudy.example
 
-- slug: qihuang-medical-review
-  name_zh: 岐黄小筑医学审校组
-  name_en: Qihuang Lodge Medical Review Board
+- slug: qihuangstudy-medical-review
+  name_zh: 岐黄书房医学审校组
+  name_en: Qíhuáng Study Medical Review Board
   role_zh: 医学审校
   role_en: Medical Reviewer
   bio_zh: >
@@ -31,7 +31,7 @@
   bio_en: >
     Composed of licensed TCM practitioners and registered dietitians.
     Each article is stamped with the last review date shown at the foot of the post.
-  email: review@qihuanglodge.example
+  email: review@qihuangstudy.example
 
 # 审校医师占位 — 当与真实执业中医师签约后，
 # 在这里加新条目，并在文章 front matter 用 reviewer: <slug> 引用。

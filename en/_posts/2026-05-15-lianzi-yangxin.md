@@ -3,7 +3,7 @@ layout: post
 title: "Lotus Seed: The Foremost Ingredient for Nourishing the Heart in Summer"
 subtitle: "«The lotus seed of the pod clears the Heart and quells fire»"
 date: 2026-05-15 08:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: shiliao
 tags: [莲子, 食疗, 养心, 健脾, 安神]
 excerpt: "Lotus seed (莲子, liánzǐ) is summer's gift. Harvested when lotus flowers are in full bloom, it nourishes the Heart and quiets the spirit, fortifies the Spleen and stops diarrhea, tonifies the Kidneys and secures essence."
@@ -11,8 +11,10 @@ description: >
   Lotus seeds (Liánzǐ, 莲子) are summer's first heart-tonic — sweet-astringent, neutral, entering Spleen, Kidney and Heart meridians. Three core functions: calm the Heart-Shén, strengthen Spleen-stop diarrhea, tonify Kidney-secure essence. Eight home recipes: silver-ear lotus soup, lotus-lily congee, lotus-heart tea (Lianzi xin 清心火), lotus-yam congee, etc. Picking Xiāng lotus from Xiangtan.
 permalink: /en/2026/05/15/lianzi-yangxin/
 lang: en
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「**出淤泥而不染，濯清涟而不妖。**」
 >
 > "Risen from the silty mud, yet untainted; washed in the clear ripples, yet not coquettish."

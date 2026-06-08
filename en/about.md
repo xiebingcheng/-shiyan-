@@ -1,11 +1,11 @@
 ---
 layout: page
-title: About the Lodge
+title: About the Study
 permalink: /en/about/
 subtitle: One scroll of the Classic, a half-cup of clear tea
 lang: en
 description: >
-  About Qíhuáng Lodge (岐黄小筑) — a Traditional Chinese Medicine wellness
+  About Qíhuáng Study (岐黄书房) — a Traditional Chinese Medicine wellness
   site organized around six themes. Editorial board, medical review process,
   disclaimers and contact information.
 ---
@@ -14,7 +14,7 @@ description: >
 
 "Qí" (岐) refers to Qíbó (岐伯); "Huáng" (黄) refers to the Yellow Emperor (Huángdì, 黄帝).
 The *Huángdì Nèijīng* (《黄帝内经》), the foundational classic of Chinese medicine, is framed as a dialogue between the Yellow Emperor and his minister Qíbó. Later generations thus used "Qíhuáng" (岐黄) as a metonym for Chinese medicine as a whole.
-The Lodge ("Xiǎozhú", 小筑) is named in the spirit of Qíbó and the Yellow Emperor's inquiry — turning the wisdom of Chinese medicine into words that ordinary people can read and use.
+The Study ("Shūfáng", 书房) is named in the spirit of Qíbó and the Yellow Emperor's inquiry — turning the wisdom of Chinese medicine into words that ordinary people can read and use.
 
 ## What you'll find here
 
@@ -22,7 +22,7 @@ The Lodge ("Xiǎozhú", 小筑) is named in the spirit of Qíbó and the Yellow 
 >
 > — *Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn* (Chapter 1)
 
-The Lodge organizes its content around six themes:
+The Study organizes its content around six themes:
 
 - **Solar Terms** (节气养生) — Following the 24 solar terms, harmonizing Heaven and humankind
 - **Food Therapy & Herbs** (食疗本草) — Food and medicine share the same root; nourishment in everyday meals
@@ -38,8 +38,8 @@ and that this sentence may offer a little warmth on a cold winter night or a tro
 
 ## Editorial & review
 
-Maintained by the [Qíhuáng Lodge Editorial Board]({{ '/humans.txt' | relative_url }}).
-Every health-claim post is reviewed by the **Qíhuáng Medical Review Board** before publication
+Maintained by the [Qíhuáng Study Editorial Board]({{ '/humans.txt' | relative_url }}).
+Every health-claim post is reviewed by the **Qíhuáng Study Medical Review Board** before publication
 and stamped with the last review date. We welcome licensed TCM practitioners and registered
 dietitians to join the review board — please contact us via the email listed in [humans.txt]({{ '/humans.txt' | relative_url }}).
 
@@ -53,9 +53,9 @@ in seeking it because of something you have read on this website.
 
 ## Contact
 
-- Editorial: editorial@qihuanglodge.example
-- Medical review: review@qihuanglodge.example
-- Security: security@qihuanglodge.example
+- Editorial: editorial@qihuangstudy.example
+- Medical review: review@qihuangstudy.example
+- Security: security@qihuangstudy.example
 - RSS: [Subscribe](/en/feed.xml)
 - Team info: [humans.txt](/humans.txt)
 

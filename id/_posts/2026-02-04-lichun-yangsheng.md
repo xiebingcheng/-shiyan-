@@ -3,14 +3,16 @@ layout: post
 title: "Merawat Kesehatan di Lichun: Menyelaraskan dengan Bangkitnya Yang"
 subtitle: "Tahun dimulai di musim semi; seni Yangsheng (养生) dimulai dari «Shēng» (生, penjelmaan)"
 date: 2026-02-04 09:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: jieqi
 tags: [立春, 节气, 养肝, 阳气, 生发]
 excerpt: "Lichun (立春) adalah saat segala sesuatu menjelma. Tiga Yang membuka kemakmuran, dan Qi Yang (阳气) mulai naik. Dari empat sudut — pangan, rutinitas harian, emosi, dan meridian — artikel ini membahas bagaimana mengikuti prinsip «Shēng» (生) di Awal Musim Semi."
 permalink: /id/2026/02/04/lichun-yangsheng/
 lang: id
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「春三月，此谓发陈，天地俱生，万物以荣，夜卧早起，广步于庭，被发缓形，以使志生，生而勿杀，予而勿夺，赏而勿罚，此春气之应，养生之道也。」
 >
 > ——《黄帝内经·素问·四气调神大论》

@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Цихуан Сяочжу
+title: Кабинет «Цихуан»
 permalink: /ru/
 lang: ru
 ---

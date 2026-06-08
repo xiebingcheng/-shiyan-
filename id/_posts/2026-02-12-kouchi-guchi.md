@@ -3,14 +3,16 @@ layout: post
 title: "Sepuluh Ketukan Gigi di Pagi Hari: Latihan Kecil untuk Menguatkan Gigi dan Memupuk Ginjal"
 subtitle: "Di antara segala hal untuk memupuk kehidupan (养生), tak ada yang melebihi penguatan gigi"
 date: 2026-02-12 07:30:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: qiju
 tags: [叩齿, 固齿, 养肾, 起居, 小功法]
 excerpt: "Mengetuk gigi dan menelan air liur (叩齿吞津, kòu chǐ tūn jīn) adalah praktik tradisional yangsheng (养生, yǎng shēng, memupuk kehidupan) dalam TCM (Traditional Chinese Medicine, Pengobatan Tradisional Tionghoa, 中医). Ketuk gigi 36 kali saat bangun dan sebelum tidur untuk menguatkan gigi, memupuk Ginjal, menyehatkan Limpa, dan memperindah wajah."
 permalink: /id/2026/02/12/kouchi-guchi/
 lang: id
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「**齿为骨之余，肾主骨，叩齿则骨坚，骨坚则齿牢。**」
 >
 > «Gigi adalah lebihan tulang; Ginjal menguasai tulang. Bila gigi diketuk, tulang menjadi keras; bila tulang keras, gigi menjadi kukuh.»

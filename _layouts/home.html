@@ -6,7 +6,7 @@ layout: default
   <div class="hero__inner container">
     {%- assign cur_lang = page.lang | default: site.default_lang -%}
     {%- assign i18n = site.data.i18n.strings[cur_lang] -%}
-    <p class="hero__eyebrow">— 岐黄之道 · 养生之学 —</p>
+    <p class="hero__eyebrow">— {{ i18n.hero.eyebrow }} —</p>
     <h1 class="hero__title">{{ i18n.hero.title }}</h1>
     <p class="hero__subtitle">{{ i18n.hero.subtitle }}</p>
     <p class="hero__tagline">{{ i18n.hero.tagline }}</p>
@@ -22,7 +22,7 @@ layout: default
 </section>
 
 <section class="section container">
-  <h2 class="section__title"><span>卷 · 一</span>{{ i18n.section.latest }}</h2>
+  <h2 class="section__title"><span>{{ i18n.common.volume_one }}</span>{{ i18n.section.latest }}</h2>
   <p class="section__lead">{{ i18n.section.latest_lead }}</p>
 
   {%- assign lang_posts = site.posts | where: 'lang', cur_lang -%}
@@ -41,13 +41,13 @@ layout: default
   {%- assign lang_total = lang_posts | size -%}
   {%- if lang_total > 10 -%}
     <p class="section__more">
-      共 {{ lang_total }} 篇 · <a href="{{ archive_url | relative_url }}">查看全部归档 →</a>
+      {{ i18n.common.total }} {{ lang_total }} {{ i18n.common.articles }} · <a href="{{ archive_url | relative_url }}">{{ i18n.common.view_all_archive }} →</a>
     </p>
   {%- endif -%}
 </section>
 
 <section class="section section--muted container">
-  <h2 class="section__title"><span>卷 · 二</span>{{ i18n.section.categories }}</h2>
+  <h2 class="section__title"><span>{{ i18n.common.volume_two }}</span>{{ i18n.section.categories }}</h2>
   <p class="section__lead">{{ i18n.section.categories_lead }}</p>
   <ul class="category-grid">
     {%- assign cats = site.data.categories -%}
@@ -63,7 +63,7 @@ layout: default
           <span class="category-card__name">{{ cat_name }}</span>
           <span class="category-card__count">
             {%- assign count = lang_posts | where: 'category', cat.slug | size -%}
-            {{ count }} 篇
+            {{ count }} {{ i18n.common.articles }}
           </span>
           <span class="category-card__desc">{{ cat_desc }}</span>
         </a>

@@ -3,14 +3,16 @@ layout: post
 title: "Ubi Cina: Hidangan Rumahan 'Golong Atas' untuk Men-tonifikasi Limpa dan Menggembirakan Ginjal"
 subtitle: "Ubi Huai, ubi Tongkat-Besi — harta dari ujung ke ujung"
 date: 2026-01-12 08:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: shiliao
 tags: [山药, 食疗, 健脾, 补肾, 药食同源]
 excerpt: "Mengapa ubi Cina, yang menduduki puncak 'golong atas' dalam *Shénnóng Běncǎo Jīng*, begitu istimewa? Bagaimana memilihnya, memasaknya, memakannya? Artikel ini menjelaskannya sekaligus."
 permalink: /id/2026/01/12/shanyao-shanjia/
 lang: id
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > «Ubi, yang juga bernama *shǔyù* (薯蓣). Rasa manis dan hangat. Ia mengelola luka pada tengah, menyuplei kurus dan lemah, membuang Qi dingin dan panas, menyuplei tengah dan menambah Qi serta kekuatan, dan mengembangkan otot. Minum dalam jangka panjang menajamkan telinga dan mata, meringankan tubuh dan menghapus rasa lapar, dan memperpanjang usia.»
 >
 > ——《神农本草经》(*Shénnóng Běncǎo Jīng*, Kitab Pokok Tumbuhan Obat Petani Suci)

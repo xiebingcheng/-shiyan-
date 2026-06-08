@@ -3,14 +3,16 @@ layout: post
 title: "Zúsānlǐ (ST-36): el primero de los puntos de acupuntura para el cuidado cotidiano de la salud"
 subtitle: "\"Si quieres paz, que Zúsānlǐ nunca se seque\""
 date: 2026-02-08 08:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: jingluo
 tags: [足三里, 穴位, 足阳明胃经, 艾灸, 保健]
 excerpt: "\"Si quieres paz, que Zúsānlǐ nunca se seque\" — Sūn Sīmiǎo condensó en una sola línea el estatus de Zúsānlǐ. Este artículo detalla la localización, las funciones y los métodos de presión, amasado y moxibustión de Zúsānlǐ."
 permalink: /es/2026/02/08/zusanli-yangsheng/
 lang: es
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「**Si quieres paz, que Zúsānlǐ nunca se seque.**」
 >
 > ——Sūn Sīmiǎo, *Qiānjīn Yàofāng* (《千金要方》, Prescripciones que valen mil monedas de oro)

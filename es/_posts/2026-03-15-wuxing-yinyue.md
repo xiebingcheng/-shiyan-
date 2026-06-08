@@ -3,14 +3,16 @@ layout: post
 title: "La música de los cinco elementos circula el Hígado: un aire en jué (角), y el Qi de la primavera se armoniza por sí mismo"
 subtitle: "Cien enfermedades nacen del Qi y terminan en el sonido"
 date: 2026-03-15 09:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: qingzhi
 tags: [五行音乐, 角音, 疏肝, 情志, 音乐疗法]
 excerpt: "«Cien enfermedades nacen del Qi y terminan en el sonido»: las cinco notas corresponden a los cinco zang; escuchar la música adecuada puede circular el Hígado, nutrir el Corazón, fortalecer el Bazo, humedecer los Pulmones y tonificar los Riñones."
 permalink: /es/2026/03/15/wuxing-yinyue/
 lang: es
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「**百病生于气，止于音。**」
 >
 > 「**宫动脾，商动肺，角动肝，徵动心，羽动肾。**」

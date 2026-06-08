@@ -3,14 +3,16 @@ layout: post
 title: "Empat Cara Memperkuat Limpa dan Mengusir Kelembapan pada Istilah Surya Yǔshuǐ (Air Hujan)"
 subtitle: "Hujan turun dari Langit, Kelembapan naik dari Bumi; Limpa adalah Tanah Tengah, dan paling takut terjebak"
 date: 2026-02-19 09:30:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: jieqi
 tags: [雨水, 节气, 健脾, 祛湿, 痰湿]
 excerpt: "Pada istilah surya Yǔshuǐ (雨水), Kelembapan (湿气, shīqì) meningkat, dan Limpa (脾, pí) paling mudah terjebak. Artikel ini merangkum empat cara — pangan, moksibusi (艾灸, àijiǔ), daoyin (导引, dǎoyǐn) dan rutinitas harian — untuk membantu Anda memelihara akar Qi pascakelahiran."
 permalink: /id/2026/02/19/yushui-jianpi/
 lang: id
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「好雨知时节，当春乃发生。随风潜入夜，润物细无声。」
 >
 > «Hujan yang baik mengenal musim; ketika musim semi tiba, ia memberi kehidupan. Bersama angin ia menyusup di malam hari, dan melembapkan segala sesuatu tanpa suara.»

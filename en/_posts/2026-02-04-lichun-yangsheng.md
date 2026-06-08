@@ -3,7 +3,7 @@ layout: post
 title: "Lichun Health Preservation: Going with the Rise of Yang"
 subtitle: "The Year Begins in Spring; the Art of Yangsheng (养生) Begins with 'Shēng' (生, Generation)"
 date: 2026-02-04 09:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: jieqi
 tags: [立春, 节气, 养肝, 阳气, 生发]
 excerpt: "Lichun (立春) is when all things come forth. The three yang open into prosperity, and yang qi (阳气) begins to rise. From four angles — diet, daily routine, emotions, and the meridians — this article discusses how to follow the principle of 'shēng' (生) at the Beginning of Spring."
@@ -11,8 +11,10 @@ description: >
   Beginning of Spring (Lìchūn, 立春) — the first of the 24 solar terms and the moment yáng-qì begins to rise. This guide covers diet (less sour, more sweet), daily rhythm (late rest, early rise, hair down, clothes loose), emotion (be generative, do not kill), and meridian practice (Gallbladder-meridian tapping and Tàichōng LV-3 massage). Includes the "Three Treasures of Lìchūn" — spring pancakes, spinach and radish.
 permalink: /en/2026/02/04/lichun-yangsheng/
 lang: en
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「春三月，此谓发陈，天地俱生，万物以荣，夜卧早起，广步于庭，被发缓形，以使志生，生而勿杀，予而勿夺，赏而勿罚，此春气之应，养生之道也。」
 >
 > ——《黄帝内经·素问·四气调神大论》

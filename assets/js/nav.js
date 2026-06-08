@@ -2,6 +2,8 @@
 (function () {
   'use strict';
 
+  var a11y = (window.QIHUANG_I18N && window.QIHUANG_I18N.a11y) || {};
+
   function init() {
     var toggle = document.querySelector('.nav-toggle');
     var nav = document.getElementById('site-nav');
@@ -10,7 +12,7 @@
     toggle.addEventListener('click', function () {
       var open = nav.classList.toggle('is-open');
       toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-      toggle.setAttribute('aria-label', open ? '关闭菜单' : '打开菜单');
+      toggle.setAttribute('aria-label', open ? (a11y.close_menu || 'Close menu') : (a11y.open_menu || 'Open menu'));
     });
 
     // 点击链接后自动关闭
@@ -19,7 +21,7 @@
         if (nav.classList.contains('is-open')) {
           nav.classList.remove('is-open');
           toggle.setAttribute('aria-expanded', 'false');
-          toggle.setAttribute('aria-label', '打开菜单');
+          toggle.setAttribute('aria-label', a11y.open_menu || 'Open menu');
         }
       });
     });

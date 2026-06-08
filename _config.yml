@@ -1,11 +1,11 @@
-title: 岐黄小筑
+title: 岐黄书房
 subtitle: 中医养生 · 顺应四时 · 调和阴阳
 description: >
-  岐黄小筑是一个专注中医养生科普的专题站。我们以《黄帝内经》为宗，
+  岐黄书房是一个专注中医养生科普的专题站。我们以《黄帝内经》为宗，
   传播节气养生、食疗本草、经络穴位、四季调养、情志起居等中医智慧，
   愿君「法于阴阳，和于术数，食饮有节，起居有常」。
 tagline: 一卷《内经》，半盏清茶
-author: 岐黄小筑编委会
+author: 岐黄书房编委会
 email: hello@example.com
 
 # 站点 URL（部署到 GitHub Pages 时改为 https://用户名.github.io/仓库名）
@@ -37,6 +37,14 @@ permalink: /:year/:month/:day/:title/
 show_drafts: false
 future: false
 
+# 插件（显式声明，确保 GitHub Pages 加载）
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-include-cache
+
 # 主题
 theme: minima  # 占位用；本仓库自带样式，无需远程主题
 # remote_theme: 
@@ -44,7 +52,7 @@ theme: minima  # 占位用；本仓库自带样式，无需远程主题
 # SEO / Webmaster
 # 已通过 jekyll-seo-tag 自动注入
 twitter:
-  username: qihuanglodge
+  username: qihuangstudy
   card: summary_large_image
 
 # 站点搜索（用 lunr.js 客户端搜索，构建时生成 JSON）

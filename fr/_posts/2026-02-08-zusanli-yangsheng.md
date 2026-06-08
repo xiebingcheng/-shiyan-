@@ -3,14 +3,16 @@ layout: post
 title: "Zúsānlǐ (ST-36) : le premier des points d'acupuncture pour la préservation quotidienne de la santé"
 subtitle: "« Si tu veux la paix, garde toujours Zúsānlǐ humide »"
 date: 2026-02-08 08:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: jingluo
 tags: [足三里, 穴位, 足阳明胃经, 艾灸, 保健]
 excerpt: "« Si tu veux la paix, garde toujours Zúsānlǐ humide » — Sūn Sīmiǎo a résumé d'une formule le statut de Zúsānlǐ. Cet article détaille la localisation, les fonctions, et les méthodes de pression, pétrissage et moxibustion de Zúsānlǐ."
 permalink: /fr/2026/02/08/zusanli-yangsheng/
 lang: fr
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「**Si tu veux la paix, garde toujours Zúsānlǐ humide.**」
 >
 > ——Sūn Sīmiǎo, *Qiānjīn Yàofāng* (《千金要方》, Prescriptions valant mille lingots)

@@ -18,7 +18,7 @@ layout: default
   </div>
   {%- assign lang_tag_posts = site.tags[page.tag] | where: 'lang', cur_lang -%}
   <header class="section__header">
-    <h1 class="section__title"><span>卷</span>{{ i18n.nav.tags }}：#{{ page.tag }}</h1>
+    <h1 class="section__title"><span>{{ i18n.common.volume_one_short }}</span>{{ i18n.nav.tags }}：#{{ page.tag }}</h1>
     <p class="section__lead">{{ i18n.common.tag_count_lead | replace: 'N', lang_tag_count }}</p>
   </header>
 

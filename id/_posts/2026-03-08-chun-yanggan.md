@@ -3,14 +3,16 @@ layout: post
 title: "Tiga Bulan Musim Semi: Enam Kunci Memupuk Hati dan Penyalurannya yang Bebas"
 subtitle: "Qi musim semi memasuki Hati; memupuk Hati adalah yangsheng (养生, memupuk kehidupan)"
 date: 2026-03-08 09:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: siji
 tags: [春季, 养肝, 疏泄, 情志, 起居]
 excerpt: "Musim semi tergolong Kayu, berpadanan dengan Hati (肝, gān), dan Hati menguasai «shū xiè» (疏泄, penyaluran dan pengeluaran bebas). Artikel ini membahas secara sistematis jalan memupuk Hati di tiga bulan musim semi dari enam sudut."
 permalink: /id/2026/03/08/chun-yanggan/
 lang: id
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「春三月，此谓发陈，天地俱生，万物以荣。」
 >
 > «Tiga bulan musim semi adalah musim *fā chén* (发陈, pencurahan yang tersimpan). Langit dan Bumi bersama-sama menjelma; sepuluh ribu makhluk berkembang.»

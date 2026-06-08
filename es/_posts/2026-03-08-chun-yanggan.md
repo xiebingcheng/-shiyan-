@@ -3,14 +3,16 @@ layout: post
 title: "Los tres meses de primavera: seis claves para nutrir el Hígado y su libre circulación"
 subtitle: "El Qi de la primavera penetra en el Hígado; nutrir el Hígado es yangsheng (养生, nutrir la vida)"
 date: 2026-03-08 09:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: siji
 tags: [春季, 养肝, 疏泄, 情志, 起居]
 excerpt: "La primavera pertenece a la Madera, corresponde al Hígado (肝, gān), y el Hígado gobierna el «shū xiè» (疏泄, libre circulación y drenaje). Este artículo expone de forma sistemática, desde seis ángulos, el camino para nutrir el Hígado en los tres meses de primavera."
 permalink: /es/2026/03/08/chun-yanggan/
 lang: es
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「春三月，此谓发陈，天地俱生，万物以荣。」
 >
 > «Los tres meses de primavera son la estación del *fā chén* (发陈, el derramamiento de lo almacenado). Cielo y Tierra juntos dan a luz; los diez mil seres florecen.»

@@ -3,14 +3,16 @@ layout: post
 title: "El ñame chino: un plato casero de « grado superior » para tonificar el Bazo y nutrir el Riñón"
 subtitle: "Ñame de Huai, ñame Palo-de-Hierro — un tesoro de la punta a la raíz"
 date: 2026-01-12 08:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: shiliao
 tags: [山药, 食疗, 健脾, 补肾, 药食同源]
 excerpt: "¿Por qué el ñame chino, que ocupa la cabeza del «grado superior» en el *Shénnóng Běncǎo Jīng*, es tan bueno? ¿Cómo elegirlo, cómo cocinarlo, cómo comerlo? Este artículo lo aclara todo de una vez."
 permalink: /es/2026/01/12/shanyao-shanjia/
 lang: es
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > «El ñame, también llamado *shǔyù* (薯蓣). Sabor dulce y templado. Gobierna las lesiones del centro, suple la delgadez y la debilidad, elimina el Qi del frío y del calor, suple el centro y aumenta el Qi y la fuerza, e incrementa los músculos. Su uso prolongado esclarece los oídos y los ojos, aligera el cuerpo y suprime el hambre, y prolonga los años.»
 >
 > ——《神农本草经》(*Shénnóng Běncǎo Jīng*, Clásico de Materia Médica del Divino Labrador)

@@ -3,14 +3,16 @@ layout: post
 title: "Diez golpecitos de dientes al despertar: pequeña práctica para reafirmar los dientes y nutrir los Riñones"
 subtitle: "De todas las cosas para nutrir la vida (养生), ninguna supera el reafirmar los dientes"
 date: 2026-02-12 07:30:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: qiju
 tags: [叩齿, 固齿, 养肾, 起居, 小功法]
 excerpt: "El golpecito de dientes y la deglución de saliva (叩齿吞津, kòu chǐ tūn jīn) es una práctica tradicional de yangsheng (养生, yǎng shēng, nutrir la vida) en la MTC (Medicina Tradicional China, 中医). Golpetear los dientes 36 veces al levantarse y antes de dormir reafirma los dientes, nutre los Riñones, fortalece el Bazo y embellece el cutis."
 permalink: /es/2026/02/12/kouchi-guchi/
 lang: es
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「**齿为骨之余，肾主骨，叩齿则骨坚，骨坚则齿牢。**」
 >
 > «Los dientes son el excedente de los huesos; los Riñones rigen los huesos. Cuando se golpean los dientes, los huesos se fortalecen; cuando los huesos son fuertes, los dientes están firmes.»

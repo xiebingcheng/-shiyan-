@@ -3,7 +3,7 @@ layout: post
 title: "Zúsānlǐ (ST-36): The Foremost Acupuncture Point for Daily Health Preservation"
 subtitle: "\"If you wish for peace, keep Zúsānlǐ ever moxa-ed\""
 date: 2026-02-08 08:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: jingluo
 tags: [足三里, 穴位, 足阳明胃经, 艾灸, 保健]
 excerpt: "\"If you wish for peace, keep Zúsānlǐ ever moxa-ed\" — Sūn Sīmiǎo captured in a single line the status of Zúsānlǐ. This article details the location, functions, and the methods of pressing, kneading, and moxibustion for Zúsānlǐ."
@@ -11,8 +11,10 @@ description: >
   Zúsānlǐ (足三里, ST-36) is the He-Sea point of the Stomach meridian, the most important longevity point in TCM. The Sūn Sīmiǎo maxim: "If you want peace, keep Zúsānlǐ always moxa'd." This guide covers location (3 cùn below the knee, one finger-breadth lateral to the tibia), ten benefits, three uses (thumb massage, moxibustion, tapping), five contraindications, and a classic point-combination table.
 permalink: /en/2026/02/08/zusanli-yangsheng/
 lang: en
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「**If you wish for peace, keep Zúsānlǐ ever moxa-ed.**」
 >
 > ——Sūn Sīmiǎo, *Qiānjīn Yàofāng* (《千金要方》, Thousand Golden Prescriptions)

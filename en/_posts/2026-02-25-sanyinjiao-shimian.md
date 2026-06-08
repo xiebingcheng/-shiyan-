@@ -3,7 +3,7 @@ layout: post
 title: "Massage Sānyīnjiāo (SP-6) for Insomnia: A Sleep-Calming Point that Harmonizes Liver, Spleen and Kidney"
 subtitle: "One point crosses three meridians; to cure sleep, first cure the Heart"
 date: 2026-02-25 21:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: jingluo
 tags: [三阴交, 失眠, 安神, 穴位, 妇科]
 excerpt: "Sānyīnjiāo (三阴交, SP-6) is the meeting point of the three yin meridians of the Liver, Spleen and Kidney; it is the foremost gynecological point, and an essential point for calming the spirit and aiding sleep. This article details its use for sleep."
@@ -11,8 +11,10 @@ description: >
   Sānyīnjiāo (三阴交, SP-6) — the meeting point of the three Yīn meridians (Spleen, Liver, Kidney) — is the #1 gynecological point in TCM and a powerful aid for insomnia. Press it before bed (5 minutes per side, clockwise = tonify) to calm the Heart-Shén and drain damp-heat. Five insomnia-pattern point combinations plus a strict pregnancy contraindication.
 permalink: /en/2026/02/25/sanyinjiao-shimian/
 lang: en
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「**三阴交，在内踝上三寸，骨下陷者中，足太阴、少阴、厥阴之会。**」
 >
 > "Sānyīnjiāo lies three *cùn* above the medial malleolus, in the depression below the bone; it is the meeting point of the Foot-Taiyin (Spleen), Foot-Shaoyin (Kidney) and Foot-Jueyin (Liver) [meridians]."

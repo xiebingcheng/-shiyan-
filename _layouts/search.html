@@ -4,11 +4,12 @@ layout: default
 
 {%- assign cur_lang = page.lang | default: site.default_lang -%}
 {%- assign i18n = site.data.i18n.strings[cur_lang] -%}
+{%- assign lang_total = site.posts | where: 'lang', cur_lang | size -%}
 
 <section class="section container">
   <header class="section__header">
-    <h1 class="section__title"><span>卷</span>搜 · 索</h1>
-    <p class="section__lead">在 {{ site.posts | size }} {{ i18n.common.articles }}中寻你所需。</p>
+    <h1 class="section__title"><span>{{ i18n.common.volume_one_short }}</span>{{ i18n.common.search_page_title }}</h1>
+    <p class="section__lead">{{ i18n.common.search_lead | replace: 'N', lang_total }}</p>
   </header>
 
   <div class="search-box">
@@ -16,8 +17,8 @@ layout: default
     <input type="search" id="search-input" class="search-box__input"
            placeholder="{{ i18n.common.search_placeholder }}"
            autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
-           aria-label="搜索文章">
-    <button class="search-box__clear" type="button" id="search-clear" aria-label="清空" hidden>×</button>
+           aria-label="{{ i18n.common.search_input_aria }}">
+    <button class="search-box__clear" type="button" id="search-clear" aria-label="{{ i18n.a11y.clear_search }}" hidden>×</button>
   </div>
 
   <p class="search-hint" id="search-hint">{{ i18n.common.search_hint }}</p>

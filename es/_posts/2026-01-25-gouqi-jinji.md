@@ -3,14 +3,16 @@ layout: post
 title: "Bayas de goji: tres «a hacer» y tres «a no hacer» al consumirlas"
 subtitle: "«La baya antienvejecimiento» no es para que cualquiera la masque cada día"
 date: 2026-01-25 08:30:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: shiliao
 tags: [枸杞, 食疗, 养肝, 明目, 禁忌]
 excerpt: "Las bayas de goji son un básico nacional en el cuidado de la salud, pero no son para todos. Este artículo aclara la naturaleza, el sabor, la entrada en los meridianos, las combinaciones acertadas y las contraindicaciones de las bayas de goji — para ayudarle a comerlas correctamente."
 permalink: /es/2026/01/25/gouqi-jinji/
 lang: es
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > «El goji, dulce y neutro, penetra en el Hígado y el Riñón, beneficia la Esencia, esclarece los ojos y nutre la Esencia y la Sangre.»
 >
 > ——Verso mnemotécnico del *Zhōngyào Xué* (《中药学》, Materia Médica China)

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: À propos du Pavillon
+title: À propos du Cabinet
 permalink: /fr/about/
 subtitle: Un rouleau du Classique, une demi-tasse de thé clair
 lang: fr
@@ -10,7 +10,7 @@ lang: fr
 
 « Qí » (岐) désigne Qíbó (岐伯) ; « Huáng » (黄) désigne l'Empereur Jaune (Huángdì, 黄帝).
 Le *Huángdì Nèijīng* (《黄帝内经》), texte fondateur de la médecine chinoise, prend la forme d'un dialogue entre l'Empereur Jaune et son ministre Qíbó. Les générations ultérieures ont ainsi employé « Qíhuáng » (岐黄) comme métonymie pour l'ensemble de la médecine chinoise.
-Le « Pavillon » (Xiǎozhú, 小筑) tire son nom de l'esprit d'enquête de Qíbó et de l'Empereur Jaune — traduire la sagesse de la médecine chinoise en mots accessibles à tous.
+Le « Cabinet » (Shūfáng, 书房) tire son nom de l'esprit d'enquête de Qíbó et de l'Empereur Jaune — traduire la sagesse de la médecine chinoise en mots accessibles à tous.
 
 ## Ce que vous trouverez ici
 
@@ -18,7 +18,7 @@ Le « Pavillon » (Xiǎozhú, 小筑) tire son nom de l'esprit d'enquête de Qí
 >
 > — *Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn* (chapitre 1)
 
-Le Pavillon s'organise autour de six axes :
+Le Cabinet s'organise autour de six axes :
 
 - **Saisons solaires** (节气养生) — Suivre les 24 saisons, harmoniser Ciel et Humain
 - **Alimentation & herbes** (食疗本草) — Nourriture et médecine partagent la même racine

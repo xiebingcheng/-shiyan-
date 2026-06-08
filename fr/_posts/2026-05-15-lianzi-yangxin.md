@@ -3,14 +3,16 @@ layout: post
 title: "La graine de lotus : le premier aliment pour nourrir le Cœur en été"
 subtitle: "« La graine de la cosse de lotus clarifie le Cœur et abaisse le feu »"
 date: 2026-05-15 08:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: shiliao
 tags: [莲子, 食疗, 养心, 健脾, 安神]
 excerpt: "La graine de lotus (莲子, liánzǐ) est le cadeau de l'été. Récoltée quand le lotus est en pleine floraison, elle nourrit le Cœur et apaise l'esprit, fortifie la Rate et arrête la diarrhée, tonifie les Reins et fixe l'essence."
 permalink: /fr/2026/05/15/lianzi-yangxin/
 lang: fr
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「**出淤泥而不染，濯清涟而不妖。**」
 >
 > « Surgi de la vase boueuse sans en être souillé ; lavé dans l'onde claire sans coquetterie. »

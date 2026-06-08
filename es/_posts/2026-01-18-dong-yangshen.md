@@ -3,14 +3,16 @@ layout: post
 title: "Los tres meses de invierno: cinco sabidurías para nutrir el Riñón y almacenar la Esencia"
 subtitle: "El invierno gobierna el cierre y el almacenamiento; nutrir el Riñón es nutrir la raíz"
 date: 2026-01-18 08:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: siji
 tags: [冬季, 养肾, 藏精, 温补, 冬至]
 excerpt: "El invierno pertenece al Agua y corresponde al Riñón; el Riñón almacena la Esencia. Desde cinco ángulos — rutina diaria, alimentación, vida conyugal, meridianos y *dǎoyǐn* (导引) — este artículo despliega el camino para nutrir el Riñón en los tres meses de invierno."
 permalink: /es/2026/01/18/dong-yangshen/
 lang: es
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > «Los tres meses de invierno son la estación del *bì cáng* (闭藏, el cierre y el almacenamiento). El agua se hiela y la tierra se agrieta. No perturbes el Yang. Acuéstate temprano, levántate tarde, y debes esperar a la luz del sol.»
 >
 > ——《黄帝内经·素问·四气调神大论》(*Huángdì Nèijīng*, *Sùwèn*, *Sìqì Tiáoshén Dàlùn*)

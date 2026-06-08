@@ -3,14 +3,16 @@ layout: post
 title: "Les trois mois d'hiver : cinq sagesses pour nourrir le Rein et stocker l'Essence"
 subtitle: "L'hiver gouverne la fermeture et le stockage ; nourrir le Rein, c'est nourrir la racine"
 date: 2026-01-18 08:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: siji
 tags: [冬季, 养肾, 藏精, 温补, 冬至]
 excerpt: "L'hiver appartient à l'Eau et correspond au Rein ; le Rein stocke l'Essence. Sous cinq angles — hygiène de vie, alimentation, vie du couple, méridiens et *dǎoyǐn* (导引) — cet article déroule la voie de la nutrition du Rein durant les trois mois d'hiver."
 permalink: /fr/2026/01/18/dong-yangshen/
 lang: fr
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > « Les trois mois d'hiver sont la saison de *bì cáng* (闭藏, la fermeture et le stockage). L'eau gèle et la terre se fissure. Ne troublez pas le Yang. Couchez-vous tôt, levez-vous tard, et attendez impérativement la lumière du soleil. »
 >
 > ——《黄帝内经·素问·四气调神大论》(*Huángdì Nèijīng*, *Sùwèn*, *Sìqì Tiáoshén Dàlùn*)

@@ -36,7 +36,22 @@
       var q = params.get('lang');
       if (q && SUPPORTED.indexOf(q) >= 0) return q;
     } catch (e) {}
-    return localStorage.getItem('qihuang-lang') || DEFAULT;
+    return getStoredLang() || DEFAULT;
+  }
+
+  // 读取用户语言偏好（新键 qhstudy-lang，兼容旧键 qihuang-lang）
+  function getStoredLang() {
+    try {
+      var v = localStorage.getItem('qhstudy-lang');
+      if (v) return v;
+      // 向后兼容：迁移旧键值
+      var legacy = localStorage.getItem('qihuang-lang');
+      if (legacy) {
+        try { localStorage.setItem('qhstudy-lang', legacy); } catch (e2) {}
+        return legacy;
+      }
+    } catch (e) {}
+    return null;
   }
 
   // 设置 HTML 标签
@@ -70,7 +85,7 @@
   // 切换语言
   function switchLang(targetLang) {
     if (SUPPORTED.indexOf(targetLang) < 0) return;
-    try { localStorage.setItem('qihuang-lang', targetLang); } catch (e) {}
+    try { localStorage.setItem('qhstudy-lang', targetLang); } catch (e) {}
     var url = buildTargetUrl(targetLang);
     window.location.href = url;
   }
@@ -126,7 +141,7 @@
   }
 
   // 暴露给模板
-  window.QihuangI18n = {
+  window.QihuangStudyI18n = {
     switchLang: switchLang,
     current: function () { return currentLang; },
     buildTargetUrl: buildTargetUrl,

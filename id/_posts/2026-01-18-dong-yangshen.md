@@ -3,14 +3,16 @@ layout: post
 title: "Tiga Bulan Musim Dingin: Lima Kearifan Men滋养 Ginjal dan Menyimpan Esensi"
 subtitle: "Musim dingin menguasai penutupan dan penyimpanan; men滋养 ginjal berarti men滋养 akar"
 date: 2026-01-18 08:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: siji
 tags: [冬季, 养肾, 藏精, 温补, 冬至]
 excerpt: "Musim dingin tergolong Air dan berpadanan dengan Ginjal; Ginjal menyimpan Esensi. Dari lima sudut — rutinitas harian, pangan, kehidupan suami-istri, meridian, dan *dǎoyǐn* (导引) — artikel ini membentangkan jalan men滋养 Ginjal di tiga bulan musim dingin."
 permalink: /id/2026/01/18/dong-yangshen/
 lang: id
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > «Tiga bulan musim dingin adalah musim *bì cáng* (闭藏, penutupan dan penyimpanan). Air membeku dan bumi merekah. Janganlah mengganggu Yang. Tidurlah awal, bangunlah lambat, dan hendaklah menunggu cahaya matahari.»
 >
 > ——《黄帝内经·素问·四气调神大论》(*Huángdì Nèijīng*, *Sùwèn*, *Sìqì Tiáoshén Dàlùn*)

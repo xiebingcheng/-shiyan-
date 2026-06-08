@@ -4,17 +4,18 @@ layout: default
 
 {%- comment -%} Build locale-aware breadcrumb for the current top-level page. {%- endcomment -%}
 {%- assign cur_lang = page.lang | default: site.default_lang -%}
+{%- assign i18n = site.data.i18n.strings[cur_lang] -%}
 {%- if cur_lang == site.default_lang -%}
   {%- assign prefix = '' -%}
 {%- else -%}
   {%- assign prefix = '/' | append: cur_lang -%}
 {%- endif -%}
 {%- if page.url contains '/categories/' and page.layout == 'category' -%}
-  {%- capture bc -%}首页,{{ prefix }}/;分类,{{ prefix }}/categories/;{{ page.category_name | default: page.title }}{%- endcapture -%}
+  {%- capture bc -%}{{ i18n.nav.home }},{{ prefix }}/;{{ i18n.nav.categories }},{{ prefix }}/categories/;{{ page.category_name | default: page.title }}{%- endcapture -%}
 {%- elsif page.url contains '/tags/' and page.layout == 'tag' -%}
-  {%- capture bc -%}首页,{{ prefix }}/;标签,{{ prefix }}/tags/;#{{ page.tag | default: page.title }}{%- endcapture -%}
+  {%- capture bc -%}{{ i18n.nav.home }},{{ prefix }}/;{{ i18n.nav.tags }},{{ prefix }}/tags/;#{{ page.tag | default: page.title }}{%- endcapture -%}
 {%- else -%}
-  {%- capture bc -%}首页,{{ prefix }}/;{{ page.title }}{%- endcapture -%}
+  {%- capture bc -%}{{ i18n.nav.home }},{{ prefix }}/;{{ page.title }}{%- endcapture -%}
 {%- endif -%}
 
 <article class="page" itemscope itemtype="https://schema.org/WebPage">

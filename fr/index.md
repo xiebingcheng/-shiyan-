@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Le Pavillon Qíhuáng
+title: Le Cabinet Qíhuáng
 permalink: /fr/
 lang: fr
 ---

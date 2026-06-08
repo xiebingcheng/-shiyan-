@@ -3,14 +3,16 @@ layout: post
 title: "Buah Goji: Tiga 'Lakukan' dan Tiga 'Jangan' Saat Mengonsumsinya"
 subtitle: "\"Buah penunda penua\" tidak boleh dikunyah setiap hari oleh setiap orang"
 date: 2026-01-25 08:30:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: shiliao
 tags: [枸杞, 食疗, 养肝, 明目, 禁忌]
 excerpt: "Buah goji adalah menu wajib pemeliharaan kesehatan nasional, tetapi tidak cocok untuk semua orang. Artikel ini menjelaskan sifat, rasa, masuk meridian, paduan yang tepat, dan pantangan buah goji — agar Anda memakannya dengan benar."
 permalink: /id/2026/01/25/gouqi-jinji/
 lang: id
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > «Goji, manis dan netral, masuk ke Hati dan Ginjal, menggembirakan Esensi, menerangi mata, dan menyuburkan Esensi serta Darah.»
 >
 > ——Rumus mnemonic dari *Zhōngyào Xué* (《中药学》, Ilmu Farmakologi Tionghoa)

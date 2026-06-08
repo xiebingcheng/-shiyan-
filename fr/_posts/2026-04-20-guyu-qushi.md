@@ -3,14 +3,16 @@ layout: post
 title: "Gǔyǔ : la période dorée pour évacuer l'humidité en fin de printemps"
 subtitle: "« Qīngmíng coupe la neige, Gǔyǔ coupe le givre » — Saisir la queue du printemps"
 date: 2026-04-20 08:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: jieqi
 tags: [谷雨, 节气, 祛湿, 养肝, 春末]
 excerpt: "Gǔyǔ (谷雨, Pluie pour le grain) est le dernier terme solaire du printemps. La pluie du printemps nourrit les dix mille êtres et constitue aussi pour le corps la fenêtre dorée pour évacuer l'humidité et nourrir le Foie."
 permalink: /fr/2026/04/20/guyu-qushi/
 lang: fr
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「**清明断雪，谷雨断霜。**」
 >
 > 「**谷雨春光晓，山川黛色青。**」

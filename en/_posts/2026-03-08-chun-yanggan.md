@@ -3,7 +3,7 @@ layout: post
 title: "The Three Months of Spring: Six Keys to Nourishing the Liver and Its Free Coursing"
 subtitle: "Spring qi enters the Liver; nourishing the Liver is yangsheng (养生, nourishing life)"
 date: 2026-03-08 09:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: siji
 tags: [春季, 养肝, 疏泄, 情志, 起居]
 excerpt: "Spring belongs to Wood, corresponds to the Liver (肝, gān), and the Liver governs 'shū xiè' (疏泄, free coursing and discharge). This article systematically expounds the way to nourish the Liver in the three months of spring from six angles."
@@ -11,8 +11,10 @@ description: >
   Spring belongs to Wood, and the Liver is the "General" that hates constraint. Spring is the season of rising yáng-qì and ascending Liver-qì. Six keys to spring liver-care: night-sleep-early-rise, "less sour more sweet" diet, restrained anger, meridian work (Gallbladder-meridian tapping + Tàichōng LV-3), gentle exercise (walking, flying kites), and herbal teas (rose, chrysanthemum, Buddha's-hand).
 permalink: /en/2026/03/08/chun-yanggan/
 lang: en
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「春三月，此谓发陈，天地俱生，万物以荣。」
 >
 > "The three months of spring are the season of *fā chén* (发陈, the outpouring of what is stored). Heaven and Earth together give birth; the ten thousand things flourish."

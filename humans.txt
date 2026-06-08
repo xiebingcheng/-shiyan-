@@ -7,14 +7,14 @@ sitemap: false
 # https://humanstxt.org/
 
 / TEAM /
-  岐黄小筑编委会 (Qihuang Lodge Editorial Board)
+  岐黄书房编委会 (Qíhuáng Study Editorial Board)
   Site: https://xiebingcheng.github.io/-shiyan-/
-  Contact: editorial@qihuanglodge.example
+  Contact: editorial@qihuangstudy.example
   GitHub: https://github.com/xiebingcheng
   From: 全球 / Worldwide
 
-  岐黄小筑医学审校组 (Medical Review Board)
-  Contact: review@qihuanglodge.example
+  岐黄书房医学审校组 (Medical Review Board)
+  Contact: review@qihuangstudy.example
   Note: 内容审校由具执业资格的中医师与营养师组成。
         Content reviewed by licensed TCM practitioners and registered dietitians.
 

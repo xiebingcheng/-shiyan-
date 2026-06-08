@@ -3,14 +3,16 @@ layout: post
 title: "Quatre méthodes pour fortifier la Rate et chasser l'Humidité au terme solaire Yǔshuǐ (Eau de Pluie)"
 subtitle: "La pluie descend du Ciel, l'Humidité monte de la Terre ; la Rate est la Terre Centrale, et redoute par-dessus tout d'être engluée"
 date: 2026-02-19 09:30:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: jieqi
 tags: [雨水, 节气, 健脾, 祛湿, 痰湿]
 excerpt: "Au terme solaire Yǔshuǐ (雨水), l'Humidité (湿气, shīqì) croît, et la Rate (脾, pí) est la plus facile à engorger. Cet article rassemble quatre méthodes — alimentation, moxibustion (艾灸, àijiǔ), daoyin (导引, dǎoyǐn) et hygiène de vie — pour vous aider à nourrir la racine du Qi postnatal."
 permalink: /fr/2026/02/19/yushui-jianpi/
 lang: fr
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「好雨知时节，当春乃发生。随风潜入夜，润物细无声。」
 >
 > «La bonne pluie connaît les saisons ; quand le printemps arrive, elle donne la vie. Avec le vent elle se glisse dans la nuit, et humidifie toutes choses en silence.»

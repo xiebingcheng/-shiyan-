@@ -9,7 +9,7 @@ sitemap: false
     {%- assign cur_lang = page.lang | default: site.default_lang -%}
     {%- assign i18n = site.data.i18n.strings[cur_lang] -%}
     <div class="error-page__seal" aria-hidden="true">
-      <span>四〇四</span>
+      <span>{{ i18n.common.error_404_seal }}</span>
     </div>
     <h1 class="error-page__title">{{ i18n.common.page_404_title }}</h1>
     <p class="error-page__poem">{{ i18n.common.page_404_poem | raw }}</p>

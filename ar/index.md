@@ -1,6 +1,6 @@
 ---
 layout: home
-title: ضيافة تشيهوانغ
+title: مكتبة تشيهوانغ
 permalink: /ar/
 lang: ar
 ---

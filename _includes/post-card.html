@@ -20,7 +20,12 @@
   </a>
 
   <div class="post-card__body">
-    <a class="post-card__cat" href="{{ '/categories/' | append: post.category | append: '/' | relative_url }}"
+    {%- if cur_lang == site.default_lang -%}
+      {%- assign cat_url = '/categories/' | append: post.category | append: '/' -%}
+    {%- else -%}
+      {%- assign cat_url = '/' | append: cur_lang | append: '/categories/' | append: post.category | append: '/' -%}
+    {%- endif -%}
+    <a class="post-card__cat" href="{{ cat_url | relative_url }}"
        style="--cat-color: {{ cat_meta.color | default: '#a82a2a' }}">
       {{ cat_meta.icon | default: '❒' }} {{ cat_name | default: post.category }}
     </a>

@@ -3,14 +3,16 @@ layout: post
 title: "Musik Lima Unsur Menyalurkan Hati: Satu Nada Jué (角), dan Qi Musim Semi Menjadi Selaras dengan Sendirinya"
 subtitle: "Seratus penyakit lahir dari Qi, dan berakhir dalam bunyi"
 date: 2026-03-15 09:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: qingzhi
 tags: [五行音乐, 角音, 疏肝, 情志, 音乐疗法]
 excerpt: "«Seratus penyakit lahir dari Qi, dan berakhir dalam bunyi» — lima nada berpadanan dengan lima zang; mendengarkan musik yang tepat dapat menyalurkan Hati, memupuk Jantung, memperkuat Limpa, melembapkan Paru-paru, dan men-tonifikasi Ginjal."
 permalink: /id/2026/03/15/wuxing-yinyue/
 lang: id
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「**百病生于气，止于音。**」
 >
 > 「**宫动脾，商动肺，角动肝，徵动心，羽动肾。**」

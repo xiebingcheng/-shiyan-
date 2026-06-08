@@ -3,7 +3,7 @@ layout: post
 title: "Ten Teeth-Tappings at Dawn: A Small Practice for Firming the Teeth and Nourishing the Kidneys"
 subtitle: "Of all things for nourishing life (养生), none surpasses firming the teeth"
 date: 2026-02-12 07:30:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: qiju
 tags: [叩齿, 固齿, 养肾, 起居, 小功法]
 excerpt: "Teeth-tapping and swallowing saliva (叩齿吞津, kòu chǐ tūn jīn) is a traditional TCM (Traditional Chinese Medicine, 中医) yangsheng (养生, yǎng shēng) practice. Tapping the teeth 36 times each on rising and before sleep firms the teeth, nourishes the kidneys, fortifies the spleen, and beautifies the complexion."
@@ -11,8 +11,10 @@ description: >
   Teeth-tapping (Kòuchǐ, 叩齿) — a simple 3-5 minute daily practice to strengthen teeth, tonify Kidney, moisten the mouth, and aid digestion. Tap 108 times (36 each on incisors, canines, molars), then roll the tongue, swish, and swallow the saliva. Best done at sunrise and before bed. Combines well with rubbing Yǒngquán KD-1 and Míng Tiān Gǔ.
 permalink: /en/2026/02/12/kouchi-guchi/
 lang: en
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「**齿为骨之余，肾主骨，叩齿则骨坚，骨坚则齿牢。**」
 >
 > "The teeth are the surplus of the bones; the kidneys govern the bones. When one taps the teeth, the bones grow firm; when the bones are firm, the teeth are secure."

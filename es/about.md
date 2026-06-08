@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Acerca de la Cabaña
+title: Acerca del Estudio
 permalink: /es/about/
 subtitle: Un pergamino del Clásico, media taza de té claro
 lang: es
@@ -10,7 +10,7 @@ lang: es
 
 « Qí » (岐) se refiere a Qíbó (岐伯); « Huáng » (黄) se refiere al Emperador Amarillo (Huángdì, 黄帝).
 El *Huángdì Nèijīng* (《黄帝内经》), texto fundacional de la medicina china, adopta la forma de un diálogo entre el Emperador Amarillo y su ministro Qíbó. Por ello, generaciones posteriores usaron « Qíhuáng » (岐黄) como metonimia para toda la medicina china.
-La « Cabaña » (Xiǎozhú, 小筑) toma su nombre del espíritu indagador de Qíbó y el Emperador Amarillo: convertir la sabiduría de la medicina china en palabras que la gente común pueda leer y usar.
+El « Estudio » (Shūfáng, 书房) toma su nombre del espíritu indagador de Qíbó y el Emperador Amarillo: convertir la sabiduría de la medicina china en palabras que la gente común pueda leer y usar.
 
 ## Qué encontrarás aquí
 
@@ -18,7 +18,7 @@ La « Cabaña » (Xiǎozhú, 小筑) toma su nombre del espíritu indagador de Q
 >
 > — *Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn* (capítulo 1)
 
-La Cabaña se organiza en torno a seis ejes:
+El Estudio se organiza en torno a seis ejes:
 
 - **Estaciones solares** (节气养生) — Sigue las 24 estaciones solares, armoniza Cielo y Ser humano
 - **Alimentación y hierbas** (食疗本草) — Comida y medicina comparten la misma raíz

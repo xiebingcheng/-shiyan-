@@ -3,14 +3,16 @@ layout: post
 title: "L'igname chinois : un légume quotidien de « grade supérieur » pour tonifier la Rate et nourrir les Reins"
 subtitle: "L'igname de Huai, l'igname Bâton-de-Fer — un trésor de la pointe à la racine"
 date: 2026-01-12 08:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: shiliao
 tags: [山药, 食疗, 健脾, 补肾, 药食同源]
 excerpt: "Pourquoi l'igname chinois, qui figure en tête du « grade supérieur » dans le *Shénnóng Běncǎo Jīng*, est-il si bon ? Comment le choisir, le préparer, le consommer ? Cet article fait le tour de la question en une fois."
 permalink: /fr/2026/01/12/shanyao-shanjia/
 lang: fr
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > « L'igname, aussi nommée *shǔyù* (薯蓣). Saveur douce et tiède. Elle gouverne les lésions du centre, supplée la maigreur et la faiblesse, chasse le Qi du froid et de la chaleur, supplée le centre et accroît le Qi et la force, et accroît les muscles. Prise longtemps, elle éclaircit les oreilles et les yeux, allège le corps et abolit la faim, et prolonge les années. »
 >
 > ——《神农本草经》(*Shénnóng Běncǎo Jīng*, Classique de Matière Médicale du Divin Laboureur)

@@ -3,14 +3,16 @@ layout: post
 title: "Masajear Sānyīnjiāo (SP-6) para el insomnio: un punto que armoniza Hígado, Bazo y Riñón para calmar el sueño"
 subtitle: "Un punto recorre tres meridianos; para curar el sueño, primero cura el Corazón"
 date: 2026-02-25 21:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: jingluo
 tags: [三阴交, 失眠, 安神, 穴位, 妇科]
 excerpt: "Sānyīnjiāo (三阴交, SP-6) es el punto de encuentro de los tres meridianos yin del Hígado, el Bazo y el Riñón; es el primer punto ginecológico, y un punto esencial para calmar el espíritu y favorecer el sueño. Este artículo detalla su uso para dormir."
 permalink: /es/2026/02/25/sanyinjiao-shimian/
 lang: es
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「**三阴交，在内踝上三寸，骨下陷者中，足太阴、少阴、厥阴之会。**」
 >
 > «Sānyīnjiāo se halla a tres *cùn* por encima del maléolo interno, en la depresión bajo el hueso; es el punto de encuentro de los [meridianos] Pie-Taiyin (Bazo), Pie-Shaoyin (Riñón) y Pie-Jueyin (Hígado).»

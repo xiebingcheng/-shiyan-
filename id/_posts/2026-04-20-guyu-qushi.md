@@ -3,14 +3,16 @@ layout: post
 title: "Gǔyǔ: Periode Emas Mengusir Kelembapan di Akhir Musim Semi"
 subtitle: "«Qīngmíng memutus salju, Gǔyǔ memutus embun beku» — Menangkap ekor musim semi"
 date: 2026-04-20 08:00:00 +0800
-author: Qíhuáng Lodge
+author: Qíhuáng Study
 category: jieqi
 tags: [谷雨, 节气, 祛湿, 养肝, 春末]
 excerpt: "Gǔyǔ (谷雨, Hujan Gandum) adalah istilah matahari terakhir di musim semi. Hujan musim semi menyuburkan sepuluh ribu makhluk dan juga merupakan jendela emas tubuh untuk mengusir kelembapan dan merawat Hati."
 permalink: /id/2026/04/20/guyu-qushi/
 lang: id
+placeholder: true
 ---
 
+<!-- 此文章为占位文章 -->
 > 「**清明断雪，谷雨断霜。**」
 >
 > 「**谷雨春光晓，山川黛色青。**」
