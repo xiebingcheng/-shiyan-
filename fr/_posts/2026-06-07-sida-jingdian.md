@@ -3,7 +3,7 @@ layout: post
 title: "Les quatre grands classiques de la médecine traditionnelle chinoise : un sanctuaire médical qui illumine mille ans"
 subtitle: "« Nèijīng, Nànjīng, Shānghán, Shénnóng Běncǎo Jīng — quatre ouvrages fondateurs qui soutiennent l'art de Qíhuáng »"
 date: 2026-06-07 10:00:00 +0800
-author: Qíhuáng Study
+author: Le Cabinet Qíhuáng
 category: qiju
 tags: [中医史, 四大经典, 黄帝内经, 难经, 伤寒论, 神农本草经, 岐黄]
 excerpt: "Un sanctuaire médical qui soutient un millénaire de la voie de Qíhuáng — quatre classiques, théorie, méthode, prescription et remède réunis en un tout."

@@ -3,7 +3,7 @@ layout: post
 title: "Qíhuáng wèndào : trois mille ans de médecine traditionnelle chinoise — de Shennong goûtant les cent herbes aux fondements du Huángdì Nèijīng"
 subtitle: "« La source de la voie médicale prend naissance en Chine »"
 date: 2026-06-07 09:00:00 +0800
-author: Qíhuáng Study
+author: Le Cabinet Qíhuáng
 category: qiju
 tags: [中医史, 岐黄, 黄帝内经, 神农, 医道, 文化]
 excerpt: "La source de la voie médicale prend naissance en Chine ; trois mille ans de flamme transmise par Qíhuáng (岐黄) brûlent encore aujourd'hui d'une chaleur intacte."

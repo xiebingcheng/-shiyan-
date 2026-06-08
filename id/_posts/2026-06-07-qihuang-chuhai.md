@@ -3,7 +3,7 @@ layout: post
 title: "Qíhuáng Berlayar Keluar: Pengobatan Tradisional Tionghoa dari Badai Zaman Modern hingga Panggung Dunia"
 subtitle: "\"Dari Kontroversi 'Menghapuskan TCM' hingga Pengakuan WHO — Nasib dan Kelahiran Kembali TCM dalam Satu Abad\""
 date: 2026-06-07 11:00:00 +0800
-author: Qíhuáng Study
+author: Studio Qíhuáng
 category: qiju
 tags: [中医史, 近代中医, 中西医汇通, 废止中医, WHO, 中医出海, 文化]
 excerpt: "Seratus tahun lalu, ada yang ingin menghapus TCM; seratus tahun kemudian, TCM masuk ke dalam «Klasifikasi Penyakit Internasional» WHO, dan «Daftar Warisan Budaya Takbenda Manusia» UNESCO — inilah kisah seratus tahun tentang «Qíhuáng Berlayar Keluar»."
@@ -314,7 +314,7 @@ Menurut **data publik Organisasi Kesehatan Dunia (WHO)**,
 
 > Sumber: Strategi Kedokteran Tradisional WHO 2014—2023, 2019—2023, who.int.
 
-## V. Mengapa「Qíhuáng Study」Menulis Tulisan Ini
+## V. Mengapa「Studio Qíhuáng」Menulis Tulisan Ini
 
 > 「**Tidak tahu dari mana datang, tidak akan tahu ke mana akan pergi.**」
 
@@ -337,9 +337,9 @@ TCM bukanlah **「kedokteran」** yang terisolasi, melainkan
 ia memikul **pemikiran Timur** tentang **「kesatuan langit–manusia (天人合一)」**, **「Yin–Yang harmonis (阴阳和合)」**, **「penyesuaian menurut manusia (因人制宜)」**,
 sebagai **kontribusi unik** peradaban Tionghoa bagi dunia.
 
-### 🪶 3.「Qíhuáng Study」: 「Kejujuran」 yang Bisa Ditelusuri
+### 🪶 3.「Studio Qíhuáng」: 「Kejujuran」 yang Bisa Ditelusuri
 
-Setiap konten di situs **Qíhuáng Study** —
+Setiap konten di situs **Studio Qíhuáng** —
 - **Kutipan kitab kuno**, selalu ditandai *《XX·XX》*
 - **Data modern**, selalu ditandai lembaga dan literatur
 - **Konten yang diperdebatkan**, selalu ditandai **「menurut satu versi」**, **「tercatat」**
@@ -412,6 +412,6 @@ tahu bahwa **takdir Anda** dengan **kedokteran kuno seribu tahun** ini, masih ja
 
 > 「**Jalan panjang dan penuh rintangan, aku akan menjelajah ke atas dan ke bawah untuk mencarinya.**」 ——Qu Yuán (Qu Yuan) dari Negara-negara Berperang, *Lí Sāo* ('Kepedihan Perpisahan')
 
-**Qíhuáng Study, bersama Anda, terus bertanya tentang obat, bertanya tentang Dao, bertanya tentang rakyat jelata.**
+**Studio Qíhuáng, bersama Anda, terus bertanya tentang obat, bertanya tentang Dao, bertanya tentang rakyat jelata.**
 
 <!-- Translated by translation-specialist agent -->

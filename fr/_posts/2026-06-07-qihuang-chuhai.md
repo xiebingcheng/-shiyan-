@@ -3,7 +3,7 @@ layout: post
 title: "Qíhuáng en haute mer : la médecine traditionnelle chinoise, des tempêtes modernes à sa marche vers le monde"
 subtitle: "« De la tourmente de “l'abolition de la MTC” à la reconnaissance par l'OMS — un siècle de destin et de renaissance de la MTC »"
 date: 2026-06-07 11:00:00 +0800
-author: Qíhuáng Study
+author: Le Cabinet Qíhuáng
 category: qiju
 tags: [中医史, 近代中医, 中西医汇通, 废止中医, WHO, 中医出海, 文化]
 excerpt: "Il y a cent ans, certains voulaient abolir la médecine traditionnelle chinoise ; cent ans plus tard, elle est entrée dans la *Classification internationale des maladies* de l'OMS et sur la *Liste représentative du patrimoine culturel immatériel de l'humanité* de l'UNESCO — voici un siècle d'histoire de la « sortie en haute mer » de Qíhuáng."

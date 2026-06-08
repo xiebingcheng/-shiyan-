@@ -3,7 +3,7 @@ layout: post
 title: "Bertanya kepada Qíhuáng: Tiga Ribu Tahun Pengobatan Tradisional Tionghoa — Dari Shennong yang Mencoba Ratusan Herbal hingga Fondasi Huangdi Neijing"
 subtitle: "\"Sumber Jalan Pengobatan, bermula dari Huaxia\""
 date: 2026-06-07 09:00:00 +0800
-author: Qíhuáng Study
+author: Studio Qíhuáng
 category: qiju
 tags: [中医史, 岐黄, 黄帝内经, 神农, 医道, 文化]
 excerpt: "Sumber Jalan Pengobatan (医道), bermula dari Huaxia (华夏, tanah peradaban Tionghoa); tiga ribu tahun obor Qíhuáng (岐黄), hingga kini masih hangat."
@@ -41,7 +41,7 @@ maka generasi kemudian secara langsung menyebut **Pengobatan Tradisional Tiongho
 **「Jalan Qíhuáng」**.
 
 **Qíhuáng** adalah **「nama resmi (正名, zhèng míng)」** bagi Pengobatan Tradisional Tionghoa;
-**Qíhuáng Study** adalah **kecil ruang belajar** tempat kami menjaga **Jalan Pengobatan (医道)** ini.
+**Studio Qíhuáng** adalah **kecil ruang belajar** tempat kami menjaga **Jalan Pengobatan (医道)** ini.
 
 Pada hari ini, kita akan berangkat dari **legenda kuno Shennong yang mencoba ratusan herbal**,
 melintasi **tulisan pada cangkang kura-kura dan tulang ramalan dari masa Xià, Shāng, Zhōu**, **tabib-tabib terkemuka musim semi–musim gugur dan negara-negara berperang**, serta **kitab-kitab dari masa Qin dan Hàn**,
@@ -357,7 +357,7 @@ dari **seluruh bangsa Tionghoa**.
 >
 > ——《黄帝内经·素问·上古天真论》(*Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn*)
 
-**Qíhuáng Study** adalah sebuah **kecil ruang belajar**,
+**Studio Qíhuáng** adalah sebuah **kecil ruang belajar**,
 semoga ia menjadi **satu lampu**, **satu teko teh**, **satu bait tulisan** bagimu —
 sehingga di tengah **kepenatan zaman modern**,
 masih dapat **mendengarkan** **gaung Jalan Pengobatan** dari **tiga ribu tahun** yang lalu:

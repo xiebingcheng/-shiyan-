@@ -3,7 +3,7 @@ layout: post
 title: "Qíhuáng pregunta el Dao: tres mil años de Medicina Tradicional China — desde Shennong que probó cien hierbas hasta la fundación del *Huángdì Nèijīng*"
 subtitle: "\"El origen del Dao médico nace en Huaxia\""
 date: 2026-06-07 09:00:00 +0800
-author: Qíhuáng Study
+author: El Estudio Qíhuáng
 category: qiju
 tags: [中医史, 岐黄, 黄帝内经, 神农, 医道, 文化]
 excerpt: "El origen del Dao médico nace en Huaxia; tres mil años de la llama Qíhuáng, aún cálida hasta hoy."

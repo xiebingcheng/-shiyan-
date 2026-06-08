@@ -3,7 +3,7 @@ layout: post
 title: "Qíhuáng parte hacia el mar: la MTC desde las tormentas modernas hasta su llegada al mundo"
 subtitle: "\"De la controversia de ‘abolir la MTC’ al reconocimiento de la OMS — el destino y el renacimiento de un siglo de Medicina Tradicional China\""
 date: 2026-06-07 11:00:00 +0800
-author: Qíhuáng Study
+author: El Estudio Qíhuáng
 category: qiju
 tags: [中医史, 近代中医, 中西医汇通, 废止中医, WHO, 中医出海, 文化]
 excerpt: "Hace cien años, alguien quiso abolir la MTC; cien años después, la MTC ha entrado en la Clasificación Internacional de Enfermedades de la OMS, y en la Lista Representativa del Patrimonio Cultural Inmaterial de la Humanidad de la UNESCO — esta es la historia centenaria del «Qíhuáng que parte hacia el mar»."

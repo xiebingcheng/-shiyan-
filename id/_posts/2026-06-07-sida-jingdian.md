@@ -3,7 +3,7 @@ layout: post
 title: "Empat Klasik Pengobatan Tradisional Tionghoa: Sebuah Wihara Kedokteran yang Menerangi Seribu Tahun"
 subtitle: "\"Nèijīng · Nàn Jīng · Shānghán · Shénnóng Běncǎo Jīng — empat karya fondasi yang menyangga Seni Qíhuáng\""
 date: 2026-06-07 10:00:00 +0800
-author: Qíhuáng Study
+author: Studio Qíhuáng
 category: qiju
 tags: [中医史, 四大经典, 黄帝内经, 难经, 伤寒论, 神农本草经, 岐黄]
 excerpt: "Sebuah wihara kedokteran, menyangga Qíhuáng selama seribu tahun — empat karya klasik, dengan prinsip, metode, resep, dan obat yang lengkap."
@@ -621,7 +621,7 @@ Membaca **《Běnjīng》**, kita mempelajari **「dengan apa」** —
 
 **「Membaca klasik, berpraktik klinis」**,
 **「mewarisi esensi, menjaga yang benar dan berinovasi」**,
-**— inilah arah bersama「Qíhuáng Study」dengan Anda**.
+**— inilah arah bersama「Studio Qíhuáng」dengan Anda**.
 
 Semoga Anda mulai **hari ini** —
 - 📜 Membaca **《Nèijīng》**, **mengetahui prinsipnya**
