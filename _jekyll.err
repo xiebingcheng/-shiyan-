@@ -1,0 +1,433 @@
+To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+[33mYAML Exception reading E:/中医shiyan网站/en/categories/jingluo.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/en/categories/qingzhi.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/en/categories/shiliao.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/fr/categories/jingluo.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/fr/categories/qingzhi.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/fr/categories/shiliao.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/id/categories/jingluo.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/id/categories/qingzhi.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/id/categories/shiliao.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33mYAML Exception reading E:/中医shiyan网站/en/categories/jingluo.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/en/categories/qingzhi.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/en/categories/shiliao.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/fr/categories/jingluo.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/fr/categories/qingzhi.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/fr/categories/shiliao.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/id/categories/jingluo.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/id/categories/qingzhi.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/id/categories/shiliao.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33mYAML Exception reading E:/中医shiyan网站/en/categories/jingluo.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/en/categories/qingzhi.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/en/categories/shiliao.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/fr/categories/jingluo.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/fr/categories/qingzhi.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/fr/categories/shiliao.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/id/categories/jingluo.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/id/categories/qingzhi.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/id/categories/shiliao.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33mYAML Exception reading E:/中医shiyan网站/en/categories/jingluo.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/en/categories/qingzhi.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/en/categories/shiliao.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/fr/categories/jingluo.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/fr/categories/qingzhi.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/fr/categories/shiliao.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/id/categories/jingluo.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/id/categories/qingzhi.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/id/categories/shiliao.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33mYAML Exception reading E:/中医shiyan网站/en/categories/jingluo.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/en/categories/qingzhi.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/en/categories/shiliao.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/fr/categories/jingluo.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/fr/categories/qingzhi.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/fr/categories/shiliao.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/id/categories/jingluo.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/id/categories/qingzhi.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/id/categories/shiliao.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33mYAML Exception reading E:/中医shiyan网站/en/categories/jingluo.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/en/categories/qingzhi.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/en/categories/shiliao.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/fr/categories/jingluo.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/fr/categories/qingzhi.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/fr/categories/shiliao.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/id/categories/jingluo.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/id/categories/qingzhi.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33mYAML Exception reading E:/中医shiyan网站/id/categories/shiliao.md: (<unknown>): did not find expected key while parsing a block mapping at line 2 column 1 [0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 111): Expected close_square but found pipe in "{{lang_posts[cur_idx | minus: 1] }}" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 113): Expected end_of_string but found pipe in "cur_idx < lang_count | minus: 1" in /_layouts/post.html[0m
+[33m    Liquid Warning: Liquid syntax error (line 114): Expected close_square but found pipe in "{{lang_posts[cur_idx | plus: 1] }}" in /_layouts/post.html[0m

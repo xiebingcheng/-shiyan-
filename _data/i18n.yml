@@ -151,7 +151,6 @@ strings:
       link_satcm: 国家中医药管理局
       link_wfcms: 世界中联
       copyright: 本站内容仅供科普参考，不作为诊疗依据
-      powered: Powered by
     lang:
       switch_label: 语言
       current: 当前语言
@@ -264,7 +263,6 @@ strings:
       link_satcm: SATCM
       link_wfcms: WFCMS
       copyright: Content is for educational purposes only — not medical advice.
-      powered: Powered by
     lang:
       switch_label: Language
       current: Current language
@@ -377,7 +375,6 @@ strings:
       link_satcm: SATCM
       link_wfcms: WFCMS
       copyright: Материалы носят ознакомительный характер и не заменяют консультацию врача.
-      powered: Создано на
     lang:
       switch_label: Язык
       current: Текущий язык
@@ -490,7 +487,6 @@ strings:
       link_satcm: SATCM
       link_wfcms: WFCMS
       copyright: Contenu à but éducatif uniquement — ne remplace pas un avis médical.
-      powered: Propulsé par
     lang:
       switch_label: Langue
       current: Langue actuelle
@@ -603,7 +599,6 @@ strings:
       link_satcm: SATCM
       link_wfcms: WFCMS
       copyright: Contenido solo con fines educativos — no sustituye consejo médico.
-      powered: Desarrollado con
     lang:
       switch_label: Idioma
       current: Idioma actual
@@ -715,7 +710,6 @@ strings:
       link_satcm: SATCM
       link_wfcms: WFCMS
       copyright: Konten hanya untuk tujuan edukasi — bukan pengganti nasihat medis.
-      powered: Dibuat dengan
     lang:
       switch_label: Bahasa
       current: Bahasa saat ini
@@ -828,7 +822,6 @@ strings:
       link_satcm: SATCM
       link_wfcms: WFCMS
       copyright: المحتوى لأغراض تعليمية فقط — ليس بديلاً عن الاستشارة الطبية.
-      powered: مبني على
     lang:
       switch_label: اللغة
       current: اللغة الحالية
