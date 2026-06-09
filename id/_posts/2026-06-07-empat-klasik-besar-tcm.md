@@ -1,5 +1,6 @@
 ---
 lang: id
+translation_key: sida-jingdian
 layout: post
 title: "Empat Klasik Besar Pengobatan Tionghoa: Sebuah Bangsal Pengobatan yang Menerangi Seribu Tahun"
 subtitle: "Huangdi Neijing · Nan Jing · Shanghan · Shennong Bencao Jing — empat karya fondasi yang menopang seni Qihuang"

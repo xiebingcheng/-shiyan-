@@ -1,5 +1,6 @@
 ---
 lang: zh-CN
+translation_key: qihuang-wendao
 layout: post
 title: 岐黄问道：中医三千年——从神农尝百草到《黄帝内经》的奠基
 subtitle: 「医道之源,起于华夏」

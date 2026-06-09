@@ -1,5 +1,6 @@
 ---
 lang: fr
+translation_key: qihuang-chuhai
 layout: post
 title: "Qihuang prend la mer : la médecine chinoise — des épreuves de l'époque moderne à sa marche vers le monde"
 subtitle: "De la tempête de l'« abolition de la médecine chinoise » à la reconnaissance par l'OMS — le destin et la renaissance d'un siècle de médecine chinoise"

@@ -122,6 +122,37 @@ defaults:
       path: "about*"
     values:
       layout: page
+  # 多语言 permalink：非 zh-CN 文章按语种加前缀
+  - scope:
+      path: "en/_posts"
+      type: posts
+    values:
+      permalink: /en/:year/:month/:day/:title/
+  - scope:
+      path: "ru/_posts"
+      type: posts
+    values:
+      permalink: /ru/:year/:month/:day/:title/
+  - scope:
+      path: "fr/_posts"
+      type: posts
+    values:
+      permalink: /fr/:year/:month/:day/:title/
+  - scope:
+      path: "es/_posts"
+      type: posts
+    values:
+      permalink: /es/:year/:month/:day/:title/
+  - scope:
+      path: "id/_posts"
+      type: posts
+    values:
+      permalink: /id/:year/:month/:day/:title/
+  - scope:
+      path: "ar/_posts"
+      type: posts
+    values:
+      permalink: /ar/:year/:month/:day/:title/
 
 # 编码
 encoding: utf-8

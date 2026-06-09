@@ -59,28 +59,46 @@
 
 {%- comment -%} hreflang 7-language matrix. zh-CN is the default (no prefix). {%- endcomment -%}
 {%- assign base_url = site.url | append: site.baseurl -%}
-{%- assign current_path = page.url -%}
-{%- assign stripped_path = current_path
-      | replace_first: '/en/', '/'
-      | replace_first: '/ru/', '/'
-      | replace_first: '/fr/', '/'
-      | replace_first: '/es/', '/'
-      | replace_first: '/id/', '/'
-      | replace_first: '/ar/', '/' -%}
-{%- if current_path == '/' or current_path == '/index.html' -%}
-  {%- assign is_home = true -%}
-  {%- assign stripped_path = '/' -%}
+{%- if page.layout == 'post' and page.translation_key -%}
+  {%- comment -%} 文章页：按 translation_key 查 7 语种兄弟文章，每个语种用自己的 slug URL。{%- endcomment -%}
+  {%- assign all_siblings = site.posts | where: 'translation_key', page.translation_key -%}
+  {%- assign zh_sibling = all_siblings | where: 'lang', 'zh-CN' | first -%}
+  {%- if zh_sibling -%}
+    {%- assign zh_url = zh_sibling.url -%}
+  {%- else -%}
+    {%- assign zh_url = page.url -%}
+  {%- endif -%}
+  <link rel="alternate" hreflang="zh-CN" href="{{ base_url }}{{ zh_url }}">
+  {%- assign hreflang_langs = "en,ru,fr,es,id,ar" | split: ',' -%}
+  {%- for l in hreflang_langs -%}
+    {%- assign s = all_siblings | where: 'lang', l | first -%}
+    {%- if s -%}
+      <link rel="alternate" hreflang="{{ l }}" href="{{ base_url }}{{ s.url }}">
+    {%- endif -%}
+  {%- endfor -%}
+  <link rel="alternate" hreflang="x-default" href="{{ base_url }}{{ zh_url }}">
 {%- else -%}
-  {%- assign is_home = false -%}
+  {%- comment -%} 非文章页（首页/分类/标签/about）：slug 在 7 语种间一致，用 strip-and-re-add 逻辑。{%- endcomment -%}
+  {%- assign current_path = page.url -%}
+  {%- assign stripped_path = current_path
+        | replace_first: '/en/', '/'
+        | replace_first: '/ru/', '/'
+        | replace_first: '/fr/', '/'
+        | replace_first: '/es/', '/'
+        | replace_first: '/id/', '/'
+        | replace_first: '/ar/', '/' -%}
+  {%- if current_path == '/' or current_path == '/index.html' -%}
+    {%- assign stripped_path = '/' -%}
+  {%- endif -%}
+  <link rel="alternate" hreflang="zh-CN" href="{{ base_url }}{{ stripped_path }}">
+  <link rel="alternate" hreflang="en" href="{{ base_url }}/en{{ stripped_path }}">
+  <link rel="alternate" hreflang="ru" href="{{ base_url }}/ru{{ stripped_path }}">
+  <link rel="alternate" hreflang="fr" href="{{ base_url }}/fr{{ stripped_path }}">
+  <link rel="alternate" hreflang="es" href="{{ base_url }}/es{{ stripped_path }}">
+  <link rel="alternate" hreflang="id" href="{{ base_url }}/id{{ stripped_path }}">
+  <link rel="alternate" hreflang="ar" href="{{ base_url }}/ar{{ stripped_path }}">
+  <link rel="alternate" hreflang="x-default" href="{{ base_url }}{{ stripped_path }}">
 {%- endif -%}
-<link rel="alternate" hreflang="zh-CN" href="{{ base_url }}{{ stripped_path }}">
-<link rel="alternate" hreflang="en" href="{{ base_url }}/en{{ stripped_path }}">
-<link rel="alternate" hreflang="ru" href="{{ base_url }}/ru{{ stripped_path }}">
-<link rel="alternate" hreflang="fr" href="{{ base_url }}/fr{{ stripped_path }}">
-<link rel="alternate" hreflang="es" href="{{ base_url }}/es{{ stripped_path }}">
-<link rel="alternate" hreflang="id" href="{{ base_url }}/id{{ stripped_path }}">
-<link rel="alternate" hreflang="ar" href="{{ base_url }}/ar{{ stripped_path }}">
-<link rel="alternate" hreflang="x-default" href="{{ base_url }}{{ stripped_path }}">
 
 {%- comment -%} MedicalWebPage Schema (override the generic Article from post layout for medical content) {%- endcomment -%}
 {%- if page.layout == 'post' -%}

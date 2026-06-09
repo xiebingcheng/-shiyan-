@@ -150,3 +150,26 @@ layout: default
   </div>
 
 </article>
+
+{%- comment -%} Emit per-language URL map for the JS language switcher. {%- endcomment -%}
+{%- if page.translation_key -%}
+  {%- assign siblings = site.posts | where: 'translation_key', page.translation_key -%}
+  {%- assign zh_s = siblings | where: 'lang', 'zh-CN' | first -%}
+  {%- assign en_s = siblings | where: 'lang', 'en' | first -%}
+  {%- assign ru_s = siblings | where: 'lang', 'ru' | first -%}
+  {%- assign fr_s = siblings | where: 'lang', 'fr' | first -%}
+  {%- assign es_s = siblings | where: 'lang', 'es' | first -%}
+  {%- assign id_s = siblings | where: 'lang', 'id' | first -%}
+  {%- assign ar_s = siblings | where: 'lang', 'ar' | first -%}
+  <script>
+    window.QHSTUDY_TRANSLATIONS = {
+      "zh-CN": {% if zh_s %}{{ zh_s.url | jsonify }}{% else %}null{% endif %},
+      "en": {% if en_s %}{{ en_s.url | jsonify }}{% else %}null{% endif %},
+      "ru": {% if ru_s %}{{ ru_s.url | jsonify }}{% else %}null{% endif %},
+      "fr": {% if fr_s %}{{ fr_s.url | jsonify }}{% else %}null{% endif %},
+      "es": {% if es_s %}{{ es_s.url | jsonify }}{% else %}null{% endif %},
+      "id": {% if id_s %}{{ id_s.url | jsonify }}{% else %}null{% endif %},
+      "ar": {% if ar_s %}{{ ar_s.url | jsonify }}{% else %}null{% endif %}
+    };
+  </script>
+{%- endif -%}

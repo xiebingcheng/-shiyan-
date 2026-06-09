@@ -58,7 +58,12 @@ layout: default
       {%- assign cat_desc = cat_i18n[cur_lang].desc | default: cat_i18n['zh-CN'].desc -%}
       {%- assign cat_count = lang_posts | where: 'category', cat.slug | size -%}
       <li class="category-card" style="--cat-color: {{ cat.color }}">
-        <a href="{{ '/categories/' | append: cat.slug | append: '/' | relative_url }}" class="category-card__link">
+        {%- if cur_lang == site.default_lang -%}
+          {%- assign cat_url = '/categories/' | append: cat.slug | append: '/' -%}
+        {%- else -%}
+          {%- assign cat_url = '/' | append: cur_lang | append: '/categories/' | append: cat.slug | append: '/' -%}
+        {%- endif -%}
+        <a href="{{ cat_url | relative_url }}" class="category-card__link">
           <span class="category-card__icon" aria-hidden="true">{{ cat.icon }}</span>
           <span class="category-card__name">{{ cat_name }}</span>
           <span class="category-card__count">

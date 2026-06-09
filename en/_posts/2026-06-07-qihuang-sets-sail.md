@@ -1,5 +1,6 @@
 ---
 lang: en
+translation_key: qihuang-chuhai
 layout: post
 title: "Qihuang Sets Sail: Chinese Medicine from the Storms of the Modern Era to a Global Stage"
 subtitle: "From the 'Abolish TCM' Storm to WHO Recognition — A Century of TCM's Fate and Rebirth"

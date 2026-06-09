@@ -1,5 +1,6 @@
 ---
 lang: zh-CN
+translation_key: sida-jingdian
 layout: post
 title: 中医四大经典：一座照亮千年的医学殿堂
 subtitle: 「内经·难经·伤寒·神农本草经——四部奠基之作,撑起岐黄之术」

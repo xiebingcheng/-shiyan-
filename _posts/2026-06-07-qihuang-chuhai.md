@@ -1,5 +1,6 @@
 ---
 lang: zh-CN
+translation_key: qihuang-chuhai
 layout: post
 title: 岐黄出海：中医从近代风雨到走向世界
 subtitle: 「从「废止中医」风波到 WHO 承认——百年中医的命运与重生」

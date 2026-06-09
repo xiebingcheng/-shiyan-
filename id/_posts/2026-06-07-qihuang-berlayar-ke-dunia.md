@@ -1,5 +1,6 @@
 ---
 lang: id
+translation_key: qihuang-chuhai
 layout: post
 title: "Qihuang Berlayar ke Dunia: Pengobatan Tradisional Tionghoa dari Badai Zaman Modern Menuju Panggung Dunia"
 subtitle: "Dari Badai 'Penghapusan PTT' hingga Pengakuan WHO — Nasib dan Kelahiran Kembali Pengobatan Tionghoa Selama Satu Abad"

@@ -1,5 +1,6 @@
 ---
 lang: fr
+translation_key: sida-jingdian
 layout: post
 title: "Les quatre grands classiques de la médecine chinoise : un temple médical illuminant un millénaire"
 subtitle: "Huangdi Neijing, Nan Jing, Shanghan Zabing Lun, Shennong Bencao Jing — quatre œuvres fondatrices qui soutiennent l'art de Qihuang"

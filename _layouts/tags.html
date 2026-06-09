@@ -25,7 +25,12 @@ layout: default
     {%- for entry in tag_pairs_sorted -%}
       {%- assign tag_name = entry | split: '||' | last -%}
       {%- assign lang_tag_posts = site.tags[tag_name] | where: 'lang', cur_lang -%}
-      <a class="tag-cloud__item" href="{{ '/tags/' | append: tag_name | append: '/' | relative_url }}">
+      {%- if cur_lang == site.default_lang -%}
+        {%- assign tag_url = '/tags/' | append: tag_name | append: '/' -%}
+      {%- else -%}
+        {%- assign tag_url = '/' | append: cur_lang | append: '/tags/' | append: tag_name | append: '/' -%}
+      {%- endif -%}
+      <a class="tag-cloud__item" href="{{ tag_url | relative_url }}">
         <span class="tag-cloud__name">#{{ tag_name }}</span>
         <span class="tag-cloud__count">{{ lang_tag_posts.size }}</span>
       </a>

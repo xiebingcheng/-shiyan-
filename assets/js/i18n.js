@@ -69,10 +69,18 @@
 
   // 给定目标语言与当前 URL，构造目标 URL
   function buildTargetUrl(targetLang) {
+    // 文章页：优先用服务器端注入的 7 语种 URL 映射（7 语种 slug 互不相同，不能靠 strip-and-re-add）
+    if (window.QHSTUDY_TRANSLATIONS && Object.prototype.hasOwnProperty.call(window.QHSTUDY_TRANSLATIONS, targetLang)) {
+      var targetUrl = window.QHSTUDY_TRANSLATIONS[targetLang];
+      if (targetUrl) {
+        return getBaseurl() + targetUrl;
+      }
+    }
+
+    // 非文章页（首页 / 分类 / 标签 / about）：slug 跨语种一致，strip-and-re-add 即可
     var path = window.location.pathname;
     var baseurl = getBaseurl();
     var rest = stripBaseurl(path, baseurl);
-    // 去掉已有的语言前缀
     var stripped = rest.replace(/^\/(en|ru|fr|es|id|ar)(?=\/|$)/, '');
     if (stripped === '') stripped = '/';
 

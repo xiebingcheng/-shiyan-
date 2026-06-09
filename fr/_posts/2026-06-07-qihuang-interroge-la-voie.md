@@ -1,5 +1,6 @@
 ---
 lang: fr
+translation_key: qihuang-wendao
 layout: post
 title: "Qihuang interroge la Voie : trois mille ans de médecine chinoise — de Shennong goûtant cent herbes à la fondation du Huangdi Neijing"
 subtitle: "La source de la Voie médicale, née en Cathay"

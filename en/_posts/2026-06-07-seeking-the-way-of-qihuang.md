@@ -1,5 +1,6 @@
 ---
 lang: en
+translation_key: qihuang-wendao
 layout: post
 title: "Qihuang Asks the Way: Three Thousand Years of Chinese Medicine — From Shennong's Tasting of a Hundred Herbs to the Foundation of the Huangdi Neijing"
 subtitle: "The Source of the Medical Way, Rising in Cathay"
