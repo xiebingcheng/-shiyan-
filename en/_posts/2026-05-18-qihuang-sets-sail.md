@@ -4,7 +4,7 @@ translation_key: qihuang-chuhai
 layout: post
 title: "Qihuang Sets Sail: Chinese Medicine from the Storms of the Modern Era to a Global Stage"
 subtitle: "From the 'Abolish TCM' Storm to WHO Recognition — A Century of TCM's Fate and Rebirth"
-date: 2026-06-07 11:00:00 +0800
+date: 2026-05-18 09:30:00 +0800
 author: Qihuang Library
 category: qiju
 tags: [History of Chinese Medicine, Modern Chinese Medicine, Sino-Western Medical Integration, Abolish TCM, WHO, TCM Goes Global, Culture]

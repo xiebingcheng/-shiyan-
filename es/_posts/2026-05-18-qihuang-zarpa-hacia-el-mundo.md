@@ -4,7 +4,7 @@ translation_key: qihuang-chuhai
 layout: post
 title: "Qihuang zarpa hacia el mundo: la medicina tradicional china de las tempestades modernas al escenario mundial"
 subtitle: "De la tormenta de la «abolición de la MTC» al reconocimiento de la OMS — el destino y el renacimiento de un siglo de medicina china"
-date: 2026-06-07 11:00:00 +0800
+date: 2026-05-18 09:30:00 +0800
 author: 岐黄书房
 category: qiju
 tags: [Historia de la medicina china, Medicina china moderna, Convergencia chino-occidental, Abolición de la MTC, OMS, Medicina china en el extranjero, Cultura]

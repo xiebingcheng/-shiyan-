@@ -4,7 +4,7 @@ translation_key: sida-jingdian
 layout: post
 title: 中医四大经典：一座照亮千年的医学殿堂
 subtitle: 「内经·难经·伤寒·神农本草经——四部奠基之作,撑起岐黄之术」
-date: 2026-06-07 10:00:00 +0800
+date: 2026-05-24 10:45:00 +0800
 author: 岐黄书房
 category: qiju
 tags: [中医史, 四大经典, 黄帝内经, 难经, 伤寒论, 神农本草经, 岐黄]

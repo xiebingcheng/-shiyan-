@@ -4,7 +4,7 @@ translation_key: sida-jingdian
 layout: post
 title: "Empat Klasik Besar Pengobatan Tionghoa: Sebuah Bangsal Pengobatan yang Menerangi Seribu Tahun"
 subtitle: "Huangdi Neijing · Nan Jing · Shanghan · Shennong Bencao Jing — empat karya fondasi yang menopang seni Qihuang"
-date: 2026-06-07 10:00:00 +0800
+date: 2026-05-24 10:45:00 +0800
 author: 岐黄书房
 category: qiju
 tags: [Sejarah Pengobatan Tionghoa, Empat Klasik Besar, Huangdi Neijing, Nan Jing, Shanghan Lun, Shennong Bencao Jing, Qihuang]

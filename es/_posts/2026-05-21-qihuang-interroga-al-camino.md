@@ -4,7 +4,7 @@ translation_key: qihuang-wendao
 layout: post
 title: "Qihuang interroga al Camino: tres milenios de medicina china — desde Shennong que probó cien hierbas hasta la fundación del Huangdi Neijing"
 subtitle: "El origen de la Vía médica, que brotó en Cathay"
-date: 2026-06-07 09:00:00 +0800
+date: 2026-05-21 14:15:00 +0800
 author: 岐黄书房
 category: qiju
 tags: [Historia de la medicina china, Qihuang, Huangdi Neijing, Shennong, La Vía de la medicina, Cultura]

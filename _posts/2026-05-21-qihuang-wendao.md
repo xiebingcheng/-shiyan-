@@ -4,7 +4,7 @@ translation_key: qihuang-wendao
 layout: post
 title: 岐黄问道：中医三千年——从神农尝百草到《黄帝内经》的奠基
 subtitle: 「医道之源,起于华夏」
-date: 2026-06-07 09:00:00 +0800
+date: 2026-05-21 14:15:00 +0800
 author: 岐黄书房
 category: qiju
 tags: [中医史, 岐黄, 黄帝内经, 神农, 医道, 文化]

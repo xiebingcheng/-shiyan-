@@ -4,7 +4,7 @@ translation_key: qihuang-chuhai
 layout: post
 title: 岐黄出海：中医从近代风雨到走向世界
 subtitle: 「从「废止中医」风波到 WHO 承认——百年中医的命运与重生」
-date: 2026-06-07 11:00:00 +0800
+date: 2026-05-18 09:30:00 +0800
 author: 岐黄书房
 category: qiju
 tags: [中医史, 近代中医, 中西医汇通, 废止中医, WHO, 中医出海, 文化]

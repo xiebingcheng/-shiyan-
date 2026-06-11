@@ -4,7 +4,7 @@ translation_key: qihuang-wendao
 layout: post
 title: "Qihuang Menanyakan Jalan: Tiga Ribu Tahun Pengobatan Tionghoa — Dari Shennong Mencoba Ratus Herba hingga Berdirinya Huangdi Neijing"
 subtitle: "Sumber Jalan Pengobatan, Bangkit di Cathay"
-date: 2026-06-07 09:00:00 +0800
+date: 2026-05-21 14:15:00 +0800
 author: 岐黄书房
 category: qiju
 tags: [Sejarah Pengobatan Tionghoa, Qihuang, Huangdi Neijing, Shennong, Jalan Pengobatan, Budaya]
