@@ -6,7 +6,8 @@ subtitle: One scroll of the Classic, a half-cup of clear tea
 lang: en
 description: >
   About Qíhuáng Study (岐黄书房) — a Traditional Chinese Medicine wellness
-  site organized around six themes. Editorial board, medical review process,
+  site organized around seven themes, with original classical texts and
+  translations of TCM classics. Editorial board, medical review process,
   disclaimers and contact information.
 ---
 
@@ -22,7 +23,7 @@ The Study ("Shūfáng", 书房) is named in the spirit of Qíbó and the Yellow 
 >
 > — *Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn* (Chapter 1)
 
-The Study organizes its content around six themes:
+The Study organizes its content around seven themes:
 
 - **Solar Terms** (节气养生) — Following the 24 solar terms, harmonizing Heaven and humankind
 - **Food Therapy & Herbs** (食疗本草) — Food and medicine share the same root; nourishment in everyday meals
@@ -30,6 +31,7 @@ The Study organizes its content around six themes:
 - **Meridians & Acupoints** (经络穴位) — Where meridians flow and acupoints reach
 - **Daily Rhythms** (起居有常) — Regular daily life, no wasteful labor
 - **Emotions & Spirit** (情志养生) — Calm and empty, spirit guarded within
+- **TCM Classics** (中医经典) — The source of Qíhuáng, with original texts and translations side by side
 
 ## What we hope for
 

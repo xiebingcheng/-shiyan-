@@ -18,7 +18,7 @@ lang: id
 >
 > — *Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn* (babak 1)
 
-Studio mengatur kontennya dalam enam tema:
+Studio mengatur kontennya dalam tujuh tema:
 
 - **Musim** (节气养生) — Mengikuti 24 musim, menyelaraskan Langit dan Manusia
 - **Terapi Makanan & Herbal** (食疗本草) — Makanan dan obat berakar sama
@@ -26,6 +26,7 @@ Studio mengatur kontennya dalam enam tema:
 - **Meridian & Titik Akupunktur** (经络穴位) — Tempat mengalir meridian
 - **Ritme Harian** (起居有常) — Hidup teratur, tanpa kerja sia-sia
 - **Emosi & Rohani** (情志养生) — Tenang dan hampa, rohani terjaga di dalam
+- **Klasik TCM** (中医经典) — Sumber Qíhuáng, teks asli dan terjemahan berdampingan
 
 ## Harapan kami
 

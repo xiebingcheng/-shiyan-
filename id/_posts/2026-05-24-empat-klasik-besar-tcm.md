@@ -6,7 +6,7 @@ title: "Empat Klasik Besar Pengobatan Tionghoa: Sebuah Bangsal Pengobatan yang M
 subtitle: "Huangdi Neijing · Nan Jing · Shanghan · Shennong Bencao Jing — empat karya fondasi yang menopang seni Qihuang"
 date: 2026-05-24 10:45:00 +0800
 author: 岐黄书房
-category: qiju
+category: lishi
 tags: [Sejarah Pengobatan Tionghoa, Empat Klasik Besar, Huangdi Neijing, Nan Jing, Shanghan Lun, Shennong Bencao Jing, Qihuang]
 description: >
   "Empat Klasik Besar" adalah sumber hidup seni Qihuang — *Huangdi Neijing*

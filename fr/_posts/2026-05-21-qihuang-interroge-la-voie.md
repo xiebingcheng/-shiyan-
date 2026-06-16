@@ -6,7 +6,7 @@ title: "Qihuang interroge la Voie : trois mille ans de médecine chinoise — de
 subtitle: "La source de la Voie médicale, née en Cathay"
 date: 2026-05-21 14:15:00 +0800
 author: 岐黄书房
-category: qiju
+category: lishi
 tags: [Histoire de la médecine chinoise, Qihuang, Huangdi Neijing, Shennong, La Voie de la médecine, Culture]
 description: >
   Trois mille ans de médecine chinoise ont commencé avec Shennong qui goûta

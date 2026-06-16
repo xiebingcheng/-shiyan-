@@ -6,7 +6,7 @@ title: "Qihuang zarpa hacia el mundo: la medicina tradicional china de las tempe
 subtitle: "De la tormenta de la «abolición de la MTC» al reconocimiento de la OMS — el destino y el renacimiento de un siglo de medicina china"
 date: 2026-05-18 09:30:00 +0800
 author: 岐黄书房
-category: qiju
+category: lishi
 tags: [Historia de la medicina china, Medicina china moderna, Convergencia chino-occidental, Abolición de la MTC, OMS, Medicina china en el extranjero, Cultura]
 description: >
   Una breve historia del «viaje al exterior» de la medicina china: desde la

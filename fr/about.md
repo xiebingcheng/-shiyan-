@@ -18,7 +18,7 @@ Le « Cabinet » (Shūfáng, 书房) tire son nom de l'esprit d'enquête de Qíb
 >
 > — *Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn* (chapitre 1)
 
-Le Cabinet s'organise autour de six axes :
+Le Cabinet s'organise autour de sept axes :
 
 - **Saisons solaires** (节气养生) — Suivre les 24 saisons, harmoniser Ciel et Humain
 - **Alimentation & herbes** (食疗本草) — Nourriture et médecine partagent la même racine
@@ -26,6 +26,7 @@ Le Cabinet s'organise autour de six axes :
 - **Méridiens & points** (经络穴位) — Là où coulent les méridiens
 - **Rythmes quotidiens** (起居有常) — Vie régulière, sans labeur inutile
 - **Émotions & esprit** (情志养生) — Calme et vacuité, l'esprit gardé au-dedans
+- **Classiques de MTC** (中医经典) — La source de Qíhuáng, textes originaux et traductions côte à côte
 
 ## Notre souhait
 

@@ -18,7 +18,7 @@ El « Estudio » (Shūfáng, 书房) toma su nombre del espíritu indagador de Q
 >
 > — *Huángdì Nèijīng · Sùwèn · Shànggǔ Tiānzhēn Lùn* (capítulo 1)
 
-El Estudio se organiza en torno a seis ejes:
+El Estudio se organiza en torno a siete ejes:
 
 - **Estaciones solares** (节气养生) — Sigue las 24 estaciones solares, armoniza Cielo y Ser humano
 - **Alimentación y hierbas** (食疗本草) — Comida y medicina comparten la misma raíz
@@ -26,6 +26,7 @@ El Estudio se organiza en torno a seis ejes:
 - **Meridianos y puntos** (经络穴位) — Por donde fluyen los meridianos
 - **Ritmos diarios** (起居有常) — Vida diaria regular, sin trabajo inútil
 - **Emociones y espíritu** (情志养生) — Calma y vacuidad, espíritu guardado dentro
+- **Clásicos de MTC** (中医经典) — La raíz de Qíhuáng, textos originales y traducciones mano a mano
 
 ## Nuestro anhelo
 

@@ -137,3 +137,49 @@
   ar:
     name: المشاعر والروح
     desc: هدوء وفراغ، روح محروسة من الداخل — من أين يأتي المرض؟
+
+- slug: jingdian
+  zh-CN:
+    name: 中医经典
+    desc: 岐黄之宗，黄钟大吕——经典原文与诸家译本并存
+  en:
+    name: TCM Classics
+    desc: The source of Qíhuáng — original texts and translations side by side
+  ru:
+    name: ТКМ-классика
+    desc: Исток Цихуан — оригиналы и переводы рядом
+  fr:
+    name: Classiques de MTC
+    desc: La source de Qíhuáng — textes originaux et traductions côte à côte
+  es:
+    name: Clásicos de MTC
+    desc: La raíz de Qíhuáng — textos originales y traducciones mano a mano
+  id:
+    name: Klasik TCM
+    desc: Sumber Qíhuáng — teks asli dan terjemahan berdampingan
+  ar:
+    name: كلاسيكيات الطب الصيني
+    desc: ينبوع تشيهوانغ — النصوص الأصلية والترجمات جنبًا إلى جنب
+
+- slug: lishi
+  zh-CN:
+    name: 中医历史
+    desc: 三千年岐黄薪火，从神农尝百草到屠呦呦登诺奖
+  en:
+    name: "History of Chinese Medicine"
+    desc: Three thousand years of Qíhuáng — from Shénnóng tasting herbs to TÚ Yōuyōu’s Nobel Prize
+  ru:
+    name: История китайской медицины
+    desc: Три тысячи лет Цихуан — от Шэнь-нюна, пробующего травы, до Нобелевской премии Ту Юю
+  fr:
+    name: Histoire de la MTC
+    desc: Trois mille ans de Qíhuáng — de Shénnóng goûtant les herbes au prix Nobel de TÚ Yōuyōu
+  es:
+    name: Historia de la MTC
+    desc: Tres mil años de Qíhuáng — de Shénnóng probando hierbas al Nobel de TÚ Yōuyōu
+  id:
+    name: Sejarah Pengobatan Tionghoa
+    desc: Tiga ribu tahun Qíhuáng — dari Shénnóng mencicipi herbal hingga Nobel TÚ Yōuyōu
+  ar:
+    name: تاريخ الطب الصيني
+    desc: ثلاثة آلاف عام من تشيهوانغ — من شينونغ يتذوّى الأعشاب إلى نوبل تو يويو

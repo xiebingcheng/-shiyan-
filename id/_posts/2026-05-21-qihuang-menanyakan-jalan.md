@@ -6,7 +6,7 @@ title: "Qihuang Menanyakan Jalan: Tiga Ribu Tahun Pengobatan Tionghoa — Dari S
 subtitle: "Sumber Jalan Pengobatan, Bangkit di Cathay"
 date: 2026-05-21 14:15:00 +0800
 author: 岐黄书房
-category: qiju
+category: lishi
 tags: [Sejarah Pengobatan Tionghoa, Qihuang, Huangdi Neijing, Shennong, Jalan Pengobatan, Budaya]
 description: >
   Tiga ribu tahun pengobatan Tionghoa bermula dari Shennong yang mencicipi

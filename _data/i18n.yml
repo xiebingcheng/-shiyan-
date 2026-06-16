@@ -69,7 +69,7 @@ strings:
       latest: 最新文章
       latest_lead: 以《黄帝内经》为宗，汇养生、食疗、节气、经络之要。
       categories: 览 · 分类
-      categories_lead: 六大类目，循序而进。
+      categories_lead: 七大类目，循序而进。
       tags_overview: "共 X 个标签，按文章数量排序。"
     common:
       read_more: 阅读全文
@@ -181,7 +181,7 @@ strings:
       latest: Latest Articles
       latest_lead: Rooted in the Huángdì Nèijīng — wisdom of wellness, food therapy, solar terms, and meridians.
       categories: Browse · Categories
-      categories_lead: Six categories to walk through, in order.
+      categories_lead: Seven categories to walk through, in order.
       tags_overview: "X tags, sorted by article count."
     common:
       read_more: Read more
@@ -293,7 +293,7 @@ strings:
       latest: Свежие статьи
       latest_lead: Опираясь на «Хуанди Нэйцзин» — мудрость о здоровье, питании, сезонах и меридианах.
       categories: Категории
-      categories_lead: Шесть разделов — следуйте по порядку.
+      categories_lead: Семь разделов — следуйте по порядку.
       tags_overview: "X тегов, отсортировано по количеству статей."
     common:
       read_more: Читать далее
@@ -405,7 +405,7 @@ strings:
       latest: Derniers articles
       latest_lead: Ancré dans le Huángdì Nèijīng — sagesse du bien-être, alimentation, saisons et méridiens.
       categories: Parcourir · Catégories
-      categories_lead: Six rubriques à suivre, dans l'ordre.
+      categories_lead: Sept rubriques à suivre, dans l'ordre.
       tags_overview: "X étiquettes, triées par nombre d'articles."
     common:
       read_more: Lire la suite
@@ -517,7 +517,7 @@ strings:
       latest: Últimos artículos
       latest_lead: Con raíz en el Huángdì Nèijīng — sabiduría del bienestar, la alimentación, las estaciones y los meridianos.
       categories: Explorar · Categorías
-      categories_lead: Seis secciones para recorrer, en orden.
+      categories_lead: Siete secciones para recorrer, en orden.
       tags_overview: "X etiquetas, ordenadas por número de artículos."
     common:
       read_more: Leer más
@@ -629,7 +629,7 @@ strings:
       latest: Artikel terbaru
       latest_lead: Berakar dari Huángdì Nèijīng — kebijaksanaan tentang kesehatan, makanan, musim, dan meridian.
       categories: Jelajahi · Kategori
-      categories_lead: Enam kategori untuk dijelajahi, berurutan.
+      categories_lead: Tujuh kategori untuk dijelajahi, berurutan.
       tags_overview: "X tag, diurutkan berdasarkan jumlah artikel."
     common:
       read_more: Baca selengkapnya
@@ -740,7 +740,7 @@ strings:
       latest: أحدث المقالات
       latest_lead: متجذّر في «هوانغدي نيجينغ» — حكمة العافية والطعام والفصول والخطوط الطولية.
       categories: تصفّح · التصنيفات
-      categories_lead: ستة أبواب للسير فيها، بالترتيب.
+      categories_lead: سبعة أبواب للسير فيها، بالترتيب.
       tags_overview: "X وسوم، مرتبة حسب عدد المقالات."
     common:
       read_more: اقرأ المزيد

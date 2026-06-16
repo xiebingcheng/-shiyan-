@@ -6,7 +6,7 @@ title: "Qihuang Berlayar ke Dunia: Pengobatan Tradisional Tionghoa dari Badai Za
 subtitle: "Dari Badai 'Penghapusan PTT' hingga Pengakuan WHO — Nasib dan Kelahiran Kembali Pengobatan Tionghoa Selama Satu Abad"
 date: 2026-05-18 09:30:00 +0800
 author: 岐黄书房
-category: qiju
+category: lishi
 tags: [Sejarah Pengobatan Tionghoa, Pengobatan Tionghoa Modern, Integrasi Tionghoa-Barat, Penghapusan PTT, WHO, Pengobatan Tionghoa ke Mancanegara, Budaya]
 description: >
   Sejarah singkat "pelayaran" Pengobatan Tionghoa ke luar negeri: dari deskripsi

@@ -1,9 +1,9 @@
 ---
 layout: category
-title: ""Emosi & Rohani""
+title: "Emociones & espíritu"
 permalink: /id/categories/qingzhi/
 category: qingzhi
-category_name: ""Emosi & Rohani""
-category_desc: "Tenang dan hampa, rohani terjaga di dalam — dari mana datangnya penyakit?"
+category_name: "Emociones & espíritu"
+category_desc: "Calma y vacuidad, espíritu guardado dentro — ¿de dónde viene la enfermedad?"
 lang: id
 ---

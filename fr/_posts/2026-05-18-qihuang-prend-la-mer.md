@@ -6,7 +6,7 @@ title: "Qihuang prend la mer : la médecine chinoise — des épreuves de l'épo
 subtitle: "De la tempête de l'« abolition de la médecine chinoise » à la reconnaissance par l'OMS — le destin et la renaissance d'un siècle de médecine chinoise"
 date: 2026-05-18 09:30:00 +0800
 author: 岐黄书房
-category: qiju
+category: lishi
 tags: [Histoire de la médecine chinoise, Médecine chinoise moderne, Synthèse sino-occidentale, Abolition de la médecine chinoise, OMS, Médecine chinoise à l'étranger, Culture]
 description: >
   Une brève histoire de l'« embarquement » de la médecine chinoise : depuis

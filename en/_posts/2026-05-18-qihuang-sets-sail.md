@@ -6,7 +6,7 @@ title: "Qihuang Sets Sail: Chinese Medicine from the Storms of the Modern Era to
 subtitle: "From the 'Abolish TCM' Storm to WHO Recognition — A Century of TCM's Fate and Rebirth"
 date: 2026-05-18 09:30:00 +0800
 author: Qihuang Library
-category: qiju
+category: lishi
 tags: [History of Chinese Medicine, Modern Chinese Medicine, Sino-Western Medical Integration, Abolish TCM, WHO, TCM Goes Global, Culture]
 description: >
   A brief history of TCM's "voyage abroad": from Matteo Ricci's late-16th-century descriptions of pulse diagnosis for Europe, to Michel Boym's 17th-century *Flora Sinensis* in Vienna; from the 1929 "Abolish TCM" crisis, to Tu Youyou's 2015 Nobel Prize inspired by Ge Hong's *Zhouhou Beiji Fang*; and on to recognition in ICD-11 and UNESCO's Representative List. TCM is not a museum piece — it is a living medicine moving toward the world.

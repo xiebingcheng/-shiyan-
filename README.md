@@ -45,7 +45,7 @@ bundle exec jekyll serve
 .
 ├── _config.yml              # 站点配置
 ├── _data/
-│   ├── categories.yml       # 6 大分类元数据
+│   ├── categories.yml       # 7 大分类元数据
 │   └── nav.yml              # 顶部导航
 ├── _layouts/                # 布局层
 │   ├── default.html         # 全局
@@ -68,7 +68,7 @@ bundle exec jekyll serve
 │   └── lang-switcher.html
 ├── _posts/                  # 15 篇示例文章
 │   └── 2026-*.md
-├── categories/              # 6 个分类页（自动生成）
+├── categories/              # 7 个分类页（自动生成）
 ├── tags/                    # 55 个标签页（自动生成）
 ├── about.md                 # 关于书房
 ├── about-zhongyi.md         # 什么是中医
@@ -96,7 +96,7 @@ bundle exec jekyll serve
 ## 功能特性
 
 - ✅ **古风中式主题** —— 宣纸底色 / 墨色 / 朱红 / 黛青，楷体 + 宋体
-- ✅ **6 大分类** —— 节气养生 / 食疗本草 / 四季调养 / 经络穴位 / 起居有常 / 情志养生
+- ✅ **7 大分类** —— 节气养生 / 食疗本草 / 四季调养 / 经络穴位 / 起居有常 / 情志养生 / 中医经典
 - ✅ **15 篇示例文章** —— 平均 1500-2000 字
 - ✅ **客户端搜索** —— 关键词高亮，标题/标签/摘要/正文多字段加权
 - ✅ **暗色模式** —— 手动切换 + 跟随系统
@@ -119,7 +119,7 @@ title: 文章标题
 subtitle: 副标题（可选）
 date: 2026-04-01 09:00:00 +0800
 author: 作者
-category: jieqi       # 6 选 1: jieqi / shiliao / siji / jingluo / qiju / qingzhi
+category: jieqi       # 7 选 1: jieqi / shiliao / siji / jingluo / qiju / qingzhi / jingdian
 tags: [节气, 春季, 养肝]
 excerpt: 摘要文本（用于卡片和搜索）
 ---

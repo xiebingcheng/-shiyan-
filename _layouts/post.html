@@ -112,10 +112,13 @@ layout: default
     {%- if p.url == page.url -%}
       {%- assign cur_idx = forloop.index0 -%}
       {%- if cur_idx > 0 -%}
-        {%- assign prev_post = lang_posts[cur_idx | minus: 1] -%}
+        {%- assign prev_idx = cur_idx | minus: 1 -%}
+        {%- assign prev_post = lang_posts[prev_idx] -%}
       {%- endif -%}
-      {%- if cur_idx < lang_count | minus: 1 -%}
-        {%- assign next_post = lang_posts[cur_idx | plus: 1] -%}
+      {%- assign last_idx = lang_count | minus: 1 -%}
+      {%- if cur_idx < last_idx -%}
+        {%- assign next_idx = cur_idx | plus: 1 -%}
+        {%- assign next_post = lang_posts[next_idx] -%}
       {%- endif -%}
     {%- endif -%}
   {%- endfor -%}

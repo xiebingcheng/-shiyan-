@@ -6,7 +6,7 @@ title: "The Four Great Classics of Chinese Medicine: A Hall of Medicine That Has
 subtitle: "Huangdi Neijing · Nan Jing · Shanghan · Shennong Bencao Jing — four foundational works upholding the art of Qihuang"
 date: 2026-05-24 10:45:00 +0800
 author: Qihuang Library
-category: qiju
+category: lishi
 tags: [History of Chinese Medicine, Four Great Classics, Huangdi Neijing, Nan Jing, Shanghan Lun, Shennong Bencao Jing, Qihuang]
 description: >
   The "Four Great Classics" are the living source of the art of Qihuang — the

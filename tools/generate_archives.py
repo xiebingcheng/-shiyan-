@@ -160,15 +160,19 @@ def render_category(slug, posts, lang, prefix, cat_meta_zh, cat_i18n):
     out_dir = ROOT / prefix / 'categories' if prefix else ROOT / 'categories'
     out_path = out_dir / f"{slug}.md"
 
-    # 用 YAML 安全字符串：双引号转义内部双引号
-    desc_safe = desc.replace('"', '\\"')
+    # 用 YAML 安全字符串：双引号转义内部双引号；若值已带引号则不重复包裹
+    def yq(s):
+        s = str(s)
+        if s.startswith('"') and s.endswith('"') and len(s) >= 2:
+            return s
+        return '"' + s.replace('"', '\\"') + '"'
     body = f"""---
 layout: category
-title: "{name}"
+title: {yq(name)}
 permalink: {permalink}
 category: {slug}
-category_name: "{name}"
-category_desc: "{desc_safe}"
+category_name: {yq(name)}
+category_desc: {yq(desc)}
 lang: {lang}
 ---
 """

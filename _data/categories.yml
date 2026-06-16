@@ -29,3 +29,13 @@
   desc: 恬淡虚无，精神内守，病安从来
   color: "#4a3b6b"
   icon: "❁"
+- slug: jingdian
+  name: 中医经典
+  desc: 岐黄之宗，黄钟大吕——经典原文与诸家译本并存
+  color: "#8a6d3b"
+  icon: "典"
+- slug: lishi
+  name: 中医历史
+  desc: 三千年岐黄薪火，从神农尝百草到屠呦呦登诺奖
+  color: "#3b4a5a"
+  icon: "史"

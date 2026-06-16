@@ -6,7 +6,7 @@ title: "Qihuang interroga al Camino: tres milenios de medicina china — desde S
 subtitle: "El origen de la Vía médica, que brotó en Cathay"
 date: 2026-05-21 14:15:00 +0800
 author: 岐黄书房
-category: qiju
+category: lishi
 tags: [Historia de la medicina china, Qihuang, Huangdi Neijing, Shennong, La Vía de la medicina, Cultura]
 description: >
   Tres milenios de medicina china comenzaron con Shennong, que probó cien

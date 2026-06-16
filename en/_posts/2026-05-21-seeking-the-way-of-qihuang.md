@@ -6,7 +6,7 @@ title: "Qihuang Asks the Way: Three Thousand Years of Chinese Medicine — From 
 subtitle: "The Source of the Medical Way, Rising in Cathay"
 date: 2026-05-21 14:15:00 +0800
 author: Qihuang Library
-category: qiju
+category: lishi
 tags: [History of Chinese Medicine, Qihuang, Huangdi Neijing, Shennong, The Way of Medicine, Culture]
 description: >
   Three thousand years of Chinese medicine began with Shennong tasting a hundred

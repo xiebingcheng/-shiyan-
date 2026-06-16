@@ -1,7 +1,7 @@
 ---
 layout: tag
-title: "#historia de la MTC"
-permalink: /es/tags/historia de la MTC/
-tag: historia de la MTC
+title: "#Historia de la MTC"
+permalink: /es/tags/Historia de la MTC/
+tag: Historia de la MTC
 lang: es
 ---
