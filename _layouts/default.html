@@ -6,9 +6,9 @@
   {%- assign is_rtl = true -%}
 {%- endif -%}
 {%- if is_rtl -%}
-<html lang="{{ cur_lang }}" dir="rtl" data-rtl="true" data-lang="{{ cur_lang }}" data-baseurl="{{ site.baseurl | default: '/' }}">
+<html lang="{{ cur_lang }}" dir="rtl" data-rtl="true" data-lang="{{ cur_lang }}" data-baseurl="{{ site.baseurl }}">
 {%- else -%}
-<html lang="{{ cur_lang }}" dir="ltr" data-rtl="false" data-lang="{{ cur_lang }}" data-baseurl="{{ site.baseurl | default: '/' }}">
+<html lang="{{ cur_lang }}" dir="ltr" data-rtl="false" data-lang="{{ cur_lang }}" data-baseurl="{{ site.baseurl }}">
 {%- endif -%}
 <head>
   {%- include head.html -%}
