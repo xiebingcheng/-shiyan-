@@ -4,7 +4,7 @@
 <meta name="theme-color" content="#1a1410" media="(prefers-color-scheme: dark)">
 <meta name="format-detection" content="telephone=no">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; form-action 'self'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests;">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://hm.baidu.com https://sdk.51.la; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https://hm.baidu.com; connect-src 'self'; form-action 'self'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests;">
 <meta http-equiv="X-Content-Type-Options" content="nosniff">
 
 {%- assign cur_lang = page.lang | default: 'zh-CN' -%}
@@ -180,3 +180,18 @@
 {%- comment -%} Webmaster verification placeholders (replace with real codes after registering) {%- endcomment -%}
 {%- if site.bing_verify -%}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{%- endif -%}
 {%- if site.google_verify -%}<meta name="google-site-verification" content="{{ site.google_verify }}">{%- endif -%}
+
+{%- comment -%} Baidu Analytics {%- endcomment -%}
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?9b58d871ca9797c82c2535dc16fbaa3f";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+{%- comment -%} 51.la Analytics {%- endcomment -%}
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+<script>if(typeof LA!=='undefined'){LA.init({id:"3QdrbNmlTBURoEea",ck:"3QdrbNmlTBURoEea",autoTrack:true})}</script>
