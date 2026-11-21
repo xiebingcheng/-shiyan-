@@ -7,7 +7,7 @@ subtitle: "«*Shēngjiāng*, *gānjiāng* y *páojiāng*: una misma cosa con tre
 date: 2026-06-14 11:30:00 +0800
 author: 岐黄书房
 category: shiliao
-tags: [Alimentación y hierbas medicinales, Materia médica, "*Shēngjiāng*", "*Gānjiāng*", Remedio sagrado de los vómitos, Alimentos y medicamentos del mismo origen, Calentar el centro, Liberar el exterior, Dispersar el frío]
+tags: [Alimentación y hierbas medicinales, Materia médica, "Shēngjiāng", "Gānjiāng", Remedio sagrado de los vómitos, Alimentos y medicamentos del mismo origen, Calentar el centro, Liberar el exterior, Dispersar el frío]
 description: >
   El *shēngjiāng* (jengibre fresco, *Zingiber officinale* Rosc.) es el
   rizoma fresco de la planta de la familia de las zingiberáceas;

@@ -24,6 +24,10 @@ from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parent.parent
 
+# Windows 控制台默认 GBK，print 含变音符的标签名（法语/西语等）会崩，统一改 UTF-8 输出
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+
 # 7 语种 + 每个语种对应的 _posts 目录
 LANGS = [
     ('zh-CN', ROOT / '_posts',         ''),       # 默认语种，目录在前缀
@@ -196,6 +200,15 @@ lang: {lang}
     write_file(out_path, body)
 
 
+_ILLEGAL_CHARS = re.compile(r'[*:"/\\<>|?\x00-\x1f]')
+
+
+def sanitize_tag(tag):
+    """剔除标签中的文件名/URL 非法字符（如混入的 Markdown 星号），
+    避免 Windows 写盘失败与标签链接错乱。"""
+    return _ILLEGAL_CHARS.sub('', str(tag)).strip()
+
+
 def main():
     cat_meta_zh = load_category_meta()
     cat_i18n = load_category_i18n()
@@ -217,7 +230,9 @@ def main():
             if p.get('category'):
                 by_cat[p['category']].append(p)
             for t in p.get('tags', []) or []:
-                by_tag[t].append(p)
+                t = sanitize_tag(t)
+                if t:
+                    by_tag[t].append(p)
 
         for slug, ps in by_cat.items():
             render_category(slug, ps, lang, prefix, cat_meta_zh, cat_i18n)

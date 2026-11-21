@@ -7,7 +7,7 @@ subtitle: "« *shēngjiāng* (生姜), *gānjiāng* (干姜), *páojiāng* (炮�
 date: 2026-06-14 11:30:00 +0800
 author: 岐黄书房
 category: shiliao
-tags: [Matière médicale diététique, Matière médicale, "*shēngjiāng*", "*gānjiāng*", Remède sacré contre les vomissements, Nourriture et médecine de même origine, Réchauffer le centre, Libérer la superficie, Disperser le froid]
+tags: [Matière médicale diététique, Matière médicale, "shēngjiāng", "gānjiāng", Remède sacré contre les vomissements, Nourriture et médecine de même origine, Réchauffer le centre, Libérer la superficie, Disperser le froid]
 description: >
   Le *shēngjiāng* (生姜, gingembre frais), rhizome frais de la plante *Zingiber officinale*, est un produit supérieur à double usage alimentaire et médicinal.
   « Remède sacré contre les vomissements » et « saint de l'harmonie », il est l'un des ingrédients les plus employés par Zhang Zhongjing dans le *Shānghán Lùn* et le *Jīnkuì Yàolüè*.
