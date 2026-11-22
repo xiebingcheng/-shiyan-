@@ -2,7 +2,7 @@
 lang: es
 translation_key: dahan-yangsheng
 layout: post
-title: "Salud en el Gran Frío: la reserva del invierno llega a su cierre, a la espera del Inicio de la primavera"
+title: "Salud en el Gran Frío: la reserva del invierno llega a su cierre, a la espera del Comienzo de la primavera"
 subtitle: "Primera pentada: las gallinas empiezan a empollar; segunda: las aves de presa cazan con fiereza; tercera: el hielo endurece las aguas hasta el fondo — el frío toca su extremo y se dispone a virar: apartar lo viejo para acoger lo nuevo."
 date: 2026-11-22 08:50:00 +0800
 author: 岐黄书房
@@ -19,7 +19,7 @@ description: >
   a lo claro, los detalles de la vida diaria — edredones al sol, gran limpieza y
   ventanas — y el ánimo de fin de año: el balance de un año y una hoja para el
   que viene.
-excerpt: "El frío, en su extremo último: por eso se llama Gran Frío — la reserva del invierno llega a su cierre, la mesa pasa de lo denso a lo claro, y se espera en calma el Inicio de la primavera."
+excerpt: "El frío, en su extremo último: por eso se llama Gran Frío — la reserva del invierno llega a su cierre, la mesa pasa de lo denso a lo claro, y se espera en calma el Comienzo de la primavera."
 ---
 
 > «El Gran Frío es el nodo medio: medido sobre el Frío menor que le antecede, su severidad se hace patente, y por eso se llama “gran”… El qi del frío, llegado al extremo en que se vuelve, por eso se llama Gran Frío.» (「大寒为中者，上形于小寒，故谓之大……寒气之逆极，故谓大寒。」)
@@ -36,7 +36,7 @@ Las **tres pentadas** — cada estación solar se subdivide en tres periodos de 
 
 Qué se come el día del Gran Frío, los cantoneses tienen respuesta propia: arroz glutinoso — el arroz de grano corto y pegajoso con que la cocina china hace dulces y gachas. La costumbre pide ese día una escudilla de arroz glutinoso caliente para ganarse un «nuan lili» (暖笠笠) — la expresión cantonesa para «calentito y a gusto», arropado contra el frío. La manera refinada es el *shengchao nuomifan*, el arroz glutinoso salteado desde crudo: el arroz se deja en remojo dos o tres horas, se escurre y se cuece al vapor; la salchicha curada y el cerdo curado de invierno — los *làwei*, las carnes curadas al aire propias de estas fechas — van en dados pequeños, y las shiitake secas y las gambitas secas, remojadas y picadas; en la sartén bien caliente se doran unos granitos de jengibre, se saltea primero el curado para que suelte su grasa, vuelve el arroz para desgranarlo bien, un chorrito de salsa de soja clara y, al servir, cebollino picado y un puñado de cacahuetes fritos. En la cocina de casa hay un orden más sencillo: cocer el arroz al vapor casi del todo y saltearlo después; queda igual de fragante. Por persona y comida, entre cien y ciento cincuenta gramos de arroz glutinoso en seco: comerlo caliente y masticar despacio.
 
-Pero el *Bencao Gangmu* — *Compendio de materia médica* (《本草纲目》), la gran farmacopea de **Li Shizhen** — guarda en su sección de cereales, bajo «arroz», una advertencia para el glutinoso: «De naturaleza pegajosa, se atasca y se digiere con dificultad; a los niños y a los enfermos les conviene evitarlo por encima de todo.» (「糯性黏滞难化，小儿、病人最宜忌之。」《本草纲目·谷部·稻》) Dicho en pleno Gran Frío, la frase cae en su justo punto: un invierno entero de concentrados medicinales en pasta (*gaofang*), guisos medicinales y sopas espesas llega hasta aquí, y toca recoger. Cerrar no es volver de golpe a la mesa vegetariana: es ir bajando despacio lo «denso» — la sopa blanca y cremosa cede ante el caldo claro, a la mesa se suma un plato de gachas de arroz con sus guarniciones, y el arroz glutinoso pasa de alimento principal a golosina de fiesta. Que el bazo y el estómago viajen ligeros de equipaje hasta el Inicio de la primavera.
+Pero el *Bencao Gangmu* — *Compendio de materia médica* (《本草纲目》), la gran farmacopea de **Li Shizhen** — guarda en su sección de cereales, bajo «arroz», una advertencia para el glutinoso: «De naturaleza pegajosa, se atasca y se digiere con dificultad; a los niños y a los enfermos les conviene evitarlo por encima de todo.» (「糯性黏滞难化，小儿、病人最宜忌之。」《本草纲目·谷部·稻》) Dicho en pleno Gran Frío, la frase cae en su justo punto: un invierno entero de concentrados medicinales en pasta (*gaofang*), guisos medicinales y sopas espesas llega hasta aquí, y toca recoger. Cerrar no es volver de golpe a la mesa vegetariana: es ir bajando despacio lo «denso» — la sopa blanca y cremosa cede ante el caldo claro, a la mesa se suma un plato de gachas de arroz con sus guarniciones, y el arroz glutinoso pasa de alimento principal a golosina de fiesta. Que el bazo y el estómago viajen ligeros de equipaje hasta el Comienzo de la primavera.
 
 En la mesa de fiesta no falta tampoco el arroz glutinoso de los ocho tesoros (*babaofan*): arroz glutinoso cocido al vapor y mezclado con azúcar y manteca, al fondo del cuenco dátiles chinos, semillas de loto y pasta de judía dulce, otra pasada de vapor hasta el corazón, y al volcarlo del cuenco queda un redondel apretado — una imagen de la reunión. En Jiangnan, la región al sur del río Yangtsé, suele ser el plato que cierra la cena de Nochevieja china. Los «ocho tesoros» son puro augurio: que la riqueza entre por los ocho rumbos, que la familia esté junta y redonda. Hecho en casa, mejor cocer al vapor un cuenco y repartirlo: una cucharada por persona, para probar el dulce, basta.
 
