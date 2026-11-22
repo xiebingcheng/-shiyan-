@@ -9,7 +9,7 @@ author: 岐黄书房
 category: jieqi
 tags: [Santé des saisons solaires, Saisons solaires, Petites chaleurs, 24 saisons solaires, Santé MTC, Bien-être estival, Fortifier la rate, Dissiper l'humidité, Humidité estivale]
 description: >
-  Les petites chaleurs (Xiaoshu) — le onzième des vingt-quatre saisons solaires — arrivent lorsque le Soleil atteint la longitude céleste de 105°. La chaleur n'a pas encore atteint son sommet, d'où le qualificatif « petites ». Les trois pentades — vent tiède qui arrive, grillons qui se logent sur le mur, faucons qui frappent pour la première fois — illustrent toutes la convergence de la chaleur et de l'humidité estivales. Comme la chaleur porte facilement l'humidité, et que l'humidité enserre le plus facilement la rate, la culture de santé aux petites chaleurs doit avant tout « éviter l'humidité estivale et cultiver la rate et l'estomac ». S'appuyant sur le Suwen, les Ordonnances mensuelles des soixante-douze pentades, le Zunsheng Bajian de Gao Lian, le Traité sur les messages de la culture de la vie selon les saisons et le Shoushi Baoyuan de Gong Tingxian, cet essai expose la théorie de l'humidité estivale, les méthodes pour fortifier la rate, les aliments de saison tels que l'orge perlé (yiyiren), la graine de lotus et le haricot hyacinthe, et les techniques d'acupression pour les points de fortification de la rate comme Yinlingquan et Zusanli.
+  Les petites chaleurs (Xiaoshu) — le onzième des vingt-quatre saisons solaires — arrivent lorsque le Soleil atteint la longitude céleste de 105°. La chaleur n'a pas encore atteint son sommet, d'où le qualificatif « petites ». Les trois pentades — vent tiède qui arrive, grillons qui se logent sur le mur, faucons qui frappent pour la première fois — illustrent toutes la convergence de la chaleur et de l'humidité estivales. Comme la chaleur porte facilement l'humidité, et que l'humidité enserre le plus facilement la rate, la culture de santé aux petites chaleurs doit avant tout « éviter l'humidité estivale et cultiver la rate et l'estomac ». S'appuyant sur le Suwen, les Ordonnances mensuelles des soixante-douze pentades, le Zunsheng Bajian de Gao Lian, le Traité sur les messages de la culture de la vie selon les saisons et le Shoushi Baoyuan de Gong Tingxian, cet essai expose la théorie de l'humidité estivale, les méthodes pour fortifier la rate, les aliments de saison tels que les larmes de Job (yiyiren), la graine de lotus et le haricot hyacinthe, et les techniques d'acupression pour les points de fortification de la rate comme Yinlingquan et Zusanli.
 excerpt: "Premier pentade : le vent tiède arrive ; deuxième : les grillons se logent sur le mur ; troisième : les faucons frappent pour la première fois — l'humidité et la chaleur estivales montent ensemble ; cultiver la rate est la clé."
 ---
 
@@ -123,13 +123,13 @@ Quand **l'humidité estivale enserre la rate**, l'alimentation doit se concentre
 
 **Recettes saisonnières** :
 
-#### 🌿 Bouillie d'orge perlé et de graine de lotus
+#### 🌿 Bouillie de larmes de Job et de graine de lotus
 > « **Orge perlé, graine de lotus, chacun un *liang* ; *jingmi* (riz rond poli), deux *he* ; cuire ensemble en bouillie ; une petite tasse par jour — fortifie la rate, dissipe l'humidité, arrête la diarrhée.** »
 >
 > — **Cao Tingdong**, ***Lao Lao Heng Yan*** (《老老恒言》, 1773), Rouleau 3, « Catalogue des bouillies »
 
-#### 🌿 Soupe de haricot hyacinthe et d'orge perlé
-> « **Haricot hyacinthe blanc, orge perlé, chacun deux *liang* ; décocter ensemble ; ajouter un peu de sucre de roche ; une petite tasse par jour — transforme l'humidité et éveille la rate.** »
+#### 🌿 Soupe de haricot hyacinthe et de larmes de Job
+> « **Haricot hyacinthe blanc, larmes de Job, chacun deux *liang* ; décocter ensemble ; ajouter un peu de sucre de roche ; une petite tasse par jour — transforme l'humidité et éveille la rate.** »
 
 #### 🌿 Décoction des trois haricots (San Dou Yin)
 > « **Haricot mungo, haricot rouge azuki, haricot noir, chacun un *sheng* ; *gancao* (réglisse) trois *qian* ; faire bouillir dans l'eau jusqu'à cuisson complète ; manger les haricots à volonté et boire le liquide ; traite la chaleur-toxine, les abcès et le mal de gorge dans le mois d'été.** »

@@ -9,7 +9,7 @@ author: 岐黄书房
 category: jieqi
 tags: [Salud de las estaciones solares, Estaciones solares, Calores menores, 24 estaciones solares, Salud MTC, Bienestar estival, Fortalecer el bazo, Disipar la humedad, Humedad estival]
 description: >
-  Los calores menores (Xiaoshu) — el undécimo de los veinticuatro estaciones solares — llegan cuando el Sol alcanza la longitud celeste de 105°. El calor aún no ha llegado a su extremo, de ahí el calificativo « menores ». Las tres pentadas — viento templado que llega, grillos que se refugian en el muro, halcones que atacan por primera vez — ilustran todas la convergencia del calor y la humedad estivales. Como el calor lleva fácilmente humedad, y la humedad atrapa con mayor facilidad al bazo, el cultivo de salud en los calores menores debe ante todo « evitar la humedad estival y nutrir el bazo y el estómago ». Apoyándose en el Suwen, las Ordenanzas mensuales de las setenta y dos pentadas, el Zunsheng Bajian de Gao Lian, el Tratado sobre los mensajes del cultivo de la vida según las estaciones y el Shoushi Baoyuan de Gong Tingxian, este ensayo expone la teoría de la humedad estival, los métodos para fortalecer el bazo, los alimentos de temporada como la cebada perlada (yiyiren), la semilla de loto y el fríjol jacinto, y las técnicas de acupresión para los puntos de fortalecimiento del bazo como Yinlingquan y Zusanli.
+  Los calores menores (Xiaoshu) — el undécimo de los veinticuatro estaciones solares — llegan cuando el Sol alcanza la longitud celeste de 105°. El calor aún no ha llegado a su extremo, de ahí el calificativo « menores ». Las tres pentadas — viento templado que llega, grillos que se refugian en el muro, halcones que atacan por primera vez — ilustran todas la convergencia del calor y la humedad estivales. Como el calor lleva fácilmente humedad, y la humedad atrapa con mayor facilidad al bazo, el cultivo de salud en los calores menores debe ante todo « evitar la humedad estival y nutrir el bazo y el estómago ». Apoyándose en el Suwen, las Ordenanzas mensuales de las setenta y dos pentadas, el Zunsheng Bajian de Gao Lian, el Tratado sobre los mensajes del cultivo de la vida según las estaciones y el Shoushi Baoyuan de Gong Tingxian, este ensayo expone la teoría de la humedad estival, los métodos para fortalecer el bazo, los alimentos de temporada como las lágrimas de Job (yiyiren), la semilla de loto y el fríjol jacinto, y las técnicas de acupresión para los puntos de fortalecimiento del bazo como Yinlingquan y Zusanli.
 excerpt: "Primera pentada: llega el viento templado; segunda: los grillos se refugian en el muro; tercera: los halcones atacan por primera vez — la humedad y el calor estivales ascienden juntos; nutrir el bazo es la clave."
 ---
 
@@ -102,13 +102,13 @@ El ***Suwen · Tratado de la elucidación de los cinco qi*** (《素问·宣明�
 
 **Recetas estacionales**:
 
-#### 🌿 Gachas de cebada perlada y semilla de loto
+#### 🌿 Gachas de lágrimas de Job y semilla de loto
 > 「**Cebada perlada, semilla de loto, cada uno un *liang*; *jingmi* (arroz pulido de grano redondo), dos *he*; cocinar juntos como gachas; una tacita diaria — fortalece el bazo, disipa la humedad, detiene la diarrea.**」
 >
 > — **Cao Tingdong**, ***Lao Lao Heng Yan*** (《老老恒言》, 1773), Rollo 3, « Catálogo de gachas »
 
-#### 🌿 Sopa de fríjol jacinto y cebada perlada
-> 「**Fríjol jacinto blanco, cebada perlada, cada uno dos *liang*; decocción conjunta; añadir un poco de azúcar de roca; una tacita diaria — transforma la humedad y despierta el bazo.**」
+#### 🌿 Sopa de fríjol jacinto y lágrimas de Job
+> 「**Fríjol jacinto blanco, lágrimas de Job, cada uno dos *liang*; decocción conjunta; añadir un poco de azúcar de roca; una tacita diaria — transforma la humedad y despierta el bazo.**」
 
 #### 🌿 Decocción de los tres fríjoles (San Dou Yin)
 > 「**Fríjol mungo, fríjol rojo adzuki, fríjol negro, cada uno un *sheng*; *gancao* (regaliz) tres *qian*; hervir en agua hasta completa cocción; comer los fríjoles a voluntad y beber el líquido; trata calor-tóxico, abscesos y dolor de garganta en el mes de verano.**」

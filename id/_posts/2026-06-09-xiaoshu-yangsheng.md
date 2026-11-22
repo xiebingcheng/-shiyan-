@@ -9,7 +9,7 @@ author: 岐黄书房
 category: jieqi
 tags: [Kesehatan Musim Surya, Musim Surya, Panas Kecil, 24 Musim Surya, Kesehatan TMC, Kesejahteraan Musim Panas, Perkuat limpa, Hilangkan kelembapan, Kelembapan musim panas]
 description: >
-  Panas Kecil (Xiaoshu) — yang kesebelas dari dua puluh empat musim surya — tiba ketika Matahari mencapai bujur langit 105°. Panas belum mencapai puncaknya, oleh karena itu disebut "kecil". Tiga pentade — angin hangat yang tiba, jangkrik yang berlindung di dinding, elang yang mulai menerkam — semuanya menggambarkan konvergensi panas dan kelembapan musim panas. Karena panas mudah membawa kelembapan, dan kelembapan paling mudah menjerat limpa, pemeliharaan hidup pada Panas Kecil harus utamanya "menghindari kelembapan musim panas dan memelihara limpa dan lambung". Berdasar pada Suwen, Ordinansi Bulanan 72 Pentade, Zunsheng Bajian karya Gao Lian, Riset tentang Pesan Pemeliharaan Hidup Menurut Musim, dan Shoushi Baoyuan karya Gong Tingxian, esai ini memaparkan teori kelembapan musim panas, metode memperkuat limpa, makanan musim seperti jelai mutiara (yiyiren), biji teratai, dan kacang hyacinth, serta teknik akupresur untuk titik penguatan limpa seperti Yinlingquan dan Zusanli.
+  Panas Kecil (Xiaoshu) — yang kesebelas dari dua puluh empat musim surya — tiba ketika Matahari mencapai bujur langit 105°. Panas belum mencapai puncaknya, oleh karena itu disebut "kecil". Tiga pentade — angin hangat yang tiba, jangkrik yang berlindung di dinding, elang yang mulai menerkam — semuanya menggambarkan konvergensi panas dan kelembapan musim panas. Karena panas mudah membawa kelembapan, dan kelembapan paling mudah menjerat limpa, pemeliharaan hidup pada Panas Kecil harus utamanya "menghindari kelembapan musim panas dan memelihara limpa dan lambung". Berdasar pada Suwen, Ordinansi Bulanan 72 Pentade, Zunsheng Bajian karya Gao Lian, Riset tentang Pesan Pemeliharaan Hidup Menurut Musim, dan Shoushi Baoyuan karya Gong Tingxian, esai ini memaparkan teori kelembapan musim panas, metode memperkuat limpa, makanan musim seperti jali (yiyiren), biji teratai, dan kacang hyacinth, serta teknik akupresur untuk titik penguatan limpa seperti Yinlingquan dan Zusanli.
 excerpt: "Pentade pertama: angin hangat tiba; kedua: jangkrik berlindung di dinding; ketiga: elang mulai menerkam — kelembapan dan panas musim panas naik bersama; memelihara limpa adalah kuncinya."
 ---
 
@@ -102,13 +102,13 @@ panas Langit menekan ke bawah, **kelembapan Bumi naik ke atas**,
 
 **Resep musiman**:
 
-#### 🌿 Bubur jelai mutiara dan biji teratai
+#### 🌿 Bubur jali dan biji teratai
 > 「**Jelai mutiara, biji teratai, masing-masing satu *liang*; *jingmi* (beras poles bulat), dua *he*; masak bersama menjadi bubur; satu cangkir kecil sehari — memperkuat limpa, menghilangkan kelembapan, menghentikan diare.**」
 >
 > — **Cao Tingdong**, ***Lao Lao Heng Yan*** (《老老恒言》, 1773), Gulungan 3, "Spektrum Bubur"
 
-#### 🌿 Rebusan kacang hyacinth dan jelai mutiara
-> 「**Kacang hyacinth putih, jelai mutiara, masing-masing dua *liang*; rebus bersama; tambahkan sedikit gula batu; satu cangkir kecil sehari — mengubah kelembapan dan membangunkan limpa.**」
+#### 🌿 Rebusan kacang hyacinth dan jali
+> 「**Kacang hyacinth putih, jali, masing-masing dua *liang*; rebus bersama; tambahkan sedikit gula batu; satu cangkir kecil sehari — mengubah kelembapan dan membangunkan limpa.**」
 
 #### 🌿 Rebusan tiga kacang (San Dou Yin)
 > 「**Kacang hijau, kacang merah azuki, kacang hitam, masing-masing satu *sheng*; *gancao* (akar manis) tiga *qian*; rebus dalam air sampai benar-benar matang; makan kacang sesuka hati dan minum airnya; mengatasi panas-beracun, borok, dan sakit tenggorokan di bulan musim panas.**」
