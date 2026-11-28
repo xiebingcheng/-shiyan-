@@ -4,7 +4,7 @@ translation_key: shuangjiang-yangsheng
 layout: post
 title: "霜降养生：露结为霜，平补收秋"
 subtitle: 「一候豺乃祭兽，二候草木黄落，三候蛰虫咸俯——气肃而凝，露结为霜」
-date: 2026-11-22 12:15:00 +0800
+date: 2026-11-28 10:30:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [节气养生, 节气, 霜降, 二十四节气, 中医养生, 秋季养生, 平补, 柿子, 秋燥]

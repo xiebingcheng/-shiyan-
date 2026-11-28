@@ -9,7 +9,9 @@
 
 {%- assign cur_lang = page.lang | default: 'zh-CN' -%}
 {%- assign i18n = site.data.i18n.strings[cur_lang] -%}
-{%- if i18n and i18n.meta and i18n.meta.keywords -%}
+{%- if page.keywords -%}
+  <meta name="keywords" content="{{ page.keywords }}">
+{%- elsif i18n and i18n.meta and i18n.meta.keywords -%}
   <meta name="keywords" content="{{ i18n.meta.keywords }}">
 {%- endif -%}
 

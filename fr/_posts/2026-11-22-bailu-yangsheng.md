@@ -4,7 +4,7 @@ translation_key: bailu-yangsheng
 layout: post
 title: "Santé à la Rosée blanche : la rosée blanchit dès cette nuit, le corps ne se dénude plus, la sécheresse réclame de l'humide"
 subtitle: "Première pentade : les oies sauvages arrivent ; deuxième : les « oiseaux noirs » rentrent au nord ; troisième : les oiseaux font leurs réserves — le yin s'alourdit, et la rosée se fige en blanc"
-date: 2026-11-22 11:30:00 +0800
+date: 2026-11-28 09:45:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Santé des saisons solaires, Saisons solaires, Rosée blanche, 24 saisons solaires, Santé MTC, Bien-être automnal, Humecter contre la sécheresse, Thé de la Rosée blanche, Longane]

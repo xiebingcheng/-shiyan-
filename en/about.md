@@ -1,14 +1,11 @@
 ---
 layout: page
-title: About the Study
+title: "About Qíhuáng Study – TCM Culture & Wellness Platform"
+description: "Qíhuáng Study is dedicated to sharing authentic Traditional Chinese Medicine culture with the world. Rooted in Huangdi Neijing, we make TCM wisdom accessible to international readers."
+keywords: "about Qíhuáng Study, TCM culture platform, Chinese medicine for foreigners, learn TCM online"
 permalink: /en/about/
 subtitle: One scroll of the Classic, a half-cup of clear tea
 lang: en
-description: >
-  About Qíhuáng Study (岐黄书房) — a Traditional Chinese Medicine wellness
-  site organized around seven themes, with original classical texts and
-  translations of TCM classics. Editorial board, medical review process,
-  disclaimers and contact information.
 ---
 
 ## What is "Qíhuáng" (岐黄)?

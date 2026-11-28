@@ -4,7 +4,7 @@ translation_key: qiufen-yangsheng
 layout: post
 title: "Kesehatan Ekuinoks Musim Gugur: siang dan malam terbagi rata, dingin dan hangat berimbang"
 subtitle: "'Ekuinoks Musim Gugur: Yin dan Yang masing-masing berbagi separuh'"
-date: 2026-11-22 11:45:00 +0800
+date: 2026-11-28 10:00:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Kesehatan Musim Surya, Musim Surya, Ekuinoks Musim Gugur, 24 Musim Surya, Kesehatan TMC, Kesejahteraan Musim Gugur, Keseimbangan Yin-Yang, Melembapkan Udara Kering, Tonifikasi netral]

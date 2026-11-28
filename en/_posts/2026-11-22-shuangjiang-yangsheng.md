@@ -4,7 +4,7 @@ translation_key: shuangjiang-yangsheng
 layout: post
 title: "Frost's Descent Health: The Dew Congeals to Frost — Level Tonification Closes Out the Autumn"
 subtitle: "First pentad, the jackal offers up beasts in sacrifice; second, the grasses and trees yellow and shed their leaves; third, the hibernating insects all lie prostrate — the qi is stern and congealing, and the dew congeals to frost."
-date: 2026-11-22 12:15:00 +0800
+date: 2026-11-28 10:30:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Solar Term Health, Solar Terms, Frost's Descent, 24 Solar Terms, TCM Health, Autumn Wellness, Level Tonification, Persimmon, Autumn Dryness]

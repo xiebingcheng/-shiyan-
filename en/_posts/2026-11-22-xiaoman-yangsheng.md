@@ -4,7 +4,7 @@ translation_key: xiaoman-yangsheng
 layout: post
 title: "Grain Buds Health: Not Yet Full — Eat the Bitter, Dispel the Damp, and Nourish the Heart's Yin"
 subtitle: "'First pentad, the bitter herbs blossom; second, the delicate grasses die; third, the wheat's autumn arrives — things have come thus far, slightly filled and not yet full.'"
-date: 2026-11-22 11:00:00 +0800
+date: 2026-11-28 09:15:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Solar Term Health, Solar Terms, Grain Buds, 24 Solar Terms, TCM Health, Summer Wellness, Dispel Damp and Fortify the Spleen, Bitter Herbs, Nourish the Heart]

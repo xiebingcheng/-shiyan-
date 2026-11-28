@@ -4,7 +4,7 @@ translation_key: lidong-yangsheng
 layout: post
 title: "立冬养生：万物收藏，补冬养藏"
 subtitle: 「一候水始冰，二候地始冻，三候雉入大水为蜃——冬，终也，万物收藏也」
-date: 2026-11-22 12:30:00 +0800
+date: 2026-11-28 10:45:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [节气养生, 节气, 立冬, 二十四节气, 中医养生, 冬季养生, 补冬, 早卧晚起, 饺子]

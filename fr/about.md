@@ -1,6 +1,8 @@
 ---
 layout: page
-title: À propos du Cabinet
+title: "À propos du Cabinet Qíhuáng – Plateforme culturelle MTC"
+description: "Le Cabinet Qíhuáng est dédié au partage de la médecine traditionnelle chinoise authentique avec le monde. Enraciné dans le Huangdi Neijing, nous rendons la sagesse de la MTC accessible."
+keywords: "à propos Qíhuáng, plateforme MTC, médecine chinoise pour étrangers, apprendre MTC en ligne"
 permalink: /fr/about/
 subtitle: Un rouleau du Classique, une demi-tasse de thé clair
 lang: fr

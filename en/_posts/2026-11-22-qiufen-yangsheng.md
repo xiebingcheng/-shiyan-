@@ -4,7 +4,7 @@ translation_key: qiufen-yangsheng
 layout: post
 title: "Autumn Equinox Health: Day and Night Divided Evenly, Cold and Heat Sharing the Scales"
 subtitle: "The Autumn Equinox is where yin and yang each take their half."
-date: 2026-11-22 11:45:00 +0800
+date: 2026-11-28 10:00:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Solar Term Health, Solar Terms, Autumn Equinox, 24 Solar Terms, TCM Health, Autumn Wellness, Yin-Yang Balance, Moisten Dryness, Level Tonification]

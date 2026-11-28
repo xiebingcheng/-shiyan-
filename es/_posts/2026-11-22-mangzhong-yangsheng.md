@@ -4,7 +4,7 @@ translation_key: mangzhong-yangsheng
 layout: post
 title: "Salud en el Grano con barbas: cosechar y sembrar sin respiro, cocer ciruelas y cruzar sin moho las lluvias de las ciruelas"
 subtitle: "Primera pentada: nace la mantis religiosa; segunda: el alcaudón empieza a cantar; tercera: el pájaro imitador enmudece — el grano con barbas puede ya sembrarse, y en las lluvias de las ciruelas se cuecen las ciruelas verdes."
-date: 2026-11-22 11:15:00 +0800
+date: 2026-11-28 09:30:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Salud de las estaciones solares, Estaciones solares, Grano con barbas, 24 estaciones solares, Salud MTC, Bienestar estival, Fortalecer el bazo y disipar la humedad, Las ciruelas cocidas, Prevención del moho]

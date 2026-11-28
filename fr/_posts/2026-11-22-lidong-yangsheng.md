@@ -4,7 +4,7 @@ translation_key: lidong-yangsheng
 layout: post
 title: "Santé au Début de l'hiver : tout se met en réserve — tonifier et nourrir ce qui doit être gardé"
 subtitle: "Première pentade : l'eau commence à se figer en glace ; deuxième : la terre commence à geler ; troisième : le faisan entre dans la grande eau et devient une grande coquille — l'hiver dit la fin : tout se met en réserve."
-date: 2026-11-22 12:30:00 +0800
+date: 2026-11-28 10:45:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Santé des saisons solaires, Saisons solaires, Début de l'hiver, 24 saisons solaires, Santé MTC, Bien-être hivernal, Tonification d'hiver, Se coucher tôt, se lever tard, Raviolis]

@@ -4,7 +4,7 @@ translation_key: lidong-yangsheng
 layout: post
 title: "Beginning of Winter Health: All Things Gathered In — Winter Tonification and the Way of Storing"
 subtitle: "First pentad: water begins to form ice; second: the ground begins to freeze; third: the pheasants enter the great waters and become clams — winter means the end, and all things are gathered in and stored away."
-date: 2026-11-22 12:30:00 +0800
+date: 2026-11-28 10:45:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Solar Term Health, Solar Terms, Beginning of Winter, 24 Solar Terms, TCM Health, Winter Wellness, Winter Tonification, Retire Early and Rise Late, Dumplings]

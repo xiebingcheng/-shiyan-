@@ -4,7 +4,7 @@ translation_key: lixia-yangsheng
 layout: post
 title: "立夏养生：万物假大，养心尝新迎夏"
 subtitle: 「一候蝼蝈鸣，二候蚯蚓出，三候王瓜生——夏，假也，物至此时皆假大也」
-date: 2026-11-22 10:45:00 +0800
+date: 2026-11-28 09:00:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [节气养生, 节气, 立夏, 二十四节气, 中医养生, 夏季养生, 养心, 立夏蛋, 尝新]

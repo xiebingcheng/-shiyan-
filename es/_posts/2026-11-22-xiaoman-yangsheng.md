@@ -4,7 +4,7 @@ translation_key: xiaoman-yangsheng
 layout: post
 title: "Salud en el Grano casi lleno: sin llegar a lo lleno, lo amargo drena la humedad y nutre el yin del corazón"
 subtitle: "Primera pentada: la hierba amarga echa flores; segunda: mueren las hierbas delicadas; tercera: llega el otoño del trigo — las cosas, llegadas a este tiempo, apenas han alcanzado un llenado pequeño."
-date: 2026-11-22 11:00:00 +0800
+date: 2026-11-28 09:15:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Salud de las estaciones solares, Estaciones solares, Grano casi lleno, 24 estaciones solares, Salud MTC, Bienestar estival, Fortalecer el bazo y disipar la humedad, Hierbas amargas, Nutrir el corazón]

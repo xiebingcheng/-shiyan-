@@ -4,7 +4,7 @@ translation_key: lidong-yangsheng
 layout: post
 title: "Salud en el Comienzo del invierno (Lidong): las diez mil cosas se recogen y se guardan — tonificar el invierno y nutrir lo que se guarda"
 subtitle: "Primera pentada: el agua empieza a helarse; segunda: la tierra empieza a congelarse; tercera: el faisán entra en las grandes aguas y se vuelve gran almeja — invierno significa fin: las diez mil cosas se recogen y se guardan."
-date: 2026-11-22 12:30:00 +0800
+date: 2026-11-28 10:45:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Salud de las estaciones solares, Estaciones solares, Comienzo del invierno, 24 estaciones solares, Salud MTC, Bienestar invernal, Tonificación de invierno, Acostarse pronto y levantarse tarde, Jiaozi]

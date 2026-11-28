@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Acerca del Estudio
+title: "Acerca de Estudio Qíhuáng – Plataforma cultural MTC"
+description: "Estudio Qíhuáng está dedicado a compartir la medicina tradicional china auténtica con el mundo. Enraizado en el Huangdi Neijing, hacemos accesible la sabiduría de la MTC."
+keywords: "acerca de Qíhuáng, plataforma MTC, medicina china para extranjeros, aprender MTC online"
 permalink: /es/about/
 subtitle: Un pergamino del Clásico, media taza de té claro
 lang: es

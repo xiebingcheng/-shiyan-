@@ -4,7 +4,7 @@ translation_key: lidong-yangsheng
 layout: post
 title: "Kesehatan Awal Musim Dingin: segala makhluk menyimpan diri, tonifikasi musim dingin merawat simpanan"
 subtitle: "Pentade pertama: air mulai membentuk es; kedua: tanah mulai membeku; ketiga: burung pegar masuk ke perairan besar dan menjelma kerang — musim dingin berarti akhir, segala makhluk menyimpan diri."
-date: 2026-11-22 12:30:00 +0800
+date: 2026-11-28 10:45:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Kesehatan Musim Surya, Musim Surya, Awal Musim Dingin, 24 Musim Surya, Kesehatan TMC, Kesejahteraan Musim Dingin, Tonifikasi musim dingin, Tidur lebih awal bangun lebih lambat, Ravioli Tiongkok (jiaozi)]

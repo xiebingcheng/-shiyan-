@@ -4,7 +4,7 @@ translation_key: mangzhong-yangsheng
 layout: post
 title: "芒种养生：忙收忙种，煮梅防霉过梅雨"
 subtitle: 「一候螳螂生，二候鵙始鸣，三候反舌无声——有芒之谷可稼种，黄梅雨里煮青梅」
-date: 2026-11-22 11:15:00 +0800
+date: 2026-11-28 09:30:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [节气养生, 节气, 芒种, 二十四节气, 中医养生, 夏季养生, 祛湿健脾, 煮梅, 梅雨防霉]

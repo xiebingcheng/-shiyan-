@@ -4,7 +4,7 @@ translation_key: hanlu-yangsheng
 layout: post
 title: "Salud en el Rocío Frío (Hanlu): el rocío hiela a punto de escarcha — pies al calor, sequedad aplacada, tos fría a raya"
 subtitle: "Primera pentada, llegan los gansos como huéspedes; segunda, los pájaros entran en las grandes aguas y se vuelven almejas; tercera, el crisantemo ostenta flores amarillas — el rocío es frío y está a punto de congelarse."
-date: 2026-11-22 12:00:00 +0800
+date: 2026-11-28 10:15:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Salud de las estaciones solares, Estaciones solares, Rocío Frío, 24 estaciones solares, Salud MTC, Bienestar otoñal, Humedecer la sequedad, Abrigar los pies, Sequedad fría]

@@ -4,7 +4,7 @@ translation_key: hanlu-yangsheng
 layout: post
 title: "Kesehatan Embun Dingin: embun yang dingin segera membeku, hangatkan kaki dan lembapkan kekeringan untuk mencegah batuk sejuk"
 subtitle: "Pentade pertama: angsa liar tiba sebagai tamu; pentade kedua: pipit masuk ke perairan besar dan menjelma kerang; pentade ketiga: krisan berbunga kuning — udara embun telah dingin, sebentar lagi akan membeku."
-date: 2026-11-22 12:00:00 +0800
+date: 2026-11-28 10:15:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Kesehatan Musim Surya, Musim Surya, Embun Dingin, 24 Musim Surya, Kesehatan TMC, Kesejahteraan Musim Gugur, Melembapkan Udara Kering, Menghangatkan Kaki, Udara Kering Sejuk]

@@ -4,7 +4,7 @@ translation_key: bailu-yangsheng
 layout: post
 title: "White Dew Health: The Dew Turns White Tonight — Bare Not the Body, Moisten the Dryness"
 subtitle: "First pentad, the wild geese come; second, the swallows return; third, the birds store up provisions — the yin qi grows heavier by degrees, and the dew congeals to white."
-date: 2026-11-22 11:30:00 +0800
+date: 2026-11-28 09:45:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Solar Term Health, Solar Terms, White Dew, 24 Solar Terms, TCM Health, Autumn Wellness, Moisten Dryness, White Dew Tea, Longan]

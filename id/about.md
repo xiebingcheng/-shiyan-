@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Tentang Studio
+title: "Tentang Studio Qíhuáng – Platform Budaya TCM"
+description: "Studio Qíhuáng didedikasikan untuk berbagi Pengobatan Tradisional Tiongkok yang autentik dengan dunia. Berakar pada Huangdi Neijing, kami membuat kebijaksanaan TCM dapat diakses."
+keywords: "tentang Qíhuáng, platform TCM, pengobatan Tiongkok untuk orang asing, belajar TCM online"
 permalink: /id/about/
 subtitle: Satu gulungan Klasik, setengah cangkir teh bening
 lang: id

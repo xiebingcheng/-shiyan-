@@ -4,7 +4,7 @@ translation_key: lixia-yangsheng
 layout: post
 title: "Salud en el Comienzo del verano: las cosas crecen a lo grande, y el corazón sosegado recibe el verano con las primicias"
 subtitle: "Primera pentada: canta el grillo topo; segunda: la lombriz de tierra sale a la superficie; tercera: el melón silvestre empieza a crecer — «xia», el verano, significa «jia», lo grande: llegado este tiempo, todas las cosas han crecido a lo grande."
-date: 2026-11-22 10:45:00 +0800
+date: 2026-11-28 09:00:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Salud de las estaciones solares, Estaciones solares, Comienzo del verano, 24 estaciones solares, Salud MTC, Bienestar estival, Nutrir el corazón, Huevo del Comienzo del verano, Las primicias]

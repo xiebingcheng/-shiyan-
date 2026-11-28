@@ -4,7 +4,7 @@ translation_key: xiaoman-yangsheng
 layout: post
 title: "小满养生：小满未满，吃苦祛湿养心阴"
 subtitle: 「一候苦菜秀，二候靡草死，三候麦秋至——物至于此，小得盈满」
-date: 2026-11-22 11:00:00 +0800
+date: 2026-11-28 09:15:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [节气养生, 节气, 小满, 二十四节气, 中医养生, 夏季养生, 祛湿健脾, 苦菜, 养心]

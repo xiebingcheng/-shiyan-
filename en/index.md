@@ -1,10 +1,8 @@
 ---
 layout: home
-title: Qíhuáng Study
+title: "Traditional Chinese Medicine & Huangdi Neijing Guide"
+description: "Discover Traditional Chinese Medicine through the wisdom of Huangdi Neijing. Explore solar term health, food therapy, herbal diet, meridians, and TCM history. Your online guide to ancient wellness."
+keywords: "traditional Chinese medicine, Huangdi Neijing, Chinese food therapy, solar term health, TCM for beginners"
 permalink: /en/
 lang: en
-description: >
-  Qíhuáng Study (岐黄书房) — a Traditional Chinese Medicine (TCM) wellness
-  resource for global readers. Six pillars: solar terms, food therapy,
-  four seasons, meridians & acupoints, daily rhythms, emotions & spirit.
 ---

@@ -4,7 +4,7 @@ translation_key: shuangjiang-yangsheng
 layout: post
 title: "Kesehatan Turunnya Embun Beku: embun mengental menjadi embun beku, tonifikasi netral menutup musim gugur"
 subtitle: "Pentade pertama: cakal mempersembahkan hewan; pentade kedua: rumput dan pepohonan menguning dan berguguran; pentade ketiga: serangga bersemunyi semuanya menunduk — qi hening dan mengental, embun pun mengental menjadi embun beku."
-date: 2026-11-22 12:15:00 +0800
+date: 2026-11-28 10:30:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Kesehatan Musim Surya, Musim Surya, Turunnya Embun Beku, 24 Musim Surya, Kesehatan TMC, Kesejahteraan Musim Gugur, Tonifikasi netral, Kesemek, Udara Kering Musim Gugur]

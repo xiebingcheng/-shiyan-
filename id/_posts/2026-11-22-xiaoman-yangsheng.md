@@ -4,7 +4,7 @@ translation_key: xiaoman-yangsheng
 layout: post
 title: "Kesehatan Biji-bijian Setengah Penuh (Xiaoman): pada 'belum penuh' ada ketepatan, cicip rasa pahit untuk mengusir kelembapan dan merawat Yin jantung"
 subtitle: "Pentade pertama: sayuran pahit mulai berbunga lebat; pentade kedua: rumput halus mulai layu mati; pentade ketiga: musim gugur gandum tiba — tiba di masa ini, segala makhluk baru penuh dalam takaran kecil."
-date: 2026-11-22 11:00:00 +0800
+date: 2026-11-28 09:15:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Kesehatan Musim Surya, Musim Surya, Biji-bijian Setengah Penuh, 24 Musim Surya, Kesehatan TMC, Kesejahteraan Musim Panas, Menghilangkan kelembapan dan menguatkan limpa, Sayuran Pahit, Merawat Jantung]
