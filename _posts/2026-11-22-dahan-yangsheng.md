@@ -4,7 +4,7 @@ translation_key: dahan-yangsheng
 layout: post
 title: "大寒养生：冬藏收尾，静待立春"
 subtitle: 「一候鸡始乳，二候征鸟厉疾，三候水泽腹坚——寒极将转，去故纳新」
-date: 2026-11-22 08:50:00 +0800
+date: 2026-10-18 08:00:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [节气养生, 节气, 大寒, 二十四节气, 中医养生, 冬季养生, 糯米饭, 岁末, 迎春]

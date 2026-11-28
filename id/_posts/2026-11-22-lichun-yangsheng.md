@@ -4,7 +4,7 @@ translation_key: lichun-yangsheng
 layout: post
 title: "Kesehatan Awal Musim Semi: gigitan lobak membuka rencana setahun, lapisan hangat menjaga qi Yang"
 subtitle: "'Li' berarti mulai berdirinya — qi kayu musim semi baru mulai tiba; simpanan musim dingin tamat di sini, dan pertumbuhan musim semi bermula di sini."
-date: 2026-11-22 09:00:00 +0800
+date: 2026-10-21 07:30:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Kesehatan Musim Surya, Musim Surya, Awal Musim Semi, 24 Musim Surya, Kesehatan TMC, Kesejahteraan Musim Semi, Menggigit Musim Semi, Tutup Musim Semi]

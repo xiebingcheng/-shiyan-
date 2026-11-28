@@ -4,7 +4,7 @@ translation_key: yushui-yangsheng
 layout: post
 title: "Kesehatan Air Hujan: menguatkan limpa dan menghilangkan kelembapan, semangkuk bubur shanyao dan jawawut"
 subtitle: "Pentade pertama: berang-berang mempersembahkan ikan; pentade kedua: angsa liar pulang ke utara; pentade ketiga: tumbuhan mulai menyembulkan kuncup — hujan yang baik tahu saatnya, dan inilah saat yang tepat untuk menguatkan limpa dan menghilangkan kelembapan."
-date: 2026-11-22 09:15:00 +0800
+date: 2026-10-24 08:05:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Kesehatan Musim Surya, Musim Surya, Air Hujan, 24 Musim Surya, Kesehatan TMC, Kesejahteraan Musim Semi, Menguatkan limpa dan menghilangkan kelembapan, Bubur ubi Cina dan jawawut, Air jali sangrai]

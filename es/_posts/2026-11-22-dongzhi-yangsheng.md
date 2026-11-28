@@ -4,7 +4,7 @@ translation_key: dongzhi-yangsheng
 layout: post
 title: "Salud en el Solsticio de invierno: nace el primer yang — jiaozi y una cura de fórmula en pasta"
 subtitle: "Primera pentada: las lombrices se enroscan; segunda: el milu muda la cornamenta; tercera: el agua de las fuentes se mueve — en el extremo de la clausura, nace el primer yang."
-date: 2026-11-22 08:10:00 +0800
+date: 2026-10-12 08:20:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Salud de las estaciones solares, Estaciones solares, Solsticio de invierno, 24 estaciones solares, Salud MTC, Bienestar invernal, Nace el primer yang, Gaofang, Jiaozi]

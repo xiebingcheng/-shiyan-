@@ -4,7 +4,7 @@ translation_key: daxue-yangsheng
 layout: post
 title: "Salud en la Nieve mayor: tonificar con calor y evitar el frío — la tonificación, a fuego lento y sin pausa"
 subtitle: "Primera pentada: el hédàn guarda silencio; segunda: los tigres comienzan a aparearse; tercera: el li brota — en el extremo del yin germina el yang, y la tonificación pide medida."
-date: 2026-11-22 07:50:00 +0800
+date: 2026-10-09 07:50:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Salud de las estaciones solares, Estaciones solares, Nieve mayor, 24 estaciones solares, Salud MTC, Bienestar invernal, Tonificar en invierno, Tonificar con calor, Alimentación terapéutica]

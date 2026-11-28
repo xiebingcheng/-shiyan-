@@ -4,7 +4,7 @@ translation_key: xiaoxue-yangsheng
 layout: post
 title: "Salud en la Nieve menor: tonificar con calor y ahuyentar la melancolía — una olla de sopa de cordero con ángelica y jengibre"
 subtitle: "Primera pentada: el arcoíris se esconde y desaparece; segunda: el qi del cielo asciende y el qi de la tierra desciende; tercera: el cierre da forma al invierno — en tiempo de clausura, tonificar con calor y ahuyentar la melancolía."
-date: 2026-11-22 07:30:00 +0800
+date: 2026-10-06 08:10:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Salud de las estaciones solares, Estaciones solares, Nieve menor, 24 estaciones solares, Salud MTC, Bienestar invernal, Sopa de cordero con ángelica y jengibre, Tonificar con calor, Ahuyentar la melancolía]

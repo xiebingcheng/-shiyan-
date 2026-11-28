@@ -4,7 +4,7 @@ translation_key: lixia-yangsheng
 layout: post
 title: "Beginning of Summer Health: All Things Grow Grand — Steady the Heart, Taste the New, and Welcome Summer In"
 subtitle: "'First pentad, the mole crickets chirp; second, the earthworms come out; third, the king's melon sprouts — summer means grandness: by this time all things have grown grand and full.'"
-date: 2026-11-28 09:00:00 +0800
+date: 2026-11-08 07:50:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Solar Term Health, Solar Terms, Beginning of Summer, 24 Solar Terms, TCM Health, Summer Wellness, Nourish the Heart, Beginning-of-Summer Eggs, Tasting the New]

@@ -4,7 +4,7 @@ translation_key: yushui-yangsheng
 layout: post
 title: "Rain Water Health: Fortify the Spleen, Dispel Damp — A Bowl of Yam and Millet Porridge"
 subtitle: "First pentad: otters offer up fish; second: the migrant geese turn north; third: grass and trees begin to stir — good rain knows its season, and the time to fortify the spleen and dispel damp is now."
-date: 2026-11-22 09:15:00 +0800
+date: 2026-10-24 08:05:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Solar Term Health, Solar Terms, Rain Water, 24 Solar Terms, TCM Health, Spring Wellness, Fortify the Spleen and Dispel Damp, Yam and Millet Porridge, Stir-Fried Job's-tears Water]

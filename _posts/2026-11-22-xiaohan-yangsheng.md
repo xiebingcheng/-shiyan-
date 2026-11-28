@@ -4,7 +4,7 @@ translation_key: xiaohan-yangsheng
 layout: post
 title: "小寒养生：御寒防病，腊八粥迎年"
 subtitle: 「一候雁北乡，二候鹊始巢，三候雉始雊——寒至极处，阳气暗动」
-date: 2026-11-22 08:30:00 +0800
+date: 2026-10-15 07:45:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [节气养生, 节气, 小寒, 二十四节气, 中医养生, 冬季养生, 腊八粥, 防寒, 三九]

@@ -4,7 +4,7 @@ translation_key: yushui-yangsheng
 layout: post
 title: "Salud en el Agua de lluvia: fortalecer el bazo y disipar la humedad, un cuenco de gachas de ñame chino y mijo"
 subtitle: "Primera pentada: la nutria ofrece los peces; segunda: los gansos migratorios ponen rumbo al norte; tercera: hierbas y árboles germinan — la buena lluvia sabe de estaciones, y ahora toca fortalecer el bazo y disipar la humedad."
-date: 2026-11-22 09:15:00 +0800
+date: 2026-10-24 08:05:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Salud de las estaciones solares, Estaciones solares, Agua de lluvia, 24 estaciones solares, Salud MTC, Bienestar primaveral, Fortalecer el bazo y disipar la humedad, Gachas de ñame chino y mijo, Agua de lágrimas de Job tostadas]

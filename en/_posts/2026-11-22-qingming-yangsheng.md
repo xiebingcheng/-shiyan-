@@ -4,7 +4,7 @@ translation_key: qingming-yangsheng
 layout: post
 title: "Pure Brightness Health: Air Clear and Scenery Bright — A Grief That Does Not Wound"
 subtitle: "'All things that grow at this time are alike clean, pure, bright, and clear.'"
-date: 2026-11-22 10:15:00 +0800
+date: 2026-11-02 07:35:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Solar Term Health, Solar Terms, Pure Brightness, 24 Solar Terms, TCM Health, Spring Wellness, Soothe the Liver and Ease Stagnation, Dispel Damp, Green Rice Balls]

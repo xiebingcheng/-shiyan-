@@ -4,7 +4,7 @@ translation_key: guyu-yangsheng
 layout: post
 title: "Salud en el Guyu: la lluvia engendra los cien granos, y al drenar la humedad se despide la primavera"
 subtitle: "Primera pentada: las lentejas de agua asoman; segunda: el cuco alisa sus plumas; tercera: la abubilla desciende al moral — el grano nace con la lluvia, y con este nodo la primavera echa el cierre."
-date: 2026-11-22 10:30:00 +0800
+date: 2026-11-05 08:25:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Salud de las estaciones solares, Estaciones solares, Guyu, 24 estaciones solares, Salud MTC, Bienestar primaveral, Fortalecer el bazo y disipar la humedad, Té de antes del Guyu, Prevención de las alergias]

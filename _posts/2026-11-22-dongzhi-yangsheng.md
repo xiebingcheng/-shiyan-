@@ -4,7 +4,7 @@ translation_key: dongzhi-yangsheng
 layout: post
 title: "冬至养生：一阳初生，饺子与膏方"
 subtitle: 「一候蚯蚓结，二候麋角解，三候水泉动——终藏之极，一阳始生」
-date: 2026-11-22 08:10:00 +0800
+date: 2026-10-12 08:20:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [节气养生, 节气, 冬至, 二十四节气, 中医养生, 冬季养生, 一阳生, 膏方, 饺子]

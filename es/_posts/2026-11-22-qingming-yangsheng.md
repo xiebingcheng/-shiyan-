@@ -4,7 +4,7 @@ translation_key: qingming-yangsheng
 layout: post
 title: "Salud en el Qingming: aire claro y paisaje luminoso, duelo sin desgarro"
 subtitle: "«Todo lo que crece en este tiempo llega limpio, entero y luminoso.»"
-date: 2026-11-22 10:15:00 +0800
+date: 2026-11-02 07:35:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Salud de las estaciones solares, Estaciones solares, Qingming, 24 estaciones solares, Salud MTC, Bienestar primaveral, Desatascar el qi del hígado, Disipar la humedad, El qingtuan del Qingming]

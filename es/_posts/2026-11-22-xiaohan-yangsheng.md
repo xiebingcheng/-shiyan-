@@ -4,7 +4,7 @@ translation_key: xiaohan-yangsheng
 layout: post
 title: "Salud en el Frío menor: abrigo contra el frío y enfermedad a raya, con las gachas de Laba dando la bienvenida al año"
 subtitle: "Primera pentada: los gansos salvajes vuelven la cabeza hacia el norte; segunda: las urracas empiezan a construir el nido; tercera: los faisanes cantan por primera vez — el frío toca su extremo y el yang se mueve en secreto."
-date: 2026-11-22 08:30:00 +0800
+date: 2026-10-15 07:45:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Salud de las estaciones solares, Estaciones solares, Frío menor, 24 estaciones solares, Salud MTC, Bienestar invernal, Gachas de Laba, Protección contra el frío, Sanjiu]

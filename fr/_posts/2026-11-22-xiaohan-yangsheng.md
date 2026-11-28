@@ -4,7 +4,7 @@ translation_key: xiaohan-yangsheng
 layout: post
 title: "Santé aux petits froids : se garder du froid et des maladies, accueillir l'An avec la bouillie du Laba"
 subtitle: "Première pentade : les oies sauvages se tournent vers le nord ; deuxième : les pies se mettent à bâtir leur nid ; troisième : les faisans se mettent à appeler — le froid à son extrême, le yang s'éveille en secret."
-date: 2026-11-22 08:30:00 +0800
+date: 2026-10-15 07:45:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Santé des saisons solaires, Saisons solaires, Petits froids, 24 saisons solaires, Santé MTC, Bien-être hivernal, Bouillie du Laba, Protection contre le froid, Trois neufs]

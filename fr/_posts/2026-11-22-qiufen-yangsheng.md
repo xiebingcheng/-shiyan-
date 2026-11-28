@@ -4,7 +4,7 @@ translation_key: qiufen-yangsheng
 layout: post
 title: "Santé à l'Équinoxe d'automne : jour et nuit à égalité, froid et chaleur en équilibre"
 subtitle: "« À l'Équinoxe d'automne, le yin et le yang se partagent par moitié »"
-date: 2026-11-28 10:00:00 +0800
+date: 2026-11-20 07:55:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Santé des saisons solaires, Saisons solaires, Équinoxe d'automne, 24 saisons solaires, Santé MTC, Bien-être automnal, Équilibre du yin et du yang, Humecter contre la sécheresse, Tonification neutre]

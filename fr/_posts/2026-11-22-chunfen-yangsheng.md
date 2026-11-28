@@ -4,7 +4,7 @@ translation_key: chunfen-yangsheng
 layout: post
 title: "Santé à l'Équinoxe de printemps : jour et nuit à égalité, l'équilibre pour règle"
 subtitle: "« Yin paisible, yang préservé : l'esprit garde son ordre »"
-date: 2026-11-22 10:00:00 +0800
+date: 2026-10-30 08:15:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Santé des saisons solaires, Saisons solaires, Équinoxe de printemps, 24 saisons solaires, Santé MTC, Bien-être printanier, Équilibre du yin et du yang, Saveurs de saison]

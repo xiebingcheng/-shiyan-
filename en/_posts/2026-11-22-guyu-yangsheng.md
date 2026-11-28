@@ -4,7 +4,7 @@ translation_key: guyu-yangsheng
 layout: post
 title: "Grain Rain Health: Rain Begets the Hundred Grains — Dispel the Damp and See Spring Out"
 subtitle: "First pentad, duckweed begins to grow; second, the cuckoo preens its wings; third, the hoopoe alights on the mulberry — the grain is born of the rain, and spring draws to its close here."
-date: 2026-11-22 10:30:00 +0800
+date: 2026-11-05 08:25:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Solar Term Health, Solar Terms, Grain Rain, 24 Solar Terms, TCM Health, Spring Wellness, Dispel Damp and Fortify the Spleen, Pre-Rain Tea, Allergy Prevention]

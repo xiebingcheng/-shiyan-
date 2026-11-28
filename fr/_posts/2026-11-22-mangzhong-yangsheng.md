@@ -4,7 +4,7 @@ translation_key: mangzhong-yangsheng
 layout: post
 title: "Santé aux Épis barbus : récolter et semer en hâte, bouillir les prunes et traverser sans moisissure les pluies des prunes"
 subtitle: "Première pentade : la mante religieuse naît ; deuxième : la pie-grièche commence à chanter ; troisième : l'oiseau moqueur se tait — les céréales à barbe peuvent être moissonnées et semées, et les prunes vertes bouillent sous les pluies des prunes"
-date: 2026-11-28 09:30:00 +0800
+date: 2026-11-14 07:45:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Santé des saisons solaires, Saisons solaires, Épis barbus, 24 saisons solaires, Santé MTC, Bien-être estival, Dissiper l'humidité et fortifier la rate, Prunes bouillies, Prévenir la moisissure]

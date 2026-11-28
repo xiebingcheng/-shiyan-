@@ -4,7 +4,7 @@ translation_key: lichun-yangsheng
 layout: post
 title: "立春养生：一年之计，咬春尝鲜、春捂护阳"
 subtitle: 「立，建始也——春木之气始至，冬藏自此毕，春生自此始」
-date: 2026-11-22 09:00:00 +0800
+date: 2026-10-21 07:30:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [节气养生, 节气, 立春, 二十四节气, 中医养生, 春季养生, 咬春, 春捂]

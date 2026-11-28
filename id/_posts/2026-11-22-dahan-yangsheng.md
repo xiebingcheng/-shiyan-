@@ -4,7 +4,7 @@ translation_key: dahan-yangsheng
 layout: post
 title: "Kesehatan Dingin Besar: menutup masa menyimpan musim dingin, menanti Awal Musim Semi dengan tenang"
 subtitle: "Pentade pertama: ayam mulai mengerami; kedua: burung pemangsa kian ganas; ketiga: air danau dan rawa membeku hingga ke inti — dingin di ujung puncaknya akan berbalik; meninggalkan yang lama, menyambut yang baru."
-date: 2026-11-22 08:50:00 +0800
+date: 2026-10-18 08:00:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Kesehatan Musim Surya, Musim Surya, Dingin Besar, 24 Musim Surya, Kesehatan TMC, Kesejahteraan Musim Dingin, Nasi ketan, Akhir tahun, Menyambut musim semi]

@@ -4,7 +4,7 @@ translation_key: bailu-yangsheng
 layout: post
 title: "Salud en el Rocío Blanco: desde esta noche el rocío es blanco, el cuerpo no se descubre y la sequedad pide humedad"
 subtitle: "Primera pentada: llegan los gansos salvajes; segunda: las golondrinas regresan; tercera: las aves guardan provisiones para el invierno — el yin gana peso, y el rocío se condensa y se vuelve blanco."
-date: 2026-11-28 09:45:00 +0800
+date: 2026-11-17 08:30:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Salud de las estaciones solares, Estaciones solares, Rocío Blanco, 24 estaciones solares, Salud MTC, Bienestar otoñal, Humedecer la sequedad, Té del Rocío Blanco, Longan]

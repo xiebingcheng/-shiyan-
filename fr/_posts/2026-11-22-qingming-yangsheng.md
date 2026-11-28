@@ -4,7 +4,7 @@ translation_key: qingming-yangsheng
 layout: post
 title: "Santé à Qingming : air pur, paysage limpide, un chagrin qui ne blesse pas"
 subtitle: "« Les dix mille êtres qui croissent en ce temps-là se font tous propres, nets et limpides »"
-date: 2026-11-22 10:15:00 +0800
+date: 2026-11-02 07:35:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Santé des saisons solaires, Saisons solaires, Qingming, 24 saisons solaires, Santé MTC, Bien-être printanier, Laisser couler le qi du foie, Dissiper l'humidité, Qingtuan]

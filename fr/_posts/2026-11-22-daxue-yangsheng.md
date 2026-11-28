@@ -4,7 +4,7 @@ translation_key: daxue-yangsheng
 layout: post
 title: "Santé aux grandes neiges : réchauffer et fuir le froid — une tonification qui coule à petits flots"
 subtitle: "Première pentade : le hanhaochong se tait ; deuxième : les tigres commencent à s'accoupler ; troisième : l'iris sauvage pointe hors de terre — au comble du yin, le yang germe ; tonifier avec mesure."
-date: 2026-11-22 07:50:00 +0800
+date: 2026-10-09 07:50:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Santé des saisons solaires, Saisons solaires, Grandes neiges, 24 saisons solaires, Santé MTC, Bien-être hivernal, Tonification hivernale, Tonification par la chaleur, Alimentation thérapeutique]

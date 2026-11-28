@@ -4,7 +4,7 @@ translation_key: qingming-yangsheng
 layout: post
 title: "Kesehatan Qingming: udara jernih, pemandangan terang, berduka tanpa melukai diri"
 subtitle: "'Segala makhluk bertumbuh pada masa ini, semuanya bersih rapi, jernih dan terang'"
-date: 2026-11-22 10:15:00 +0800
+date: 2026-11-02 07:35:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Kesehatan Musim Surya, Musim Surya, Qingming, 24 Musim Surya, Kesehatan TMC, Kesejahteraan Musim Semi, Melancarkan Qi Hati, Menghilangkan Kelembapan, Qingtuan]

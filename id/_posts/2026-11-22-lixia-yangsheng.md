@@ -4,7 +4,7 @@ translation_key: lixia-yangsheng
 layout: post
 title: "Kesehatan Awal Musim Panas: segala makhluk tumbuh membesar, jaga jantung dan cicip hasil baru menyambut musim panas"
 subtitle: "Pentade pertama: orong-orong mulai berkicau; pentade kedua: cacing tanah mencuat; pentade ketiga: wanggua mulai tumbuh — musim panas berarti 'jia', besar; tiba di masa ini, segala makhluk sudah tumbuh besar."
-date: 2026-11-28 09:00:00 +0800
+date: 2026-11-08 07:50:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Kesehatan Musim Surya, Musim Surya, Awal Musim Panas, 24 Musim Surya, Kesehatan TMC, Kesejahteraan Musim Panas, Merawat Jantung, Telur Awal Musim Panas, Mencicip Hasil Baru]

@@ -4,7 +4,7 @@ translation_key: yushui-yangsheng
 layout: post
 title: "Santé à l'eau de la pluie : fortifier la rate et dissiper l'humidité, un bol de bouillie d'igname et de millet"
 subtitle: "Première pentade : la loutre offre des poissons en sacrifice ; deuxième : les oies migratrices remontent vers le nord ; troisième : les herbes et les arbres bourgeonnent — la bonne pluie sait son heure ; fortifier la rate et dissiper l'humidité, c'est justement maintenant."
-date: 2026-11-22 09:15:00 +0800
+date: 2026-10-24 08:05:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Santé des saisons solaires, Saisons solaires, Eau de la pluie, 24 saisons solaires, Santé MTC, Bien-être printanier, Fortifier la rate et dissiper l'humidité, Bouillie d'igname et de millet, Eau de larmes de Job torréfiées]

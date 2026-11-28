@@ -4,7 +4,7 @@ translation_key: xiaoxue-yangsheng
 layout: post
 title: "Kesehatan Salju Kecil: menghangatkan tubuh dan mencegah murung, semangkuk Sup Kambing Danggui Jahe"
 subtitle: "Pentade pertama: pelangi bersembunyi dan tak terlihat; kedua: qi langit naik, qi bumi turun; ketiga: tertutup rapat dan dingin pun terbentuk — pada masa menutup-menyimpan, hangatkan tubuh dan jauhi murung."
-date: 2026-11-22 07:30:00 +0800
+date: 2026-10-06 08:10:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Kesehatan Musim Surya, Musim Surya, Salju Kecil, 24 Musim Surya, Kesehatan TMC, Kesejahteraan Musim Dingin, Sup Kambing Danggui Jahe, Hangatkan tubuh, Cegah murung]

@@ -4,7 +4,7 @@ translation_key: dongzhi-yangsheng
 layout: post
 title: "Santé au solstice d'hiver : le premier yang renaît — raviolis et pâte médicinale"
 subtitle: "Première pentade : les vers de terre s'enlacent ; deuxième : le daim perd ses bois ; troisième : les sources se remettent à couler — à l'extrême de l'ensevelissement final, le premier yang commence de naître."
-date: 2026-11-22 08:10:00 +0800
+date: 2026-10-12 08:20:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Santé des saisons solaires, Saisons solaires, Solstice d'hiver, 24 saisons solaires, Santé MTC, Bien-être hivernal, Premier yang, Pâte médicinale gaofang, Raviolis]

@@ -4,7 +4,7 @@ translation_key: qiufen-yangsheng
 layout: post
 title: "Salud en el Equinoccio de otoño: día y noche a partes iguales, frío y calor a mitades"
 subtitle: "«El Equinoccio de otoño es cuando yin y yang van a mitades»"
-date: 2026-11-28 10:00:00 +0800
+date: 2026-11-20 07:55:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Salud de las estaciones solares, Estaciones solares, Equinoccio de otoño, 24 estaciones solares, Salud MTC, Bienestar otoñal, Equilibrio yin-yang, Humedecer la sequedad, Tonificación neutra]

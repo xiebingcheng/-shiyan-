@@ -4,7 +4,7 @@ translation_key: hanlu-yangsheng
 layout: post
 title: "寒露养生：露寒将凝，暖足润燥防凉咳"
 subtitle: 「一候鸿雁来宾，二候雀入大水为蛤，三候菊有黄华——露气寒冷，将凝结也」
-date: 2026-11-28 10:15:00 +0800
+date: 2026-11-23 08:20:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [节气养生, 节气, 寒露, 二十四节气, 中医养生, 秋季养生, 润燥, 暖脚, 凉燥]

@@ -4,7 +4,7 @@ translation_key: xiaohan-yangsheng
 layout: post
 title: "Lesser Cold Health: Keep Out the Cold, Ward Off Illness — Laba Porridge Ushers in the New Year"
 subtitle: "First pentad: the wild geese turn north; second: the magpies begin to build nests; third: the pheasants begin to call — cold at its extreme, yang quietly stirring."
-date: 2026-11-22 08:30:00 +0800
+date: 2026-10-15 07:45:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Solar Term Health, Solar Terms, Lesser Cold, 24 Solar Terms, TCM Health, Winter Wellness, Laba Porridge, Cold Protection, Counting the Nines]

@@ -4,7 +4,7 @@ translation_key: hanlu-yangsheng
 layout: post
 title: "Santé à la Rosée froide : la rosée a froid, elle va bientôt se figer — pieds au chaud, sécheresse humectée, contre la toux froide"
 subtitle: "Première pentade : les oies sauvages arrivent en invitées ; deuxième : les moineaux entrent dans les grandes eaux et se changent en palourdes ; troisième : le chrysanthème porte ses fleurs jaunes — l'air de la rosée est glacé, elle s'apprête à se figer"
-date: 2026-11-28 10:15:00 +0800
+date: 2026-11-23 08:20:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Santé des saisons solaires, Saisons solaires, Rosée froide, 24 saisons solaires, Santé MTC, Bien-être automnal, Humecter contre la sécheresse, Réchauffer les pieds, Sécheresse froide]

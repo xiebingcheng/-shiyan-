@@ -4,7 +4,7 @@ translation_key: mangzhong-yangsheng
 layout: post
 title: "Grain in Ear Health: Busy Reaping, Busy Sowing — Boil the Plums, Beat the Mildew, and See the Plum Rains Through"
 subtitle: "'First pentad, the mantis is born; second, the shrike begins to cry; third, the mockingbird falls silent — the bearded grains may now be harvested and sown, and the green plums are boiled amid the yellow-plum rains.'"
-date: 2026-11-28 09:30:00 +0800
+date: 2026-11-14 07:45:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Solar Term Health, Solar Terms, Grain in Ear, 24 Solar Terms, TCM Health, Summer Wellness, Dispel Damp and Fortify the Spleen, Boiling Green Plums, Plum-Rain Mildew Prevention]

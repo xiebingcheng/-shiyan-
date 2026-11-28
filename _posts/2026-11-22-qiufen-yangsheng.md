@@ -4,7 +4,7 @@ translation_key: qiufen-yangsheng
 layout: post
 title: "秋分养生：昼夜均而寒暑平"
 subtitle: 「秋分者，阴阳相半也」
-date: 2026-11-28 10:00:00 +0800
+date: 2026-11-20 07:55:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [节气养生, 节气, 秋分, 二十四节气, 中医养生, 秋季养生, 阴阳平衡, 润燥, 平补]

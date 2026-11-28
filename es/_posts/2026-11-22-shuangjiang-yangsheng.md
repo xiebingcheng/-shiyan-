@@ -4,7 +4,7 @@ translation_key: shuangjiang-yangsheng
 layout: post
 title: "Salud en el Descenso de la escarcha (Shuangjiang): el rocío se hiela en escarcha, la tonificación neutra cierra el otoño"
 subtitle: "Primera pentada, el chacal ofrece sus presas en sacrificio; segunda, hierbas y árboles amarillean y dejan caer sus hojas; tercera, los insectos hibernantes, todos, se recogen con la cabeza baja — el qi se sosega y se condensa, y el rocío se hiela en escarcha."
-date: 2026-11-28 10:30:00 +0800
+date: 2026-11-26 07:40:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Salud de las estaciones solares, Estaciones solares, Descenso de la escarcha, 24 estaciones solares, Salud MTC, Bienestar otoñal, Tonificación neutra, Caqui, Sequedad otoñal]

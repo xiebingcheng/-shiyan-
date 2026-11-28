@@ -4,7 +4,7 @@ translation_key: daxue-yangsheng
 layout: post
 title: "大雪养生：温补避寒，进补细水长流"
 subtitle: 「一候鹖鴠不鸣，二候虎始交，三候荔挺出——阴极阳萌，补而有节」
-date: 2026-11-22 07:50:00 +0800
+date: 2026-10-09 07:50:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [节气养生, 节气, 大雪, 二十四节气, 中医养生, 冬季养生, 进补, 温补, 食养]

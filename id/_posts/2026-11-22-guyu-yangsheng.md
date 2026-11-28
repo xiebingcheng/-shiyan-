@@ -4,7 +4,7 @@ translation_key: guyu-yangsheng
 layout: post
 title: "Kesehatan Hujan Padi-padian: hujan menumbuhkan seratus biji-bijian, mengusir kelembapan dan mengantar musim semi pulang"
 subtitle: "Pentade pertama: kiambang mulai tumbuh; pentade kedua: sewah mengibaskan sayapnya; pentade ketiga: hud-hud hinggap di pohon murbei — biji-bijian mendapat hujan lalu hidup, musim semi menutup tirainya di sini."
-date: 2026-11-22 10:30:00 +0800
+date: 2026-11-05 08:25:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Kesehatan Musim Surya, Musim Surya, Hujan Padi-padian, 24 Musim Surya, Kesehatan TMC, Kesejahteraan Musim Semi, Menguatkan limpa dan menghilangkan kelembapan, Teh Sebelum Guyu, Mencegah Alergi]

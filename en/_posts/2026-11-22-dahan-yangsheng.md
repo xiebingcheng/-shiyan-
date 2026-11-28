@@ -4,7 +4,7 @@ translation_key: dahan-yangsheng
 layout: post
 title: "Greater Cold Health: Winter's Storing Draws to a Close — Quietly Awaiting the Beginning of Spring"
 subtitle: "First pentad: the hens begin to brood; second: birds of prey turn fierce and swift; third: the ice on waters and marshes freezes to its belly — cold at its extreme is about to turn; cast off the old, take in the new."
-date: 2026-11-22 08:50:00 +0800
+date: 2026-10-18 08:00:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Solar Term Health, Solar Terms, Greater Cold, 24 Solar Terms, TCM Health, Winter Wellness, Glutinous Rice, Year's End, Welcoming Spring]

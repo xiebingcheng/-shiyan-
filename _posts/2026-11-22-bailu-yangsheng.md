@@ -4,7 +4,7 @@ translation_key: bailu-yangsheng
 layout: post
 title: "白露养生：露从今夜白，身不露，燥要润"
 subtitle: 「一候鸿雁来，二候玄鸟归，三候群鸟养羞——阴气渐重，露凝而白」
-date: 2026-11-28 09:45:00 +0800
+date: 2026-11-17 08:30:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [节气养生, 节气, 白露, 二十四节气, 中医养生, 秋季养生, 润燥, 白露茶, 龙眼]

@@ -4,7 +4,7 @@ translation_key: xiaoxue-yangsheng
 layout: post
 title: "小雪养生：温补防郁，一锅当归生姜羊肉汤"
 subtitle: 「一候虹藏不见，二候天气上升地气下降，三候闭塞而成冬——闭藏之时，温补防郁」
-date: 2026-11-22 07:30:00 +0800
+date: 2026-10-06 08:10:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [节气养生, 节气, 小雪, 二十四节气, 中医养生, 冬季养生, 当归生姜羊肉汤, 温补, 防郁]

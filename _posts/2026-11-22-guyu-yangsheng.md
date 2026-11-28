@@ -4,7 +4,7 @@ translation_key: guyu-yangsheng
 layout: post
 title: "谷雨养生：雨生百谷，祛湿送春归"
 subtitle: 「一候萍始生，二候鸣鸠拂其羽，三候戴胜降于桑——谷得雨而生，春至此收尾」
-date: 2026-11-22 10:30:00 +0800
+date: 2026-11-05 08:25:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [节气养生, 节气, 谷雨, 二十四节气, 中医养生, 春季养生, 祛湿健脾, 雨前茶, 防过敏]

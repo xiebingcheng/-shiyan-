@@ -4,7 +4,7 @@ translation_key: dongzhi-yangsheng
 layout: post
 title: "Kesehatan Titik Balik Musim Dingin: qi Yang mulai lahir, dumpling dan gaofang"
 subtitle: "Pentade pertama: cacing tanah berpilin; kedua: tanduk milu luruh; ketiga: mata air bergerak — masa menyimpan mencapai puncaknya, satu Yang mulai lahir."
-date: 2026-11-22 08:10:00 +0800
+date: 2026-10-12 08:20:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Kesehatan Musim Surya, Musim Surya, Titik Balik Musim Dingin, 24 Musim Surya, Kesehatan TMC, Kesejahteraan Musim Dingin, Qi Yang mulai lahir, Gaofang pasta tonik, Dumpling jiaozi]

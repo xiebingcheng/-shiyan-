@@ -4,7 +4,7 @@ translation_key: chunfen-yangsheng
 layout: post
 title: "Spring Equinox Health: Day and Night Divided Evenly — Take Balance as the Aim"
 subtitle: "When yin lies calm and yang holds secure, the essence and spirit are in good order."
-date: 2026-11-22 10:00:00 +0800
+date: 2026-10-30 08:15:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Solar Term Health, Solar Terms, Spring Equinox, 24 Solar Terms, TCM Health, Spring Wellness, Yin-Yang Balance, Tasting the Season]

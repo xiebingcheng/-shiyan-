@@ -4,7 +4,7 @@ translation_key: jingzhe-yangsheng
 layout: post
 title: "Awakening of Insects Health: Spring Thunder Wakes the Sleeping World — Pears to Moisten the Lung, Ward Off Spring Dryness and Liver Fire"
 subtitle: "'All things come forth from Zhen, and Zhen is thunder — hence Awakening of Insects: the hibernating insects are startled and venture out.'"
-date: 2026-11-22 09:45:00 +0800
+date: 2026-10-27 07:55:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Solar Term Health, Solar Terms, Awakening of Insects, 24 Solar Terms, TCM Health, Spring Wellness, Moisten the Lung, Clear Liver Fire, Eating Pears]

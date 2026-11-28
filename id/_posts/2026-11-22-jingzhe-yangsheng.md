@@ -4,7 +4,7 @@ translation_key: jingzhe-yangsheng
 layout: post
 title: "Kesehatan Serangga Terkejut Bangun: guntur musim semi membangunkan segala makhluk, pir melembapkan paru-paru serta menahan kekeringan dan api hati"
 subtitle: "Segala makhluk keluar bersama guntur; guntur itulah petir; karena itulah disebut Jingzhe — saatnya serangga bersemunyi terkejut dan keluar dari persembunyiannya."
-date: 2026-11-22 09:45:00 +0800
+date: 2026-10-27 07:55:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Kesehatan Musim Surya, Musim Surya, Serangga Terkejut Bangun, 24 Musim Surya, Kesehatan TMC, Kesejahteraan Musim Semi, Melembapkan Paru-paru, Menjernihkan Api Hati, Makan Pir]

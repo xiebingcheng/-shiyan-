@@ -4,7 +4,7 @@ translation_key: yushui-yangsheng
 layout: post
 title: "雨水养生：健脾祛湿，一碗山药小米粥"
 subtitle: 「一候獭祭鱼，二候候雁北，三候草木萌动——好雨知时节，健脾祛湿正当时」
-date: 2026-11-22 09:15:00 +0800
+date: 2026-10-24 08:05:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [节气养生, 节气, 雨水, 二十四节气, 中医养生, 春季养生, 健脾祛湿, 山药小米粥, 炒薏米水]

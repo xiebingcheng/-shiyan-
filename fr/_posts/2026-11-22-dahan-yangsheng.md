@@ -4,7 +4,7 @@ translation_key: dahan-yangsheng
 layout: post
 title: "Santé aux grands froids : clore la mise en réserve de l'hiver, attendre sagement le Début du printemps"
 subtitle: "Première pentade : les poules se mettent à couver ; deuxième : les oiseaux de proie frappent avec fureur ; troisième : les eaux gèlent jusqu'au cœur — le froid touche à son comble et va se retourner : congédier l'ancien, accueillir le nouveau."
-date: 2026-11-22 08:50:00 +0800
+date: 2026-10-18 08:00:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Santé des saisons solaires, Saisons solaires, Grands froids, 24 saisons solaires, Santé MTC, Bien-être hivernal, Riz gluant, Fin d'année, Accueillir le printemps]

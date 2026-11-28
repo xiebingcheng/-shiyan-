@@ -4,7 +4,7 @@ translation_key: bailu-yangsheng
 layout: post
 title: "Kesehatan Embun Putih: embun memutih sejak malam ini, badan jangan terbuka, kekeringan patut dilembapkan"
 subtitle: "Pentade pertama: angsa liar tiba dari utara; pentade kedua: burung layang-layang berangkat pulang; pentade ketiga: sekawanan burung menyiapkan bekal — qi Yin kian berat, embun mengendap lalu memutih."
-date: 2026-11-28 09:45:00 +0800
+date: 2026-11-17 08:30:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Kesehatan Musim Surya, Musim Surya, Embun Putih, 24 Musim Surya, Kesehatan TMC, Kesejahteraan Musim Gugur, Melembapkan Udara Kering, Teh Embun Putih, Lengkeng]

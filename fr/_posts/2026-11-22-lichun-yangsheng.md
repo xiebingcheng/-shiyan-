@@ -4,7 +4,7 @@ translation_key: lichun-yangsheng
 layout: post
 title: "Santé au Début du printemps : la résolution de l'année, croquer le printemps, envelopper le yang"
 subtitle: "« Li », c'est établir un commencement — le qi du bois — l'élément du printemps — commence d'arriver : les réserves de l'hiver s'achèvent ici, la naissance du printemps commence ici."
-date: 2026-11-22 09:00:00 +0800
+date: 2026-10-21 07:30:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Santé des saisons solaires, Saisons solaires, Début du printemps, 24 saisons solaires, Santé MTC, Bien-être printanier, Croquer le printemps, Printemps enveloppé]

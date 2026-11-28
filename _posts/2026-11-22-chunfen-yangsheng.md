@@ -4,7 +4,7 @@ translation_key: chunfen-yangsheng
 layout: post
 title: "春分养生：昼夜均分，以平为期"
 subtitle: 「阴平阳秘，精神乃治」
-date: 2026-11-22 10:00:00 +0800
+date: 2026-10-30 08:15:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [节气养生, 节气, 春分, 二十四节气, 中医养生, 春季养生, 阴阳平衡, 时令尝鲜]

@@ -4,7 +4,7 @@ translation_key: dahan-yangsheng
 layout: post
 title: "Salud en el Gran Frío: la reserva del invierno llega a su cierre, a la espera del Comienzo de la primavera"
 subtitle: "Primera pentada: las gallinas empiezan a empollar; segunda: las aves de presa cazan con fiereza; tercera: el hielo endurece las aguas hasta el fondo — el frío toca su extremo y se dispone a virar: apartar lo viejo para acoger lo nuevo."
-date: 2026-11-22 08:50:00 +0800
+date: 2026-10-18 08:00:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Salud de las estaciones solares, Estaciones solares, Gran Frío, 24 estaciones solares, Salud MTC, Bienestar invernal, Arroz glutinoso, Fin de año, Recibir la primavera]

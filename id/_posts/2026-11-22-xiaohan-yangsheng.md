@@ -4,7 +4,7 @@ translation_key: xiaohan-yangsheng
 layout: post
 title: "Kesehatan Dingin Kecil: menghadang dingin dan mencegah penyakit, bubur Laba menyambut tahun"
 subtitle: "Pentade pertama: angsa liar berbalik ke utara; kedua: magpie mulai membangun sarang; ketiga: burung pegar mulai bersuara — dingin sampai ke titik ujungnya, qi Yang bergerak dalam senyap."
-date: 2026-11-22 08:30:00 +0800
+date: 2026-10-15 07:45:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Kesehatan Musim Surya, Musim Surya, Dingin Kecil, 24 Musim Surya, Kesehatan TMC, Kesejahteraan Musim Dingin, Bubur Laba, Menghadang dingin, Masa Sanjiu]

@@ -4,7 +4,7 @@ translation_key: mangzhong-yangsheng
 layout: post
 title: "Kesehatan Biji Bertanduk: sibuk menuai sibuk menanam, rebus plum cegah jamur sepanjang hujan plum"
 subtitle: "Pentade pertama: belalang sembah mulai lahir; pentade kedua: burung pentet mulai berbunyi; pentade ketiga: burung peniru berhenti bersuara — biji bertanduk boleh disemai, plum hijau direbus di tengah hujan plum kuning."
-date: 2026-11-28 09:30:00 +0800
+date: 2026-11-14 07:45:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Kesehatan Musim Surya, Musim Surya, Biji Bertanduk, 24 Musim Surya, Kesehatan TMC, Kesejahteraan Musim Panas, Menguatkan limpa dan menghilangkan kelembapan, Rebusan Plum, Mencegah Jamur]

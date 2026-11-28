@@ -4,7 +4,7 @@ translation_key: hanlu-yangsheng
 layout: post
 title: "Cold Dew Health: The Dew Grows Cold and Is About to Congeal — Warm the Feet, Moisten the Dryness, Ward Off the Cool Cough"
 subtitle: "First pentad, the wild geese arrive as guests; second, the sparrows plunge into the great waters and become clams; third, the chrysanthemum puts forth yellow blossoms — the dew's qi is cold, and it is about to congeal."
-date: 2026-11-28 10:15:00 +0800
+date: 2026-11-23 08:20:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Solar Term Health, Solar Terms, Cold Dew, 24 Solar Terms, TCM Health, Autumn Wellness, Moisten Dryness, Warm the Feet, Cool Dryness]

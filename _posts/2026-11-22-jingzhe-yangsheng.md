@@ -4,7 +4,7 @@ translation_key: jingzhe-yangsheng
 layout: post
 title: "惊蛰养生：春雷唤物醒，梨润肺、防春燥肝火"
 subtitle: 「万物出乎震，震为雷，故曰惊蛰，是蛰虫惊而出走矣」
-date: 2026-11-22 09:45:00 +0800
+date: 2026-10-27 07:55:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [节气养生, 节气, 惊蛰, 二十四节气, 中医养生, 春季养生, 润肺, 清肝火, 吃梨]

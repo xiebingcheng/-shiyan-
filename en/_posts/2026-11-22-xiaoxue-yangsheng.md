@@ -4,7 +4,7 @@ translation_key: xiaoxue-yangsheng
 layout: post
 title: "Lesser Snow Health: Warm the Body, Ward Off the Gloom — A Pot of Danggui, Ginger, and Mutton Decoction"
 subtitle: "First pentad: the rainbow hides and is seen no more; second: the qi of heaven ascends and the qi of earth descends; third: closure and obstruction complete the winter — in the season of closing and storing, warm the body and ward off the gloom."
-date: 2026-11-22 07:30:00 +0800
+date: 2026-10-06 08:10:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Solar Term Health, Solar Terms, Lesser Snow, 24 Solar Terms, TCM Health, Winter Wellness, Danggui Shengjiang Yangrou Tang, Warm Tonification, Ward Off the Gloom]

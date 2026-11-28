@@ -4,7 +4,7 @@ translation_key: qingming-yangsheng
 layout: post
 title: "清明养生：气清景明，哀而不伤"
 subtitle: 「万物生长此时，皆清洁而明净」
-date: 2026-11-22 10:15:00 +0800
+date: 2026-11-02 07:35:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [节气养生, 节气, 清明, 二十四节气, 中医养生, 春季养生, 疏肝解郁, 祛湿, 青团]

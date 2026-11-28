@@ -4,7 +4,7 @@ translation_key: shuangjiang-yangsheng
 layout: post
 title: "Santé à la Descente du givre : la rosée se fige en givre, la tonification neutre clôt l'automne"
 subtitle: "Première pentade : le chacal offre ses proies en sacrifice ; deuxième : les herbes et les arbres jaunissent et tombent ; troisième : les insectes blottis baissent tous la tête — l'air se fait austère et se condense, la rosée se fige en givre"
-date: 2026-11-28 10:30:00 +0800
+date: 2026-11-26 07:40:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Santé des saisons solaires, Saisons solaires, Descente du givre, 24 saisons solaires, Santé MTC, Bien-être automnal, Tonification neutre, Kaki, Sécheresse d'automne]

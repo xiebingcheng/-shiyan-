@@ -4,7 +4,7 @@ translation_key: lichun-yangsheng
 layout: post
 title: "Beginning of Spring Health: The Year's Plan Starts in Spring — Bite the Spring, Keep the Yang Covered"
 subtitle: "'Li' means to establish, to begin — the qi of spring wood (wood being one of the five elements of Chinese thought) first arrives; winter's storing ends here, and spring's birth begins here."
-date: 2026-11-22 09:00:00 +0800
+date: 2026-10-21 07:30:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Solar Term Health, Solar Terms, Beginning of Spring, 24 Solar Terms, TCM Health, Spring Wellness, Biting the Spring, Spring Covering]

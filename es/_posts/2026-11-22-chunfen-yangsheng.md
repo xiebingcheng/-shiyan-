@@ -4,7 +4,7 @@ translation_key: chunfen-yangsheng
 layout: post
 title: "Salud en el Equinoccio de primavera: día y noche a partes iguales, el equilibrio como meta"
 subtitle: "«Cuando el yin reposa en paz y el yang se conserva hermético, el espíritu y la vitalidad quedan en orden.»"
-date: 2026-11-22 10:00:00 +0800
+date: 2026-10-30 08:15:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Salud de las estaciones solares, Estaciones solares, Equinoccio de primavera, 24 estaciones solares, Salud MTC, Bienestar primaveral, Equilibrio yin-yang, Sabores de temporada]

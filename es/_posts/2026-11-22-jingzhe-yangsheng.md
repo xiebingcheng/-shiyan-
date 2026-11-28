@@ -4,7 +4,7 @@ translation_key: jingzhe-yangsheng
 layout: post
 title: "Salud en el Despertar de los insectos: el trueno de primavera despierta a los seres uno a uno — la pera humedece el pulmón; a raya la sequía y el fuego del hígado"
 subtitle: "«Todo lo que existe sale de Zhen, y Zhen es el trueno; por eso se llama el Despertar de los insectos: los que dormían se sobresaltan y salen de sus escondites.»"
-date: 2026-11-22 09:45:00 +0800
+date: 2026-10-27 07:55:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Salud de las estaciones solares, Estaciones solares, Despertar de los insectos, 24 estaciones solares, Salud MTC, Bienestar primaveral, Humedecer el pulmón, Disipar el fuego del hígado, La pera del Jingzhe]

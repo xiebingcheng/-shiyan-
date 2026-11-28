@@ -4,7 +4,7 @@ translation_key: chunfen-yangsheng
 layout: post
 title: "Kesehatan Ekuinoks Musim Semi: siang dan malam terbagi rata, keseimbangan sebagai tujuan"
 subtitle: "'Yin rata dan Yang terjaga rapat — esensi dan semangat pun berjalan tertib'"
-date: 2026-11-22 10:00:00 +0800
+date: 2026-10-30 08:15:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Kesehatan Musim Surya, Musim Surya, Ekuinoks Musim Semi, 24 Musim Surya, Kesehatan TMC, Kesejahteraan Musim Semi, Keseimbangan Yin-Yang, Cicip segar saat musimnya]

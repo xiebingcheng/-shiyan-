@@ -4,7 +4,7 @@ translation_key: lixia-yangsheng
 layout: post
 title: "Santé au Début de l'été : tous les êtres prennent leur pleine mesure, nourrir le cœur, goûter les primeurs pour accueillir l'été"
 subtitle: "Première pentade : la courtilière chante ; deuxième : le ver de terre sort ; troisième : le melon royal pousse — « xia » signifie « grand », et tous les êtres ont ici pris leur pleine ampleur"
-date: 2026-11-28 09:00:00 +0800
+date: 2026-11-08 07:50:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Santé des saisons solaires, Saisons solaires, Début de l'été, 24 saisons solaires, Santé MTC, Bien-être estival, Nourrir le cœur, Œufs du Début de l'été, Goûter les primeurs]

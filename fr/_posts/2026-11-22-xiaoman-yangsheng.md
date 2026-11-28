@@ -4,7 +4,7 @@ translation_key: xiaoman-yangsheng
 layout: post
 title: "Santé aux Grains mi-pleins : à demi pleins, pas encore pleins — goûter l'amer pour chasser l'humidité et nourrir le yin du cœur"
 subtitle: "Première pentade : les herbes amères fleurissent ; deuxième : les herbes délicates meurent ; troisième : l'automne du blé arrive — les êtres, parvenus à ce temps-là, n'ont encore qu'une petite plénitude"
-date: 2026-11-28 09:15:00 +0800
+date: 2026-11-11 08:10:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Santé des saisons solaires, Saisons solaires, Grains mi-pleins, 24 saisons solaires, Santé MTC, Bien-être estival, Dissiper l'humidité et fortifier la rate, Herbes amères, Nourrir le cœur]

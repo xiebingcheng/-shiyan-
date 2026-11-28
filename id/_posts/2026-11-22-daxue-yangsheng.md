@@ -4,7 +4,7 @@ translation_key: daxue-yangsheng
 layout: post
 title: "Kesehatan Salju Besar: tonifikasi hangat dan menjauhi dingin, menutrisi pelan-pelan tanpa terputus"
 subtitle: "Pentade pertama: Hedan berhenti bersuara; kedua: harimau mulai berkawin; ketiga: Li mulai bertunas — di puncak qi Yin, qi Yang mulai bergerak; tonifikasi pun bertakaran."
-date: 2026-11-22 07:50:00 +0800
+date: 2026-10-09 07:50:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Kesehatan Musim Surya, Musim Surya, Salju Besar, 24 Musim Surya, Kesehatan TMC, Kesejahteraan Musim Dingin, Tonifikasi, Tonifikasi hangat, Penutrisi lewat makanan]

@@ -4,7 +4,7 @@ translation_key: dongzhi-yangsheng
 layout: post
 title: "Winter Solstice Health: The First Yang Stirs — Dumplings and a Course of Tonic Paste"
 subtitle: "First pentad: earthworms knot; second: the mi deer sheds its antlers; third: the springs stir — at the utmost of closing and storing, the first yang begins to be born."
-date: 2026-11-22 08:10:00 +0800
+date: 2026-10-12 08:20:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Solar Term Health, Solar Terms, Winter Solstice, 24 Solar Terms, TCM Health, Winter Wellness, First Yang, Tonic Paste, Dumplings]

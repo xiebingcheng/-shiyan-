@@ -4,7 +4,7 @@ translation_key: jingzhe-yangsheng
 layout: post
 title: "Santé à l'Éveil des insectes : le tonnerre du printemps réveille tous les êtres — la poire humecte le poumon et prévient sécheresse et feu du foie"
 subtitle: "« Les dix mille êtres sortent au zhen, et le zhen est le tonnerre : voilà pourquoi l'on dit “l'Éveil des insectes” — c'est que les insectes engourdis, réveillés, sortent de leurs retraites. »"
-date: 2026-11-22 09:45:00 +0800
+date: 2026-10-27 07:55:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Santé des saisons solaires, Saisons solaires, Éveil des insectes, 24 saisons solaires, Santé MTC, Bien-être printanier, Humecter le poumon, Dissiper le feu du foie, Manger une poire]

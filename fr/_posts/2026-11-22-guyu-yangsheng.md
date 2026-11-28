@@ -4,7 +4,7 @@ translation_key: guyu-yangsheng
 layout: post
 title: "Santé à la Pluie des grains : la pluie fait naître les cent grains, chasser l'humidité et raccompagner le printemps"
 subtitle: "Première pentade : les lentilles d'eau commencent à naître ; deuxième : le coucou lisse ses plumes ; troisième : la huppe descend sur le mûrier — le grain naît de la pluie, et le printemps touche ici à sa fin"
-date: 2026-11-22 10:30:00 +0800
+date: 2026-11-05 08:25:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Santé des saisons solaires, Saisons solaires, Pluie des grains, 24 saisons solaires, Santé MTC, Bien-être printanier, Dissiper l'humidité et fortifier la rate, Thé d'avant la Pluie des grains, Prévenir les allergies]

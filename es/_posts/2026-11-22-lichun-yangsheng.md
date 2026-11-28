@@ -4,7 +4,7 @@ translation_key: lichun-yangsheng
 layout: post
 title: "Salud en el Comienzo de la primavera: el plan del año se saborea a mordiscos de rábano y se abriga capa a capa"
 subtitle: "«Li significa fundar el comienzo: al llegar el qi de la madera de la primavera, la reserva del invierno llega a su fin y la primavera da su primer paso.»"
-date: 2026-11-22 09:00:00 +0800
+date: 2026-10-21 07:30:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Salud de las estaciones solares, Estaciones solares, Comienzo de la primavera, 24 estaciones solares, Salud MTC, Bienestar primaveral, Morder la primavera, Abrigo de primavera]

@@ -4,7 +4,7 @@ translation_key: daxue-yangsheng
 layout: post
 title: "Greater Snow Health: Warm Tonification Against the Cold — A Steady Trickle, Not a Feast"
 subtitle: "First pentad: the 'cry-all-night' creature falls silent; second: tigers begin to mate; third: the li plant sprouts — yin at its utmost, yang stirring to life; tonify with restraint."
-date: 2026-11-22 07:50:00 +0800
+date: 2026-10-09 07:50:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Solar Term Health, Solar Terms, Greater Snow, 24 Solar Terms, TCM Health, Winter Wellness, Winter Tonification, Warm Tonification, Seasonal Eating]

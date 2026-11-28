@@ -4,7 +4,7 @@ translation_key: xiaoxue-yangsheng
 layout: post
 title: "Santé aux petites neiges : réchauffer et prévenir la mélancolie — un pot de décoction d'angélique, de gingembre et de mouton"
 subtitle: "Première pentade : l'arc-en-ciel se cache ; deuxième : le souffle du ciel monte, celui de la terre descend ; troisième : tout se ferme et l'hiver s'accomplit — au temps de la clôture, réchauffer et prévenir la mélancolie."
-date: 2026-11-22 07:30:00 +0800
+date: 2026-10-06 08:10:00 +0800
 author: 岐黄书房
 category: jieqi
 tags: [Santé des saisons solaires, Saisons solaires, Petites neiges, 24 saisons solaires, Santé MTC, Bien-être hivernal, Décoction d'angélique, de gingembre et de mouton, Tonification par la chaleur, Prévenir la mélancolie]
